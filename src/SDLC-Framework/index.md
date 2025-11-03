@@ -1,11 +1,4 @@
-TODO:
-
-- Intro, Purpose
-- Vision, Principles
-- 3-in-3 Model
-- SDLC Model (Stages, Practices)
-- SDLC Stage Dimensions
-- Contextual Drivers Layer (CDL)
-- Stable Rules Layer (SRL)
-- Rule Audit Checklist (RAC)
-- Contextual Rules Catalog (CRC)
+---
+title: "3-in-3 SDLC Framework (3SF)"
+description: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
+---

@@ -1,0 +1,74 @@
+site_name: "3-in-3 SDLC Framework (3SF)"
+site_description: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
+site_author: "Viktor Jevdokimov, Vilnius, Lithuania"
+copyright: "© 2025 3in3.dev"
+
+docs_dir: src/SDLC-Framework
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - to-pdf:
+      custom_template_path: templates
+      author: !ENV [PDF_AUTHOR_DATE, "Viktor Jevdokimov"]
+      # Per-locale PDF path via env; prevents overwrites across locales
+      output_path: !ENV [PDF_OUTPUT_PATH, "pdf/3sf.pdf"]
+      # Translate the PDF cover subtitle via env (set in CI matrix)
+      cover_title:  !ENV [PDF_COVER_TITLE, ""]
+      cover_subtitle: !ENV [PDF_COVER_SUBTITLE, ""]
+      toc_title:  !ENV [PDF_TOC_TITLE, ""]
+      # Only build PDF when enabled in CI
+      enabled_if_env: ENABLE_PDF_EXPORT
+      toc_level: 2
+      ordered_chapter_level: 0
+      exclude_pages:
+        - 'index'
+
+nav:
+  - index.md
+  - 10-theory/00-intro-purpose.md
+  - 10-theory/10-vision-principles-beliefs.md
+  - 10-theory/20-3in3-model.md
+  - 10-theory/21-3in3-model-maturity.md
+  - 10-theory/30-sdlc-stages.md
+  - 10-theory/31-sdlc-stages-maturity.md
+  - 10-theory/40-sdlc-practices.md
+  - 10-theory/41-sdlc-practices-maturity.md
+  - 10-theory/50-sdlc-stage-dimensions.md
+  - 10-theory/51-sdlc-stage-discovery-dimensions.md
+  - 10-theory/52-sdlc-stage-shape-dimensions.md
+  - 10-theory/53-sdlc-stage-build-dimensions.md
+  - 10-theory/54-sdlc-stage-validate-dimensions.md
+  - 10-theory/55-sdlc-stage-release-dimensions.md
+  - 10-theory/56-sdlc-stage-run-evolve-dimensions.md
+  - 10-theory/60-contextual-drivers-layer.md
+  - 10-theory/70-stable-rules-layer.md
+  - 10-theory/80-rule-audit-checklist.md
+  - 10-theory/90-contextual-rules-catalog.md
+  - 10-theory/100-relationship-and-system-maturity-integration.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
