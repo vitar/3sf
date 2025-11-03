@@ -4,7 +4,7 @@ site_author: "Viktor Jevdokimov, Vilnius, Lithuania"
 copyright: "© 2025 3in3.dev"
 site_url: https://vitar.github.io/3in3.dev
 
-docs_dir: src/SDLC-Framework
+docs_dir: SDLC-Framework
 
 theme:
   name: material
