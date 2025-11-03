@@ -2,7 +2,6 @@ site_name: "3-in-3 SDLC Framework (3SF)"
 site_description: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
 site_author: "Viktor Jevdokimov, Vilnius, Lithuania"
 copyright: "© 2025 3in3.dev"
-site_url: https://vitar.github.io/3in3.dev
 
 docs_dir: src/SDLC-Framework
 

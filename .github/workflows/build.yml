@@ -80,7 +80,7 @@ jobs:
             export PDF_COVER_TITLE="$title"
             export PDF_COVER_SUBTITLE="$subtitle"
             export PDF_TOC_TITLE="$toctitle"
-            export PDF_AUTHOR_DATE="3-in-3.dev, $(date +'%Y-%m-%d')"
+            export PDF_AUTHOR_DATE="Viktor Jevdokimov, Vilnius, Lithuania, $(date +'%Y-%m-%d')"
             export PDF_OUTPUT_PATH="pdf/3sf.pdf"
 
             mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir "dist/_tmp_"
