@@ -66,7 +66,8 @@ nav:
   - 10-theory/70-stable-rules-layer.md
   - 10-theory/80-rule-audit-checklist.md
   - 10-theory/90-contextual-rules-catalog.md
-  - 10-theory/99-relationship-and-system-maturity-integration.md
+  - 10-theory/100-relationship-and-system-maturity-integration.md
+  - 10-theory/110-role-model.md
 
 markdown_extensions:
   - admonition
