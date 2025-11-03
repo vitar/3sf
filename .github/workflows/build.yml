@@ -83,7 +83,7 @@ jobs:
             export PDF_AUTHOR_DATE="3-in-3.dev, $(date +'%Y-%m-%d')"
             export PDF_OUTPUT_PATH="pdf/3sf.pdf"
 
-            mkdocs build --strict -f src/3sf.mkdocs.pdf.yml --site-dir "dist/_tmp_"
+            mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir "dist/_tmp_"
 
             cp "dist/_tmp_/${PDF_OUTPUT_PATH}" "dist/pdfs/3sf.pdf"
           }
