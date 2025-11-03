@@ -105,7 +105,7 @@ The theory section introduces 3SF from **philosophy to application**:
 6. **Stable Rules Layer (SRL)** → Universal rules of systemic integrity.
 7. **Rule Audit Checklist (RAC)** → Diagnostic and assessment method.
 8. **Contextual Rules Catalog (CRC)** → Practical playbooks for different contexts.
-9. **Relationship Maturity Extension** → Integration of partnership growth into SDLC.
+9. **Relationship and System Maturity Integration** → Integration of partnership growth into SDLC.
 
 ## Summary
 
