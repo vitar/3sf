@@ -76,6 +76,7 @@ nav:
   - 200-practice/260-maturity-dashboard.md
   - 200-practice/270-outcome-accountability-map.md
   - 200-practice/271-architectural-tradeoff-contract.md
+  - 200-practice/272-shared-definition-of-done.md
 
 markdown_extensions:
   - admonition
