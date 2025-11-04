@@ -24,15 +24,15 @@ While the **theory** defines *why* 3SF exists and *what* it represents, the **pr
 ## Structure of the Practice Part
 
 Each practice is a standalone tool (one file per tool) using a unified template.<br/>
-Tools are grouped by **application mode** and mapped to **client/vendor contexts**.
+Tools are grouped by **application mode** and mapped to **client / vendor contexts**.
 
-| Range | Mode | Primary Focus | Typical User | Example |
-|-------|------|----------------|---------------|----------|
-| 210–219 | **Design** | Establish delivery & engagement model | Vendor Delivery Lead / Client PM | Initial Delivery System Design |
-| 220–229 | **Diagnose** | Reveal constraints and gaps | Vendor Architect / Client Product Owner | Delivery System Diagnostic |
-| 230–239 | **Assess** | Measure project & relationship maturity | Project Lead / Account Lead / Client Sponsor | Quarterly Project Assessment |
-| 240–249 | **Reflect** | Enable self-awareness and growth | PL, PM, TL, Architect, Client Manager | Self-Diagnostic Tool |
-| 250–259 | **Audit & Aggregate** | Compare and improve across portfolio | Studio Lead / Client Governance | Relationship Audit & Portfolio Dashboard |
+| Mode | Primary Focus | Typical User | Example |
+|------|----------------|---------------|----------|
+| **Design** | Establish delivery & engagement model | Vendor **Delivery Facilitator** / Client **Product Leader** | Initial Delivery System Design |
+| **Diagnose** | Reveal constraints and gaps | Vendor **Solution Architect** / Client **Product Leader** | Delivery System Diagnostic |
+| **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | Quarterly Project Assessment |
+| **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | Self-Diagnostic Tool |
+| **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | Relationship Audit & Portfolio Dashboard |
 
 ## Dual-Perspective Application
 
@@ -40,11 +40,11 @@ Each 3SF tool distinguishes **Client View** and **Vendor View**:
 
 | Perspective | Purpose | Typical Roles | Example Application |
 |--------------|----------|----------------|----------------------|
-| **Client** | Ensure vendor alignment, internal dependencies, and ownership clarity. | Product Owner, Client PM, Business Sponsor | Use 3SF tools to verify engagement readiness and integration. |
-| **Vendor** | Design, execute, and evolve delivery systems that build partnership trust. | Delivery Lead, Project Lead, Architect | Use 3SF tools to structure engagements and measure maturity. |
-| **Shared (Client + Vendor)** | Strengthen collaboration, feedback, and transparency. | Combined teams | Apply tools jointly to synchronize relationship evolution. |
+| **Client** | Ensure vendor alignment, internal dependencies, and ownership clarity. | **Product Leader**, **Executive Sponsor**, **Vendor Manager** | Use 3SF tools to verify engagement readiness and integration. |
+| **Vendor** | Design, execute, and evolve delivery systems that build partnership trust. | **Delivery Facilitator**, **Solution Architect**, **Product Leader** | Use 3SF tools to structure engagements and measure maturity. |
+| **Shared (Client + Vendor)** | Strengthen collaboration, feedback, and transparency. | Combined teams across both sides | Apply tools jointly to synchronize relationship evolution. |
 
-Each tool file will include sections:
+Each practice file includes sections:
 
 > **Client-Side Application** and **Vendor-Side Application**, highlighting respective actions and insights.
 
@@ -52,22 +52,22 @@ Each tool file will include sections:
 
 | Mode | Typical When | Used by (Client / Vendor) | 3SF Layers Focused | Outcomes |
 |------|---------------|---------------------------|--------------------|-----------|
-| **Design** | RFP → Kick-off | Delivery Lead / Client PM | CDL + SRL | Intent and collaboration system established |
-| **Diagnose** | Discovery / Early Delivery | Discovery Lead / Product Owner | CDL + SRL | Constraints and dependencies identified |
-| **Assess** | Quarterly / Milestone | PL / Account Lead / Sponsor | SRL + RAC | Delivery and relationship health tracked |
-| **Reflect** | Anytime | PL / PM / TL / Client Manager | RAC | Individual or team awareness improved |
-| **Audit** | Periodic / Portfolio | Studio Lead / Client Governance | CDL + SRL + RAC | Portfolio-level maturity comparison |
+| **Design** | RFP → Kick-off | **Delivery Facilitator** / **Product Leader** | CDL + SRL | Intent and collaboration system established |
+| **Diagnose** | Discovery / Early Delivery | **Solution Architect** / **Product Leader** | CDL + SRL | Constraints and dependencies identified |
+| **Assess** | Quarterly / Milestone | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | SRL + RAC | Delivery and relationship health tracked |
+| **Reflect** | Anytime | **Delivery Facilitator**, **Technical Integrator**, **Product Leader** | RAC | Individual or team awareness improved |
+| **Audit** | Periodic / Portfolio | **Engineering Director** / **Governance Officer** | CDL + SRL + RAC | Portfolio-level maturity comparison |
 
 ## Lifecycle Navigation
 
 | **When** | **Mode** | **Tool (File)** | **Client Role(s)** | **Vendor Role(s)** | **Outcome** |
 |-----------|-----------|-----------------|--------------------|--------------------|--------------|
-| RFP / Pre-Engagement | Design | `210-initial-delivery-design.md` | Sponsor, PM | Delivery Lead, Presales | Shared engagement model & maturity baseline |
-| Small Team Discovery | Diagnose | `220-delivery-system-diagnostic.md` | Product Owner | Architect, PL | Validated context and delivery readiness |
-| Kick-off | Design | `210-initial-delivery-design.md` | PM, Sponsor | PL, Delivery Lead | Clear interfaces and governance rules |
-| Ongoing Delivery (MVP → v1) | Assess | `230-quarterly-assessment.md` | PM, Product Owner | PL, Account Lead | Relationship and flow monitored |
-| Anytime | Reflect | `240-self-diagnostic.md` | Client Lead | PL, TL | Personal or team growth insight |
-| Post-v1 / Portfolio | Audit | `250-relationship-audit.md` | Sponsor, Governance | Delivery Lead, Studio Lead | Lessons learned & next-stage maturity targets |
+| RFP / Pre-Engagement | Design | `210-initial-delivery-design.md` | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Shared engagement model & maturity baseline |
+| Small Team Discovery | Diagnose | `220-delivery-system-diagnostic.md` | **Product Leader**, **Requirements Analyst** | **Solution Architect**, **Delivery Facilitator** | Validated context and delivery readiness |
+| Kick-off | Design | `210-initial-delivery-design.md` | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Solution Architect** | Clear interfaces and governance rules |
+| Ongoing Delivery (MVP → v1) | Assess | `230-quarterly-assessment.md` | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
+| Anytime | Reflect | `240-self-diagnostic.md` | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
+| Post-v1 / Portfolio | Audit | `250-relationship-audit.md` | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
 
 ## 3SF Layer Mapping
 
@@ -77,6 +77,54 @@ Each tool file will include sections:
 | **Stable Rules Layer (SRL)** | Define repeatable collaboration patterns | Governance & dependencies | Team operations & flow | Delivery System Diagnostic |
 | **Rule Audit Checklist (RAC)** | Reflect and verify maturity | Value realization & partnership signals | Relationship metrics & feedback | Self-Diagnostic / Relationship Audit |
 
+## 3SF Functional Role Model
+
+### Purpose
+
+The Functional Role Model defines how both Client and Vendor teams participate in the SDLC system described by 3SF.<br/>
+It establishes a shared functional language across all practices, enabling consistent use of roles in the Practice documents.<br/>
+Roles are defined by their **system function**, not organizational title, and may exist on either side depending on engagement setup.
+
+### Co-Dependent SDLC System Functions
+
+These are the core **joint execution functions** that drive the SDLC. They are necessary for managing the **Client ↔ Vendor ↔ Product** relationships.
+
+| Functional Core | Purpose (Joint SDLC Management) | Composite Name Examples |
+| :--- | :--- | :--- |
+| **Product Leader** | Owns *What* (Value) and *How* (Solution Strategy). | Client Product Owner / Vendor Product Manager |
+| **Delivery Facilitator** | Owns *Flow*, removes impediments, and manages *systemic friction*. | Client Project Manager / Vendor Delivery Lead |
+| **Solution Architect** | Owns *Coherence*, structural integrity, and architectural *trade-offs*. | Client Solution Architect / Vendor Solution Architect |
+| **Technical Integrator** | Owns *Technical Execution*, operational readiness, and integration *quality*. | Client Technical Integrator / Vendor Technical Integrator |
+| **Requirements Analyst** | Owns *Clarity*, domain expertise, and the *translation* of business needs. | Client Requirements Analyst / Vendor Requirements Analyst |
+| **Experience Designer** | Owns *Usability*, user needs, and the design that enables **Outcome before Output**. | Client Experience Lead / Vendor Experience Lead |
+
+### Client-Specific Fixed Cores
+
+These roles provide the **governance, funding, and boundaries** for the engagement.
+
+| Functional Core (Client-Only) | Purpose |
+| :--- | :--- |
+| **Executive Sponsor** | Owns funding, strategic intent, and the highest-level **Trust before Control** decisions. |
+| **Vendor Manager** | Owns commercial agreements, contracting, and performance against the **Maturity Model**. |
+| **Governance Officer** | Owns adherence to regulatory, security, and internal audit standards. |
+
+### Vendor-Specific Fixed Cores
+
+These roles provide the **organizational capacity, quality assurance, and commercial stewardship** needed to sustain the partnership.
+
+| Functional Core (Vendor-Only) | Purpose |
+| :--- | :--- |
+| **Account Lead** | Owns the overall commercial health and portfolio alignment for the client relationship. |
+| **Engineering Director** | Manages resource capacity, staff health, and supports the delivery unit's **systemic maturity**. |
+| **Practice Lead** | Defines and upholds quality standards for specific disciplines (e.g., Architecture, DevEx, QA, DevOps). |
+| **Engineering Specialist** | The core capacity responsible for hands-on technical implementation and verification. |
+
+### Summary of Dimensions
+
+1. **Co-Dependent System Roles** – the joint actors of the SDLC.
+2. **Client Governance & Sponsorship Roles** – the structural boundary setters.
+3. **Vendor Capacity & Stewardship Roles** – the structural sustainers.
+
 ## Practice Template
 
 Each individual practice file follows this shared structure:
@@ -85,7 +133,7 @@ Each individual practice file follows this shared structure:
 |----------|-------------|
 | **Purpose** | Why the tool exists and what maturity gap it closes |
 | **Applies To** | SDLC stage, relationship line, and maturity level |
-| **Actors / Roles** | Client + Vendor roles involved |
+| **Actors / Roles** | Client + Vendor roles involved (see Functional Role Model) |
 | **Steps / Routines** | How to apply it collaboratively |
 | **Inputs / Outputs** | Artifacts or agreements produced |
 | **Metrics / Signals** | Quantitative and qualitative indicators |
@@ -101,11 +149,10 @@ This file serves as the **starting point** in all training paths:
 1. Identify your **side** (Client or Vendor).
 2. Determine your **current stage** (RFP, Discovery, Delivery, Post-v1).
 3. Choose the **application mode** (Design, Diagnose, Assess, Reflect, Audit).
-4. Open the corresponding tool file (210–259).
+4. Open the corresponding tool file.
 5. Apply it collaboratively using shared terminology and maturity targets.
 
-Training programs and certifications will use these mappings to define
-**3SF Practitioner Paths** — separate for Client and Vendor, but sharing the same conceptual backbone.
+Training programs and certifications use these mappings to define **3SF Practitioner Paths** — separate for Client and Vendor, but sharing the same conceptual backbone.
 
 ## Summary
 
