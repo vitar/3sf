@@ -96,6 +96,13 @@ Use Stage Dimensions for:
 
 Teams can document stage dimensions in simple templates or dashboards — linking them to risks, metrics, and improvement actions.
 
+## When Dimensions Become Bureaucracy
+
+Stage Dimensions are diagnostic lenses — not checklists to be filled or enforced.<br/>
+A common failure pattern is **over-engineering**: documenting every parameter without actually improving flow or clarity.<br/>
+When dimensions turn into reporting artifacts, they lose their adaptive power.<br/>
+The goal is not to manage the framework — it is to manage the system it describes.
+
 ## Structure of Stage Dimension Files
 
 Each stage has a dedicated section detailing:

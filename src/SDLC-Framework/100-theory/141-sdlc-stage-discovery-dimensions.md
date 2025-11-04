@@ -116,6 +116,8 @@ Defines how feedback is captured and turned into better decisions.
 | **“The client expected X, but we delivered Y.”** | Goals misaligned or undocumented. | Introduce measurable success metrics and stakeholder review. |
 | **“Estimates were way off.”** | Estimation based on unvalidated scope. | Validate assumptions and establish uncertainty range in estimates. |
 
+Over-extending discovery can be as harmful as skipping it — excessive exploration delays learning and erodes stakeholder confidence.
+
 ## Measuring Discovery Health
 
 Indicators of a healthy Discovery stage:

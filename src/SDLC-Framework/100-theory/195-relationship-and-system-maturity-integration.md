@@ -26,6 +26,14 @@ This closing layer turns 3SF from a delivery model into a **growth system** — 
 
 Each maturity level requires **specific practices and system configurations** that strengthen both technical and relational resilience.
 
+## The Hidden Cost of Transactional Trust
+
+Operating in a transactional state carries invisible costs.<br/>
+For clients, it means time spent writing detailed contracts, auditing invoices, and resolving scope disputes instead of pursuing outcomes.<br/>
+For vendors, it means constant justification of estimates, reduced margins, and limited opportunity to influence strategic direction.<br/>
+Both sides lose energy defending control instead of creating value — a pattern 3SF defines as *trust debt*.<br/>
+The longer this persists, the harder it becomes to transition toward partnership maturity.
+
 ## The Six Capability Gap Categories
 
 When comparing vendor-oriented delivery and product-oriented organizations, six recurring capability gaps were identified.<br/>
@@ -108,6 +116,13 @@ Below are examples of **key enablers** for each step in the progression.
 
 Together, these layers form a **closed system of evolution** — ensuring that delivery maturity is inseparable from relationship maturity.
 
+## Model Failure: The Collapsed Triangle
+
+When one of the three relationship lines weakens, the 3-in-3 system loses balance.<br/>
+If **Client ↔ Product** fails (e.g., absent product ownership or unclear business vision), the **Vendor ↔ Client** relationship becomes purely transactional.<br/>
+If **Vendor ↔ Product** fails (e.g., poor engineering quality or limited feedback), trust erodes despite goodwill.<br/>
+Recovery begins not by enforcing new controls but by **reconnecting the missing relationship** — restoring flow between value, delivery, and engagement.
+
 ## Example Progression Scenario
 
 **“From Fixed-Bid Execution to Strategic Co-Delivery Partnership”**
@@ -134,6 +149,13 @@ To make partnership growth tangible, measure indicators across three lenses:
 | **Outcome** | Product impact, stability, improvement velocity. | Delivery metrics, post-release performance. |
 
 These metrics form the **Relationship Maturity Dashboard**, ideally reviewed in the same cadence as delivery retrospectives.
+
+## Behavioral Failure: The Scapegoat Culture
+
+In immature systems, shared accountability can degrade into shared blame — a culture where every issue seeks a culprit instead of a cause.<br/>
+This **scapegoat culture** destroys psychological safety, making transparency impossible.<br/>
+Symptoms include defensive retrospectives, risk concealment, and loss of initiative.<br/>
+3SF counters this through **R7 (Risk Shared is Risk Reduced)** and **R12 (Learning is the Only Sustainable Advantage)** — turning failure into data, not division.
 
 ## Summary
 

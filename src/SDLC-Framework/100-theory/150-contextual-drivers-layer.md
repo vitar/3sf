@@ -108,6 +108,15 @@ For example:
 Mature organizations don’t fight constraints; they **design within them**.<br/>
 The CDL enables this by making constraints explicit and manageable.
 
+## Principles Failure: Contextual Contradictions
+
+At times, contextual forces directly conflict with system principles — for example, a *regulatory environment* that enforces heavy control contradicts the principle of *Trust before Control*, or a *fixed-bid contract* that prioritizes scope over learning undermines *Outcome before Output*.<br/>
+3SF treats these contradictions not as violations but as **trade-off boundaries**: situations where local compliance may temporarily override ideal behavior.
+
+When contradictions persist unacknowledged, they lead to silent erosion of trust — teams perform rituals without intent, and principles turn into slogans.<br/>
+The resolution is transparency: make constraints visible, discuss which principles are constrained, and consciously rebalance the system once conditions change.<br/>
+Context cannot always be changed — but how consciously we adapt within it defines maturity.
+
 ## Summary
 
 - The **Contextual Drivers Layer (CDL)** captures the forces that shape delivery — commercial, organizational, product, technical, relationship, and environmental.

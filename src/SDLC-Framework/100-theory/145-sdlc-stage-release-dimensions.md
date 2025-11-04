@@ -117,6 +117,8 @@ Defines how the organization learns from each release to improve stability, cade
 | **“Rollback failed.”** | Plan untested or absent. | Simulate rollback in lower environments and automate recovery. |
 | **“Post-release issues damage trust.”** | Lack of validation and incident transparency. | Create shared incident process and visible metrics. |
 
+A common hidden risk is release heroics — dependency on a few experts to ‘save’ the deployment. Sustainable maturity eliminates heroes by institutionalizing reliability.
+
 ## Measuring Release Health
 
 | **Signal** | **Description** |

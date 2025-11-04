@@ -115,6 +115,8 @@ Defines how discovery insights, decisions, and risks evolve into an adaptive del
 | **“Estimates keep changing.”** | Scope or assumptions not validated. | Document estimation assumptions and uncertainty ranges. |
 | **“Client expects more than planned.”** | Value and scope poorly communicated. | Present scope through outcomes, not features; revalidate alignment. |
 
+The illusion of precision — detailed plans built on unvalidated inputs — is a recurring trap. Shape aims for confidence, not certainty.
+
 ## Measuring Shape Health
 
 | **Signal** | **Description** |

@@ -139,6 +139,13 @@ To keep the catalog effective:
 - **Link** CRC rules to RAC findings — improvement actions should modify or extend contextual mappings.
 - **Integrate** CRC into onboarding and project kickoff processes.
 
+## Adapting Without Excusing
+
+The purpose of contextual adaptation is **to preserve system integrity under constraint**, not to justify underperformance.<br/>
+A common misuse of CRC occurs when teams interpret flexibility as permission to ignore stable rules — turning context into an excuse rather than a design factor.<br/>
+Healthy adaptation always traces back to **which Stable Rule it protects** and **what learning it generates**.<br/>
+When a contextual rule cannot explain its stabilizing purpose, it signals adaptation drift — a warning that coherence is being traded for comfort.
+
 ## CRC and Relationship Maturity
 
 CRC operationalizes relationship maturity:

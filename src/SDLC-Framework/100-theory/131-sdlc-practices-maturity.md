@@ -41,6 +41,12 @@ Maturity in one practice reinforces others:
 
 High-performing teams reach **cross-practice coherence**, where decisions made in one discipline positively impact all others.
 
+## When Maturity Inverts
+
+Sometimes, a practice advances faster than its supporting ecosystem — for example, sophisticated DevOps automation in a project lacking Product Thinking or Governance clarity.<br/>
+This **maturity inversion** can produce friction: faster delivery of unclear value, or automation that amplifies misaligned priorities.<br/>
+3SF treats these cases as alignment gaps, not regressions — the goal is to synchronize maturity across disciplines rather than maximize any one in isolation.
+
 ## Assessing Practice Maturity
 
 Assessment combines **qualitative feedback** (behaviors, attitudes) and **quantitative indicators** (metrics, cycle data):

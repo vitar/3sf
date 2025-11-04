@@ -57,6 +57,20 @@ Relationship maturity increases as both organizations learn to rely on one anoth
 | **Leadership Mode** | Facilitative and consultative | Operational and technical | Strategic and reflective |
 | **Ownership Distribution** | Client-driven collaboration | Vendor-led autonomy | Shared strategic renewal |
 
+## Run vs Evolve: Stability vs Learning
+
+In many organizations, the **Run** phase is mistaken for the end of delivery — focused purely on uptime, cost control, and SLA adherence.<br/>
+While stability is vital, stopping there creates a **false plateau of success** where no new learning enters the system.
+
+The **Evolve** phase exists to prevent that stagnation.<br/>
+Its metrics differ from Run:
+
+- *Run* measures reliability (uptime, MTTR, operational cost).
+- *Evolve* measures adaptability (validated learning, feature adoption, customer feedback integration).
+
+When evolution is skipped, operational excellence turns brittle — systems stay available but stop improving.<br/>
+A mature delivery culture measures both: **Run for stability, Evolve for growth**.
+
 ## Using the SDLC Stages
 
 The SDLC Stages act as a **map, not a prescription**.<br/>

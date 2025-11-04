@@ -64,6 +64,18 @@ No single practice guarantees success; the system works when all are balanced:
 
 A mature team develops *healthy tension* among practices — trading off intentionally instead of neglecting one dimension.
 
+## When Practices Compete
+
+In practice, organizations often over-optimize a single discipline — seeking efficiency, control, or speed at the expense of balance.<br/>
+Common patterns include:
+
+- **DevOps & Delivery** dominating Engineering & Quality, resulting in automated deployment of unstable code.
+- **Governance & Risk** overshadowing Product Thinking, leading to compliance without innovation.
+- **Architecture & Design** overemphasized early, creating rigidity that slows later adaptation.
+
+Such competition signals **systemic imbalance**, not bad intent.<br/>
+The corrective action is to revisit the shared outcomes and ensure every practice still serves the product’s purpose, not its own metrics.
+
 ## Practices as a Foundation for Maturity
 
 As projects evolve, each practice demonstrates maturity through visible behaviors:

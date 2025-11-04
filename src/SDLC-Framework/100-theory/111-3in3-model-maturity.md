@@ -42,6 +42,13 @@ A technically correct system can still fail when:
 
 3SF closes this gap by embedding **dual accountability** and **shared responsibility** — ensuring that both client and vendor evolve together toward aligned autonomy and partnership.
 
+## When Maturity Stalls
+
+Relationship maturity can regress when reliability or transparency erode.<br/>
+Common signals include defensive communication, parallel decision-making, or focus on protecting scope instead of outcomes.<br/>
+Such reversals do not mean failure — they reveal where trust and accountability need reinforcement.<br/>
+3SF treats these moments as diagnostic opportunities to restore balance rather than assign blame.
+
 ## Summary
 
 The **Relationship Maturity Model** represents *how the system grows* —<br/>

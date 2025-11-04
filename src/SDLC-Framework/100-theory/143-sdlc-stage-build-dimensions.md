@@ -114,6 +114,8 @@ Defines how the team inspects performance, learns, and improves during the Build
 | **“Developers disengaged from product goals.”** | Poor communication or siloed decision-making. | Include engineers in planning and stakeholder reviews. |
 | **“Integration issues late in cycle.”** | Lack of CI/CD or shared environments. | Adopt trunk-based development and continuous integration. |
 
+When flow metrics become performance targets, teams start optimizing numbers instead of outcomes. 3SF treats metrics as feedback, not judgment.
+
 ## Measuring Build Health
 
 | **Signal** | **Description** |

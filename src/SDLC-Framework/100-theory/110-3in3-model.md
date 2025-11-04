@@ -90,6 +90,13 @@ When one side strengthens, the others benefit:
 
 3SF ensures that every decision across the SDLC protects this systemic equilibrium.
 
+## When the Triangle Collapses
+
+If any relationship line weakens, the 3-in-3 system contracts — often reverting to a transactional pattern.<br/>
+For example, when the **Value** connection breaks (no client product ownership or user insight), Delivery continues but meaning is lost.<br/>
+When **Engagement** fails, trust erodes and coordination turns contractual.<br/>
+These imbalances signal a system collapse, not a team failure — recovery begins by restoring the missing relationship, not by adding more process.
+
 ## Summary
 
 The **3-in-3 Model** represents *what the system is*:<br/>

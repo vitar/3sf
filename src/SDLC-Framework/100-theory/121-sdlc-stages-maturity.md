@@ -60,6 +60,12 @@ Maturity can be assessed per stage or holistically through:
 
 Each stage’s maturity score feeds into a *delivery health profile* that highlights which capabilities enable or block overall system flow.
 
+## When Maturity Plateaus
+
+Some stages evolve faster than others — for example, Build may reach high autonomy while Shape or Run remains reactive.<br/>
+Such asymmetry often indicates systemic bottlenecks, not team incompetence.<br/>
+3SF views these plateaus as signals to inspect **interfaces between stages** — where ownership, feedback, or governance may still operate transactionally.
+
 ## Summary
 
 - SDLC Stages Maturity connects **delivery quality** with **relationship growth**.
