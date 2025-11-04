@@ -76,6 +76,19 @@ The **3-in-3 Maturity Layer** overlays the entire framework — describing how *
 
 The framework emerged as a **unifying model** — connecting strategic, operational, and adaptive layers into one ecosystem of delivery understanding.
 
+## Resilience by Design
+
+3SF acknowledges that **delivery systems fail not only because of bad execution but because of systemic resistance** — competing incentives, unclear accountability, or organizational inertia.
+
+To remain realistic and resilient, the framework was designed with *anti-fragility* in mind:
+
+- Each layer contains **diagnostic and corrective mechanisms** (CDL, SRL, RAC) to detect and respond to friction before it becomes failure.
+- The **relationship maturity model** exposes illusionary progress — when processes appear mature but trust and ownership remain shallow.
+- The **Stable Rules Layer** acts as a safety net — ensuring that adaptation never breaks coherence.
+- And through **feedback-driven learning**, every mistake becomes a data point for system evolution, not evidence of personal failure.
+
+In practice, 3SF doesn’t eliminate risk — it **makes risk visible, discussable, and manageable** across both client and vendor organizations.
+
 ## When to Use 3SF
 
 | **Use Case** | **Typical Goal** |
