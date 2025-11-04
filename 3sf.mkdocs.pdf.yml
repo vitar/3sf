@@ -75,6 +75,7 @@ nav:
   - 200-practice/250-relationship-audit.md
   - 200-practice/260-maturity-dashboard.md
   - 200-practice/270-outcome-accountability-map.md
+  - 200-practice/271-architectural-tradeoff-contract.md
 
 markdown_extensions:
   - admonition
