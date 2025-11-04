@@ -14,7 +14,7 @@ While the **theory** defines *why* 3SF exists and *what* it represents, the **pr
 - Help **vendors** mature as delivery and advisory partners.
 - Create a **shared language** between both sides across the full SDLC lifecycle.
 
-## Ubjectives
+## Objectives
 
 - Provide a **map of 3SF usage** across delivery stages and relationship lines.
 - Distinguish **client-side** and **vendor-side** applications of each tool.
