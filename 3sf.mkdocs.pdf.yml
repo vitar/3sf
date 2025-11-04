@@ -79,6 +79,7 @@ nav:
   - 200-practice/272-shared-definition-of-done.md
   - 200-practice/273-flow-constraint-identification.md
   - 200-practice/274-autonomy-control-charter.md
+  - 200-practice/275-learning-before-blame-protocol.md
 
 markdown_extensions:
   - admonition
