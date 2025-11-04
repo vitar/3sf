@@ -80,6 +80,7 @@ nav:
   - 200-practice/273-flow-constraint-identification.md
   - 200-practice/274-autonomy-control-charter.md
   - 200-practice/275-learning-before-blame-protocol.md
+  - 200-practice/276-engagement-context-canvas.md
 
 markdown_extensions:
   - admonition
