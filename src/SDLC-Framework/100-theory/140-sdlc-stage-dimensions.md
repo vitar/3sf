@@ -106,18 +106,18 @@ Each stage has a dedicated section detailing:
 
 | **Stage** | **Purpose** |
 |-----------|-------------|
-| [Discover](51-sdlc-stage-discovery-dimensions.md) | How to frame problems and align understanding before shaping. |
-| [Shape](52-sdlc-stage-shape-dimensions.md) | How to define scope, feasibility, and delivery models. |
-| [Build](53-sdlc-stage-build-dimensions.md) | How to structure flow, engineering quality, and visibility. |
-| [Validate](54-sdlc-stage-validate-dimensions.md) | How to manage verification, acceptance, and joint confidence. |
-| [Release](55-sdlc-stage-release-dimensions.md) | How to manage approvals, risk, and deployment readiness. |
-| [Run & Evolve](56-sdlc-stage-run-evolve-dimensions.md) | How to sustain and improve systems post-launch. |
+| [Discover](141-sdlc-stage-discovery-dimensions.md) | How to frame problems and align understanding before shaping. |
+| [Shape](142-sdlc-stage-shape-dimensions.md) | How to define scope, feasibility, and delivery models. |
+| [Build](143-sdlc-stage-build-dimensions.md) | How to structure flow, engineering quality, and visibility. |
+| [Validate](144-sdlc-stage-validate-dimensions.md) | How to manage verification, acceptance, and joint confidence. |
+| [Release](145-sdlc-stage-release-dimensions.md) | How to manage approvals, risk, and deployment readiness. |
+| [Run & Evolve](146-sdlc-stage-run-evolve-dimensions.md) | How to sustain and improve systems post-launch. |
 
 Each file builds upon this overview, creating a **consistent pattern** that allows readers to trace the evolution of alignment, flow, and learning across the SDLC.
 
 ## Summary
 
-- **SDLC Stage Dimensions** describe how each stage functions in context — the levers and trade-offs teams must balance.  
-- They provide **diagnostic visibility** and **design flexibility**, connecting strategy, delivery, and governance.  
-- Dimensions bridge contextual forces (CDL) and systemic stability (SRL), serving as the *operational DNA* of the 3SF delivery system.  
+- **SDLC Stage Dimensions** describe how each stage functions in context — the levers and trade-offs teams must balance.
+- They provide **diagnostic visibility** and **design flexibility**, connecting strategy, delivery, and governance.
+- Dimensions bridge contextual forces (CDL) and systemic stability (SRL), serving as the *operational DNA* of the 3SF delivery system.
 - Mastering dimension design is the key to transforming projects from reactive execution into adaptive, learning systems.
