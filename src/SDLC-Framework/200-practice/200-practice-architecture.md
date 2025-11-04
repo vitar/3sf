@@ -80,7 +80,7 @@ Each practice file includes sections:
 | **Stable Rules Layer (SRL)** | Define repeatable collaboration patterns | Governance & dependencies | Team operations & flow | Delivery System Diagnostic |
 | **Rule Audit Checklist (RAC)** | Reflect and verify maturity | Value realization & partnership signals | Relationship metrics & feedback | Self-Diagnostic / Relationship Audit |
 
-## Expanding the Practice Set – Alignment over Execution
+## Expanding SDLC Practices – Alignment over Execution
 
 3SF prioritizes **alignment before performance**.<br/>
 To ensure that alignment is not aspirational but measurable, the following tools extend the six core SDLC practices and convert 3SF **Principles** into **mandatory, inspectable artifacts**.<br/>
@@ -90,18 +90,18 @@ They enforce joint ownership across the Client ↔ Vendor boundary and make theo
 
 | Core SDLC Practice | Tool/Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Product Thinking** | **Outcome-to-Accountability Map** (Design) | Enforces the **"Outcome before Output"** principle. Maps specific business metrics (outcomes) to the accountable **Client Product Owner** and the responsible **Vendor Product Manager** for each SDLC stage. Prevents the client from handing off a requirement without co-owning the result. |
-| **Architecture & Design** | **Architectural Trade-Off Contract** (Design/Diagnose) | Formalizes joint decisions. Documents critical non-functional requirement (NFR) trade-offs (e.g., speed vs. cost, security vs. complexity) and requires explicit sign-off from both **Client Solution Architect** and **Vendor Solution Architect**. Directly supports **Shared Accountability**. |
-| **Engineering & Quality** | **Shared Definition of Done (DoD) Matrix** (Design) | Moves the **Validate** stage beyond simple client sign-off. Defines quality criteria across three dimensions: *Code Quality* (Vendor responsibility), *Operational Readiness* (Client Technical Integrator responsibility), and *User Acceptance* (Client Product Owner responsibility). |
-| **DevOps & Delivery** | **Flow Constraint Identification** (Diagnose) | Used by the **Vendor Delivery Lead** and **Client Project Manager** to collaboratively map the flow (Value Stream Mapping) and identify the **top 3 systemic constraints** (e.g., Client security review time, Vendor environment provisioning). Directly supports **"Flow before Speed."** |
-| **Governance & Risk** | **Autonomy & Control Boundary Charter** (Design) | Essential for **"Trust before Control."** Defines explicit decision rights based on the current **Maturity Level**. E.g., at *Transactional Trust*, the Vendor needs approval for changes >1 day effort; at *Strategic Partnership*, the Vendor reports changes >5 days effort. This makes the boundary measurable. |
-| **Feedback & Learning** | **"Learning Before Blame" Protocol** (Reflect) | A structured retrospective guide for the **Evolve** stage. Forces teams to analyze system friction by asking: (1) What was the *systemic* cause? (2) What *principle* was violated? (3) What **Stable Rule** should we audit? Prevents the system from defaulting to **The Scapegoat Culture**. |
+| **Product Thinking** | [**Outcome-to-Accountability Map**](270-outcome-accountability-map.md) (Design) | Enforces the **"Outcome before Output"** principle. Maps specific business metrics (outcomes) to the accountable **Client Product Owner** and the responsible **Vendor Product Manager** for each SDLC stage. Prevents the client from handing off a requirement without co-owning the result. |
+| **Architecture & Design** | [**Architectural Trade-Off Contract**](271-architectural-tradeoff-contract.md) (Design/Diagnose) | Formalizes joint decisions. Documents critical non-functional requirement (NFR) trade-offs (e.g., speed vs. cost, security vs. complexity) and requires explicit sign-off from both **Client Solution Architect** and **Vendor Solution Architect**. Directly supports **Shared Accountability**. |
+| **Engineering & Quality** | [**Shared Definition of Done (DoD) Matrix**](272-shared-definition-of-done.md) (Design) | Moves the **Validate** stage beyond simple client sign-off. Defines quality criteria across three dimensions: *Code Quality* (Vendor responsibility), *Operational Readiness* (Client Technical Integrator responsibility), and *User Acceptance* (Client Product Owner responsibility). |
+| **DevOps & Delivery** | [**Flow Constraint Identification**](273-flow-constraint-identification.md) (Diagnose) | Used by the **Vendor Delivery Lead** and **Client Project Manager** to collaboratively map the flow (Value Stream Mapping) and identify the **top 3 systemic constraints** (e.g., Client security review time, Vendor environment provisioning). Directly supports **"Flow before Speed."** |
+| **Governance & Risk** | [**Autonomy & Control Boundary Charter**](274-autonomy-control-charter.md) (Design) | Essential for **"Trust before Control."** Defines explicit decision rights based on the current **Maturity Level**. E.g., at *Transactional Trust*, the Vendor needs approval for changes >1 day effort; at *Strategic Partnership*, the Vendor reports changes >5 days effort. This makes the boundary measurable. |
+| **Feedback & Learning** | [**"Learning Before Blame" Protocol**](275-learning-before-blame-protocol.md) (Reflect) | A structured retrospective guide for the **Evolve** stage. Forces teams to analyze system friction by asking: (1) What was the *systemic* cause? (2) What *principle* was violated? (3) What **Stable Rule** should we audit? Prevents the system from defaulting to **The Scapegoat Culture**. |
 
 ### Tool for the Contextual Drivers Layer (CDL)
 
-| Framework Layer | Suggested New Tool/Artifact (Mode) | Purpose in 3SF System |
+| Framework Layer | Tool/Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Contextual Drivers Layer** | **Engagement Context Canvas** (Design/Audit) | A structured canvas used at the outset of the **Discover** stage. It requires both sides to explicitly define the six Contextual Drivers (Commercial, Regulatory, Architectural, etc.) and agree on the corresponding **Stable Rule Adjustments**. This prevents the core issue of a **Client Vendor Manager** imposing a rigid process when the context (e.g., highly experimental scope) demands flexibility. |
+| **Contextual Drivers Layer** | [**Engagement Context Canvas**](276-engagement-context-canvas.md) (Design/Audit) | A structured canvas used at the outset of the **Discover** stage. It requires both sides to explicitly define the six Contextual Drivers (Commercial, Regulatory, Architectural, etc.) and agree on the corresponding **Stable Rule Adjustments**. This prevents the core issue of a **Client Vendor Manager** imposing a rigid process when the context (e.g., highly experimental scope) demands flexibility. |
 
 ## 3SF Functional Role Model
 
