@@ -43,7 +43,7 @@ plugins:
       toc_level: 2
       ordered_chapter_level: 0
       exclude_pages:
-        - 'index'
+        - 'index.md'
 
 nav:
   - index.md
