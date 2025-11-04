@@ -18,7 +18,7 @@ While the **theory** defines *why* 3SF exists and *what* it represents, the **pr
 
 - Provide a **map of 3SF usage** across delivery stages and relationship lines.
 - Distinguish **client-side** and **vendor-side** applications of each tool.
-- Define **modes of application** (Design, Diagnose, Assess, Reflect, Audit).
+- Define **modes of application** (Design, Diagnose, Assess, Reflect, Audit, Measure).
 - Act as a **navigator** for all practice tools and related training modules.
 
 ## Structure of the Practice Part
@@ -28,11 +28,12 @@ Tools are grouped by **application mode** and mapped to **client / vendor contex
 
 | Mode | Primary Focus | Typical User | Example |
 |------|----------------|---------------|----------|
-| **Design** | Establish delivery & engagement model | Vendor **Delivery Facilitator** / Client **Product Leader** | Initial Delivery System Design |
-| **Diagnose** | Reveal constraints and gaps | Vendor **Solution Architect** / Client **Product Leader** | Delivery System Diagnostic |
-| **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | Quarterly Project Assessment |
-| **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | Self-Diagnostic Tool |
-| **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | Relationship Audit & Portfolio Dashboard |
+| **Design** | Establish delivery & engagement model | Vendor **Delivery Facilitator** / Client **Product Leader** | [Initial Delivery System Design](210-initial-delivery-design.md) |
+| **Diagnose** | Reveal constraints and gaps | Vendor **Solution Architect** / Client **Product Leader** | [Delivery System Diagnostic](220-delivery-system-diagnostic.md) |
+| **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | [Quarterly Delivery and Relationship Assessment](230-quarterly-assessment.md) |
+| **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | [Self-Diagnostic and Reflection Tool](240-self-diagnostic.md) |
+| **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](250-relationship-audit.md) |
+| **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard and Metrics Consolidation](260-maturity-dashboard.md) |
 
 ## Dual-Perspective Application
 
@@ -57,17 +58,20 @@ Each practice file includes sections:
 | **Assess** | Quarterly / Milestone | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | SRL + RAC | Delivery and relationship health tracked |
 | **Reflect** | Anytime | **Delivery Facilitator**, **Technical Integrator**, **Product Leader** | RAC | Individual or team awareness improved |
 | **Audit** | Periodic / Portfolio | **Engineering Director** / **Governance Officer** | CDL + SRL + RAC | Portfolio-level maturity comparison |
+| **Measure** | Continuous / Portfolio Governance | **Governance Officer** / **Account Lead** / **Engineering Director** | SRL + RAC | Relationship and maturity data visualized for decision-making |
 
 ## Lifecycle Navigation
 
-| **When** | **Mode** | **Tool (File)** | **Client Role(s)** | **Vendor Role(s)** | **Outcome** |
+| **When** | **Mode** | **Tool** | **Client Role(s)** | **Vendor Role(s)** | **Outcome** |
 |-----------|-----------|-----------------|--------------------|--------------------|--------------|
-| RFP / Pre-Engagement | Design | `210-initial-delivery-design.md` | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Shared engagement model & maturity baseline |
-| Small Team Discovery | Diagnose | `220-delivery-system-diagnostic.md` | **Product Leader**, **Requirements Analyst** | **Solution Architect**, **Delivery Facilitator** | Validated context and delivery readiness |
-| Kick-off | Design | `210-initial-delivery-design.md` | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Solution Architect** | Clear interfaces and governance rules |
-| Ongoing Delivery (MVP → v1) | Assess | `230-quarterly-assessment.md` | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
-| Anytime | Reflect | `240-self-diagnostic.md` | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
-| Post-v1 / Portfolio | Audit | `250-relationship-audit.md` | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
+| RFP / Pre-Engagement | Design | [Initial Delivery System Design](210-initial-delivery-design.md) | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Shared engagement model & maturity baseline |
+| Small Team Discovery | Diagnose | [Delivery System Diagnostic](220-delivery-system-diagnostic.md) | **Product Leader**, **Requirements Analyst** | **Solution Architect**, **Delivery Facilitator** | Validated context and delivery readiness |
+| Kick-off | Design | [Initial Delivery System Design](210-initial-delivery-design.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Solution Architect** | Clear interfaces and governance rules |
+| Ongoing Delivery (MVP → v1) | Assess | [Quarterly Delivery and Relationship Assessment](230-quarterly-assessment.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
+| Anytime | Reflect | [Self-Diagnostic and Reflection Tool](240-self-diagnostic.md) | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
+| Post-v1 / Portfolio | Audit | [Relationship Audit and Portfolio Maturity Review](250-relationship-audit.md) | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
+| Ongoing Portfolio Governance | Measure | [Maturity Dashboard and Metrics Consolidation](260-maturity-dashboard.md) | **Executive Sponsor**, **Governance Officer** | **Account Lead**, **Engineering Director** | Visibility into maturity trends and data-driven portfolio decisions |
+
 
 ## 3SF Layer Mapping
 
