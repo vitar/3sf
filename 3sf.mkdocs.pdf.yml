@@ -47,6 +47,9 @@ plugins:
 
 nav:
   - index.md
+  - 000-intro/000-intro.md
+  - 000-intro/010-3sf-navigator.md
+  - 000-intro/020-role-snapshot.md
   - 100-theory/100-intro-purpose.md
   - 100-theory/105-vision-principles-beliefs.md
   - 100-theory/110-3in3-model.md
