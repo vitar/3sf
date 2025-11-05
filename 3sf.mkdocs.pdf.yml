@@ -42,12 +42,9 @@ plugins:
       enabled_if_env: ENABLE_PDF_EXPORT
       toc_level: 2
       ordered_chapter_level: 0
-      exclude_pages:
-        - 'index.md'
 
 nav:
   - index.md
-  - 000-intro/000-intro.md
   - 000-intro/010-3sf-navigator.md
   - 000-intro/020-role-snapshot.md
   - 100-theory/100-intro-purpose.md
