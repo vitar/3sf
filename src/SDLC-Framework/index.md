@@ -41,8 +41,8 @@ When all three sides evolve together, delivery becomes aligned, predictable, and
 | :--- | :--- | :--- | :--- |
 | **1. Orient** | Read the [**Vision, Principles & Beliefs**](100-theory/105-vision-principles-beliefs.md) to align mindset. | This is the cultural DNA. Without shared principles, tools cannot create alignment. | [Vision, Principles & Beliefs](100-theory/105-vision-principles-beliefs.md) |
 | **2. Identify** | Find your **Composite Functional Role** in the [**Role Responsibility Snapshot**](000-intro/020-role-snapshot.md). | Defines your accountability within the joint system — who you co-own outcomes with. | [Role Snapshot](000-intro/020-role-snapshot.md) |
-| **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](200-practice/276-engagement-context-canvas.md). | Enforces **Context before Method** — this defines the system’s environment and constraints. | [Engagement Context Canvas](200-practice/276-engagement-context-canvas.md) |
-| **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](200-practice/274-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. | [Boundary Charter](200-practice/274-autonomy-control-charter.md) |
+| **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](200-practice/210-engagement-context-canvas.md). | Enforces **Context before Method** — this defines the system’s environment and constraints. | [Engagement Context Canvas](200-practice/210-engagement-context-canvas.md) |
+| **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](200-practice/220-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. | [Boundary Charter](200-practice/220-autonomy-control-charter.md) |
 
 Once these four steps are done, the 3SF Operating System is **initialized**.<br/>
 You can then safely apply any methodology — Agile, Lean, or hybrid — within a coherent relational context.

@@ -37,12 +37,12 @@ The EC does **not replace legal contracts** — it supplements them by creating 
 
 | Component | Description | Referenced 3SF Artifacts |
 |------------|--------------|--------------------------|
-| **Purpose & Value Statement** | Defines why the engagement exists and what outcomes matter to the business. | [Outcome-to-Accountability Map](../200-practice/270-outcome-accountability-map.md) |
-| **Engagement Context Definition** | Documents the commercial, organizational, regulatory, and cultural context. | [Engagement Context Canvas (ECC)](../200-practice/276-engagement-context-canvas.md) |
-| **Governance Model** | Defines meeting cadence, decision flow, and escalation routes. | [Autonomy & Control Boundary Charter](../200-practice/274-autonomy-control-charter.md) |
-| **Delivery System Design** | Describes collaboration structure, team topology, and delivery approach. | [Initial Delivery Design](../200-practice/210-initial-delivery-design.md) |
+| **Purpose & Value Statement** | Defines why the engagement exists and what outcomes matter to the business. | [Outcome-to-Accountability Map](../200-practice/215-outcome-accountability-map.md) |
+| **Engagement Context Definition** | Documents the commercial, organizational, regulatory, and cultural context. | [Engagement Context Canvas (ECC)](../200-practice/210-engagement-context-canvas.md) |
+| **Governance Model** | Defines meeting cadence, decision flow, and escalation routes. | [Autonomy & Control Boundary Charter](../200-practice/220-autonomy-control-charter.md) |
+| **Delivery System Design** | Describes collaboration structure, team topology, and delivery approach. | [Initial Delivery Design](../200-practice/240-initial-delivery-design.md) |
 | **Shared Principles Acknowledgment** | Lists 3SF Principles recognized by both organizations. | [3SF Theory](../100-theory/100-intro-purpose.md) |
-| **Baseline Maturity Assessment** | Defines initial trust and autonomy level. | [Maturity Dashboard](../200-practice/260-maturity-dashboard.md) |
+| **Baseline Maturity Assessment** | Defines initial trust and autonomy level. | [Maturity Dashboard](../200-practice/265-maturity-dashboard.md) |
 
 ## Agreement Format
 

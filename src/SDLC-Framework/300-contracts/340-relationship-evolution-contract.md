@@ -33,11 +33,11 @@ This contract ensures that both parties treat relationship evolution as a **mana
 
 | Component | Description | Linked 3SF Artifacts |
 |------------|--------------|----------------------|
-| **Maturity Review Summary** | Captures progress across all relationship lines and principles. | [Maturity Dashboard](../200-practice/260-maturity-dashboard.md) |
-| **Value Realization Report** | Summarizes measurable business and delivery outcomes achieved. | [Outcome-to-Accountability Map](../200-practice/270-outcome-accountability-map.md) |
+| **Maturity Review Summary** | Captures progress across all relationship lines and principles. | [Maturity Dashboard](../200-practice/265-maturity-dashboard.md) |
+| **Value Realization Report** | Summarizes measurable business and delivery outcomes achieved. | [Outcome-to-Accountability Map](../200-practice/215-outcome-accountability-map.md) |
 | **Trust and Governance Review** | Evaluates alignment, autonomy, and risk management performance. | [Governance Contract](330-governance-contract.md) |
 | **Renewal or Transformation Decision** | Defines whether the partnership continues, expands, or transitions. | [Maturity Growth Contract](320-maturity-growth-contract.md) |
-| **Portfolio Integration Plan** | Describes how matured engagements integrate into broader portfolio or strategic programs. | [Relationship Audit](../200-practice/250-relationship-audit.md) |
+| **Portfolio Integration Plan** | Describes how matured engagements integrate into broader portfolio or strategic programs. | [Relationship Audit](../200-practice/260-relationship-audit.md) |
 
 ## Agreement Format
 
