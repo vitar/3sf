@@ -81,6 +81,14 @@ nav:
   - 200-practice/274-autonomy-control-charter.md
   - 200-practice/275-learning-before-blame-protocol.md
   - 200-practice/276-engagement-context-canvas.md
+  - 300-contracts/300-contracts-architecture.md
+  - 300-contracts/310-engagement-contract.md
+  - 300-contracts/320-maturity-growth-contract.md
+  - 300-contracts/330-governance-contract.md
+  - 300-contracts/340-relationship-evolution-contract.md
+  - 300-contracts/350-template-outcome-accountability.md
+  - 300-contracts/351-template-architectural-tradeoff.md
+  - 300-contracts/352-template-autonomy-control.md
 
 markdown_extensions:
   - admonition

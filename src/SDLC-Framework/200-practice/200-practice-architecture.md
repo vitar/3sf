@@ -103,6 +103,69 @@ They enforce joint ownership across the Client ↔ Vendor boundary and make theo
 | :--- | :--- | :--- |
 | **Contextual Drivers Layer** | [**Engagement Context Canvas**](276-engagement-context-canvas.md) (Design/Audit) | A structured canvas used at the outset of the **Discover** stage. It requires both sides to explicitly define the six Contextual Drivers (Commercial, Regulatory, Architectural, etc.) and agree on the corresponding **Stable Rule Adjustments**. This prevents the core issue of a **Client Vendor Manager** imposing a rigid process when the context (e.g., highly experimental scope) demands flexibility. |
 
+## Cross-Organizational Application Layer – Contractual Artifacts
+
+While the *Alignment-over-Execution* tools operationalize 3SF Principles within delivery teams, the **Contractual Artifacts** define how those Principles are enforced **across organizational boundaries**.
+
+These artifacts form the **interface layer** between Client and Vendor organizations — transforming principles such as *Trust before Control*, *Outcome before Output*, and *Shared Accountability* into measurable, co-signed commitments.
+
+They are used as annexes or attachments to the **Delivery Charter** and act as the daily governance instruments of the 3SF operating system.
+
+| 3SF Principle | Contractual Artifact | Core SDLC Practice | Primary Purpose |
+| :--- | :--- | :--- | :--- |
+| **Trust before Control** | [**Autonomy & Control Boundary Charter**](274-autonomy-control-charter.md) | Governance & Risk | Defines decision-making rights and escalation boundaries based on relationship maturity level. |
+| **Outcome before Output** | [**Outcome-to-Accountability Map**](270-outcome-accountability-map.md) | Product Thinking | Connects each delivery goal to a measurable business outcome jointly owned by Client and Vendor. |
+| **Shared Accountability** | [**Architectural Trade-Off Contract**](271-architectural-tradeoff-contract.md) | Architecture & Design | Formalizes key technical and non-functional trade-offs with explicit sign-off from both Solution Architects. |
+
+Each artifact is:
+
+- **Bilateral** — co-created and co-signed by corresponding functional pairs.
+- **Inspectable** — verified during maturity assessments and relationship audits.
+- **Evolving** — updated as trust and autonomy mature over time.
+
+Together, these artifacts make 3SF the **Meta-Framework of Co-Governance**, bridging strategic intent and operational practice between Client and Vendor organizations.
+
+### Systemic View of 3SF Contractual Artifacts
+
+```
+
+              +-----------------------------+
+              |      RODUCT / SERVICE       |
+              +-------------+---------------+
+                            ^
+                            |
+                            |
+         +------------------+------------------+
+         |   CLIENT ↔ VENDOR RELATIONSHIP      |
+         |   (Engagement, Delivery, Value)     |
+         +------------------+------------------+
+                            ^
+                            |
+   +---------------------------------------------------+
+   |  CONTRACTUAL ARTIFACTS – SYSTEMIC ALIGNMENT LAYER |
+   |  (OAM • ATC • ACBC)                               |
+   +---------------------------------------------------+
+                            ^
+                            |
+   +---------------------------------------------------+
+   | 3SF PRACTICES – DESIGN → MEASURE MODES            |
+   | (Delivery System Design • Diagnostic • Assessment |
+   |  • Reflection • Audit • Dashboard)                |
+   +---------------------------------------------------+
+                            ^
+                            |
+   +---------------------------------------------------+
+   |  3SF THEORY – PRINCIPLES & LAYERS                 |
+   |  (CDL • SRL • RAC • Core Relationships)           |
+   +---------------------------------------------------+
+
+```
+
+> **Interpretation:**<br/>
+> The Contractual Artifacts act as the **governance bridge** between 3SF Theory and 3SF Practices.<br/>
+> They enforce alignment across the Client ↔ Vendor ↔ Product triangle by turning abstract principles into concrete agreements.<br/>
+> Without them, collaboration relies on interpretation; with them, collaboration becomes measurable.
+
 ## 3SF Functional Role Model
 
 ### Purpose
