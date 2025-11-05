@@ -33,6 +33,20 @@ Each side of this triangle represents a **relationship line**:
 
 When all three sides evolve together, delivery becomes aligned, predictable, and continuously learning.
 
+## 3SF User Onboarding Checklist
+
+> *Start here before using any tools or methods.*
+
+| Step | Action | Why This Step Is Necessary | Primary Reference |
+| :--- | :--- | :--- | :--- |
+| **1. Orient** | Read the [**Vision, Principles & Beliefs**](../100-theory/110-vision-principles-beliefs.md) to align mindset. | This is the cultural DNA. Without shared principles, tools cannot create alignment. | [Vision, Principles & Beliefs](../100-theory/110-vision-principles-beliefs.md) |
+| **2. Identify** | Find your **Composite Functional Role** in the [**Role Responsibility Snapshot**](020-role-snapshot.md). | Defines your accountability within the joint system — who you co-own outcomes with. | [Role Snapshot](020-role-snapshot.md) |
+| **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](../200-practice/276-engagement-context-canvas.md). | Enforces **Context before Method** — this defines the system’s environment and constraints. | [Engagement Context Canvas](../200-practice/276-engagement-context-canvas.md) |
+| **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](../200-practice/274-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. | [Boundary Charter](../200-practice/274-autonomy-control-charter.md) |
+
+Once these four steps are done, the 3SF Operating System is **initialized**.<br/>
+You can then safely apply any methodology — Agile, Lean, or hybrid — within a coherent relational context.
+
 ## Why 3SF Exists
 
 3SF emerged from real-world experience across hundreds of projects where success or failure was rarely technical.
@@ -51,9 +65,9 @@ The framework is structured like an **operating system**:
 
 | Layer | Purpose |
 | :--- | :--- |
-| **Theory (OS)** | Explains *why* 3SF exists and *how* it structures relationships. |
-| **Practice (Apps)** | Shows *how* to use 3SF tools in real projects. |
-| **Contracts (Interfaces)** | Define how principles become measurable agreements. |
+| [**Theory (OS)**](../100-theory/100-intro-purpose.md) | Explains *why* 3SF exists and *how* it structures relationships. |
+| [**Practice (Apps)**](../200-practice/200-practice-architecture.md) | Shows *how* to use 3SF tools in real projects. |
+| [**Contracts (Interfaces)**](../300-contracts/300-contracts-architecture.md) | Define how principles become measurable agreements. |
 
 Each section builds on the previous one — but you don’t need to read it linearly.<br/>
 If you know your **role** or **current problem**, you can jump directly to the right guide below.
