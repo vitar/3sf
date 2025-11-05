@@ -32,11 +32,11 @@ It aligns all governance mechanisms with the current **relationship maturity lev
 
 | Component | Description | Linked 3SF Artifacts |
 |------------|--------------|----------------------|
-| **Governance Structure Overview** | Defines key governance layers: executive, operational, and delivery. | [Autonomy & Control Boundary Charter](../200-practice/274-autonomy-control-charter.md) |
+| **Governance Structure Overview** | Defines key governance layers: executive, operational, and delivery. | [Autonomy & Control Boundary Charter](../200-practice/220-autonomy-control-charter.md) |
 | **Decision Rights Matrix (RACI/DACI)** | Assigns authority and consultation rules across functions. | [3SF Functional Role Model](../200-practice/200-practice-architecture.md) |
-| **Escalation Model** | Defines when and how to escalate issues across governance layers. | [Flow Constraint Identification](../200-practice/273-flow-constraint-identification.md) |
+| **Escalation Model** | Defines when and how to escalate issues across governance layers. | [Flow Constraint Identification](../200-practice/230-flow-constraint-identification.md) |
 | **Governance Cadence** | Lists meeting frequency and objectives for steering committees and working groups. | [Engagement Contract](310-engagement-contract.md) |
-| **Governance Health Indicators** | Defines how trust, transparency, and accountability are measured. | [Maturity Growth Contract](320-maturity-growth-contract.md), [Maturity Dashboard](../200-practice/260-maturity-dashboard.md) |
+| **Governance Health Indicators** | Defines how trust, transparency, and accountability are measured. | [Maturity Growth Contract](320-maturity-growth-contract.md), [Maturity Dashboard](../200-practice/265-maturity-dashboard.md) |
 
 ## Agreement Format
 
@@ -48,10 +48,10 @@ It includes explicit mapping of decision domains, authority boundaries, and esca
 | Governance Domain | Client Authority | Vendor Authority | Decision Rule |
 |--------------------|------------------|------------------|----------------|
 | Product Scope | Approve major scope changes >5 days | Adjust within iteration | Escalate if >10% effort variance |
-| Architecture | Co-sign all critical NFR trade-offs | Co-sign all critical NFR trade-offs | Governed by [Architectural Trade-Off Contract](../200-practice/271-architectural-tradeoff-contract.md) |
+| Architecture | Co-sign all critical NFR trade-offs | Co-sign all critical NFR trade-offs | Governed by [Architectural Trade-Off Contract](../200-practice/235-architectural-tradeoff-contract.md) |
 | Delivery Planning | Approve release milestones | Self-manage sprint planning | Report weekly |
 | Quality Standards | Define acceptance thresholds | Validate through DoD Matrix | Shared accountability |
-| Incident Resolution | Approve workaround exceeding SLA | Lead resolution and report cause | Follow [Learning Before Blame Protocol](../200-practice/275-learning-before-blame-protocol.md) |
+| Incident Resolution | Approve workaround exceeding SLA | Lead resolution and report cause | Follow [Learning Before Blame Protocol](../200-practice/270-learning-before-blame-protocol.md) |
 
 ## Inputs / Outputs
 

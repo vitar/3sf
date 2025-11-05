@@ -68,19 +68,19 @@ nav:
   - 100-theory/180-contextual-rules-catalog.md
   - 100-theory/195-relationship-and-system-maturity-integration.md
   - 200-practice/200-practice-architecture.md
-  - 200-practice/210-initial-delivery-design.md
-  - 200-practice/220-delivery-system-diagnostic.md
-  - 200-practice/230-quarterly-assessment.md
-  - 200-practice/240-self-diagnostic.md
-  - 200-practice/250-relationship-audit.md
-  - 200-practice/260-maturity-dashboard.md
-  - 200-practice/270-outcome-accountability-map.md
-  - 200-practice/271-architectural-tradeoff-contract.md
-  - 200-practice/272-shared-definition-of-done.md
-  - 200-practice/273-flow-constraint-identification.md
-  - 200-practice/274-autonomy-control-charter.md
-  - 200-practice/275-learning-before-blame-protocol.md
-  - 200-practice/276-engagement-context-canvas.md
+  - 200-practice/210-engagement-context-canvas.md
+  - 200-practice/215-outcome-accountability-map.md
+  - 200-practice/220-autonomy-control-charter.md
+  - 200-practice/225-shared-definition-of-done.md
+  - 200-practice/230-flow-constraint-identification.md
+  - 200-practice/235-architectural-tradeoff-contract.md
+  - 200-practice/240-initial-delivery-design.md
+  - 200-practice/245-delivery-system-diagnostic.md
+  - 200-practice/250-quarterly-assessment.md
+  - 200-practice/255-self-diagnostic.md
+  - 200-practice/260-relationship-audit.md
+  - 200-practice/265-maturity-dashboard.md
+  - 200-practice/270-learning-before-blame-protocol.md
   - 300-contracts/300-contracts-architecture.md
   - 300-contracts/310-engagement-contract.md
   - 300-contracts/320-maturity-growth-contract.md

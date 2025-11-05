@@ -28,12 +28,12 @@ Tools are grouped by **application mode** and mapped to **client / vendor contex
 
 | Mode | Primary Focus | Typical User | Example |
 |------|----------------|---------------|----------|
-| **Design** | Establish delivery & engagement model | Vendor **Delivery Facilitator** / Client **Product Leader** | [Initial Delivery System Design](210-initial-delivery-design.md) |
-| **Diagnose** | Reveal constraints and gaps | Vendor **Solution Architect** / Client **Product Leader** | [Delivery System Diagnostic](220-delivery-system-diagnostic.md) |
-| **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | [Quarterly Delivery and Relationship Assessment](230-quarterly-assessment.md) |
-| **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | [Self-Diagnostic and Reflection Tool](240-self-diagnostic.md) |
-| **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](250-relationship-audit.md) |
-| **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard and Metrics Consolidation](260-maturity-dashboard.md) |
+| **Design** | Establish delivery & engagement model | Vendor **Delivery Facilitator** / Client **Product Leader** | [Initial Delivery System Design](240-initial-delivery-design.md) |
+| **Diagnose** | Reveal constraints and gaps | Vendor **Solution Architect** / Client **Product Leader** | [Delivery System Diagnostic](245-delivery-system-diagnostic.md) |
+| **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | [Quarterly Delivery and Relationship Assessment](250-quarterly-assessment.md) |
+| **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | [Self-Diagnostic and Reflection Tool](255-self-diagnostic.md) |
+| **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) |
+| **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard and Metrics Consolidation](265-maturity-dashboard.md) |
 
 ## Dual-Perspective Application
 
@@ -64,13 +64,13 @@ Each practice file includes sections:
 
 | **When** | **Mode** | **Tool** | **Client Role(s)** | **Vendor Role(s)** | **Outcome** |
 |-----------|-----------|-----------------|--------------------|--------------------|--------------|
-| RFP / Pre-Engagement | Design | [Initial Delivery System Design](210-initial-delivery-design.md) | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Shared engagement model & maturity baseline |
-| Small Team Discovery | Diagnose | [Delivery System Diagnostic](220-delivery-system-diagnostic.md) | **Product Leader**, **Requirements Analyst** | **Solution Architect**, **Delivery Facilitator** | Validated context and delivery readiness |
-| Kick-off | Design | [Initial Delivery System Design](210-initial-delivery-design.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Solution Architect** | Clear interfaces and governance rules |
-| Ongoing Delivery (MVP → v1) | Assess | [Quarterly Delivery and Relationship Assessment](230-quarterly-assessment.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
-| Anytime | Reflect | [Self-Diagnostic and Reflection Tool](240-self-diagnostic.md) | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
-| Post-v1 / Portfolio | Audit | [Relationship Audit and Portfolio Maturity Review](250-relationship-audit.md) | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
-| Ongoing Portfolio Governance | Measure | [Maturity Dashboard and Metrics Consolidation](260-maturity-dashboard.md) | **Executive Sponsor**, **Governance Officer** | **Account Lead**, **Engineering Director** | Visibility into maturity trends and data-driven portfolio decisions |
+| RFP / Pre-Engagement | Design | [Initial Delivery System Design](240-initial-delivery-design.md) | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Shared engagement model & maturity baseline |
+| Small Team Discovery | Diagnose | [Delivery System Diagnostic](245-delivery-system-diagnostic.md) | **Product Leader**, **Requirements Analyst** | **Solution Architect**, **Delivery Facilitator** | Validated context and delivery readiness |
+| Kick-off | Design | [Initial Delivery System Design](240-initial-delivery-design.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Solution Architect** | Clear interfaces and governance rules |
+| Ongoing Delivery (MVP → v1) | Assess | [Quarterly Delivery and Relationship Assessment](250-quarterly-assessment.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
+| Anytime | Reflect | [Self-Diagnostic and Reflection Tool](255-self-diagnostic.md) | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
+| Post-v1 / Portfolio | Audit | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
+| Ongoing Portfolio Governance | Measure | [Maturity Dashboard and Metrics Consolidation](265-maturity-dashboard.md) | **Executive Sponsor**, **Governance Officer** | **Account Lead**, **Engineering Director** | Visibility into maturity trends and data-driven portfolio decisions |
 
 ## 3SF Layer Mapping
 
@@ -90,18 +90,18 @@ They enforce joint ownership across the Client ↔ Vendor boundary and make theo
 
 | Core SDLC Practice | Tool/Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Product Thinking** | [**Outcome-to-Accountability Map**](270-outcome-accountability-map.md) (Design) | Enforces the **"Outcome before Output"** principle. Maps specific business metrics (outcomes) to the accountable **Client Product Owner** and the responsible **Vendor Product Manager** for each SDLC stage. Prevents the client from handing off a requirement without co-owning the result. |
-| **Architecture & Design** | [**Architectural Trade-Off Contract**](271-architectural-tradeoff-contract.md) (Design/Diagnose) | Formalizes joint decisions. Documents critical non-functional requirement (NFR) trade-offs (e.g., speed vs. cost, security vs. complexity) and requires explicit sign-off from both **Client Solution Architect** and **Vendor Solution Architect**. Directly supports **Shared Accountability**. |
-| **Engineering & Quality** | [**Shared Definition of Done (DoD) Matrix**](272-shared-definition-of-done.md) (Design) | Moves the **Validate** stage beyond simple client sign-off. Defines quality criteria across three dimensions: *Code Quality* (Vendor responsibility), *Operational Readiness* (Client Technical Integrator responsibility), and *User Acceptance* (Client Product Owner responsibility). |
-| **DevOps & Delivery** | [**Flow Constraint Identification**](273-flow-constraint-identification.md) (Diagnose) | Used by the **Vendor Delivery Lead** and **Client Project Manager** to collaboratively map the flow (Value Stream Mapping) and identify the **top 3 systemic constraints** (e.g., Client security review time, Vendor environment provisioning). Directly supports **"Flow before Speed."** |
-| **Governance & Risk** | [**Autonomy & Control Boundary Charter**](274-autonomy-control-charter.md) (Design) | Essential for **"Trust before Control."** Defines explicit decision rights based on the current **Maturity Level**. E.g., at *Transactional Trust*, the Vendor needs approval for changes >1 day effort; at *Strategic Partnership*, the Vendor reports changes >5 days effort. This makes the boundary measurable. |
-| **Feedback & Learning** | [**"Learning Before Blame" Protocol**](275-learning-before-blame-protocol.md) (Reflect) | A structured retrospective guide for the **Evolve** stage. Forces teams to analyze system friction by asking: (1) What was the *systemic* cause? (2) What *principle* was violated? (3) What **Stable Rule** should we audit? Prevents the system from defaulting to **The Scapegoat Culture**. |
+| **Product Thinking** | [**Outcome-to-Accountability Map**](215-outcome-accountability-map.md) (Design) | Enforces the **"Outcome before Output"** principle. Maps specific business metrics (outcomes) to the accountable **Client Product Owner** and the responsible **Vendor Product Manager** for each SDLC stage. Prevents the client from handing off a requirement without co-owning the result. |
+| **Architecture & Design** | [**Architectural Trade-Off Contract**](235-architectural-tradeoff-contract.md) (Design/Diagnose) | Formalizes joint decisions. Documents critical non-functional requirement (NFR) trade-offs (e.g., speed vs. cost, security vs. complexity) and requires explicit sign-off from both **Client Solution Architect** and **Vendor Solution Architect**. Directly supports **Shared Accountability**. |
+| **Engineering & Quality** | [**Shared Definition of Done (DoD) Matrix**](225-shared-definition-of-done.md) (Design) | Moves the **Validate** stage beyond simple client sign-off. Defines quality criteria across three dimensions: *Code Quality* (Vendor responsibility), *Operational Readiness* (Client Technical Integrator responsibility), and *User Acceptance* (Client Product Owner responsibility). |
+| **DevOps & Delivery** | [**Flow Constraint Identification**](230-flow-constraint-identification.md) (Diagnose) | Used by the **Vendor Delivery Lead** and **Client Project Manager** to collaboratively map the flow (Value Stream Mapping) and identify the **top 3 systemic constraints** (e.g., Client security review time, Vendor environment provisioning). Directly supports **"Flow before Speed."** |
+| **Governance & Risk** | [**Autonomy & Control Boundary Charter**](220-autonomy-control-charter.md) (Design) | Essential for **"Trust before Control."** Defines explicit decision rights based on the current **Maturity Level**. E.g., at *Transactional Trust*, the Vendor needs approval for changes >1 day effort; at *Strategic Partnership*, the Vendor reports changes >5 days effort. This makes the boundary measurable. |
+| **Feedback & Learning** | [**"Learning Before Blame" Protocol**](270-learning-before-blame-protocol.md) (Reflect) | A structured retrospective guide for the **Evolve** stage. Forces teams to analyze system friction by asking: (1) What was the *systemic* cause? (2) What *principle* was violated? (3) What **Stable Rule** should we audit? Prevents the system from defaulting to **The Scapegoat Culture**. |
 
 ### Tool for the Contextual Drivers Layer (CDL)
 
 | Framework Layer | Tool/Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Contextual Drivers Layer** | [**Engagement Context Canvas**](276-engagement-context-canvas.md) (Design/Audit) | A structured canvas used at the outset of the **Discover** stage. It requires both sides to explicitly define the six Contextual Drivers (Commercial, Regulatory, Architectural, etc.) and agree on the corresponding **Stable Rule Adjustments**. This prevents the core issue of a **Client Vendor Manager** imposing a rigid process when the context (e.g., highly experimental scope) demands flexibility. |
+| **Contextual Drivers Layer** | [**Engagement Context Canvas**](210-engagement-context-canvas.md) (Design/Audit) | A structured canvas used at the outset of the **Discover** stage. It requires both sides to explicitly define the six Contextual Drivers (Commercial, Regulatory, Architectural, etc.) and agree on the corresponding **Stable Rule Adjustments**. This prevents the core issue of a **Client Vendor Manager** imposing a rigid process when the context (e.g., highly experimental scope) demands flexibility. |
 
 ## Cross-Organizational Application Layer – Contractual Artifacts
 
@@ -113,9 +113,9 @@ They are used as annexes or attachments to the **Delivery Charter** and act as t
 
 | 3SF Principle | Contractual Artifact | Core SDLC Practice | Primary Purpose |
 | :--- | :--- | :--- | :--- |
-| **Trust before Control** | [**Autonomy & Control Boundary Charter**](274-autonomy-control-charter.md) | Governance & Risk | Defines decision-making rights and escalation boundaries based on relationship maturity level. |
-| **Outcome before Output** | [**Outcome-to-Accountability Map**](270-outcome-accountability-map.md) | Product Thinking | Connects each delivery goal to a measurable business outcome jointly owned by Client and Vendor. |
-| **Shared Accountability** | [**Architectural Trade-Off Contract**](271-architectural-tradeoff-contract.md) | Architecture & Design | Formalizes key technical and non-functional trade-offs with explicit sign-off from both Solution Architects. |
+| **Trust before Control** | [**Autonomy & Control Boundary Charter**](220-autonomy-control-charter.md) | Governance & Risk | Defines decision-making rights and escalation boundaries based on relationship maturity level. |
+| **Outcome before Output** | [**Outcome-to-Accountability Map**](215-outcome-accountability-map.md) | Product Thinking | Connects each delivery goal to a measurable business outcome jointly owned by Client and Vendor. |
+| **Shared Accountability** | [**Architectural Trade-Off Contract**](235-architectural-tradeoff-contract.md) | Architecture & Design | Formalizes key technical and non-functional trade-offs with explicit sign-off from both Solution Architects. |
 
 Each artifact is:
 
