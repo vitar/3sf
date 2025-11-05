@@ -66,7 +66,7 @@ Start with one of these entry points:
 - **If you’re already delivering:** use the [Delivery System Diagnostic](../200-practice/220-delivery-system-diagnostic.md).
 - **If you’re closing or scaling:** use the [Quarterly Assessment](../200-practice/230-quarterly-assessment.md).
 
-When clarity improves, connect these tools through the [3SF Practice Architecture](../200-practice-architecture.md) for full lifecycle alignment.
+When clarity improves, connect these tools through the [3SF Practice Architecture](../200-practice/200-practice-architecture.md) for full lifecycle alignment.
 
 ## Summary
 
