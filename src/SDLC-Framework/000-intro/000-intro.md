@@ -70,6 +70,6 @@ See how Client and Vendor roles align, what each is accountable for, and which 3
 
 ## When You’re Ready
 
-Continue to the **[3SF Theory – Purpose and Layers](../100-intro-purpose.md)** to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.
+Continue to the **[3SF Theory – Purpose and Layers](../100-theory/100-intro-purpose.md)** to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.
 
 > *3SF begins with people, not process. Start with your context — then pick the right principle and tool to match it.*
