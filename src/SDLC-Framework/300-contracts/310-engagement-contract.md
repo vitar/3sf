@@ -41,7 +41,7 @@ The EC does **not replace legal contracts** — it supplements them by creating 
 | **Engagement Context Definition** | Documents the commercial, organizational, regulatory, and cultural context. | [Engagement Context Canvas (ECC)](../200-practice/276-engagement-context-canvas.md) |
 | **Governance Model** | Defines meeting cadence, decision flow, and escalation routes. | [Autonomy & Control Boundary Charter](../200-practice/274-autonomy-control-charter.md) |
 | **Delivery System Design** | Describes collaboration structure, team topology, and delivery approach. | [Initial Delivery Design](../200-practice/210-initial-delivery-design.md) |
-| **Shared Principles Acknowledgment** | Lists 3SF Principles recognized by both organizations. | [3SF Theory](../100-theory/) |
+| **Shared Principles Acknowledgment** | Lists 3SF Principles recognized by both organizations. | [3SF Theory](../100-theory/100-intro-purpose.md) |
 | **Baseline Maturity Assessment** | Defines initial trust and autonomy level. | [Maturity Dashboard](../200-practice/260-maturity-dashboard.md) |
 
 ## Agreement Format
