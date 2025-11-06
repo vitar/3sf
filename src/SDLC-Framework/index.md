@@ -37,20 +37,21 @@ When all three sides evolve together, delivery becomes aligned, predictable, and
 
 > *Start here before using any tools or methods.*
 
-| Step | Action | Why This Step Is Necessary | Primary Reference |
-| :--- | :--- | :--- | :--- |
-| **1. Orient** | Read the [**Vision, Principles & Beliefs**](100-theory/105-vision-principles-beliefs.md) to align mindset. | This is the cultural DNA. Without shared principles, tools cannot create alignment. | [Vision, Principles & Beliefs](100-theory/105-vision-principles-beliefs.md) |
-| **2. Identify** | Find your **Composite Functional Role** in the [**Role Responsibility Snapshot**](000-intro/020-role-snapshot.md). | Defines your accountability within the joint system — who you co-own outcomes with. | [Role Snapshot](000-intro/020-role-snapshot.md) |
-| **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](200-practice/205-engagement-context-canvas.md). | Enforces **Context before Method** — this defines the system’s environment and constraints. | [Engagement Context Canvas](200-practice/205-engagement-context-canvas.md) |
-| **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](200-practice/210-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. | [Boundary Charter](200-practice/210-autonomy-control-charter.md) |
+| Step | Action | Why This Step Is Necessary |
+| :--- | :--- | :--- |
+| **1. Orient** | Read the [**Vision, Principles & Beliefs**](100-theory/105-vision-principles-beliefs.md) to align mindset. | This is the cultural DNA. Without shared principles, tools cannot create alignment. |
+| **2. Identify** | Find your **Composite Functional Role** in the [**Role Responsibility Snapshot**](000-intro/020-role-snapshot.md). | Defines your accountability within the joint system — who you co-own outcomes with. |
+| **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](200-practice/205-engagement-context-canvas.md). | Enforces **Context before Method** — defines the system’s environment and constraints. |
+| **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](200-practice/210-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. |
+| **5. Measure** | Set up the [**Maturity Dashboard**](200-practice/215-maturity-dashboard.md). | Ensures transparency and shared understanding of relationship health. |
 
-Once these four steps are done, the 3SF Operating System is **initialized**.<br/>
+Once these steps are done, the 3SF Operating System is **initialized**.<br/>
 You can then safely apply any methodology — Agile, Lean, or hybrid — within a coherent relational context.
 
 ## Why 3SF Exists
 
-3SF emerged from real-world experience across hundreds of projects where success or failure was rarely technical.
-It almost always came down to **misaligned expectations, responsibilities, and maturity** between client and vendor teams.
+3SF emerged from real-world experience across hundreds of projects where success or failure was rarely technical.<br/>
+It almost always came down to **misaligned expectations, responsibilities, and maturity** between Client and Vendor teams.
 
 3SF was designed to fix that by:
 
@@ -67,10 +68,10 @@ The framework is structured like an **operating system**:
 | :--- | :--- |
 | [**Theory (OS)**](100-theory/100-intro-purpose.md) | Explains *why* 3SF exists and *how* it structures relationships. |
 | [**Practice (Apps)**](200-practice/200-practice-architecture.md) | Shows *how* to use 3SF tools in real projects. |
-| [**Contracts (Interfaces)**](300-contracts/300-contracts-architecture.md) | Define how principles become measurable agreements. |
+| [**Governance & Diagnostics (Interfaces)**](300-contracts/300-contracts-architecture.md) | Defines how principles and agreements evolve into measurable maturity. |
 
 Each section builds on the previous one — but you don’t need to read it linearly.<br/>
-If you know your **role** or **current problem**, you can jump directly to the right guide below.
+If you know your **role** or **current challenge**, you can jump directly to the relevant guide below.
 
 ## Where to Start
 
@@ -84,6 +85,7 @@ See how Client and Vendor roles align, what each is accountable for, and which 3
 
 ## When You’re Ready
 
-Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)** to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.
+Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)**<br/>
+to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.
 
 > *3SF begins with people, not process. Start with your context — then pick the right principle and tool to match it.*
