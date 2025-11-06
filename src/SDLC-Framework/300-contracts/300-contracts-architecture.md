@@ -6,6 +6,9 @@
 
 The **3SF Contracts Architecture** defines how the **3-in-3 SDLC Framework (3SF)** principles and practices are **institutionalized through agreements** that govern collaboration between **Client** and **Vendor** organizations.
 
+This section is part of the **Governance & Diagnostics layer** of 3SF — alongside the **Maturity Dashboard** and the **Rule Audit Checklist (RAC) / Contextual Rules Catalog (CRC)**.<br/>
+Together, they form the inspection and governance interface between **3SF Theory** and **3SF Practices**.
+
 While **Theory** defines *why* the system exists and **Practice** defines *how* it operates, the **Contracts** define *how both sides commit to those rules in real engagements.*
 
 3SF Contracts turn **alignment and maturity** into **co-signed, inspectable commitments** — making the framework operationally enforceable across organizational boundaries.
@@ -35,6 +38,9 @@ Each contract type may attach to a **Delivery Charter**, **SoW**, or **Portfolio
 ## Relationship to Theory and Practice
 
 The **Contracts layer** is the boundary between intent and behavior — it ensures the same maturity language is applied in **legal**, **governance**, and **delivery** conversations.
+
+Within the Governance & Diagnostics layer, **Contracts** operationalize the principles defined in the **Contextual Drivers Layer (CDL)** and **Stable Rules Layer (SRL)**, while the **Maturity Dashboard**, **RAC**, and **CRC** act as the feedback and inspection mechanisms.<br/>
+Together they ensure that governance and learning remain synchronized across Client and Vendor organizations.
 
 ```
 
