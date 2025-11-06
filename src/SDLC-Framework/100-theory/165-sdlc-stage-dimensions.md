@@ -113,12 +113,12 @@ Each stage has a dedicated section detailing:
 
 | **Stage** | **Purpose** |
 |-----------|-------------|
-| [Discover](141-sdlc-stage-discovery-dimensions.md) | How to frame problems and align understanding before shaping. |
-| [Shape](142-sdlc-stage-shape-dimensions.md) | How to define scope, feasibility, and delivery models. |
-| [Build](143-sdlc-stage-build-dimensions.md) | How to structure flow, engineering quality, and visibility. |
-| [Validate](144-sdlc-stage-validate-dimensions.md) | How to manage verification, acceptance, and joint confidence. |
-| [Release](145-sdlc-stage-release-dimensions.md) | How to manage approvals, risk, and deployment readiness. |
-| [Run & Evolve](146-sdlc-stage-run-evolve-dimensions.md) | How to sustain and improve systems post-launch. |
+| [Discover](170-sdlc-stage-discovery-dimensions.md) | How to frame problems and align understanding before shaping. |
+| [Shape](175-sdlc-stage-shape-dimensions.md) | How to define scope, feasibility, and delivery models. |
+| [Build](180-sdlc-stage-build-dimensions.md) | How to structure flow, engineering quality, and visibility. |
+| [Validate](185-sdlc-stage-validate-dimensions.md) | How to manage verification, acceptance, and joint confidence. |
+| [Release](190-sdlc-stage-release-dimensions.md) | How to manage approvals, risk, and deployment readiness. |
+| [Run & Evolve](195-sdlc-stage-run-evolve-dimensions.md) | How to sustain and improve systems post-launch. |
 
 Each file builds upon this overview, creating a **consistent pattern** that allows readers to trace the evolution of alignment, flow, and learning across the SDLC.
 
