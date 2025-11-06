@@ -16,7 +16,7 @@ It complements the **3SF Practice Architecture** by acting as a lightweight *use
 3. Open the linked **3SF Tool** to apply immediately.
 4. Use the associated **3SF Principle** as your guiding mindset.
 
-## 1. Find Your Situation
+## Find Your Situation
 
 | My Current Situation (Need) | SDLC Stage | Primary Tool | Target 3SF Principle |
 | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ It complements the **3SF Practice Architecture** by acting as a lightweight *use
 | **“We need to evaluate partnership performance.”** | Run / Evolve | [**Quarterly Delivery & Relationship Assessment**](../200-practice/250-quarterly-assessment.md) | *Transparency Enables Adaptation* |
 | **“We want to learn from delivery issues without blaming.”** | Evolve / Reflect | [**Learning Before Blame Protocol**](../200-practice/265-learning-before-blame-protocol.md) | *Learning before Blame* |
 
-## 2. Quick Reference by SDLC Stage
+## Quick Reference by SDLC Stage
 
 ### **Discover**
 
@@ -61,7 +61,7 @@ It complements the **3SF Practice Architecture** by acting as a lightweight *use
 - [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) — conduct structured retrospectives.
 - [Relationship Audit](../200-practice/260-relationship-audit.md) — portfolio-level comparison and learning.
 
-## 3. When in Doubt
+## When in Doubt
 
 Start with one of these entry points:
 
@@ -72,6 +72,14 @@ Start with one of these entry points:
 - **If you’re closing or scaling:** use the [Quarterly Assessment](../200-practice/250-quarterly-assessment.md).
 
 When clarity improves, connect these tools through the [3SF Practice Architecture](../200-practice/200-practice-architecture.md) for full lifecycle alignment.
+
+## Governance & Diagnostics
+
+When oversight or measurement is the main concern, use the tools that connect delivery with systemic learning:
+
+- [**Contracts Architecture**](../300-contracts/300-contracts-architecture.md) — defines governance and commitment interfaces.
+- [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) — monitors relationship health.
+- [**Rule Audit Checklist (RAC)**](../100-theory/130-rule-audit-checklist.md) and [**Contextual Rules Catalog (CRC)**](../100-theory/135-contextual-rules-catalog.md) — evaluate rule adherence and improvement priorities.
 
 ## Summary
 
