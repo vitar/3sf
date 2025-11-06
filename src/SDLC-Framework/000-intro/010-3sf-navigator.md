@@ -4,10 +4,10 @@
 
 ## Purpose
 
-The **3SF Navigator** helps you quickly find which 3SF Practice Tool to use for your current situation.<br/>
-Instead of reading the full framework, this guide starts with **your context** — what you are trying to achieve — and leads you directly to the right artifact or diagnostic.
+The **3SF Navigator** helps you quickly find which 3SF Practice Tool fits your current situation.<br/>
+Instead of reading the full framework, this guide begins with **your context** — what you are trying to achieve — and directs you to the right artifact or diagnostic.
 
-It complements the **3SF Practice Architecture** by acting as a lightweight *user interface* for the 3SF operating system.
+It complements the **3SF Practice Architecture** by acting as a lightweight *user interface* for the 3SF Operating System.
 
 ## How to Use
 
@@ -22,47 +22,52 @@ It complements the **3SF Practice Architecture** by acting as a lightweight *use
 | :--- | :--- | :--- | :--- |
 | **“We need to define the project’s rules of engagement.”** | Discover / Setup | [**Engagement Context Canvas**](../200-practice/205-engagement-context-canvas.md) | *Context before Method* |
 | **“We need to set the boundaries for approval authority.”** | Shape / Governance | [**Autonomy & Control Boundary Charter**](../200-practice/210-autonomy-control-charter.md) | *Trust before Control* |
+| **“We need to monitor relationship and delivery maturity.”** | Run / Evolve | [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) | *Transparency Enables Adaptation* |
 | **“We need to define what success looks like.”** | Discover / Shape | [**Outcome-to-Accountability Map**](../200-practice/220-outcome-accountability-map.md) | *Outcome before Output* |
-| **“Our delivery is messy. We need to find the systemic cause.”** | Build / Run | [**Delivery System Diagnostic**](../200-practice/245-delivery-system-diagnostic.md) | *Learning before Blame* |
-| **“We need to align on key architectural trade-offs.”** | Shape / Build | [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) | *Shared Accountability* |
 | **“We need a shared Definition of Done.”** | Build / Validate | [**Shared Definition of Done (DoD) Matrix**](../200-practice/225-shared-definition-of-done.md) | *Quality before Speed* |
 | **“We need to identify what slows us down.”** | Build / Run | [**Flow Constraint Identification**](../200-practice/230-flow-constraint-identification.md) | *Flow before Speed* |
-| **“We need to evaluate partnership and delivery maturity.”** | Run / Evolve | [**Quarterly Delivery & Relationship Assessment**](../200-practice/250-quarterly-assessment.md) | *Transparency Enables Adaptation* |
-| **“I need to prepare a report on partnership health.”** | Run / Evolve | [**Maturity Dashboard & Metrics Consolidation**](../200-practice/215-maturity-dashboard.md) | *Visibility Builds Trust* |
+| **“We need to align on key architectural trade-offs.”** | Shape / Build | [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) | *Shared Accountability* |
+| **“We need to formalize initial delivery setup.”** | Discover / Setup | [**Initial Delivery System Design**](../200-practice/240-initial-delivery-design.md) | *System before Tools* |
+| **“Our delivery is messy. We need to find the systemic cause.”** | Build / Run | [**Delivery System Diagnostic**](../200-practice/245-delivery-system-diagnostic.md) | *Learning before Blame* |
+| **“We need to evaluate partnership performance.”** | Run / Evolve | [**Quarterly Delivery & Relationship Assessment**](../200-practice/250-quarterly-assessment.md) | *Transparency Enables Adaptation* |
 | **“We want to learn from delivery issues without blaming.”** | Evolve / Reflect | [**Learning Before Blame Protocol**](../200-practice/265-learning-before-blame-protocol.md) | *Learning before Blame* |
 
 ## 2. Quick Reference by SDLC Stage
 
 ### **Discover**
 
-- [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md) — align on environment and rules of engagement.
+- [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md) — define context and collaboration rules.
 - [Outcome-to-Accountability Map](../200-practice/220-outcome-accountability-map.md) — define measurable success.
+- [Initial Delivery System Design](../200-practice/240-initial-delivery-design.md) — establish delivery configuration.
 
 ### **Shape**
 
 - [Autonomy & Control Boundary Charter](../200-practice/210-autonomy-control-charter.md) — define decision-making rights.
-- [Architectural Trade-Off Contract](../200-practice/235-architectural-tradeoff-contract.md) — agree on NFR trade-offs.
+- [Architectural Trade-Off Contract](../200-practice/235-architectural-tradeoff-contract.md) — agree on non-functional trade-offs.
 
 ### **Build**
 
 - [Shared Definition of Done Matrix](../200-practice/225-shared-definition-of-done.md) — ensure cross-functional quality.
 - [Flow Constraint Identification](../200-practice/230-flow-constraint-identification.md) — locate top systemic blockers.
+- [Delivery System Diagnostic](../200-practice/245-delivery-system-diagnostic.md) — analyze systemic friction.
 
 ### **Run**
 
-- [Delivery System Diagnostic](../200-practice/245-delivery-system-diagnostic.md) — analyze systemic friction.
-- [Quarterly Delivery & Relationship Assessment](../200-practice/250-quarterly-assessment.md) — track relationship health.
+- [Maturity Dashboard](../200-practice/215-maturity-dashboard.md) — visualize relationship health and delivery maturity.
+- [Quarterly Delivery & Relationship Assessment](../200-practice/250-quarterly-assessment.md) — monitor partnership progress.
 
 ### **Evolve**
 
-- [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) — conduct constructive retrospectives.
-- [Maturity Dashboard & Metrics Consolidation](../200-practice/215-maturity-dashboard.md) — visualize maturity trends.
+- [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) — conduct structured retrospectives.
+- [Relationship Audit](../200-practice/260-relationship-audit.md) — portfolio-level comparison and learning.
 
 ## 3. When in Doubt
 
 Start with one of these entry points:
 
 - **If your project hasn’t started:** use the [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md).
+- **If you’re defining governance:** use the [Autonomy & Control Boundary Charter](../200-practice/210-autonomy-control-charter.md).
+- **If you need measurable insight:** use the [Maturity Dashboard](../200-practice/215-maturity-dashboard.md).
 - **If you’re already delivering:** use the [Delivery System Diagnostic](../200-practice/245-delivery-system-diagnostic.md).
 - **If you’re closing or scaling:** use the [Quarterly Assessment](../200-practice/250-quarterly-assessment.md).
 
