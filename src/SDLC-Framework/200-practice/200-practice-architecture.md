@@ -33,7 +33,7 @@ Tools are grouped by **application mode** and mapped to **client / vendor contex
 | **Assess** | Measure project & relationship maturity | **Delivery Facilitator** / **Account Lead** / **Executive Sponsor** | [Quarterly Delivery and Relationship Assessment](250-quarterly-assessment.md) |
 | **Reflect** | Enable self-awareness and growth | **Delivery Facilitator**, **Technical Integrator**, **Solution Architect**, **Product Leader** | [Self-Diagnostic and Reflection Tool](255-self-diagnostic.md) |
 | **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) |
-| **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard and Metrics Consolidation](265-maturity-dashboard.md) |
+| **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard and Metrics Consolidation](215-maturity-dashboard.md) |
 
 ## Application Modes
 
@@ -70,7 +70,7 @@ Each practice file includes sections:
 | Ongoing Delivery (MVP → v1) | Assess | [Quarterly Delivery and Relationship Assessment](250-quarterly-assessment.md) | **Product Leader**, **Executive Sponsor** | **Delivery Facilitator**, **Account Lead** | Relationship and flow monitored |
 | Anytime | Reflect | [Self-Diagnostic and Reflection Tool](255-self-diagnostic.md) | **Client Product Leader**, **Governance Officer** | **Delivery Facilitator**, **Technical Integrator** | Personal or team growth insight |
 | Post-v1 / Portfolio | Audit | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Lessons learned & next-stage maturity targets |
-| Ongoing Portfolio Governance | Measure | [Maturity Dashboard and Metrics Consolidation](265-maturity-dashboard.md) | **Executive Sponsor**, **Governance Officer** | **Account Lead**, **Engineering Director** | Visibility into maturity trends and data-driven portfolio decisions |
+| Ongoing Portfolio Governance | Measure | [Maturity Dashboard and Metrics Consolidation](215-maturity-dashboard.md) | **Executive Sponsor**, **Governance Officer** | **Account Lead**, **Engineering Director** | Visibility into maturity trends and data-driven portfolio decisions |
 
 ## 3SF Layer Mapping
 
@@ -93,18 +93,18 @@ They enforce joint ownership across the Client ↔ Vendor boundary and make theo
 
 | Core SDLC Practice | Tool / Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Product Thinking** | [**Outcome-to-Accountability Map**](215-outcome-accountability-map.md) (Design) | Enforces the **“Outcome before Output”** principle. Maps business metrics (outcomes) to accountable **Client Product Owner** and responsible **Vendor Product Manager** for each SDLC stage. Prevents client handoff without co-ownership. |
+| **Product Thinking** | [**Outcome-to-Accountability Map**](220-outcome-accountability-map.md) (Design) | Enforces the **“Outcome before Output”** principle. Maps business metrics (outcomes) to accountable **Client Product Owner** and responsible **Vendor Product Manager** for each SDLC stage. Prevents client handoff without co-ownership. |
 | **Architecture & Design** | [**Architectural Trade-Off Contract**](235-architectural-tradeoff-contract.md) (Design / Diagnose) | Formalizes joint design trade-offs (speed vs. cost, security vs. complexity) and requires sign-off from both **Client** and **Vendor Solution Architects**. Supports **Shared Accountability**. |
 | **Engineering & Quality** | [**Shared Definition of Done (DoD) Matrix**](225-shared-definition-of-done.md) (Design) | Moves validation beyond sign-off. Defines quality across *Code Quality*, *Operational Readiness*, and *User Acceptance*. |
 | **DevOps & Delivery** | [**Flow Constraint Identification**](230-flow-constraint-identification.md) (Diagnose) | Used jointly by **Vendor Delivery Lead** and **Client Project Manager** to map flow and identify top systemic constraints. Supports **Flow before Speed**. |
-| **Governance & Risk** | [**Autonomy & Control Boundary Charter**](220-autonomy-control-charter.md) (Design) | Essential for **“Trust before Control.”** Defines explicit decision rights and escalation levels per maturity stage. |
-| **Feedback & Learning** | [**Learning Before Blame Protocol**](270-learning-before-blame-protocol.md) (Reflect) | A structured retrospective guide for the **Evolve** stage. Links friction to violated principles or Stable Rules. Prevents scapegoating culture. |
+| **Governance & Risk** | [**Autonomy & Control Boundary Charter**](210-autonomy-control-charter.md) (Design) | Essential for **“Trust before Control.”** Defines explicit decision rights and escalation levels per maturity stage. |
+| **Feedback & Learning** | [**Learning Before Blame Protocol**](265-learning-before-blame-protocol.md) (Reflect) | A structured retrospective guide for the **Evolve** stage. Links friction to violated principles or Stable Rules. Prevents scapegoating culture. |
 
 ### Tool for the Contextual Drivers Layer (CDL)
 
 | Framework Layer | Tool / Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
-| **Contextual Drivers Layer** | [**Engagement Context Canvas**](210-engagement-context-canvas.md) (Design / Audit) | Used at the outset of **Discover** stage. Defines the six Contextual Drivers and corresponding **Stable Rule Adjustments**. Prevents rigid process enforcement where flexibility is required. |
+| **Contextual Drivers Layer** | [**Engagement Context Canvas**](205-engagement-context-canvas.md) (Design / Audit) | Used at the outset of **Discover** stage. Defines the six Contextual Drivers and corresponding **Stable Rule Adjustments**. Prevents rigid process enforcement where flexibility is required. |
 
 ## Cross-Organizational Application Layer – Contractual Artifacts
 
@@ -114,8 +114,8 @@ These artifacts form the **interface layer** between Client and Vendor organizat
 
 | 3SF Principle | Contractual Artifact | Core SDLC Practice | Primary Purpose |
 | :--- | :--- | :--- | :--- |
-| **Trust before Control** | [**Autonomy & Control Boundary Charter**](220-autonomy-control-charter.md) | Governance & Risk | Defines decision-making rights and escalation boundaries based on maturity level. |
-| **Outcome before Output** | [**Outcome-to-Accountability Map**](215-outcome-accountability-map.md) | Product Thinking | Connects delivery goals to measurable business outcomes jointly owned by Client and Vendor. |
+| **Trust before Control** | [**Autonomy & Control Boundary Charter**](210-autonomy-control-charter.md) | Governance & Risk | Defines decision-making rights and escalation boundaries based on maturity level. |
+| **Outcome before Output** | [**Outcome-to-Accountability Map**](220-outcome-accountability-map.md) | Product Thinking | Connects delivery goals to measurable business outcomes jointly owned by Client and Vendor. |
 | **Shared Accountability** | [**Architectural Trade-Off Contract**](235-architectural-tradeoff-contract.md) | Architecture & Design | Captures key technical and non-functional trade-offs with explicit dual sign-off. |
 
 Each artifact is:

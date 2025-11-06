@@ -33,12 +33,12 @@ The MGC complements legal agreements (SoW, MSA) by governing *how the partnershi
 
 | Component | Description | Linked 3SF Artifacts |
 |------------|--------------|----------------------|
-| **Baseline Maturity Assessment** | Establishes current level (Transactional, Collaborative, Co-Creative, Strategic). | [Maturity Dashboard](../200-practice/265-maturity-dashboard.md) |
+| **Baseline Maturity Assessment** | Establishes current level (Transactional, Collaborative, Co-Creative, Strategic). | [Maturity Dashboard](../200-practice/215-maturity-dashboard.md) |
 | **Target Maturity Level** | Defines desired maturity level and timeframe (e.g., Strategic in 18 months). | [Quarterly Assessment](../200-practice/250-quarterly-assessment.md) |
 | **Growth Roadmap** | Specifies initiatives, responsible roles, and checkpoints for improvement. | [Delivery Diagnostic](../200-practice/245-delivery-system-diagnostic.md) |
 | **Measurement Cadence** | Defines frequency and data sources for maturity reviews. | [Relationship Audit](../200-practice/260-relationship-audit.md) |
-| **Governance Evolution Rules** | Defines how autonomy, reporting, and control evolve. | [Autonomy & Control Boundary Charter](../200-practice/220-autonomy-control-charter.md) |
-| **Learning Integration** | Incorporates reflection results to adjust maturity plan. | [Learning Before Blame Protocol](../200-practice/270-learning-before-blame-protocol.md) |
+| **Governance Evolution Rules** | Defines how autonomy, reporting, and control evolve. | [Autonomy & Control Boundary Charter](../200-practice/210-autonomy-control-charter.md) |
+| **Learning Integration** | Incorporates reflection results to adjust maturity plan. | [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) |
 
 ## Agreement Format
 
@@ -60,7 +60,7 @@ The document typically contains:
 
 4. **Measurement Dashboard**
    - Visual metrics of progress across quarters.
-   - Uses indicators from the [Maturity Dashboard](../200-practice/265-maturity-dashboard.md).
+- Uses indicators from the [Maturity Dashboard](../200-practice/215-maturity-dashboard.md).
 
 5. **Review and Renewal Schedule**
    - Quarterly assessment cadence and sign-off checklist.

@@ -60,7 +60,7 @@ All metrics must have:
 ### Clause 3 – Review and Renewal
 
 The OAA is reviewed during **Quarterly Assessments**.<br/>
-If outcomes are not met, corrective actions are defined jointly without assigning blame — guided by the [Learning Before Blame Protocol](../200-practice/270-learning-before-blame-protocol.md).
+If outcomes are not met, corrective actions are defined jointly without assigning blame — guided by the [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md).
 
 ### Clause 4 – Adjustment Procedure
 
