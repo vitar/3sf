@@ -2,7 +2,7 @@
 
 > *“Clarity at the beginning prevents conflict at the end.”*
 
-## Purpose
+### Purpose
 
 The **Engagement Contract (EC)** establishes the **initial working agreement** between Client and Vendor organizations entering a 3SF-based engagement.<br/>
 It defines the **rules of collaboration**, shared vocabulary, contextual drivers, and maturity baseline before delivery begins.
@@ -15,7 +15,7 @@ This contract acts as a **governance bridge** between the **commercial SoW** and
 
 The EC does **not replace legal contracts** — it supplements them by creating **operational coherence** that supports trust-building from day one.
 
-## Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -24,7 +24,7 @@ The EC does **not replace legal contracts** — it supplements them by creating 
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Collaborative Confidence* |
 
-## Actors / Roles
+### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ The EC does **not replace legal contracts** — it supplements them by creating 
 | **Governance Officer** | **Delivery Facilitator** | Define control, reporting, and escalation procedures. |
 | **Solution Architect** | **Solution Architect** | Align architecture and delivery model constraints. |
 
-## Key Components of the Engagement Contract
+### Key Components of the Engagement Contract
 
 | Component | Description | Referenced 3SF Artifacts |
 |------------|--------------|--------------------------|
@@ -44,7 +44,7 @@ The EC does **not replace legal contracts** — it supplements them by creating 
 | **Shared Principles Acknowledgment** | Lists 3SF Principles recognized by both organizations. | [3SF Theory](../100-theory/100-intro-purpose.md) |
 | **Baseline Maturity Assessment** | Defines initial trust and autonomy level. | [Maturity Dashboard](../200-practice/215-maturity-dashboard.md) |
 
-## Agreement Format
+### Agreement Format
 
 The Engagement Contract may be structured as a **jointly signed operational memorandum** (not a legal SoW).<br/>
 It typically includes:
@@ -64,13 +64,13 @@ Example (extract):
 | Architecture Decisions | Co-sign: Solution Architect | Co-sign: Solution Architect | Shared Accountability |
 | Governance & Reporting | Governance Officer | Delivery Facilitator | Trust before Control |
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | RFP, SoW draft, Discovery documentation | **Signed Engagement Contract**, contextual baseline, governance alignment matrix |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -79,7 +79,7 @@ Example (extract):
 | **Maturity Alignment** | Both sides rate baseline maturity consistently (±1 level variance max). |
 | **Governance Activation** | First joint governance meeting scheduled before project kickoff. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Treating the EC as a legal document instead of a governance alignment tool.
 - Starting delivery without defining contextual or maturity baselines.
@@ -87,7 +87,7 @@ Example (extract):
 - Omitting sign-off by key stakeholders (especially Product and Executive roles).
 - Copy-pasting EC templates without adaptation to specific engagement context.
 
-## Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -97,7 +97,7 @@ Example (extract):
 
 At higher maturity, EC evolves into a **Portfolio Engagement Framework** governing multiple product or service streams.
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Ensure the engagement begins with clarity, context, and measurable trust expectations.
 
@@ -108,7 +108,7 @@ At higher maturity, EC evolves into a **Portfolio Engagement Framework** governi
 3. Confirm context accuracy in ECC.
 4. Track contract adherence through Maturity Dashboard reviews.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Ensure delivery system is designed to meet contextual and governance expectations from day one.
 
@@ -119,7 +119,7 @@ At higher maturity, EC evolves into a **Portfolio Engagement Framework** governi
 3. Align internal delivery practices with agreed governance cadence.
 4. Use EC as a training and onboarding document for new team members.
 
-## Summary
+### Summary
 
 The **Engagement Contract** anchors collaboration in shared purpose, context, and maturity.<br/>
 It ensures that both Client and Vendor **enter the relationship consciously**, with clearly defined principles and expectations.<br/>

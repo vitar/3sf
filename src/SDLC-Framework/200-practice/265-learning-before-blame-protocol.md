@@ -2,7 +2,7 @@
 
 > *“When things go wrong, the system failed — not the people.”*
 
-## Purpose
+### Purpose
 
 The **Learning Before Blame Protocol (LBP)** institutionalizes the 3SF principle **“Learning before Blame.”**<br/>
 It provides a structured, repeatable process for analyzing incidents, delivery issues, or failed outcomes in a way that produces **systemic improvement**, not **personal defense**.
@@ -15,7 +15,7 @@ This tool helps Client and Vendor teams:
 
 LBP shifts post-mortem discussions from *accountability theater* to *continuous learning* — strengthening trust and resilience.
 
-## Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -24,7 +24,7 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 | **3SF Layers** | Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-## Actors / Roles
+### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 | **Solution Architect** | **Technical Integrator** | Identify and document technical or process root causes. |
 | **Executive Sponsor** | **Account Lead** | Approve and track cross-project improvement themes. |
 
-## Steps / Routines
+### Steps / Routines
 
 1. **Trigger the Protocol**
    - Initiate LBP when a significant delivery issue, incident, or client concern occurs.
@@ -63,13 +63,13 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
    - Record the session output as a **Learning Summary** with lessons learned, actions, and owners.
    - Feed learnings into the next **Quarterly Assessment** or **Relationship Audit**.
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Incident reports, delivery metrics, retrospective notes | **Learning Summary**, **Stable Rule Adjustment Record**, updated **Improvement Backlog** |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -78,7 +78,7 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 | **Learning Retention** | Learnings tracked and reused in ≥ 2 subsequent retrospectives. |
 | **Psychological Safety Signal** | Team survey rating ≥ 4/5 for safety during LBP sessions. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Conducting sessions reactively instead of routinely.
 - Allowing implicit blame through tone or question framing.
@@ -86,7 +86,7 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 - Failing to connect learnings to 3SF layers (Principles → Rules → Practice).
 - Not following up on agreed improvement actions.
 
-## Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -95,7 +95,7 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 
 At higher maturity, LBP evolves into a **learning culture protocol** embedded across all client-vendor engagements.
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Promote systemic learning inside the client organization and demonstrate fairness in accountability.
 
@@ -106,7 +106,7 @@ At higher maturity, LBP evolves into a **learning culture protocol** embedded ac
 3. Integrate lessons learned into internal process improvement cycles.
 4. Encourage vendor transparency by rewarding openness over defense.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Reinforce accountability through openness and solution-oriented communication.
 
@@ -117,7 +117,7 @@ At higher maturity, LBP evolves into a **learning culture protocol** embedded ac
 3. Co-author the Learning Summary and improvement backlog entries.
 4. Share learnings across teams to avoid repeated systemic issues.
 
-## Summary
+### Summary
 
 The **Learning Before Blame Protocol** institutionalizes a culture of transparency, fairness, and systemic thinking.<br/>
 It ensures that every failure strengthens the partnership — transforming incidents into structured learning opportunities.<br/>

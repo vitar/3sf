@@ -2,7 +2,7 @@
 
 > *“Every architecture decision is a trust transaction.”*
 
-## Purpose
+### Purpose
 
 The **Architectural Trade-Off Agreement (ATA)** formalizes critical architectural and non-functional decisions made jointly by Client and Vendor organizations.<br/>
 It enforces the 3SF principle **“Shared Accountability”** by documenting, validating, and co-signing the trade-offs that shape long-term product sustainability, cost, and risk.
@@ -10,7 +10,7 @@ It enforces the 3SF principle **“Shared Accountability”** by documenting, va
 This agreement ensures that architecture decisions are transparent, reasoned, and aligned with contextual constraints defined in the **Engagement Context Canvas**.
 It becomes an auditable artifact for future governance reviews and maturity assessments.
 
-## Scope and Application
+### Scope and Application
 
 | Dimension | Scope |
 |------------|-------|
@@ -19,7 +19,7 @@ It becomes an auditable artifact for future governance reviews and maturity asse
 | **3SF Layers** | Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-## Contract Parties and Roles
+### Contract Parties and Roles
 
 | Role | Representative | Responsibility |
 |------|----------------|----------------|
@@ -28,7 +28,7 @@ It becomes an auditable artifact for future governance reviews and maturity asse
 | **Client Product Leader** | [Name, Title] | Confirms business impact of architectural choices. |
 | **Vendor Delivery Facilitator** | [Name, Title] | Ensures chosen architecture supports delivery flow and quality targets. |
 
-## Agreement Structure
+### Agreement Structure
 
 Each ATA records one or more **architectural decision packages**, following a consistent structure:
 
@@ -39,7 +39,7 @@ Each ATA records one or more **architectural decision packages**, following a co
 
 Each trade-off entry must specify **benefits, risks, and mitigations**, and be co-signed by both Solution Architects.
 
-## Agreement Clauses
+### Agreement Clauses
 
 ### Clause 1 – Transparency of Trade-Offs
 
@@ -65,13 +65,13 @@ New or modified architectural decisions must be reviewed in governance cadence a
 ATAs are reviewed during **Quarterly Assessments** or after major releases.<br/>
 Findings feed into the **Maturity Growth Contract** and **Relationship Evolution Contract**.
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Solution design documents, NFR list, risk register | **Architectural Trade-Off Agreement**, signed decision log, versioned history of changes |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -80,7 +80,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 | **Reassessment Cadence** | All ATAs reviewed at least once per quarter. |
 | **Maturity Signal** | Decline in technical conflicts and re-work due to unaligned design decisions. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Recording trade-offs retrospectively (“documenting what was already done”).
 - Client and vendor architects failing to sign decisions jointly.
@@ -88,7 +88,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 - Treating ATAs as compliance paperwork rather than learning artifacts.
 - Neglecting to review ATAs after contextual changes or new releases.
 
-## Contract Lifecycle
+### Contract Lifecycle
 
 | Stage | Action | Responsible Roles |
 |--------|---------|------------------|
@@ -97,7 +97,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 | **Review** | Validate quarterly or post-release. | Governance Officer / Engineering Director |
 | **Renewal** | Update when architecture evolves or risk profile changes. | Solution Architects / Account Lead |
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Ensure architectural governance reflects informed business risk and supports long-term sustainability.
 
@@ -108,7 +108,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 3. Co-sign every approved decision and store it in governance repository.
 4. Participate in quarterly architecture reviews.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Maintain transparency and shared ownership for design quality and sustainability.
 
@@ -119,7 +119,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 3. Track deferred risks and mitigation progress.
 4. Present ATAs during governance and audit sessions.
 
-## Summary
+### Summary
 
 The **Architectural Trade-Off Agreement** is the foundation of **technical trust** in 3SF.<br/>
 It replaces implicit understanding with **explicit, co-signed accountability**, ensuring that every architectural choice is transparent, reasoned, and traceable.
