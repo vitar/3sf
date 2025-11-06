@@ -1,8 +1,8 @@
-# Relationship Evolution Contract
+## Relationship Evolution Contract
 
 > *“Partnership maturity is measured not by control, but by continuity and renewal.”*
 
-### Purpose
+#### Purpose
 
 The **Relationship Evolution Contract (REC)** governs how a Client–Vendor partnership **transitions across maturity stages** and how it is **renewed, scaled, or concluded** based on measurable trust and value outcomes.
 
@@ -11,7 +11,7 @@ Where the other contracts define *how to start* and *how to work*, the REC defin
 
 This contract ensures that both parties treat relationship evolution as a **managed lifecycle**, not a byproduct of delivery success or leadership turnover.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -20,7 +20,7 @@ This contract ensures that both parties treat relationship evolution as a **mana
 | **3SF Layers** | Rule Audit Checklist (RAC) + Contextual Drivers Layer (CDL) |
 | **Maturity Target** | From *Co-Creative Trust* → toward *Strategic Partnership* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -29,7 +29,7 @@ This contract ensures that both parties treat relationship evolution as a **mana
 | **Product Leader** | **Product Leader** | Identify continued product or service value realization. |
 | **Engineering Director / Practice Lead** | **Engineering Director / Practice Lead** | Align portfolio and organizational evolution. |
 
-### Key Components of the Relationship Evolution Contract
+#### Key Components of the Relationship Evolution Contract
 
 | Component | Description | Linked 3SF Artifacts |
 |------------|--------------|----------------------|
@@ -39,7 +39,7 @@ This contract ensures that both parties treat relationship evolution as a **mana
 | **Renewal or Transformation Decision** | Defines whether the partnership continues, expands, or transitions. | [Maturity Growth Contract](320-maturity-growth-contract.md) |
 | **Portfolio Integration Plan** | Describes how matured engagements integrate into broader portfolio or strategic programs. | [Relationship Audit](../200-practice/260-relationship-audit.md) |
 
-### Agreement Format
+#### Agreement Format
 
 The REC is typically established **annually or per major engagement cycle** as a joint executive agreement.
 It builds on prior maturity data and explicitly defines next steps for the partnership.
@@ -61,13 +61,13 @@ It builds on prior maturity data and explicitly defines next steps for the partn
 | **Transform** | Redefine partnership structure or delivery model. | Misalignment on autonomy or flow | Conduct new Context Assessment |
 | **Conclude** | End collaboration with closure plan. | Maturity regression or no value alignment | Execute Knowledge Transition Plan |
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Relationship audits, maturity reports, portfolio metrics | **Relationship Evolution Report**, updated **Maturity Growth Plan**, **Renewal/Transition Record** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -76,7 +76,7 @@ It builds on prior maturity data and explicitly defines next steps for the partn
 | **Value Alignment** | Business outcomes tracked consistently across renewal cycles. |
 | **Strategic Integration** | Partnership included in portfolio governance reviews. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating renewal as a procurement event instead of a maturity checkpoint.
 - Making continuation decisions based on delivery performance only.
@@ -84,7 +84,7 @@ It builds on prior maturity data and explicitly defines next steps for the partn
 - Allowing leadership changes to reset relationship progress.
 - Skipping transition planning during disengagement.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -93,7 +93,7 @@ It builds on prior maturity data and explicitly defines next steps for the partn
 
 At higher maturity, the REC becomes the foundation of **strategic co-governance** — where value and learning are managed across an ecosystem of trusted vendors and clients.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Ensure partnership continuation and renewal decisions are based on evidence and systemic maturity, not personal or financial bias.
 
@@ -104,7 +104,7 @@ At higher maturity, the REC becomes the foundation of **strategic co-governance*
 3. Approve renewal or transformation plans jointly with vendor.
 4. Integrate REC insights into strategic sourcing or vendor portfolio management.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate maturity growth and partnership reliability as key differentiators.
 
@@ -115,7 +115,7 @@ At higher maturity, the REC becomes the foundation of **strategic co-governance*
 3. Use REC discussions to plan cross-account or innovation initiatives.
 4. Record renewal decisions and governance changes in portfolio repository.
 
-### Summary
+#### Summary
 
 The **Relationship Evolution Contract** ensures that partnership continuity and renewal are **intentional, data-driven, and principle-aligned**.<br/>
 It makes the relationship itself a **managed system**, where maturity, trust, and value are continuously evaluated and evolved.

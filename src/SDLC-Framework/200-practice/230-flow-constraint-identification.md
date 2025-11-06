@@ -1,8 +1,8 @@
-# Flow Constraint Identification
+## Flow Constraint Identification
 
 > *“Before improving speed, improve flow.”*
 
-### Purpose
+#### Purpose
 
 The **Flow Constraint Identification (FCI)** tool helps Client and Vendor teams jointly diagnose **systemic delivery constraints** that limit throughput, quality, or predictability.
 
@@ -14,7 +14,7 @@ It operationalizes the 3SF principle **“Flow before Speed”** by:
 
 This tool turns local optimization conversations into a **joint systems-thinking exercise**, ensuring both sides take accountability for improving delivery flow.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool turns local optimization conversations into a **joint systems-thinking
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -32,7 +32,7 @@ This tool turns local optimization conversations into a **joint systems-thinking
 | **Product Leader** | **Requirements Analyst** | Validate alignment between backlog flow and business readiness. |
 | **Governance Officer** | **Account Lead** | Approve systemic improvement actions and adjust control rules. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Visualize End-to-End Flow**
    - Create a **Value Stream Map (VSM)** from idea to production.
@@ -63,13 +63,13 @@ This tool turns local optimization conversations into a **joint systems-thinking
    - Track progress on each constraint during retrospectives and quarterly reviews.
    - Escalate systemic issues to portfolio level if not resolvable within the project.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Delivery metrics (lead time, WIP, cycle time), release logs, backlog board data | **Flow Constraint Map**, **Top 3 Systemic Constraints Report**, **Improvement Action Plan** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -78,7 +78,7 @@ This tool turns local optimization conversations into a **joint systems-thinking
 | **Constraint Resolution Rate** | ≥ 2 systemic constraints resolved per quarter. |
 | **Engagement Maturity Signal** | Improved collaboration across organizational boundaries. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating flow mapping as a one-time activity.
 - Blaming teams instead of addressing systemic constraints.
@@ -86,7 +86,7 @@ This tool turns local optimization conversations into a **joint systems-thinking
 - Optimizing for throughput without verifying downstream impact.
 - Not revalidating constraints after process or team changes.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -95,7 +95,7 @@ This tool turns local optimization conversations into a **joint systems-thinking
 
 At higher maturity, constraint analysis becomes part of quarterly relationship audits and portfolio optimization.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Reveal and address client-originated constraints to enable smoother vendor delivery.
 
@@ -106,7 +106,7 @@ At higher maturity, constraint analysis becomes part of quarterly relationship a
 3. Authorize necessary process or policy adjustments.
 4. Support transparent reporting of systemic issues without assigning blame.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate delivery system leadership and transparency.
 
@@ -117,7 +117,7 @@ At higher maturity, constraint analysis becomes part of quarterly relationship a
 3. Co-develop and maintain the improvement action plan.
 4. Report systemic risks early to prevent reoccurrence across engagements.
 
-### Summary
+#### Summary
 
 The **Flow Constraint Identification** tool transforms efficiency discussions into system alignment.<br/>
 It turns the 3SF principle **“Flow before Speed”** into a measurable improvement practice, ensuring that delivery optimization is driven by shared ownership rather than isolated performance targets.<br/>

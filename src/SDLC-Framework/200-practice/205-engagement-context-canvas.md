@@ -1,8 +1,8 @@
-# Engagement Context Canvas
+## Engagement Context Canvas
 
 > *“Every engagement inherits its context. Maturity begins by naming it.”*
 
-### Purpose
+#### Purpose
 
 The **Engagement Context Canvas (ECC)** turns the abstract **Contextual Drivers Layer (CDL)** of 3SF into a practical diagnostic and planning tool.<br/>
 It enables both **Client** and **Vendor** to explicitly define and agree on the *environmental, organizational, and strategic context* shaping their delivery system.
@@ -15,7 +15,7 @@ The canvas ensures:
 
 It is best used at **the start of an engagement** and revisited during **Relationship Audits**.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -24,7 +24,7 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 | **3SF Layers** | Contextual Drivers Layer (CDL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Collaborative Confidence* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 | **Governance Officer** | **Engineering Director** | Align compliance and organizational structures to engagement setup. |
 | **Solution Architect** | **Solution Architect** | Translate technical context (legacy, infrastructure, scalability) into delivery expectations. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Gather Context Data**
    - Conduct a 60–90 minute joint discovery session using the six contextual drivers below.
@@ -69,13 +69,13 @@ It is best used at **the start of an engagement** and revisited during **Relatio
    - Reassess contextual drivers during each **Relationship Audit** or major scope change.
    - Track changes in organizational, commercial, or cultural context that may affect stable rules.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | RFP, organizational charts, compliance standards, architectural overview | **Engagement Context Canvas**, **Contextual Fit Ratings**, **Stable Rule Adjustment Log** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -84,7 +84,7 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 | **Adjustment Implementation** | All defined contextual adaptations completed within planned timeframe. |
 | **Maturity Signal** | Reduction in process conflicts or escalation due to misaligned governance. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Skipping context assessment due to time pressure.
 - Treating the canvas as documentation instead of a decision-making tool.
@@ -92,7 +92,7 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 - Allowing only one side (Client or Vendor) to fill it out independently.
 - Ignoring cultural and behavioral context in favor of technical aspects.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -102,7 +102,7 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 
 At higher maturity, ECCs are maintained as **living documents** integrated into governance dashboards and 3SF Maturity Dashboards.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Ensure that vendor teams operate with full awareness of the real business and organizational environment.
 
@@ -113,7 +113,7 @@ At higher maturity, ECCs are maintained as **living documents** integrated into 
 3. Participate in defining fit ratings and approving contextual adaptations.
 4. Revisit the canvas during quarterly or audit reviews to update changing context.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Adapt delivery practices to the client’s unique context instead of applying generic process templates.
 
@@ -124,7 +124,7 @@ At higher maturity, ECCs are maintained as **living documents** integrated into 
 3. Propose SRL adjustments to align with real-world constraints.
 4. Use the ECC artifact to brief new team members or external contributors.
 
-### Summary
+#### Summary
 
 The **Engagement Context Canvas** grounds the 3SF framework in reality.<br/>
 It ensures that every engagement begins with contextual awareness, not assumptions — aligning governance, architecture, and culture before delivery starts.<br/>

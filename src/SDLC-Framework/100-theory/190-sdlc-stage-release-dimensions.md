@@ -1,6 +1,6 @@
-# SDLC Stage Dimensions – Release
+## SDLC Stage Dimensions – Release
 
-## Purpose
+### Purpose
 
 The **Release Stage** is where validated increments are prepared, approved, and delivered to users.<br/>
 Its purpose is to ensure that deployment is **reliable, transparent, and reversible** — maintaining confidence across all stakeholders.
@@ -10,7 +10,7 @@ It is not just a one-time action but a repeatable system of governance, automati
 
 When mature, Release enables safe, frequent, and visible deployments that sustain trust between Client and Vendor.
 
-## Core Outcomes
+### Core Outcomes
 
 | **Outcome** | **Description** |
 |--------------|-----------------|
@@ -20,9 +20,9 @@ When mature, Release enables safe, frequent, and visible deployments that sustai
 | **Change Transparency** | What, when, and why changes happen is clearly visible. |
 | **Operational Continuity** | Release executed without disruption or surprise for users or teams. |
 
-## Release Dimensions
+### Release Dimensions
 
-### 1. Strategic Alignment
+#### 1. Strategic Alignment
 
 Ensures that the release strategy supports business objectives, user expectations, and risk appetite.
 
@@ -39,7 +39,7 @@ Ensures that the release strategy supports business objectives, user expectation
 - Define *Release Goals* that link technical changes to measurable value.
 - Align *Release Cadence* with feedback and validation cycles.
 
-### 2. Planning & Flow
+#### 2. Planning & Flow
 
 Defines how release preparation, approval, and deployment are coordinated and automated.
 
@@ -57,7 +57,7 @@ Defines how release preparation, approval, and deployment are coordinated and au
 - Test *Rollback Plans* as part of regression testing.
 - Maintain a *Release Checklist* for every environment.
 
-### 3. Collaboration & Communication
+#### 3. Collaboration & Communication
 
 Defines how coordination between Client, Vendor, and Operations ensures smooth release flow and visibility.
 
@@ -74,7 +74,7 @@ Defines how coordination between Client, Vendor, and Operations ensures smooth r
 - Maintain *Release Notes* in standardized, automated format.
 - Use *Live Dashboards* or ChatOps to broadcast release status in real time.
 
-### 4. Quality & Risk Management
+#### 4. Quality & Risk Management
 
 Ensures release confidence through proactive quality control, security, and risk mitigation.
 
@@ -91,7 +91,7 @@ Ensures release confidence through proactive quality control, security, and risk
 - Conduct *Go/No-Go Reviews* with risk-based criteria.
 - Maintain a *Release Risk Register* and monitor risk trends.
 
-### 5. Learning & Adaptation
+#### 5. Learning & Adaptation
 
 Defines how the organization learns from each release to improve stability, cadence, and confidence.
 
@@ -108,7 +108,7 @@ Defines how the organization learns from each release to improve stability, cade
 - Track *Deployment Frequency*, *Change Failure Rate*, *MTTR*, and *Lead Time for Changes*.
 - Feed learnings into *Run* and *Evolve* stages for system improvement.
 
-## Common Failure Modes
+### Common Failure Modes
 
 | **Failure Mode** | **Root Cause** | **Correction** |
 |------------------|----------------|----------------|
@@ -119,7 +119,7 @@ Defines how the organization learns from each release to improve stability, cade
 
 A common hidden risk is release heroics — dependency on a few experts to ‘save’ the deployment. Sustainable maturity eliminates heroes by institutionalizing reliability.
 
-## Measuring Release Health
+### Measuring Release Health
 
 | **Signal** | **Description** |
 |-------------|----------------|
@@ -136,7 +136,7 @@ Quantitative indicators may include:
 - Lead time from commit to production.
 - Number of manual release steps remaining.
 
-## Release and Relationship Maturity
+### Release and Relationship Maturity
 
 The Release stage embodies **Strategic Partnership in action** — where Client and Vendor coordinate as one delivery organism.<br/>
 Release is not a technical event but a **moment of shared accountability** for value, risk, and experience.
@@ -147,7 +147,7 @@ High-maturity release culture:
 - Treats incidents as **shared learning opportunities**, not blame moments.
 - Builds **confidence in continuity**, enabling faster cycles and innovation.
 
-## Summary
+### Summary
 
 - The **Release Stage** is the bridge between delivery and real-world value.
 - Its five dimensions — Strategic Alignment, Planning & Flow, Collaboration, Quality & Risk, Learning & Adaptation — ensure releases are reliable, visible, and reversible.

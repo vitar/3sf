@@ -1,13 +1,15 @@
-# 3-in-3 SDLC Framework (3SF)
+# SECTION II: THEORY & GOVERNING RULES
 
-## Introduction
+## 3-in-3 SDLC Framework (3SF)
+
+### Introduction
 
 The **3-in-3 SDLC Framework** — or **3SF** — is a relationship-aware software delivery framework that unites **Client**, **Vendor**, and **Product / Service** into one coherent system of collaboration.<br/>
 It helps organizations design, execute, and evolve delivery systems that are **aligned, predictable, and continuously learning**, regardless of project type or commercial model.
 
 Where most delivery frameworks describe *what happens inside a vendor organization*, 3SF explains **how success depends on the relationships between all three system elements** — *Client ↔ Vendor ↔ Product* — and how alignment across them determines value realization.
 
-## Purpose
+### Purpose
 
 The 3SF was designed to:
 
@@ -23,7 +25,7 @@ The 3SF was designed to:
 2. **A diagnostic and learning tool** — helping leaders assess delivery health and identify systemic improvements.
 3. **A maturity model** — supporting continuous evolution of trust and accountability.
 
-## Core Idea
+### Core Idea
 
 Every delivery system operates within a **triangle of relationships**:
 
@@ -48,7 +50,7 @@ Each side of this triangle represents a **relationship line**:
 
 Healthy delivery emerges only when all three sides evolve together.
 
-## Framework Overview
+### Framework Overview
 
 The **3-in-3 SDLC Framework (3SF)** is organized into **interconnected systemic layers** that together form one continuous system of alignment, flow, and learning — connecting **strategy → execution → collaboration → maturity**.
 
@@ -62,13 +64,13 @@ The **3-in-3 SDLC Framework (3SF)** is organized into **interconnected systemic 
 | **6** | **[Practice Setup & Tools](../200-practice/200-practice-architecture.md)** | Explain how to apply 3SF in real projects — using High-Impact Contracts, Execution Tools, and Diagnostics. |
 | **7** | **[Maturity Integration Layer](../300-contracts/300-contracts-architecture.md)** | Connects all other layers through feedback and learning, ensuring relationship growth and delivery resilience. |
 
-## Evolution
+### Evolution
 
 3SF evolved from repeated real-world observations where delivery success or failure rarely came from technical complexity but from **misaligned expectations, ownership gaps, and systemic friction** between Client and Vendor.
 
 It emerged as a **unifying model** — connecting strategic, operational, and adaptive layers into one ecosystem of delivery understanding.
 
-## Resilience by Design
+### Resilience by Design
 
 3SF recognizes that delivery systems often fail not from poor execution but from **systemic resistance** — competing incentives, unclear accountability, or organizational inertia.
 
@@ -81,7 +83,7 @@ It is intentionally designed to be *anti-fragile*:
 
 3SF doesn’t eliminate risk — it **makes risk visible, discussable, and manageable** across both Client and Vendor organizations.
 
-## When to Use 3SF
+### When to Use 3SF
 
 | **Use Case** | **Typical Goal** |
 |:--|:--|
@@ -90,7 +92,7 @@ It is intentionally designed to be *anti-fragile*:
 | **After release** | Guide retrospectives and continuous improvement across projects. |
 | **For leadership development** | Teach systemic thinking and contextual decision-making. |
 
-## Benefits
+### Benefits
 
 - **Clarity:** Shared language across Client, Vendor, and leadership.
 - **Alignment:** Connected view of strategy, delivery, and value realization.
@@ -98,7 +100,7 @@ It is intentionally designed to be *anti-fragile*:
 - **Learning:** Built-in feedback loops to prevent repeated failures.
 - **Scalability:** Works for individual projects or enterprise portfolios.
 
-## Reading Structure
+### Reading Structure
 
 The Theory section introduces 3SF from **philosophy to application**, following this order:
 
@@ -109,7 +111,7 @@ The Theory section introduces 3SF from **philosophy to application**, following 
 5. **[Practice Setup & Tools](../200-practice/200-practice-architecture.md)** → applying 3SF in real delivery contexts through High-Impact Contracts, Execution Tools, and Diagnostics.
 6. **[Maturity Integration Layer](../300-contracts/300-contracts-architecture.md)** → ensures learning and partnership growth across all layers.
 
-## Summary
+### Summary
 
 > **3SF connects delivery design with relationship maturity — aligning structure, behavior, and learning into a single, adaptive system.**
 

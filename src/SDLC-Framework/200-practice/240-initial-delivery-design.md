@@ -1,8 +1,8 @@
-# Initial Delivery System Design
+## Initial Delivery System Design
 
 > *“Every successful engagement starts with a consciously designed system, not an improvised process.”*
 
-### Purpose
+#### Purpose
 
 The **Initial Delivery System Design** tool establishes the **first working model** of collaboration between **Client** and **Vendor** before or during project kick-off.
 
@@ -14,7 +14,7 @@ It translates business intent into an executable delivery system by aligning:
 
 This tool closes the maturity gap between *contractual setup* and *operational collaboration* — helping both sides enter delivery with clarity instead of assumptions.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Collaborative Confidence* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 | **Requirements Analyst** | **Requirements Analyst** | Clarify problem statements and validation criteria. |
 | **Governance Officer** | **Engineering Director** | Ensure compliance, security, and resourcing stability. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Frame the Intent**
    - Clarify *Why this product or service exists* and *What success looks like* for both sides.
@@ -60,13 +60,13 @@ This tool closes the maturity gap between *contractual setup* and *operational c
    - Share the agreed system (charter + canvas + checklist) across both organizations.
    - Schedule a 6-week review to confirm the system works as intended.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | RFP / SoW draft, strategic objectives, architectural outline | **Delivery Charter**, **Engagement Canvas**, **Maturity Baseline**, initial **Governance Matrix** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -75,7 +75,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 | **Readiness Confidence** | Both sides confirm ability to start delivery without new dependencies. |
 | **Maturity Signal** | Baseline shows at least *Collaborative* level on Engagement and Delivery lines. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating the exercise as documentation instead of *system design*.
 - Letting either side dominate — missing true co-ownership.
@@ -83,7 +83,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 - Ignoring cross-organizational dependencies (security, access, procurement).
 - Focusing on individual roles instead of *relationships between functions*.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -91,7 +91,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 | **Collaborative → Co-Creative** | Integrate metrics and shared backlog ownership. |
 | **Co-Creative → Strategic Partner** | Embed 3SF practices into organizational governance and portfolio planning. |
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Ensure the vendor team integrates smoothly into internal structures and delivers business outcomes, not just outputs.
 
@@ -103,7 +103,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 4. Record internal dependencies (e.g., data access, release approvals) in the Governance Matrix.
 5. Communicate strategic priorities transparently to enable vendor autonomy.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Establish a predictable, value-aligned delivery system and demonstrate partnership maturity from day zero.
 
@@ -115,7 +115,7 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 4. Propose the initial Stable Rules set and verify Client acceptance.
 5. Use baseline metrics to plan first 3SF Quarterly Assessment.
 
-### Summary
+#### Summary
 
 **Initial Delivery System Design** is the *gateway practice* of 3SF.<br/>
 It connects intent to execution by co-creating the first stable delivery system between **Client** and **Vendor**.

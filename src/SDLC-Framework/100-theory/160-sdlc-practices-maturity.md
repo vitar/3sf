@@ -1,11 +1,11 @@
-# SDLC Practices Maturity
+## SDLC Practices Maturity
 
-## Purpose
+### Purpose
 
 The **SDLC Practices Maturity** model describes how each of the six practices develops from isolated effort to an integrated discipline that sustains the entire SDLC system.<br/>
 It provides a lens for evaluating delivery integrity and learning capability across projects, portfolios, or teams.
 
-## Practice Maturity Levels
+### Practice Maturity Levels
 
 | **Level** | **Description** | **Behavioral Characteristics** |
 |------------|----------------|--------------------------------|
@@ -17,7 +17,7 @@ It provides a lens for evaluating delivery integrity and learning capability acr
 A project or team can mature unevenly — for example, strong in **Engineering & Quality (L3)** but weak in **Governance & Risk (L1)**.<br/>
 The goal is not uniformity but **functional balance**.
 
-## Maturity by Practice
+### Maturity by Practice
 
 | **Practice** | **Early Maturity Behavior** | **Advanced Maturity Behavior** | **Indicators of Growth** |
 |---------------|-----------------------------|--------------------------------|---------------------------|
@@ -28,7 +28,7 @@ The goal is not uniformity but **functional balance**.
 | **Governance & Risk** | Bureaucratic or absent governance; unclear accountability. | Embedded governance with lightweight controls and shared responsibility. | Decision logs, compliance checks, escalation lead time. |
 | **Feedback & Learning** | Retrospectives rare; insights not tracked. | Continuous feedback loops inform roadmap and process design. | Improvement actions tracked and completed, system metrics evolve. |
 
-## Cross-Practice Synergy
+### Cross-Practice Synergy
 
 Maturity in one practice reinforces others:
 
@@ -41,13 +41,13 @@ Maturity in one practice reinforces others:
 
 High-performing teams reach **cross-practice coherence**, where decisions made in one discipline positively impact all others.
 
-## When Maturity Inverts
+### When Maturity Inverts
 
 Sometimes, a practice advances faster than its supporting ecosystem — for example, sophisticated DevOps automation in a project lacking Product Thinking or Governance clarity.<br/>
 This **maturity inversion** can produce friction: faster delivery of unclear value, or automation that amplifies misaligned priorities.<br/>
 3SF treats these cases as alignment gaps, not regressions — the goal is to synchronize maturity across disciplines rather than maximize any one in isolation.
 
-## Assessing Practice Maturity
+### Assessing Practice Maturity
 
 Assessment combines **qualitative feedback** (behaviors, attitudes) and **quantitative indicators** (metrics, cycle data):
 
@@ -57,7 +57,7 @@ Assessment combines **qualitative feedback** (behaviors, attitudes) and **quanti
 
 Outputs form a **Practice Maturity Radar**, helping visualize strengths, gaps, and next improvement actions.
 
-## Summary
+### Summary
 
 - SDLC Practices Maturity defines *how deeply* each discipline shapes delivery success.
 - Practices evolve from awareness to adaptability, reinforcing one another.

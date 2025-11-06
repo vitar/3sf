@@ -1,8 +1,8 @@
-# Maturity Dashboard and Metrics Consolidation
+## Maturity Dashboard and Metrics Consolidation
 
 > *“You can’t manage trust, but you can observe its signals.”*
 
-### Purpose
+#### Purpose
 
 The **3SF Maturity Dashboard** aggregates data and insights from all 3SF practices into a single view of **delivery health**, **relationship quality**, and **value realization** across projects or portfolios.
 
@@ -14,7 +14,7 @@ It enables both **Client** and **Vendor** organizations to:
 
 This tool transforms qualitative insights from Diagnostics, Assessments, and Audits into **measurable governance intelligence**.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 | **3SF Layers** | Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | Continuous visibility across all maturity stages |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -32,7 +32,7 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 | **Product Leader** | **Delivery Facilitator** | Use dashboard insights for quarterly planning and team health reviews. |
 | **Solution Architect**, **Technical Integrator** | **Solution Architect**, **Practice Lead** | Analyze technical and process health trends across engagements. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Collect Maturity Data**
    - Gather scores and narratives from all **Diagnostics**, **Quarterly Assessments**, **Self-Diagnostics**, and **Audits**.
@@ -63,13 +63,13 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
    - Use maturity trends to prioritize leadership coaching, governance improvements, or funding adjustments.
    - Embed dashboard checkpoints into regular 3SF review cycles.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Maturity data from all 3SF tools (210–250), Improvement Backlogs, Relationship Audit reports | **Maturity Dashboard (visual + tabular)**, **Trend Analysis Summary**, **Portfolio Health Overview** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -80,7 +80,7 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 | **Maturity Velocity (MV)** | Rate of improvement (+/– maturity points per quarter). |
 | **Systemic Risk Ratio (SRR)** | Percentage of projects with declining maturity for 2+ quarters. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating the dashboard as a performance scorecard instead of **a learning compass**.
 - Aggregating numeric scores without including qualitative narratives.
@@ -88,7 +88,7 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 - Inconsistent maturity definitions across teams.
 - Focusing on individual project issues instead of systemic patterns.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -98,7 +98,7 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 
 At high maturity, the dashboard becomes part of enterprise reporting — linking relationship quality directly to business outcomes.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Use the dashboard to align business value realization and governance oversight with real relationship maturity data.
 
@@ -108,7 +108,7 @@ At high maturity, the dashboard becomes part of enterprise reporting — linking
 3. Share insights with executive sponsors to guide sourcing and portfolio investment.
 4. Use findings to improve vendor enablement and internal dependency management.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Use the dashboard as evidence of maturity growth, delivery reliability, and partnership accountability.
 
@@ -120,7 +120,7 @@ At high maturity, the dashboard becomes part of enterprise reporting — linking
 4. Share dashboard visuals during Relationship Audits and executive check-ins.
 5. Translate trends into training, hiring, and playbook improvements.
 
-### Summary
+#### Summary
 
 The **3SF Maturity Dashboard** is the measurement layer connecting all 3SF tools into a living system of governance intelligence.<br/>
 It replaces anecdotal reporting with a **shared, evidence-based understanding** of partnership maturity — bridging data, dialogue, and decision-making.

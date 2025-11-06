@@ -1,8 +1,8 @@
-# Maturity Growth Contract
+## Maturity Growth Contract
 
 > *“Maturity is not declared — it is earned, measured, and renewed.”*
 
-### Purpose
+#### Purpose
 
 The **Maturity Growth Contract (MGC)** defines the **joint roadmap for evolving relationship maturity** between Client and Vendor organizations.<br/>
 It translates the 3SF Maturity Model from a diagnostic framework into a **living governance plan** that measures and manages how both sides build trust, autonomy, and systemic collaboration.
@@ -11,7 +11,7 @@ This contract sets the **baseline**, the **target maturity level**, and the **gr
 
 The MGC complements legal agreements (SoW, MSA) by governing *how the partnership itself evolves* across projects and quarters.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -20,7 +20,7 @@ The MGC complements legal agreements (SoW, MSA) by governing *how the partnershi
 | **3SF Layers** | Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Strategic Partnership* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -29,7 +29,7 @@ The MGC complements legal agreements (SoW, MSA) by governing *how the partnershi
 | **Product Leader** | **Product Leader** | Align outcome delivery with relationship growth. |
 | **Solution Architect** | **Technical Integrator** | Ensure technical maturity aligns with organizational maturity. |
 
-### Key Components of the Maturity Growth Contract
+#### Key Components of the Maturity Growth Contract
 
 | Component | Description | Linked 3SF Artifacts |
 |------------|--------------|----------------------|
@@ -40,7 +40,7 @@ The MGC complements legal agreements (SoW, MSA) by governing *how the partnershi
 | **Governance Evolution Rules** | Defines how autonomy, reporting, and control evolve. | [Autonomy & Control Boundary Charter](../200-practice/210-autonomy-control-charter.md) |
 | **Learning Integration** | Incorporates reflection results to adjust maturity plan. | [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) |
 
-### Agreement Format
+#### Agreement Format
 
 The MGC is a **co-created governance annex** to the Delivery Charter or portfolio agreement.
 It is reviewed and updated quarterly, co-signed by both Executive Sponsors.
@@ -66,13 +66,13 @@ The document typically contains:
    - Quarterly assessment cadence and sign-off checklist.
    - Commitment to transparency in reporting and joint reflection.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Quarterly assessment data, relationship audit reports, delivery metrics | **Maturity Growth Plan**, updated **Dashboard Entries**, **Quarterly Review Record** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -81,7 +81,7 @@ The document typically contains:
 | **Learning Adoption** | ≥80% of LBP actions implemented before next review. |
 | **Trust Stability** | Maturity score variance between Client and Vendor ≤ 1 point. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating the MGC as a static compliance checklist.
 - Overpromising maturity targets without enabling structural change.
@@ -89,7 +89,7 @@ The document typically contains:
 - Lack of quarterly follow-up or dashboard updates.
 - Using maturity scores to assign blame instead of learning.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -98,7 +98,7 @@ The document typically contains:
 
 At advanced maturity, the MGC becomes a **Strategic Partnership Growth Framework**, tracking not just delivery quality, but *organizational alignment and innovation capacity*.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Ensure the Client organization actively participates in the relationship’s evolution — not just in performance reviews.
 
@@ -109,7 +109,7 @@ At advanced maturity, the MGC becomes a **Strategic Partnership Growth Framework
 3. Approve quarterly review cadence and maintain transparency.
 4. Integrate MGC metrics into leadership dashboards.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate measurable growth in maturity through transparency, reliability, and governance participation.
 
@@ -120,7 +120,7 @@ At advanced maturity, the MGC becomes a **Strategic Partnership Growth Framework
 3. Track and report impact of autonomy and trust initiatives.
 4. Use MGC results as evidence in portfolio audits and new proposals.
 
-### Summary
+#### Summary
 
 The **Maturity Growth Contract** transforms 3SF maturity from theory into a **continuous governance process**.<br/>
 It ensures both Client and Vendor remain accountable for relationship evolution — turning “partnership” into a measurable, managed asset.

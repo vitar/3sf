@@ -1,22 +1,22 @@
-# Role Responsibility Snapshot – Dual-Sided Accountability
+## Role Responsibility Snapshot – Dual-Sided Accountability
 
 > *“Every 3SF role exists in pairs — one defines the value, the other delivers it.”*
 
-## Purpose
+### Purpose
 
 The **Role Responsibility Snapshot** helps both **Client** and **Vendor** teams understand their joint accountabilities within the 3SF system.<br/>
 It serves as a **single reference point for all functional roles** and a **bridge between the 3SF Principles and Practice Tools**, showing what each role contributes and owns at every stage of delivery.
 
 Use this guide when forming teams, preparing for workshops, or validating who brings what into a 3SF tool.
 
-## How to Use
+### How to Use
 
 1. Find your **role** (Client or Vendor side).
 2. Review your **primary accountability** — your “WHY.”
 3. See which **artifact** you provide input to and which one you are expected to **own or co-sign**.
 4. Use these as checkpoints when applying the [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md), [Outcome Map](../200-practice/220-outcome-accountability-map.md), or [Boundary Charter](../200-practice/210-autonomy-control-charter.md).
 
-## Co-Dependent SDLC System Roles
+### Co-Dependent SDLC System Roles
 
 These are the **core joint execution functions** that drive the SDLC and manage the relationships between **Client ↔ Vendor ↔ Product**.
 
@@ -31,7 +31,7 @@ These are the **core joint execution functions** that drive the SDLC and manage 
 
 These roles are **systemic mirrors** — each has a counterpart across the Client/Vendor line to ensure joint accountability.
 
-## Core Role Interactions and Artifacts
+### Core Role Interactions and Artifacts
 
 | Functional Role | Primary Accountability | Key Tool Input (What I Bring) | Key Tool Output (What I Own) |
 | :--- | :--- | :--- | :--- |
@@ -47,7 +47,7 @@ These roles are **systemic mirrors** — each has a counterpart across the Clien
 | **Vendor Requirements Analyst** | Translate business context into development-ready scope. | [**ECC**](../200-practice/205-engagement-context-canvas.md) | Finalized scope specification for backlog execution |
 | **Experience Designer (Client/Vendor)** | Ensure product usability and experience alignment. | User research insights | Prototype or design specification linked to [**Outcome Map**](../200-practice/220-outcome-accountability-map.md) |
 
-## Client-Only Governance Roles
+### Client-Only Governance Roles
 
 | Functional Core | Primary Accountability | Key Engagement |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ These roles are **systemic mirrors** — each has a counterpart across the Clien
 | **Vendor Manager** | Manage commercial relationship, contracts, and maturity evaluation. | Uses [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) |
 | **Governance Officer** | Ensure regulatory, security, and compliance adherence. | Reviews [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
 
-## Vendor-Only Governance Roles
+### Vendor-Only Governance Roles
 
 | Functional Core | Primary Accountability | Key Engagement |
 | :--- | :--- | :--- |
@@ -64,7 +64,7 @@ These roles are **systemic mirrors** — each has a counterpart across the Clien
 | **Practice Lead** | Uphold standards and continuous improvement across disciplines. | Reviews outputs of [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
 | **Engineering Specialist** | Execute technical implementation and quality verification. | Contributes to [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
 
-## Principle Alignment Map
+### Principle Alignment Map
 
 Each pairing of Client ↔ Vendor roles supports a **core 3SF Principle**, defining how accountability manifests across collaboration lines.
 
@@ -78,7 +78,7 @@ Each pairing of Client ↔ Vendor roles supports a **core 3SF Principle**, defin
 
 These alignments make **joint accountability visible and inspectable** — every tool has an owner pair, and every decision has a shared signature.
 
-## Summary
+### Summary
 
 > **Dual-Sided Accountability = Joint Clarity × Shared Learning**
 

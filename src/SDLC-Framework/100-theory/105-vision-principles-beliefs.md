@@ -1,6 +1,6 @@
-# Vision, Principles & Beliefs
+## Vision, Principles & Beliefs
 
-## Vision
+### Vision
 
 We envision a world where **client, vendor, and product** teams collaborate as one delivery system — driven by shared purpose, transparent flow, and continuous learning.<br/>
 Software delivery should not be a negotiation between parties but an **ecosystem of mutual value creation**.
@@ -11,12 +11,12 @@ However, **not every organization that uses 3SF language achieves its spirit**.<
 Without the underlying mindset shift, structures can imitate maturity while behaviors remain transactional — creating the illusion of transformation.<br/>
 3SF treats this *“maturity mirage”* as a signal, not a success, guiding leaders to inspect how intent, trust, and accountability truly manifest in action.
 
-## Principles
+### Principles
 
 3SF is grounded in a set of **delivery principles** — systemic behaviors that connect context, structure, and trust.<br/>
 They are not rules to enforce but **lenses for decision-making** that preserve alignment and flow under change.
 
-### Core Principles
+#### Core Principles
 
 | **Principle** | **Meaning** |
 |----------------|-------------|
@@ -29,7 +29,7 @@ They are not rules to enforce but **lenses for decision-making** that preserve a
 | **Transparency Enables Adaptation** | Information symmetry is the foundation of trust and continuous improvement. |
 | **Balance over Rigidity** | Sustainable delivery emerges from equilibrium between structure and flexibility. |
 
-### Principles in Action
+#### Principles in Action
 
 Each principle represents a **systemic antidote** to common failure patterns:
 
@@ -44,7 +44,7 @@ Each principle represents a **systemic antidote** to common failure patterns:
 | Information asymmetry or selective reporting | Transparency Enables Adaptation |
 | Over-reliance on rigid processes | Balance over Rigidity |
 
-### Principles Under Pressure
+#### Principles Under Pressure
 
 Principles do not operate in isolation — real delivery systems expose **tensions between them**.<br/>
 For example, *“Outcome before Output”* may conflict with *“Trust before Control”* in regulated environments that demand auditable processes.<br/>
@@ -61,7 +61,7 @@ When conflicts arise, decisions should return to higher-order principles:
 
 By making these trade-offs explicit, teams prevent principle collision from devolving into politics or paralysis.
 
-## Beliefs
+### Beliefs
 
 3SF operates from a set of shared beliefs — the **cultural DNA** that supports system maturity.
 
@@ -76,7 +76,7 @@ By making these trade-offs explicit, teams prevent principle collision from devo
 Beliefs are also the **first layer to erode under pressure** — often replaced by performance metrics or process compliance.<br/>
 3SF uses reflective rituals and maturity assessments to **surface this erosion early**, turning it into learning rather than cultural decay.
 
-## Systemic Balance
+### Systemic Balance
 
 Vision, Principles, and Beliefs form the **human foundation** of 3SF.<br/>
 They sustain coherence when context shifts and prevent the framework from becoming a set of mechanical practices.

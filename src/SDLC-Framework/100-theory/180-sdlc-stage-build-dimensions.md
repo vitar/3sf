@@ -1,6 +1,6 @@
-# SDLC Stage Dimensions – Build
+## SDLC Stage Dimensions – Build
 
-## Purpose
+### Purpose
 
 The **Build Stage** is where ideas, designs, and plans turn into a working product.<br/>
 Its purpose is to **design, develop, and integrate** software components with automation, quality, and shared ownership at the core.
@@ -8,7 +8,7 @@ Its purpose is to **design, develop, and integrate** software components with au
 Build is not only about coding — it’s about maintaining **flow, visibility, and alignment** across teams, ensuring each increment delivers measurable progress and validated value.<br/>
 When executed maturely, Build becomes the engine of both **technical excellence** and **relationship trust** between Client and Vendor.
 
-## Core Outcomes
+### Core Outcomes
 
 | **Outcome** | **Description** |
 |--------------|-----------------|
@@ -18,9 +18,9 @@ When executed maturely, Build becomes the engine of both **technical excellence*
 | **Visible Progress** | Delivery transparency through demos, metrics, and shared dashboards. |
 | **Engineering Feedback Loops** | Continuous feedback on quality, velocity, and technical debt. |
 
-## Build Dimensions
+### Build Dimensions
 
-### 1. Strategic Alignment
+#### 1. Strategic Alignment
 
 Ensures that Build execution remains connected to business outcomes and product intent.
 
@@ -37,7 +37,7 @@ Ensures that Build execution remains connected to business outcomes and product 
 - Use *Story Mapping* to link user flows to business goals.
 - Include engineers in scope and backlog refinement sessions.
 
-### 2. Planning & Flow
+#### 2. Planning & Flow
 
 Defines how work is decomposed, planned, and executed to maintain a sustainable pace and predictable outcomes.
 
@@ -54,7 +54,7 @@ Defines how work is decomposed, planned, and executed to maintain a sustainable 
 - Use *Cumulative Flow Diagrams* to spot bottlenecks.
 - Introduce *Sprint Capacity Planning* and WIP limits by team role.
 
-### 3. Collaboration & Communication
+#### 3. Collaboration & Communication
 
 Defines how the team synchronizes, collaborates, and manages feedback during execution.
 
@@ -71,7 +71,7 @@ Defines how the team synchronizes, collaborates, and manages feedback during exe
 - Establish a *shared status dashboard* visible to Client and Vendor.
 - Maintain a *Team Working Agreement* covering communication, review, and escalation norms.
 
-### 4. Quality & Risk Management
+#### 4. Quality & Risk Management
 
 Ensures that the system remains stable and maintainable while progress accelerates.
 
@@ -88,7 +88,7 @@ Ensures that the system remains stable and maintainable while progress accelerat
 - Use *SonarQube* or similar tools for code health tracking.
 - Schedule *Tech Debt Sprints* or allocate engineering capacity for refactoring.
 
-### 5. Learning & Adaptation
+#### 5. Learning & Adaptation
 
 Defines how the team inspects performance, learns, and improves during the Build cycle.
 
@@ -105,7 +105,7 @@ Defines how the team inspects performance, learns, and improves during the Build
 - Rotate responsibilities to spread system knowledge.
 - Introduce *Learning Hours* or short technical demos during sprints.
 
-## Common Failure Modes
+### Common Failure Modes
 
 | **Failure Mode** | **Root Cause** | **Correction** |
 |------------------|----------------|----------------|
@@ -116,7 +116,7 @@ Defines how the team inspects performance, learns, and improves during the Build
 
 When flow metrics become performance targets, teams start optimizing numbers instead of outcomes. 3SF treats metrics as feedback, not judgment.
 
-## Measuring Build Health
+### Measuring Build Health
 
 | **Signal** | **Description** |
 |-------------|----------------|
@@ -132,7 +132,7 @@ Quantitative metrics may include:
 - Ratio of refactoring vs. new feature work.
 - Sprint predictability (committed vs. delivered).
 
-## Build and Relationship Maturity
+### Build and Relationship Maturity
 
 The Build stage matures the relationship from **Shared Ownership** to **Strategic Partnership**.<br/>
 It’s where autonomy is proven through reliable delivery, and trust deepens through transparency and quality.
@@ -143,7 +143,7 @@ High-maturity Build means:
 - Delivery decisions are **coordinated, not dictated**.
 - Transparency builds confidence — enabling Client and Vendor to plan forward together.
 
-## Summary
+### Summary
 
 - The **Build Stage** is where structure meets execution — converting vision into reality with precision and accountability.
 - Its five dimensions — Strategic Alignment, Planning & Flow, Collaboration, Quality & Risk, Learning & Adaptation — define the maturity and stability of delivery.

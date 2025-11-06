@@ -1,8 +1,8 @@
-# Architectural Trade-Off Contract
+## Architectural Trade-Off Contract
 
 > *“Every architecture decision is a trust transaction.”*
 
-### Purpose
+#### Purpose
 
 The **Architectural Trade-Off Contract (ATC)** formalizes critical design decisions that affect the long-term sustainability and risk profile of the product or service.<br/>
 It enforces **Shared Accountability** between **Client** and **Vendor** Solution Architects by documenting, validating, and co-signing key architectural trade-offs.
@@ -13,7 +13,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 - Responsibility and ownership are shared, not delegated,
 - The rationale and consequences are traceable throughout the SDLC lifecycle.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -22,7 +22,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -31,7 +31,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 | **Governance Officer** | **Engineering Director** | Ensure decisions comply with security, performance, and quality standards. |
 | **Executive Sponsor** | **Account Lead** | Approve exceptions and confirm business alignment with risk tolerance. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Identify Decision Candidates**
    - During discovery or design reviews, list major design decisions with potential long-term implications.
@@ -67,13 +67,13 @@ This tool transforms subjective design debates into transparent agreements, ensu
    - Review key trade-offs during **Quarterly Assessment** or when a major change occurs.
    - Log outcomes of reassessments and lessons learned.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Architecture design documents, discovery results, risk register | **Architectural Trade-Off Contract**, impact analysis matrix, sign-off record |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -82,7 +82,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 | **Review Cadence** | ATCs revisited at least once per quarter. |
 | **Alignment Signal** | Reduced conflict between technical and business goals over time. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating architectural decisions as purely technical rather than systemic.
 - Recording trade-offs retrospectively (“we already built it”).
@@ -90,7 +90,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 - Not updating contracts when context or priorities shift.
 - Ignoring deferred risks after sign-off.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -99,7 +99,7 @@ This tool transforms subjective design debates into transparent agreements, ensu
 
 As maturity increases, the ATC becomes a living reference shaping organizational architecture patterns and investment priorities.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Retain architectural accountability and ensure vendor designs align with business, risk, and compliance goals.
 
@@ -110,7 +110,7 @@ As maturity increases, the ATC becomes a living reference shaping organizational
 3. Store approved ATCs in governance repositories for audits.
 4. Review ATCs during major business or platform changes.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate architectural discipline and transparency, strengthening technical trust.
 
@@ -121,7 +121,7 @@ As maturity increases, the ATC becomes a living reference shaping organizational
 3. Maintain ATC register in architecture documentation.
 4. Present updated ATCs during assessments or portfolio audits.
 
-### Summary
+#### Summary
 
 The **Architectural Trade-Off Contract** transforms design reasoning into a formalized trust instrument between **Client** and **Vendor**.<br/>
 It replaces informal “architectural understanding” with explicit, auditable commitments — ensuring that both sides consciously share accountability for decisions that shape long-term value, cost, and resilience.

@@ -1,8 +1,8 @@
-# Relationship Audit and Portfolio Maturity Review
+## Relationship Audit and Portfolio Maturity Review
 
 > *“Partnership health is the leading indicator of delivery success.”*
 
-### Purpose
+#### Purpose
 
 The **Relationship Audit and Portfolio Maturity Review** validates how well the client–vendor ecosystem performs as a **system of relationships**, not just a collection of projects.
 
@@ -14,7 +14,7 @@ It enables leadership teams on both sides to:
 
 This tool closes the 3SF feedback loop — from individual reflection to organizational learning.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Strategic Partnership* → toward *Integrated Partnership* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 | **Vendor Manager** | **Practice Lead** | Review contract and performance alignment with maturity targets. |
 | **Solution Architect(s)** | **Technical Integrator(s)** | Capture architectural and operational improvement patterns. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Collect Inputs Across Projects**
    - Gather the latest **Quarterly Assessments**, **Diagnostics**, and **Self-Diagnostics**.
@@ -62,13 +62,13 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
    - Store in a shared governance repository accessible to both organizations.
    - Schedule next audit in 3–6 months.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Diagnostics, Quarterly Assessments, Self-Diagnostics, Delivery Charters | **Relationship Audit Report**, **Portfolio Maturity Map**, **Strategic Improvement Plan** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -78,7 +78,7 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 | **Governance Efficiency** | Decision latency reduced by ≥ 25% portfolio-wide. |
 | **Learning Diffusion** | Best practices from one project adopted by ≥ 50% of others. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating the audit as compliance instead of **strategic learning**.
 - Aggregating only delivery metrics without relationship indicators.
@@ -86,7 +86,7 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 - Failing to involve both client and vendor leadership at equal weight.
 - Not converting audit results into actionable improvement themes.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -95,7 +95,7 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 
 At high maturity, Relationship Audits replace periodic vendor scorecards — becoming a **shared governance standard** between organizations.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Ensure that vendor collaboration scales sustainably and contributes to strategic portfolio outcomes.
 
@@ -106,7 +106,7 @@ At high maturity, Relationship Audits replace periodic vendor scorecards — bec
 3. Use audit insights to adjust sourcing strategy, internal processes, and funding models.
 4. Champion systemic improvement themes across departments.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate maturity leadership and partnership stewardship across the client portfolio.
 
@@ -118,7 +118,7 @@ At high maturity, Relationship Audits replace periodic vendor scorecards — bec
 4. Collaborate with client governance in defining and tracking strategic themes.
 5. Use outcomes to evolve internal playbooks and training curricula.
 
-### Summary
+#### Summary
 
 The **Relationship Audit and Portfolio Maturity Review** elevates 3SF from a project framework to an **organizational governance model**.<br/>
 It helps leadership teams on both sides move beyond performance management toward **shared strategic learning** — turning every project into a data point in a continuously improving partnership system.

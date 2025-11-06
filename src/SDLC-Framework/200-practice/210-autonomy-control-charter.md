@@ -1,8 +1,8 @@
-# Autonomy & Control Boundary Charter
+## Autonomy & Control Boundary Charter
 
 > *“The higher the trust, the lighter the control — and the stronger the outcomes.”*
 
-### Purpose
+#### Purpose
 
 The **Autonomy & Control Boundary Charter (ACBC)** defines **decision-making rights** between the Client and Vendor based on current **relationship maturity**.<br/>
 It replaces implicit power dynamics with explicit, measurable governance rules.
@@ -15,7 +15,7 @@ This tool operationalizes the 3SF principle **“Trust before Control”** by:
 
 When used correctly, the ACBC becomes both a **trust contract** and a **risk management instrument** — reducing micromanagement and dependency escalation.
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -24,7 +24,7 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Strategic Partnership* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 | **Product Leader** | **Solution Architect** | Operate within defined autonomy levels and escalate only by exception. |
 | **Vendor Manager** | **Engineering Director** | Ensure commercial and quality assurance alignment. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Define Governance Domains**
    - Identify key decision areas to structure the charter, e.g.:
@@ -67,13 +67,13 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
    - Review the charter quarterly during **Relationship Assessments**.
    - Adjust autonomy levels when maturity or trust indicators evolve.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Engagement model, risk register, delivery governance framework | **Autonomy & Control Boundary Charter**, updated **Governance Matrix**, approval record |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -82,7 +82,7 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 | **Trust Signal** | Both sides report improved confidence in governance transparency (≥4/5 in surveys). |
 | **Control Compliance** | 100% of mandatory compliance controls still maintained. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Designing boundaries based on organizational hierarchy instead of maturity.
 - Keeping autonomy static despite demonstrated trust growth.
@@ -90,7 +90,7 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 - Neglecting to include compliance teams early in discussions.
 - Not reviewing boundaries periodically as projects evolve.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -99,7 +99,7 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 
 At higher maturity, autonomy is not “granted” but **earned and measured**, becoming a primary trust KPI.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Build confidence in vendor self-management while maintaining necessary safeguards.
 
@@ -110,7 +110,7 @@ At higher maturity, autonomy is not “granted” but **earned and measured**, b
 3. Regularly review metrics of autonomy success and control compliance.
 4. Use autonomy growth as an indicator of partnership maturity.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Earn autonomy through transparency and proactive governance participation.
 
@@ -121,7 +121,7 @@ At higher maturity, autonomy is not “granted” but **earned and measured**, b
 3. Escalate issues only when charter criteria apply.
 4. Use autonomy metrics as evidence of relationship maturity in audits.
 
-### Summary
+#### Summary
 
 The **Autonomy & Control Boundary Charter** transforms trust into a **structured governance artifact**.<br/>
 It provides measurable decision boundaries that evolve with maturity — ensuring **control exists to enable autonomy, not to restrict it.**<br/>

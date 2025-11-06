@@ -1,8 +1,8 @@
-# Delivery System Diagnostic
+## Delivery System Diagnostic
 
 > *“A healthy system adapts before it breaks.”*
 
-### Purpose
+#### Purpose
 
 The **Delivery System Diagnostic** is applied early in the project (typically after 4–6 weeks of active work) to verify whether the **designed delivery system** performs as expected.
 
@@ -14,7 +14,7 @@ Its goal is to:
 
 This tool bridges the transition from *planned system* (design intent) to *observed system* (actual operation).
 
-### Applies To
+#### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-### Actors / Roles
+#### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 | **Governance Officer** | **Engineering Director** | Check compliance, access, and operational readiness. |
 | **Executive Sponsor** | **Account Lead** | Evaluate relationship maturity and system health. |
 
-### Steps / Routines
+#### Steps / Routines
 
 1. **Collect Observations**
    - Review how work actually flows through the system.
@@ -64,13 +64,13 @@ This tool bridges the transition from *planned system* (design intent) to *obser
    - Summarize observations, ratings, and actions in a **Delivery Diagnostic Sheet**.
    - Share with both organizations’ leadership (Account Lead + Executive Sponsor).
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Delivery Charter, Engagement Canvas, Maturity Baseline | **Delivery Diagnostic Sheet**, **Maturity Delta Report**, updated **Improvement Backlog** |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -80,7 +80,7 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 | **Maturity Delta** | Gap between designed and actual maturity ≤ 1 level per relationship line. |
 | **Engagement Pulse** | Positive sentiment trend in post-review survey (≥ 4/5). |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Treating observed delivery issues as *team performance* instead of *systemic friction*.
 - Focusing only on process metrics (velocity, defects) instead of relationship quality.
@@ -88,7 +88,7 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 - Conducting the review without both client and vendor decision-makers present.
 - Ignoring early warning signs in engagement tone or feedback cadence.
 
-### Scaling Notes
+#### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -97,7 +97,7 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 
 As maturity increases, the diagnostic evolves from *problem detection* to *continuous improvement ritual*.
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Confirm that the vendor delivery system effectively contributes to intended business outcomes.
 
@@ -109,7 +109,7 @@ As maturity increases, the diagnostic evolves from *problem detection* to *conti
 4. Participate in the joint diagnostic workshop; focus on shared system ownership.
 5. Approve improvement actions that require internal resource or policy change.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Detect early misalignments and demonstrate delivery accountability through data and transparency.
 
@@ -121,7 +121,7 @@ As maturity increases, the diagnostic evolves from *problem detection* to *conti
 4. Present findings constructively — emphasizing collaboration, not blame.
 5. Integrate improvement items into the next quarterly plan or sprint retrospectives.
 
-### Summary
+#### Summary
 
 The **Delivery System Diagnostic** ensures that the joint delivery system is *functional, adaptive, and value-aligned*.<br/>
 It transforms early-stage ambiguity into structured learning and continuous improvement.

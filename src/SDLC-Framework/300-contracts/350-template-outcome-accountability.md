@@ -1,8 +1,8 @@
-# Template – Outcome-to-Accountability Agreement
+## Template – Outcome-to-Accountability Agreement
 
 > *“Every output must trace to a shared outcome, or it serves no one.”*
 
-### Purpose
+#### Purpose
 
 The **Outcome-to-Accountability Agreement (OAA)** is a **contractual template** derived from the 3SF **Outcome-to-Accountability Map**.<br/>
 It formalizes the shared ownership of product or service outcomes between Client and Vendor organizations.
@@ -11,7 +11,7 @@ This agreement enforces the 3SF principle **“Outcome before Output”** by mak
 
 The OAA can be attached to Statements of Work, Delivery Charters, or Engagement Contracts as an outcome-governance annex.
 
-### Scope and Application
+#### Scope and Application
 
 | Dimension | Scope |
 |------------|-------|
@@ -20,7 +20,7 @@ The OAA can be attached to Statements of Work, Delivery Charters, or Engagement 
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Collaborative Confidence* |
 
-### Contract Parties and Roles
+#### Contract Parties and Roles
 
 | Role | Representative | Responsibility |
 |------|----------------|----------------|
@@ -29,7 +29,7 @@ The OAA can be attached to Statements of Work, Delivery Charters, or Engagement 
 | **Executive Sponsor (Client)** | [Name, Title] | Approves overall business alignment and measurable targets. |
 | **Account Lead (Vendor)** | [Name, Title] | Ensures contractual commitments support agreed outcomes. |
 
-### Agreement Structure
+#### Agreement Structure
 
 Each OAA is structured as a set of **Outcome → Output → Accountability** links, where both organizations co-sign their roles and expectations.
 
@@ -40,14 +40,14 @@ Each OAA is structured as a set of **Outcome → Output → Accountability** lin
 
 Each row represents a **jointly owned success path** — both accountable (Client) and responsible (Vendor).
 
-### Agreement Clauses
+#### Agreement Clauses
 
-### Clause 1 – Shared Ownership of Outcomes
+#### Clause 1 – Shared Ownership of Outcomes
 
 Both parties agree that measurable business outcomes define success.<br/>
 Outputs or deliverables are only considered complete when their agreed outcomes have been verified through objective evidence.
 
-### Clause 2 – Definition of Verification Metrics
+#### Clause 2 – Definition of Verification Metrics
 
 Metrics are defined jointly before development begins.<br/>
 Client provides data sources; Vendor ensures measurement mechanisms exist in the solution.<br/>
@@ -57,28 +57,28 @@ All metrics must have:
 - A **target**, and
 - A **timeframe** for verification.
 
-### Clause 3 – Review and Renewal
+#### Clause 3 – Review and Renewal
 
 The OAA is reviewed during **Quarterly Assessments**.<br/>
 If outcomes are not met, corrective actions are defined jointly without assigning blame — guided by the [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md).
 
-### Clause 4 – Adjustment Procedure
+#### Clause 4 – Adjustment Procedure
 
 When business priorities change, outcomes may be updated with approval from both Product Leaders and Account Leads.
 Changes must maintain traceability between new outcomes and delivery plans.
 
-### Clause 5 – Transparency and Reporting
+#### Clause 5 – Transparency and Reporting
 
 Both sides agree to share progress transparently through the **Maturity Dashboard** and **Governance Contract** cadence.
 Outcome reports are integrated into portfolio or program-level reviews.
 
-### Inputs / Outputs
+#### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Business objectives, backlog, SoW deliverables | **Outcome-to-Accountability Agreement**, baseline metrics, quarterly review reports |
 
-### Metrics / Signals
+#### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -87,7 +87,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 | **Outcome Achievement Rate** | ≥70% of outcomes meet or exceed targets within timeframe. |
 | **Transparency Signal** | Outcome data visible in shared governance dashboards. |
 
-### Common Pitfalls
+#### Common Pitfalls
 
 - Defining outputs instead of outcomes (e.g., “launch feature” vs. “improve conversion”).
 - Assigning accountability to only one side.
@@ -95,7 +95,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 - Using vanity KPIs disconnected from value realization.
 - Allowing changes without proper traceability and sign-off.
 
-### Contract Lifecycle
+#### Contract Lifecycle
 
 | Stage | Action | Responsible Roles |
 |--------|---------|------------------|
@@ -104,7 +104,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 | **Review** | Revisited quarterly during Maturity or Governance reviews. | Product Leaders, Governance Officers |
 | **Renewal** | Updated upon scope change, product release, or new maturity stage. | Account Leads |
 
-### Client-Side Application
+#### Client-Side Application
 
 **Objective:** Guarantee that every funded effort is tied to business outcomes and value realization.
 
@@ -115,7 +115,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 3. Participate in quarterly outcome verification sessions.
 4. Use outcome data for strategic prioritization and renewal decisions.
 
-### Vendor-Side Application
+#### Vendor-Side Application
 
 **Objective:** Demonstrate business impact, not just delivery completion.
 
@@ -126,7 +126,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 3. Report progress in governance cadence transparently.
 4. Document learning when outcomes diverge from expectations.
 
-### Summary
+#### Summary
 
 The **Outcome-to-Accountability Agreement** transforms project objectives into **shared, measurable commitments**.<br/>
 It closes the gap between *client expectations* and *vendor execution*, ensuring every feature or deliverable serves a validated business purpose.
