@@ -35,8 +35,6 @@ Tools are grouped by **application mode** and mapped to **Client / Vendor** cont
 | **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) |
 | **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard](215-maturity-dashboard.md) |
 
----
-
 ## Application Modes
 
 | Mode | Typical When | Used by (Client / Vendor) | 3SF Layers Focused | Outcomes |
@@ -76,6 +74,11 @@ Each practice file includes:
 | Portfolio Audit | Audit | [Relationship Audit](260-relationship-audit.md) | **Executive Sponsor**, **Governance Officer** | **Delivery Facilitator**, **Engineering Director** | Portfolio maturity compared |
 | Retrospective / Evolve | Reflect | [Learning Before Blame Protocol](265-learning-before-blame-protocol.md) | **Executive Sponsor**, **Product Leader** | **Delivery Facilitator**, **Account Lead** | Root causes turned into learning |
 
+> **Note:** For governance interfaces and inspection instruments, see also<br/>
+> [**Contracts Architecture**](../300-contracts/300-contracts-architecture.md),<br/>
+> [**Maturity Dashboard**](215-maturity-dashboard.md), and<br/>
+> [**RAC / CRC**](../100-theory/130-rule-audit-checklist.md).
+
 ## 3SF Layer Mapping
 
 | 3SF Layer | Purpose | Client-Side Focus | Vendor-Side Focus | Example Tool |
@@ -83,6 +86,12 @@ Each practice file includes:
 | **Contextual Drivers Layer (CDL)** | Clarify environment, goals, and constraints | Business objectives & internal readiness | Engagement framing & feasibility | Engagement Context Canvas |
 | **Stable Rules Layer (SRL)** | Define repeatable collaboration patterns | Governance & dependencies | Team operations & flow | Autonomy & Control Boundary Charter |
 | **Rule Audit Checklist (RAC)** | Reflect and verify maturity | Value realization & partnership signals | Relationship metrics & feedback | Maturity Dashboard / Relationship Audit |
+
+> **Governance & Diagnostics layer:**<br/>
+> This layer connects **Practice** and **Theory** through systemic inspection and adaptation.<br/>
+> It combines contractual artifacts (see below), the **[Maturity Dashboard](215-maturity-dashboard.md)**, and diagnostics such as<br/>
+> **[RAC](../100-theory/130-rule-audit-checklist.md)** and **[CRC](../100-theory/135-contextual-rules-catalog.md)**.<br/>
+> Together, they enable transparent governance and maturity measurement across Client and Vendor systems.
 
 ## Core Practice Tools – Alignment before Performance
 
@@ -109,7 +118,7 @@ To ensure that alignment is measurable, the tools below convert 3SF **Principles
 | :--- | :--- | :--- |
 | **Contextual Drivers Layer** | [**Engagement Context Canvas**](205-engagement-context-canvas.md) (Design / Audit) | Used at the outset of **Discover** stage to define Contextual Drivers and corresponding **Stable Rule Adjustments**. |
 
-## Cross-Organizational Application Layer – Contractual Artifacts
+## Governance & Diagnostics layer – Contractual Artifacts
 
 While *Core Practices* operationalize 3SF principles within teams, **Contractual Artifacts** define how those principles are enforced **across organizational boundaries**.<br/>
 They form the **interface layer** between Client and Vendor, translating *Trust before Control*, *Outcome before Output*, and *Shared Accountability* into measurable, co-signed commitments.
