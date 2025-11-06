@@ -2,7 +2,7 @@
 
 > *“Partnership maturity grows through reflection, not reports.”*
 
-## Purpose
+### Purpose
 
 The **Quarterly Delivery and Relationship Assessment** provides a structured checkpoint to evaluate the **health, maturity, and trajectory** of the ongoing client–vendor engagement.
 
@@ -14,7 +14,7 @@ It measures both **delivery performance** and **relationship maturity** to:
 
 This tool turns continuous improvement into a shared quarterly ritual rather than a reactive exercise.
 
-## Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 | **3SF Layers** | Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Co-Creative Trust* → toward *Strategic Partnership* |
 
-## Actors / Roles
+### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 | **Governance Officer** | **Engineering Director** | Verify compliance, continuity, and risk management. |
 | **Requirements Analyst**, **Experience Designer** | **Technical Integrator**, **Practice Lead** | Review quality, usability, and system coherence. |
 
-## Steps / Routines
+### Steps / Routines
 
 1. **Prepare Evidence and Signals**
    - Collect performance metrics (velocity, incidents, releases, satisfaction).
@@ -65,13 +65,13 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
    - Update the **Maturity Dashboard** and **Improvement Backlog**.
    - Plan follow-up in next retrospectives or governance meetings.
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Previous Diagnostic or Assessment reports, metrics dashboards, Improvement Backlog | **Quarterly Alignment Record (QAR)**, updated **Maturity Dashboard**, new **Improvement Plan** |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -81,7 +81,7 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 | **Value Realization** | ≥ 70% of delivered items linked to measurable outcomes. |
 | **System Stability** | No recurring systemic issues across two consecutive quarters. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Treating the assessment as a KPI review instead of a **relationship reflection**.
 - Focusing only on delivery metrics and ignoring value signals.
@@ -89,7 +89,7 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 - Overcomplicating the scoring instead of discussing narratives.
 - Not translating insights into actionable next steps.
 
-## Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -98,7 +98,7 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 
 At higher maturity, assessments evolve into **joint portfolio reviews** connecting multiple projects under one relationship umbrella.
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Maintain visibility into how the vendor partnership contributes to both product outcomes and organizational learning.
 
@@ -110,7 +110,7 @@ At higher maturity, assessments evolve into **joint portfolio reviews** connecti
 4. Identify internal policy or dependency changes required to sustain maturity growth.
 5. Endorse the next-quarter improvement levers and allocate needed support.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Demonstrate delivery maturity, anticipate systemic risks, and nurture trust through transparency.
 
@@ -122,7 +122,7 @@ At higher maturity, assessments evolve into **joint portfolio reviews** connecti
 4. Highlight proactive actions taken since last quarter.
 5. Support governance follow-up and accountability tracking.
 
-## Summary
+### Summary
 
 The **Quarterly Delivery and Relationship Assessment** transforms performance review into **relationship evolution**.<br/>
 It anchors the 3SF maturity journey in real, measurable progress — ensuring that trust, value, and flow advance together.

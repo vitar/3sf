@@ -2,7 +2,7 @@
 
 > *“The measure of trust is the freedom you grant — and the transparency you maintain.”*
 
-## Purpose
+### Purpose
 
 The **Autonomy & Control Boundary Agreement (ACBA)** defines **decision-making rights, control mechanisms, and escalation paths** between Client and Vendor organizations.<br/>
 It formalizes the 3SF principle **“Trust before Control”** by turning abstract trust levels into explicit, measurable governance rules.
@@ -10,7 +10,7 @@ It formalizes the 3SF principle **“Trust before Control”** by turning abstra
 This agreement serves as a **governance annex** to the Engagement or Governance Contract.<br/>
 It evolves alongside relationship maturity — reducing control as trust grows and autonomy proves reliable.
 
-## Scope and Application
+### Scope and Application
 
 | Dimension | Scope |
 |------------|-------|
@@ -19,7 +19,7 @@ It evolves alongside relationship maturity — reducing control as trust grows a
 | **3SF Layers** | Stable Rules Layer (SRL) + Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Transactional Trust* → toward *Strategic Partnership* |
 
-## Contract Parties and Roles
+### Contract Parties and Roles
 
 | Role | Representative | Responsibility |
 |------|----------------|----------------|
@@ -28,7 +28,7 @@ It evolves alongside relationship maturity — reducing control as trust grows a
 | **Vendor Account Lead** | [Name, Title] | Ensures vendor decisions respect agreed boundaries. |
 | **Vendor Delivery Facilitator** | [Name, Title] | Implements governance cadence and reports control metrics. |
 
-## Agreement Structure
+### Agreement Structure
 
 Each ACBA contains a **Decision Autonomy Matrix**, describing who decides, who is informed, and under what conditions autonomy applies.
 
@@ -40,7 +40,7 @@ Each ACBA contains a **Decision Autonomy Matrix**, describing who decides, who i
 | **Quality & Acceptance** | Client QA defines and verifies all acceptance criteria. | Shared DoD matrix applied. | Vendor owns verification; Client performs outcome validation. | Continuous improvement metrics shared via dashboards. |
 | **Incident & Change Management** | Client approves all changes. | Vendor executes urgent fixes within SLA; reports within 24h. | Vendor self-resolves; Client informed. | Shared accountability for root-cause learning. |
 
-## Agreement Clauses
+### Agreement Clauses
 
 ### Clause 1 – Adaptive Autonomy
 
@@ -66,13 +66,13 @@ Violations of agreed autonomy boundaries trigger a **temporary rollback** to a l
 Each quarter, maturity is reassessed through the **Maturity Growth Contract**.<br/>
 Improvement in trust and governance indicators increases vendor decision latitude.
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Governance model, maturity dashboard data, prior autonomy agreements | **Autonomy & Control Boundary Agreement**, updated decision matrix, quarterly governance log |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -81,7 +81,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 | **Transparency Signal** | All autonomous actions logged within agreed timeframe. |
 | **Trust Maturity** | Both sides report ≥4/5 confidence in governance transparency. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Fixing autonomy boundaries permanently instead of adapting with maturity.
 - Granting autonomy without visibility or reporting.
@@ -89,7 +89,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 - Allowing only one side (client or vendor) to adjust control terms.
 - Failing to review boundaries regularly as the relationship evolves.
 
-## Contract Lifecycle
+### Contract Lifecycle
 
 | Stage | Action | Responsible Roles |
 |--------|---------|------------------|
@@ -98,7 +98,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 | **Review** | Assess quarterly during Maturity Growth reviews. | Executive Sponsor / Governance Officer |
 | **Renewal** | Update autonomy levels based on trust and performance metrics. | Account Lead / Delivery Facilitator |
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Enable controlled delegation while maintaining governance transparency.
 
@@ -109,7 +109,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 3. Adjust boundaries only through joint reviews, not unilaterally.
 4. Reward trust improvement through reduced approvals.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Earn and sustain autonomy through consistent transparency and reliability.
 
@@ -120,7 +120,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 3. Maintain traceability between autonomy decisions and outcomes.
 4. Use autonomy responsibly to improve delivery flow, not bypass control.
 
-## Summary
+### Summary
 
 The **Autonomy & Control Boundary Agreement** is the cornerstone of **governance evolution** in 3SF.<br/>
 It replaces static control hierarchies with measurable, adaptive trust — ensuring that autonomy is **earned, visible, and scalable**.

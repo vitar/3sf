@@ -2,7 +2,7 @@
 
 > *“Systems evolve only when their people reflect.”*
 
-## Purpose
+### Purpose
 
 The **3SF Self-Diagnostic** enables **individuals and small teams** to reflect on their contribution to the joint delivery system and relationship maturity.
 
@@ -14,7 +14,7 @@ This tool helps:
 - Reinforce alignment between individual purpose and system goals,
 - Build a culture of self-correction and trust across organizations.
 
-## Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ This tool helps:
 | **3SF Layers** | Rule Audit Checklist (RAC) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* (individual level) |
 
-## Actors / Roles
+### Actors / Roles
 
 Applicable to all **functional cores** defined in the 3SF Functional Role Model, e.g.:
 
@@ -37,7 +37,7 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 | **Experience Designer** | Keeping user value central across trade-offs. |
 | **Executive Sponsor / Account Lead** | Enabling trust and transparency from leadership. |
 
-## Steps / Routines
+### Steps / Routines
 
 1. **Set the Reflection Context**
    - Choose a time window (last sprint, quarter, or milestone).
@@ -68,13 +68,13 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
    - At next sprint or quarterly review, reflect on what changed.
    - Integrate learning into the team’s improvement backlog.
 
-## Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Last Diagnostic / Assessment results, project retrospectives, personal notes | **Reflection Grid**, **Action Pledge**, optionally shared **Reflection Summary** |
 
-## Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -83,7 +83,7 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 | **Psychological Safety** | 80% of team members report feeling safe to speak about issues openly. |
 | **Learning Culture** | Reflections discussed in retrospectives at least once per iteration. |
 
-## Common Pitfalls
+### Common Pitfalls
 
 - Treating reflection as evaluation instead of learning.
 - Focusing only on personal comfort, not on system contribution.
@@ -91,14 +91,14 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 - Using scores as performance metrics instead of awareness indicators.
 - Conducting reflection in isolation from client or cross-functional peers.
 
-## Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
 | **Collaborative → Co-Creative** | Peer reflections become team rituals; feedback becomes normalized. |
 | **Co-Creative → Strategic Partner** | Reflections feed into leadership training and organizational maturity programs. |
 
-## Client-Side Application
+### Client-Side Application
 
 **Objective:** Build reflective leadership habits that improve vendor collaboration and value realization.
 
@@ -109,7 +109,7 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 3. Use outcomes to adjust internal dependencies (e.g., approval flow, release cadence).
 4. Demonstrate accountability by sharing top insights with the vendor team.
 
-## Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Reinforce ownership, humility, and transparency inside delivery teams.
 
@@ -120,7 +120,7 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 3. Share aggregated themes with the client to illustrate learning progress.
 4. Include top insights in Delivery Facilitator and Practice Lead coaching plans.
 
-## Summary
+### Summary
 
 The **3SF Self-Diagnostic** empowers every participant — from engineer to executive — to become a conscious contributor to system maturity.<br/>
 It turns reflection into a **core maintenance function** of the client-vendor relationship, ensuring that personal learning continuously fuels organizational evolution.
