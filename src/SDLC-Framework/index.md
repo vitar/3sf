@@ -68,7 +68,7 @@ The framework is structured like an **operating system**:
 | :--- | :--- |
 | [**Theory (OS)**](100-theory/100-intro-purpose.md) | Explains *why* 3SF exists and *how* it structures relationships. |
 | [**Practice (Apps)**](200-practice/200-practice-architecture.md) | Shows *how* to use 3SF tools in real projects. |
-| [**Governance & Diagnostics (Interfaces)**](300-contracts/300-contracts-architecture.md) | Defines how principles and agreements evolve into measurable maturity. |
+| [**Governance & Diagnostics**](300-contracts/300-contracts-architecture.md) | Defines how principles and agreements evolve into measurable maturity. |
 
 Each section builds on the previous one — but you don’t need to read it linearly.<br/>
 If you know your **role** or **current challenge**, you can jump directly to the relevant guide below.
