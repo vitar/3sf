@@ -91,7 +91,9 @@ nav:
     - 300-contracts/351-template-architectural-tradeoff.md
     - 300-contracts/352-template-autonomy-control.md
   - REFERENCE:
-    - 500-reference/100-acronyms.md
+    - 500-reference/510-acronyms.md
+    - 500-reference/520-glossary.md
+    - 500/reference/530-sources-and-frameworks.md
 
 markdown_extensions:
   - admonition
