@@ -35,39 +35,45 @@ It is best used at **the start of an engagement** and revisited during **Relatio
 
 ### Steps / Routines
 
-1. **Gather Context Data**
-   - Conduct a 60–90 minute joint discovery session using the six contextual drivers below.
-   - Collect factual data, assumptions, and risks from both sides.
+#### 1. **Gather Context Data**
 
-2. **Map the Six Contextual Drivers**
-   The ECC is divided into six zones, each describing a driver that shapes the delivery system:
+- Conduct a 60–90 minute joint discovery session using the six contextual drivers below.
+- Collect factual data, assumptions, and risks from both sides.
 
-   | Contextual Driver | Typical Questions to Explore | Example Output |
-   |--------------------|------------------------------|----------------|
-   | **Commercial** | What is the funding model and cost tolerance? | Fixed budget with optional scalability buffer. |
-   | **Regulatory** | What compliance or security obligations exist? | Must align with ISO27001; data residency in EU. |
-   | **Organizational** | How are decisions made internally? | Dual approval for deployments; weekly steering committee. |
-   | **Architectural** | What technical ecosystem and constraints exist? | Hybrid cloud; legacy DB; need to align with enterprise patterns. |
-   | **Delivery** | What delivery cadence and collaboration model fit this environment? | Two-week sprints; hybrid client/vendor teams. |
-   | **Cultural** | What behaviors and communication norms affect delivery? | Preference for async updates; low risk appetite. |
+#### 2. **Map the Six Contextual Drivers**
 
-3. **Assess Contextual Fit**
-   - For each driver, rate fit between **context** and **Stable Rules** (1–5 scale).
-   - Identify where the default 3SF rules or practices must adapt.
-   - Example: In a *Regulatory-heavy* context, the SRL may enforce longer approval loops.
+The ECC is divided into six zones, each describing a driver that shapes the delivery system:
 
-4. **Define Contextual Adjustments**
-   - List required adaptations to processes, tools, or roles.
-   - Assign responsibility and timeframe for each adjustment.
-   - Example: “Shift release frequency from 2 weeks → monthly to align with compliance audits.”
+| Contextual Driver | Typical Questions to Explore | Example Output |
+|--------------------|------------------------------|----------------|
+| **Commercial** | What is the funding model and cost tolerance? | Fixed budget with optional scalability buffer. |
+| **Regulatory** | What compliance or security obligations exist? | Must align with ISO27001; data residency in EU. |
+| **Organizational** | How are decisions made internally? | Dual approval for deployments; weekly steering committee. |
+| **Architectural** | What technical ecosystem and constraints exist? | Hybrid cloud; legacy DB; need to align with enterprise patterns. |
+| **Delivery** | What delivery cadence and collaboration model fit this environment? | Two-week sprints; hybrid client/vendor teams. |
+| **Cultural** | What behaviors and communication norms affect delivery? | Preference for async updates; low risk appetite. |
 
-5. **Approve and Record**
-   - Consolidate results in the **Engagement Context Canvas** artifact.
-   - Both the **Executive Sponsor** and **Account Lead** approve and store it with the Delivery Charter.
+#### 3. **Assess Contextual Fit**
 
-6. **Revisit Periodically**
-   - Reassess contextual drivers during each **Relationship Audit** or major scope change.
-   - Track changes in organizational, commercial, or cultural context that may affect stable rules.
+- For each driver, rate fit between **context** and **Stable Rules** (1–5 scale).
+- Identify where the default 3SF rules or practices must adapt.
+- Example: In a *Regulatory-heavy* context, the SRL may enforce longer approval loops.
+
+#### 4. **Define Contextual Adjustments**
+
+- List required adaptations to processes, tools, or roles.
+- Assign responsibility and timeframe for each adjustment.
+- Example: “Shift release frequency from 2 weeks → monthly to align with compliance audits.”
+
+#### 5. **Approve and Record**
+
+- Consolidate results in the **Engagement Context Canvas** artifact.
+- Both the **Executive Sponsor** and **Account Lead** approve and store it with the Delivery Charter.
+
+#### 6. **Revisit Periodically**
+
+- Reassess contextual drivers during each **Relationship Audit** or major scope change.
+- Track changes in organizational, commercial, or cultural context that may affect stable rules.
 
 ### Inputs / Outputs
 
