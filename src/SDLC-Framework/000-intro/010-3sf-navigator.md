@@ -1,3 +1,7 @@
+---
+hide:
+  - title
+---
 ## The 3SF Navigator – Context-Driven Tool Finder
 
 > *“Start with your situation, not the method.”*
