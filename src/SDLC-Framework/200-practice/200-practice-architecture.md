@@ -101,6 +101,10 @@ To ensure that alignment is measurable, the tools below convert 3SF **Principles
 > The 3SF Practice set follows the systemic order:<br/>
 > **Context → Outcome → Trust → Quality → Flow → Accountability → Design → Diagnostics → Assessment → Reflection → Audit → Measurement → Learning.**
 
+> **The first three tools — [Engagement Context Canvas](205-engagement-context-canvas.md), [Autonomy & Control Boundary Charter](210-autonomy-control-charter.md), and [Maturity Dashboard](215-maturity-dashboard.md) — form the *Essential Governance Tools*.**<br/>
+> These are the **non-negotiable Contractual Artifacts** that must be completed and co-signed before any **SDLC Core Practices** or delivery methodologies (Agile, Lean, etc.) are applied.<br/>
+> They ensure that every engagement operates within a validated relational contract — the foundation of 3SF as a **Meta-Framework** connecting governance and execution.
+
 ### Tools to Expand Core SDLC Practices
 
 | Core SDLC Practice | Tool / Artifact (Mode) | Purpose in 3SF System |
