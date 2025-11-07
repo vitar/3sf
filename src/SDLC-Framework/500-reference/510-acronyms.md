@@ -1,6 +1,5 @@
 # Acronyms Reference
 
-# Acronyms Reference
 | Acronym | Full Form | Meaning / Context |
 | :--: | :--- | :--- |
 | 3SF | 3-in-3 SDLC Framework | Relationship-aware delivery framework aligning Client, Vendor, and Product or Service into one system. |

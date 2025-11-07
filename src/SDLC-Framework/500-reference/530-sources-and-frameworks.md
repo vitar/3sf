@@ -1,4 +1,4 @@
-# 530 Sources and Frameworks
+# Sources and Frameworks
 
 The **3-in-3 SDLC Framework (3SF)** builds upon a wide spectrum of proven methodologies, systems-thinking traditions, and continuous-improvement practices.<br/>
 This section lists the **external sources, frameworks, and practices** that influenced or complement 3SF Theory, Practice, and Maturity models.

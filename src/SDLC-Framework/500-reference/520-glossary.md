@@ -1,4 +1,4 @@
-# 520 Glossary
+# Glossary
 
 The **3-in-3 SDLC Framework (3SF)** introduces a shared language to describe the systemic relationships between **Client**, **Vendor**, and **Product (or Service)**.<br/>
 This glossary defines the core concepts and terminology used across 3SF Theory, Practice, and Contracts.
