@@ -44,6 +44,7 @@ When all three sides evolve together, delivery becomes aligned, predictable, and
 | **3. Ground** | Complete the [**Engagement Context Canvas (ECC)**](200-practice/205-engagement-context-canvas.md). | Enforces **Context before Method** — defines the system’s environment and constraints. |
 | **4. Govern** | Co-sign the [**Autonomy & Control Boundary Charter**](200-practice/210-autonomy-control-charter.md). | Establishes **Trust before Control** — formalizes decision rights and escalation paths. |
 | **5. Measure** | Set up the [**Maturity Dashboard**](200-practice/215-maturity-dashboard.md). | Ensures transparency and shared understanding of relationship health. |
+| **6. Reference** | Review the **[Glossary](500-reference/520-glossary.md) & [Acronyms](500-reference/510-acronyms.md)** to clarify terminology. | Ensures shared understanding of all 3SF terms, contracts, and maturity metrics. |
 
 Once these steps are done, the 3SF Operating System is **initialized**.<br/>
 You can then safely apply any methodology — Agile, Lean, or hybrid — within a coherent relational context.
@@ -69,6 +70,7 @@ The framework is structured like an **operating system**:
 | [**Theory (OS)**](100-theory/100-intro-purpose.md) | Explains *why* 3SF exists and *how* it structures relationships. |
 | [**Practice (Apps)**](200-practice/200-practice-architecture.md) | Shows *how* to use 3SF tools in real projects. |
 | [**Governance & Diagnostics**](300-contracts/300-contracts-architecture.md) | Defines how principles and agreements evolve into measurable maturity. |
+| [**Reference**](500-reference/510-acronyms.md) | Central library of terms, acronyms, sources, and licensing for cross-framework consistency. |
 
 Each section builds on the previous one — but you don’t need to read it linearly.<br/>
 If you know your **role** or **current challenge**, you can jump directly to the relevant guide below.
@@ -85,7 +87,7 @@ See how Client and Vendor roles align, what each is accountable for, and which 3
 
 ## When You’re Ready
 
-Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)**<br/>
-to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.
+Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)** to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.<br/>
+For definitions, citations, and framework origins, explore the [**3SF Reference Section**](500-reference/530-sources-and-frameworks.md) — your dictionary and knowledge base for all 3SF artifacts.
 
 > *3SF begins with people, not process. Start with your context — then pick the right principle and tool to match it.*
