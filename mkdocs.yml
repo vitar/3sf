@@ -30,6 +30,7 @@ theme:
         name: Switch to system preference
 
 plugins:
+  - search
   - to-pdf:
       output_path: "pdf/3sf.pdf"
       cover_subtitle: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
