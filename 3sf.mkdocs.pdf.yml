@@ -32,7 +32,6 @@ plugins:
   - to-pdf:
       output_path: "pdf/3sf.pdf"
       cover_subtitle: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
-      # toc_title:  !ENV [PDF_TOC_TITLE, ""]
       toc_level: 2
       ordered_chapter_level: 2
 
