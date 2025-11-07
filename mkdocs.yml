@@ -90,6 +90,8 @@ nav:
     - 300-contracts/350-template-outcome-accountability.md
     - 300-contracts/351-template-architectural-tradeoff.md
     - 300-contracts/352-template-autonomy-control.md
+  - REFERENCE:
+    - 500-reference/100-acronyms.md
 
 markdown_extensions:
   - admonition
