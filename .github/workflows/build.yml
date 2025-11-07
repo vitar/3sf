@@ -68,34 +68,11 @@ jobs:
           # keep your existing pip installs elsewhere as-is
           pip install mkdocs-to-pdf "weasyprint>=52"
 
-      - name: Build 3SF site (skip PDF for speed if not already built)
+      - name: Build 3SF site and PDF
         run: |
           if [ ! -d dist/site ]; then
-            unset ENABLE_PDF_EXPORT PDF_OUTPUT_PATH
             mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir dist/site
           fi
-
-      - name: Build 3SF PDF
-        run: |
-          set -e
-          mkdir -p dist/site/pdf
-
-          build_pdf () {
-            title="$1"; subtitle="$2"; toctitle="$3"
-
-            export ENABLE_PDF_EXPORT="1"
-            export PDF_COVER_TITLE="$title"
-            export PDF_COVER_SUBTITLE="$subtitle"
-            export PDF_TOC_TITLE="$toctitle"
-            export PDF_AUTHOR_DATE="Viktor Jevdokimov, Vilnius, Lithuania, $(date +'%Y-%m-%d')"
-            export PDF_OUTPUT_PATH="pdf/3sf.pdf"
-
-            mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir "dist/_tmp_"
-
-            cp "dist/_tmp_/${PDF_OUTPUT_PATH}" "dist/site/pdf/3sf.pdf"
-          }
-
-          build_pdf "3-in-3 SDLC Framework (3SF)" "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration." "Table of contents"
 
       - name: Upload dist artifacts (for debugging)
         uses: actions/upload-artifact@v4

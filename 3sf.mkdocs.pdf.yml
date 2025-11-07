@@ -30,16 +30,16 @@ theme:
 
 plugins:
   - to-pdf:
-      custom_template_path: templates
-      author: !ENV [PDF_AUTHOR_DATE, "Viktor Jevdokimov"]
+      # custom_template_path: templates
+      # author: !ENV [PDF_AUTHOR_DATE, "Viktor Jevdokimov"]
       # Per-locale PDF path via env; prevents overwrites across locales
       output_path: !ENV [PDF_OUTPUT_PATH, "pdf/3sf.pdf"]
       # Translate the PDF cover subtitle via env (set in CI matrix)
-      cover_title:  !ENV [PDF_COVER_TITLE, ""]
-      cover_subtitle: !ENV [PDF_COVER_SUBTITLE, ""]
-      toc_title:  !ENV [PDF_TOC_TITLE, ""]
+      # cover_title:  !ENV [PDF_COVER_TITLE, ""]
+      # cover_subtitle: !ENV [PDF_COVER_SUBTITLE, ""]
+      # toc_title:  !ENV [PDF_TOC_TITLE, ""]
       # Only build PDF when enabled in CI
-      enabled_if_env: ENABLE_PDF_EXPORT
+      # enabled_if_env: ENABLE_PDF_EXPORT
       toc_level: 2
       ordered_chapter_level: 2
 
