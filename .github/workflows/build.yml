@@ -71,7 +71,7 @@ jobs:
       - name: Build 3SF site and PDF
         run: |
           if [ ! -d dist/site ]; then
-            mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir dist/site
+            mkdocs build --strict -f mkdocs.yml --site-dir dist/site
           fi
 
       - name: Upload dist artifacts (for debugging)
