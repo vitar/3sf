@@ -41,26 +41,26 @@ Each trade-off entry must specify **benefits, risks, and mitigations**, and be c
 
 ### Agreement Clauses
 
-### Clause 1 – Transparency of Trade-Offs
+#### Clause 1 – Transparency of Trade-Offs
 
 All major design decisions with long-term cost or quality implications must be recorded in this agreement before implementation.<br/>
 No change may be executed without mutual awareness of trade-offs.
 
-### Clause 2 – Shared Accountability for Risk
+#### Clause 2 – Shared Accountability for Risk
 
 Both parties share accountability for approved architectural risks.<br/>
 If a decision causes downstream cost or performance degradation, mitigation responsibilities are executed jointly.
 
-### Clause 3 – Alignment with Context
+#### Clause 3 – Alignment with Context
 
 All trade-offs must reference the **Engagement Context Canvas (ECC)** and its six contextual drivers.<br/>
 Deviations require justification and Executive Sponsor approval.
 
-### Clause 4 – Change Management
+#### Clause 4 – Change Management
 
 New or modified architectural decisions must be reviewed in governance cadence and appended to the ATA log with version control.
 
-### Clause 5 – Review and Renewal
+#### Clause 5 – Review and Renewal
 
 ATAs are reviewed during **Quarterly Assessments** or after major releases.<br/>
 Findings feed into the **Maturity Growth Contract** and **Relationship Evolution Contract**.
@@ -101,7 +101,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 
 **Objective:** Ensure architectural governance reflects informed business risk and supports long-term sustainability.
 
-**Client actions**
+#### **Client actions**
 
 1. Require ATAs for all major technical or NFR decisions.
 2. Validate that trade-offs align with business priorities.
@@ -112,7 +112,7 @@ Findings feed into the **Maturity Growth Contract** and **Relationship Evolution
 
 **Objective:** Maintain transparency and shared ownership for design quality and sustainability.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Facilitate trade-off workshops and maintain the ATA register.
 2. Communicate rationale and impact clearly to client stakeholders.

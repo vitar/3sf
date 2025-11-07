@@ -90,7 +90,7 @@ At higher maturity, governance evolves into **co-leadership** — both organizat
 
 **Objective:** Ensure governance provides oversight and alignment without stifling flow.
 
-**Client actions**
+#### **Client actions**
 
 1. Approve governance structure and cadence jointly with vendor.
 2. Ensure governance decisions are based on data, not opinion.
@@ -101,7 +101,7 @@ At higher maturity, governance evolves into **co-leadership** — both organizat
 
 **Objective:** Use governance to enhance delivery reliability and transparency.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Maintain governance logs, meeting notes, and dashboards.
 2. Propose improvements to reduce decision latency.

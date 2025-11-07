@@ -101,7 +101,7 @@ At higher maturity, EC evolves into a **Portfolio Engagement Framework** governi
 
 **Objective:** Ensure the engagement begins with clarity, context, and measurable trust expectations.
 
-**Client actions**
+#### **Client actions**
 
 1. Lead definition of business purpose and value metrics.
 2. Approve governance model and cadence jointly with Vendor.
@@ -112,7 +112,7 @@ At higher maturity, EC evolves into a **Portfolio Engagement Framework** governi
 
 **Objective:** Ensure delivery system is designed to meet contextual and governance expectations from day one.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Facilitate ECC and Delivery Design workshops.
 2. Document accountability and sign-off structures clearly.

@@ -47,24 +47,29 @@ It is reviewed and updated quarterly, co-signed by both Executive Sponsors.
 
 The document typically contains:
 
-1. **Maturity Baseline Summary**
-   - Relationship maturity level across Engagement, Delivery, and Value lines.
-   - Strengths, constraints, and systemic gaps.
+#### 1. **Maturity Baseline Summary**
 
-2. **Growth Objectives**
-   - Desired maturity target, timeframe, and criteria for achieving it.
-   - Example: Move from *Collaborative* to *Co-Creative* by enabling vendor autonomy for iteration planning.
+- Relationship maturity level across Engagement, Delivery, and Value lines.
+- Strengths, constraints, and systemic gaps.
 
-3. **Improvement Initiatives**
-   - Actions or experiments contributing to maturity advancement (e.g., governance simplification, trust score tracking).
+#### 2. **Growth Objectives**
 
-4. **Measurement Dashboard**
-   - Visual metrics of progress across quarters.
+- Desired maturity target, timeframe, and criteria for achieving it.
+- Example: Move from *Collaborative* to *Co-Creative* by enabling vendor autonomy for iteration planning.
+
+#### 3. **Improvement Initiatives**
+
+- Actions or experiments contributing to maturity advancement (e.g., governance simplification, trust score tracking).
+
+#### 4. **Measurement Dashboard**
+
+- Visual metrics of progress across quarters.
 - Uses indicators from the [Maturity Dashboard](../200-practice/215-maturity-dashboard.md).
 
-5. **Review and Renewal Schedule**
-   - Quarterly assessment cadence and sign-off checklist.
-   - Commitment to transparency in reporting and joint reflection.
+#### 5. **Review and Renewal Schedule**
+
+- Quarterly assessment cadence and sign-off checklist.
+- Commitment to transparency in reporting and joint reflection.
 
 ### Inputs / Outputs
 
@@ -102,7 +107,7 @@ At advanced maturity, the MGC becomes a **Strategic Partnership Growth Framework
 
 **Objective:** Ensure the Client organization actively participates in the relationship’s evolution — not just in performance reviews.
 
-**Client actions**
+#### **Client actions**
 
 1. Define clear, measurable growth goals per maturity dimension.
 2. Commit to removing internal constraints blocking vendor autonomy.
@@ -113,7 +118,7 @@ At advanced maturity, the MGC becomes a **Strategic Partnership Growth Framework
 
 **Objective:** Demonstrate measurable growth in maturity through transparency, reliability, and governance participation.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Facilitate maturity data collection and quarterly reviews.
 2. Propose experiments and improvements for maturity progression.

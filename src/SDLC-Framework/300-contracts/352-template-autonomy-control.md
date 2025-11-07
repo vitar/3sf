@@ -42,26 +42,26 @@ Each ACBA contains a **Decision Autonomy Matrix**, describing who decides, who i
 
 ### Agreement Clauses
 
-### Clause 1 – Adaptive Autonomy
+#### Clause 1 – Adaptive Autonomy
 
 Decision boundaries must reflect current relationship maturity and may evolve as trust metrics improve.<br/>
 Changes require review and co-signature during **Quarterly Maturity Assessments**.
 
-### Clause 2 – Escalation Framework
+#### Clause 2 – Escalation Framework
 
 All escalation paths must follow the governance model defined in the **Governance Contract**.<br/>
 Escalations are evaluated not by severity alone, but by **trust impact** and **systemic learning potential**.
 
-### Clause 3 – Transparency Requirements
+#### Clause 3 – Transparency Requirements
 
 All autonomous decisions must be **visible** through shared governance dashboards and logs.<br/>
 Transparency replaces pre-approval as the control mechanism at higher maturity levels.
 
-### Clause 4 – Exceptions and Breaches
+#### Clause 4 – Exceptions and Breaches
 
 Violations of agreed autonomy boundaries trigger a **temporary rollback** to a lower maturity stage, followed by corrective learning using the **Learning Before Blame Protocol**.
 
-### Clause 5 – Evolution of Autonomy
+#### Clause 5 – Evolution of Autonomy
 
 Each quarter, maturity is reassessed through the **Maturity Growth Contract**.<br/>
 Improvement in trust and governance indicators increases vendor decision latitude.
@@ -102,7 +102,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 
 **Objective:** Enable controlled delegation while maintaining governance transparency.
 
-**Client actions**
+#### **Client actions**
 
 1. Approve autonomy levels aligned with current trust maturity.
 2. Track governance signals and transparency indicators.
@@ -113,7 +113,7 @@ Improvement in trust and governance indicators increases vendor decision latitud
 
 **Objective:** Earn and sustain autonomy through consistent transparency and reliability.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Operate strictly within agreed boundaries and report all autonomous actions.
 2. Propose autonomy expansion based on maturity metrics.

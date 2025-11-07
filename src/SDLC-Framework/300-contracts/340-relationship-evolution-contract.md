@@ -97,7 +97,7 @@ At higher maturity, the REC becomes the foundation of **strategic co-governance*
 
 **Objective:** Ensure partnership continuation and renewal decisions are based on evidence and systemic maturity, not personal or financial bias.
 
-**Client actions**
+#### **Client actions**
 
 1. Lead annual maturity and value review sessions.
 2. Assess evolution opportunities based on business impact, not cost alone.
@@ -108,7 +108,7 @@ At higher maturity, the REC becomes the foundation of **strategic co-governance*
 
 **Objective:** Demonstrate maturity growth and partnership reliability as key differentiators.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Prepare maturity and value data with transparency.
 2. Propose evolution options grounded in relationship metrics.

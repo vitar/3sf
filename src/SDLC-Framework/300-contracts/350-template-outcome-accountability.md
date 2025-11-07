@@ -108,7 +108,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 
 **Objective:** Guarantee that every funded effort is tied to business outcomes and value realization.
 
-**Client actions**
+#### **Client actions**
 
 1. Define clear, quantifiable outcomes and baselines.
 2. Validate alignment between outcome and delivery capability.
@@ -119,7 +119,7 @@ Outcome reports are integrated into portfolio or program-level reviews.
 
 **Objective:** Demonstrate business impact, not just delivery completion.
 
-**Vendor actions**
+#### **Vendor actions**
 
 1. Align backlog and technical scope to outcome metrics.
 2. Provide measurement mechanisms and data dashboards.
