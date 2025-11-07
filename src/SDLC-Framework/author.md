@@ -1,6 +1,6 @@
 # About the Author
 
-## Viktor Jevdokimov, Vilnius, Lithuiania — Creator of 3in3.dev and the 3SF Framework
+### Viktor Jevdokimov, Vilnius, Lithuiania — Creator of 3in3.dev and the 3SF Framework
 
 [**Viktor Jevdokimov**](https://www.linkedin.com/in/viktor-jevdokimov/) is a software engineering leader, systems thinker, and framework designer with over 30 years of experience in software product delivery, modernization, and team alignment.
 
