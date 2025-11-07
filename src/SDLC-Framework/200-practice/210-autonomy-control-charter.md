@@ -35,37 +35,43 @@ When used correctly, the ACBC becomes both a **trust contract** and a **risk man
 
 ### Steps / Routines
 
-1. **Define Governance Domains**
-   - Identify key decision areas to structure the charter, e.g.:
-     - *Scope & Requirements*
-     - *Architecture & Technology*
-     - *Delivery Process & Planning*
-     - *Quality & Acceptance*
-     - *Environment & Access*
-     - *Budget & Change Control*
+#### 1. **Define Governance Domains**
 
-2. **Set Autonomy Levels by Maturity Stage**
-   - For each domain, define who has autonomy at each maturity level:
+Identify key decision areas to structure the charter, e.g.:
 
-     | Maturity Stage | Autonomy Description |
-     |----------------|----------------------|
-     | **Transactional** | Vendor executes predefined tasks; Client approval required for all changes >1 day or >€1k. |
-     | **Collaborative** | Vendor can adjust plans within sprint or iteration scope; approval for budget-affecting changes only. |
-     | **Co-Creative** | Vendor adjusts backlog priorities autonomously within agreed outcomes; joint review monthly. |
-     | **Strategic** | Vendor and Client co-manage portfolio and share improvement budgets; approval by exception only. |
+- *Scope & Requirements*
+- *Architecture & Technology*
+- *Delivery Process & Planning*
+- *Quality & Acceptance*
+- *Environment & Access*
+- *Budget & Change Control*
 
-3. **Document Control Rules**
-   - Specify which controls remain mandatory (e.g., security, compliance).
-   - Define escalation criteria and response expectations for exceptions.
+#### 2. **Set Autonomy Levels by Maturity Stage**
 
-4. **Formalize the Charter**
-   - Summarize decisions in a single-page **Autonomy & Control Matrix**.
-   - Have both the **Executive Sponsor** and **Account Lead** approve and sign.
-   - Store the charter in the shared Delivery Charter repository.
+For each domain, define who has autonomy at each maturity level:
 
-5. **Monitor and Adapt**
-   - Review the charter quarterly during **Relationship Assessments**.
-   - Adjust autonomy levels when maturity or trust indicators evolve.
+| Maturity Stage | Autonomy Description |
+|----------------|----------------------|
+| **Transactional** | Vendor executes predefined tasks; Client approval required for all changes >1 day or >€1k. |
+| **Collaborative** | Vendor can adjust plans within sprint or iteration scope; approval for budget-affecting changes only. |
+| **Co-Creative** | Vendor adjusts backlog priorities autonomously within agreed outcomes; joint review monthly. |
+| **Strategic** | Vendor and Client co-manage portfolio and share improvement budgets; approval by exception only. |
+
+#### 3. **Document Control Rules**
+
+- Specify which controls remain mandatory (e.g., security, compliance).
+- Define escalation criteria and response expectations for exceptions.
+
+#### 4. **Formalize the Charter**
+
+- Summarize decisions in a single-page **Autonomy & Control Matrix**.
+- Have both the **Executive Sponsor** and **Account Lead** approve and sign.
+- Store the charter in the shared Delivery Charter repository.
+
+#### 5. **Monitor and Adapt**
+
+- Review the charter quarterly during **Relationship Assessments**.
+- Adjust autonomy levels when maturity or trust indicators evolve.
 
 ### Inputs / Outputs
 

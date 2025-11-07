@@ -34,34 +34,39 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 
 ### Steps / Routines
 
-1. **Collect Maturity Data**
-   - Gather scores and narratives from all **Diagnostics**, **Quarterly Assessments**, **Self-Diagnostics**, and **Audits**.
-   - For each relationship line (Engagement, Delivery, Value), capture:
-     - Current maturity level (1–5 scale)
-     - Trend (improving, stable, declining)
-     - Confidence (high, medium, low)
+#### 1. **Collect Maturity Data**
 
-2. **Aggregate and Visualize**
-   - Create a visual matrix (projects on X-axis, relationship lines on Y-axis).
-   - Use color or symbol codes for maturity levels and trends.
-   - Optional: combine multiple clients or vendors for benchmarking.
+- Gather scores and narratives from all **Diagnostics**, **Quarterly Assessments**, **Self-Diagnostics**, and **Audits**.
+- For each relationship line (Engagement, Delivery, Value), capture:
+   - Current maturity level (1–5 scale)
+   - Trend (improving, stable, declining)
+   - Confidence (high, medium, low)
 
-3. **Analyze Patterns**
-   - Identify correlations (e.g., strong Delivery maturity often predicts Value growth).
-   - Detect portfolio hotspots where engagement maturity lags behind delivery performance.
-   - Cross-reference with improvement backlogs for progress validation.
+#### 2. **Aggregate and Visualize**
 
-4. **Publish Insights**
-   - Generate **Maturity Dashboard Summary** with key observations and recommendations.
-   - Include:
-     - Top strengths to preserve,
-     - Systemic gaps to address,
-     - Maturity evolution graph by quarter.
-   - Share dashboard in portfolio review or governance sessions.
+- Create a visual matrix (projects on X-axis, relationship lines on Y-axis).
+- Use color or symbol codes for maturity levels and trends.
+- Optional: combine multiple clients or vendors for benchmarking.
 
-5. **Integrate into Decision Loops**
-   - Use maturity trends to prioritize leadership coaching, governance improvements, or funding adjustments.
-   - Embed dashboard checkpoints into regular 3SF review cycles.
+#### 3. **Analyze Patterns**
+
+- Identify correlations (e.g., strong Delivery maturity often predicts Value growth).
+- Detect portfolio hotspots where engagement maturity lags behind delivery performance.
+- Cross-reference with improvement backlogs for progress validation.
+
+#### 4. **Publish Insights**
+
+- Generate **Maturity Dashboard Summary** with key observations and recommendations.
+- Include:
+  - Top strengths to preserve,
+  - Systemic gaps to address,
+  - Maturity evolution graph by quarter.
+- Share dashboard in portfolio review or governance sessions.
+
+#### 5. **Integrate into Decision Loops**
+
+- Use maturity trends to prioritize leadership coaching, governance improvements, or funding adjustments.
+- Embed dashboard checkpoints into regular 3SF review cycles.
 
 ### Inputs / Outputs
 
