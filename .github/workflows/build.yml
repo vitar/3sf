@@ -66,8 +66,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           # keep your existing pip installs elsewhere as-is
-          pip install "weasyprint>=52"
-          pip install "git+https://github.com/vitar/mkdocs-to-pdf.git@codex/investigate-pdf-toc-h1-auto-generation-issue"
+          pip install mkdocs-to-pdf "weasyprint>=52"
 
       - name: Build 3SF PDF
         run: |
