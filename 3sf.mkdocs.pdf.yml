@@ -12,6 +12,7 @@ theme:
     - navigation.expand
     - navigation.footer
     - content.code.copy
+    - content.title.off
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
