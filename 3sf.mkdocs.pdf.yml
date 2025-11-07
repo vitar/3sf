@@ -7,7 +7,7 @@ docs_dir: src/SDLC-Framework
 
 theme:
   name: material
-  custom_dir: overrides-pdf
+  # custom_dir: overrides-pdf
   features:
     - navigation.sections
     - navigation.expand
