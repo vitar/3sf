@@ -34,28 +34,33 @@ It creates a single measurable artifact defining:
 
 ### Steps / Routines
 
-1. **Define Quality Dimensions**
-   - Identify 3 core dimensions of “done”:
-     1. **Code Quality** – internal engineering standards, test coverage, peer review.
-     2. **Operational Readiness** – deployment, observability, monitoring, rollback capability.
-     3. **User Acceptance & Value Verification** – alignment with business outcomes and user expectations.
+#### 1. **Define Quality Dimensions**
 
-2. **Build the DoD Matrix**
-   - Create a table where each quality dimension is a row and each column represents ownership and verification points:
+Identify 3 core dimensions of “done”:
 
-     | Quality Dimension | Vendor Responsible | Client Accountable | Verification Timing | Evidence / Artifact |
-     |------------------|--------------------|--------------------|--------------------|--------------------|
-     | Code Quality | Engineering Specialist | – | Before merge | CI/CD test report, code review record |
-     | Operational Readiness | Technical Integrator | Governance Officer | Before deployment | Deployment checklist, monitoring setup proof |
-     | User Acceptance & Value Verification | Delivery Facilitator | Product Leader | After release | Outcome tracking, user feedback, KPI dashboard |
+1. **Code Quality** – internal engineering standards, test coverage, peer review.
+2. **Operational Readiness** – deployment, observability, monitoring, rollback capability.
+3. **User Acceptance & Value Verification** – alignment with business outcomes and user expectations.
 
-3. **Integrate into Workflow**
-   - Add DoD checkpoints into definition-of-ready and release readiness reviews.
-   - Enforce that a work item cannot close until all relevant DoD dimensions are verified.
+#### 2. **Build the DoD Matrix**
 
-4. **Review and Update**
-   - Validate the DoD Matrix quarterly or whenever a new context (team, technology, or product) is introduced.
-   - Record updates as part of the **Stable Rules Layer (SRL)**.
+Create a table where each quality dimension is a row and each column represents ownership and verification points:
+
+| Quality Dimension | Vendor Responsible | Client Accountable | Verification Timing | Evidence / Artifact |
+|------------------|--------------------|--------------------|--------------------|--------------------|
+| Code Quality | Engineering Specialist | – | Before merge | CI/CD test report, code review record |
+| Operational Readiness | Technical Integrator | Governance Officer | Before deployment | Deployment checklist, monitoring setup proof |
+| User Acceptance & Value Verification | Delivery Facilitator | Product Leader | After release | Outcome tracking, user feedback, KPI dashboard |
+
+#### 3. **Integrate into Workflow**
+
+- Add DoD checkpoints into definition-of-ready and release readiness reviews.
+- Enforce that a work item cannot close until all relevant DoD dimensions are verified.
+
+#### 4. **Review and Update**
+
+- Validate the DoD Matrix quarterly or whenever a new context (team, technology, or product) is introduced.
+- Record updates as part of the **Stable Rules Layer (SRL)**.
 
 ### Inputs / Outputs
 

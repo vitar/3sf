@@ -35,30 +35,36 @@ This tool closes the maturity gap between *contractual setup* and *operational c
 
 ### Steps / Routines
 
-1. **Frame the Intent**
-   - Clarify *Why this product or service exists* and *What success looks like* for both sides.
-   - Record shared vision, constraints, and strategic assumptions in a **Delivery Charter**.
+#### 1. **Frame the Intent**
 
-2. **Map the Engagement System**
-   - Identify *interfaces* between Client ↔ Vendor ↔ Product.
-   - Define how information, priorities, and dependencies will flow.
-   - Visualize using a **3-in-3 Engagement Canvas** (triangle form).
+- Clarify *Why this product or service exists* and *What success looks like* for both sides.
+- Record shared vision, constraints, and strategic assumptions in a **Delivery Charter**.
 
-3. **Define Stable Rules**
-   - Agree on key collaboration practices (e.g., cadence, decision loops, escalation path).
-   - Select initial 3SF practices relevant to context (e.g., RACI, backlog management, risk log).
+#### 2. **Map the Engagement System**
 
-4. **Assess Starting Maturity**
-   - Use a simplified 3SF Maturity Checklist to rate Engagement, Delivery, and Value relationships.
-   - Capture baseline scores to enable progress tracking after first quarter.
+- Identify *interfaces* between Client ↔ Vendor ↔ Product.
+- Define how information, priorities, and dependencies will flow.
+- Visualize using a **3-in-3 Engagement Canvas** (triangle form).
 
-5. **Validate System Coherence**
-   - Review with both technical and business representatives.
-   - Ensure the setup supports value realization, not only contract execution.
+#### 3. **Define Stable Rules**
 
-6. **Publish and Commit**
-   - Share the agreed system (charter + canvas + checklist) across both organizations.
-   - Schedule a 6-week review to confirm the system works as intended.
+- Agree on key collaboration practices (e.g., cadence, decision loops, escalation path).
+- Select initial 3SF practices relevant to context (e.g., RACI, backlog management, risk log).
+
+#### 4. **Assess Starting Maturity**
+
+- Use a simplified 3SF Maturity Checklist to rate Engagement, Delivery, and Value relationships.
+- Capture baseline scores to enable progress tracking after first quarter.
+
+#### 5. **Validate System Coherence**
+
+- Review with both technical and business representatives.
+- Ensure the setup supports value realization, not only contract execution.
+
+#### 6. **Publish and Commit**
+
+- Share the agreed system (charter + canvas + checklist) across both organizations.
+- Schedule a 6-week review to confirm the system works as intended.
 
 ### Inputs / Outputs
 

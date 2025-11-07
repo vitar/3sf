@@ -34,34 +34,40 @@ This tool turns local optimization conversations into a **joint systems-thinking
 
 ### Steps / Routines
 
-1. **Visualize End-to-End Flow**
-   - Create a **Value Stream Map (VSM)** from idea to production.
-   - Include all steps — discovery, prioritization, development, testing, approvals, deployment, and validation.
-   - Capture ownership, handoffs, and typical cycle time per step.
+#### 1. **Visualize End-to-End Flow**
 
-2. **Identify Systemic Constraints**
-   - Mark stages where work consistently queues or reworks occur.
-   - Distinguish between:
-     - **Internal constraints** – team capacity, skills, tooling gaps.
-     - **External constraints** – approvals, governance, third-party dependencies.
-   - List the top 3 recurring constraints.
+- Create a **Value Stream Map (VSM)** from idea to production.
+- Include all steps — discovery, prioritization, development, testing, approvals, deployment, and validation.
+- Capture ownership, handoffs, and typical cycle time per step.
 
-3. **Quantify Impact**
-   - For each constraint, define its measurable impact (e.g., delay days, quality degradation, rework).
-   - Use data from ticket systems, release logs, or velocity trends.
+#### 2. **Identify Systemic Constraints**
 
-4. **Analyze Causes and Ownership**
-   - Discuss each constraint’s root cause and ownership domain (Client, Vendor, Shared).
-   - Identify which **Stable Rules** (SRL) are ineffective or missing.
+- Mark stages where work consistently queues or reworks occur.
+- Distinguish between:
+      - **Internal constraints** – team capacity, skills, tooling gaps.
+      - **External constraints** – approvals, governance, third-party dependencies.
+- List the top 3 recurring constraints.
 
-5. **Define Improvement Actions**
-   - Co-create a 60-day action plan to relieve or mitigate the top 3 constraints.
-   - Assign measurable targets (e.g., reduce deployment wait time from 3 days to 1 day).
-   - Document agreed responsibilities in the **Delivery System Diagnostic** or **Quarterly Assessment** follow-up.
+#### 3. **Quantify Impact**
 
-6. **Review Progress Regularly**
-   - Track progress on each constraint during retrospectives and quarterly reviews.
-   - Escalate systemic issues to portfolio level if not resolvable within the project.
+- For each constraint, define its measurable impact (e.g., delay days, quality degradation, rework).
+- Use data from ticket systems, release logs, or velocity trends.
+
+#### 4. **Analyze Causes and Ownership**
+
+- Discuss each constraint’s root cause and ownership domain (Client, Vendor, Shared).
+- Identify which **Stable Rules** (SRL) are ineffective or missing.
+
+#### 5. **Define Improvement Actions**
+
+- Co-create a 60-day action plan to relieve or mitigate the top 3 constraints.
+- Assign measurable targets (e.g., reduce deployment wait time from 3 days to 1 day).
+- Document agreed responsibilities in the **Delivery System Diagnostic** or **Quarterly Assessment** follow-up.
+
+#### 6. **Review Progress Regularly**
+
+- Track progress on each constraint during retrospectives and quarterly reviews.
+- Escalate systemic issues to portfolio level if not resolvable within the project.
 
 ### Inputs / Outputs
 

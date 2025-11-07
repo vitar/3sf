@@ -39,34 +39,39 @@ Applicable to all **functional cores** defined in the 3SF Functional Role Model,
 
 ### Steps / Routines
 
-1. **Set the Reflection Context**
-   - Choose a time window (last sprint, quarter, or milestone).
-   - Reflect individually or as a small peer group (2–5 participants).
-   - Prepare the last **Quarterly Assessment** or **Diagnostic** as context.
+#### 1. **Set the Reflection Context**
 
-2. **Answer Reflection Questions**
-   - Use the **3x3 Reflection Grid** (below).
-   - Rate yourself 1–5 (1 = rarely true, 5 = consistently true).
-   - Write short examples for scores ≤3.
+- Choose a time window (last sprint, quarter, or milestone).
+- Reflect individually or as a small peer group (2–5 participants).
+- Prepare the last **Quarterly Assessment** or **Diagnostic** as context.
 
-   | Relationship Line | Typical Reflection Questions |
-   |--------------------|-------------------------------|
-   | **Engagement** | Do I maintain clarity in cross-team communication?<br/>Do I address misalignment early?<br/>Do I contribute to mutual trust? |
-   | **Delivery** | Do I help simplify complexity?<br/>Do I keep commitments realistic?<br/>Do I help others succeed across boundaries? |
-   | **Value** | Do I understand why my work matters to the end user or client?<br/>Do I connect outputs to outcomes?<br/>Do I seek feedback on impact? |
+#### 2. **Answer Reflection Questions**
 
-3. **Identify Learning Signals**
-   - Review your lowest 2–3 ratings — they represent current learning edges.
-   - Link each to a 3SF layer or maturity gap (e.g., unclear Stable Rule, missing feedback loop).
+- Use the **3x3 Reflection Grid** (below).
+- Rate yourself 1–5 (1 = rarely true, 5 = consistently true).
+- Write short examples for scores ≤3.
 
-4. **Create an Action Pledge**
-   - Choose one improvement commitment for the next iteration.
-   - Frame it as a behavior: “I will start / stop / continue…”
-   - Share it with your Delivery Facilitator or Product Leader.
+| Relationship Line | Typical Reflection Questions |
+|--------------------|-------------------------------|
+| **Engagement** | Do I maintain clarity in cross-team communication?<br/>Do I address misalignment early?<br/>Do I contribute to mutual trust? |
+| **Delivery** | Do I help simplify complexity?<br/>Do I keep commitments realistic?<br/>Do I help others succeed across boundaries? |
+| **Value** | Do I understand why my work matters to the end user or client?<br/>Do I connect outputs to outcomes?<br/>Do I seek feedback on impact? |
 
-5. **Revisit After One Cycle**
-   - At next sprint or quarterly review, reflect on what changed.
-   - Integrate learning into the team’s improvement backlog.
+#### 3. **Identify Learning Signals**
+
+- Review your lowest 2–3 ratings — they represent current learning edges.
+- Link each to a 3SF layer or maturity gap (e.g., unclear Stable Rule, missing feedback loop).
+
+#### 4. **Create an Action Pledge**
+
+- Choose one improvement commitment for the next iteration.
+- Frame it as a behavior: “I will start / stop / continue…”
+- Share it with your Delivery Facilitator or Product Leader.
+
+#### 5. **Revisit After One Cycle**
+
+- At next sprint or quarterly review, reflect on what changed.
+- Integrate learning into the team’s improvement backlog.
 
 ### Inputs / Outputs
 

@@ -35,33 +35,39 @@ LBP shifts post-mortem discussions from *accountability theater* to *continuous 
 
 ### Steps / Routines
 
-1. **Trigger the Protocol**
-   - Initiate LBP when a significant delivery issue, incident, or client concern occurs.
-   - The Delivery Facilitator ensures the conversation happens *within 48 hours* of detection.
+#### 1. **Trigger the Protocol**
 
-2. **Set the Stage for Psychological Safety**
-   - Remind all participants: *The purpose is learning, not assigning blame.*
-   - Use a neutral facilitator (Delivery Facilitator or Product Leader).
-   - Prohibit discussion of individual performance or disciplinary matters.
+- Initiate LBP when a significant delivery issue, incident, or client concern occurs.
+- The Delivery Facilitator ensures the conversation happens *within 48 hours* of detection.
 
-3. **Collect System Facts**
-   - Gather objective data: timeline, metrics, dependencies, decisions.
-   - Document the sequence of events without interpretation or emotion.
+#### 2. **Set the Stage for Psychological Safety**
 
-4. **Analyze Through the 3SF Lens**
-   - Ask the three guiding questions:
-     1. *What was the systemic cause?*
-     2. *Which 3SF Principle was violated or missing?*
-     3. *Which Stable Rule (SRL) should we review or strengthen?*
-   - Tag findings by **Relationship Line** (Engagement, Delivery, Value).
+- Remind all participants: *The purpose is learning, not assigning blame.*
+- Use a neutral facilitator (Delivery Facilitator or Product Leader).
+- Prohibit discussion of individual performance or disciplinary matters.
 
-5. **Define Learning Outcomes**
-   - Identify 2–3 specific learning insights per event.
-   - Translate insights into preventive actions or SRL updates.
+#### 3. **Collect System Facts**
 
-6. **Publish and Integrate**
-   - Record the session output as a **Learning Summary** with lessons learned, actions, and owners.
-   - Feed learnings into the next **Quarterly Assessment** or **Relationship Audit**.
+- Gather objective data: timeline, metrics, dependencies, decisions.
+- Document the sequence of events without interpretation or emotion.
+
+#### 4. **Analyze Through the 3SF Lens**
+
+- Ask the three guiding questions:
+      1. *What was the systemic cause?*
+      2. *Which 3SF Principle was violated or missing?*
+      3. *Which Stable Rule (SRL) should we review or strengthen?*
+- Tag findings by **Relationship Line** (Engagement, Delivery, Value).
+
+#### 5. **Define Learning Outcomes**
+
+- Identify 2–3 specific learning insights per event.
+- Translate insights into preventive actions or SRL updates.
+
+#### 6. **Publish and Integrate**
+
+- Record the session output as a **Learning Summary** with lessons learned, actions, and owners.
+- Feed learnings into the next **Quarterly Assessment** or **Relationship Audit**.
 
 ### Inputs / Outputs
 

@@ -35,34 +35,40 @@ This tool bridges the transition from *planned system* (design intent) to *obser
 
 ### Steps / Routines
 
-1. **Collect Observations**
-   - Review how work actually flows through the system.
-   - Compare to the designed model from the **Initial Delivery System Design**.
-   - Capture evidence: velocity trends, dependency logs, unresolved impediments.
+#### 1. **Collect Observations**
 
-2. **Assess Relationship Lines**
-   - **Engagement Line:** Are expectations and communication loops effective?
-   - **Delivery Line:** Are teams collaborating fluidly, or bottlenecks emerging?
-   - **Value Line:** Is delivered output translating into business outcomes?
+- Review how work actually flows through the system.
+- Compare to the designed model from the **Initial Delivery System Design**.
+- Capture evidence: velocity trends, dependency logs, unresolved impediments.
 
-3. **Identify Maturity Gaps**
-   - Apply the **3SF Maturity Diagnostic Grid** (simplified per relationship line).
-   - Rate each on a 1–5 maturity scale (Reactive → Strategic).
-   - Record differences between *planned* and *actual* maturity.
+#### 2. **Assess Relationship Lines**
 
-4. **Map Systemic Constraints**
-   - Analyze internal dependencies (e.g., security approvals, environment setup).
-   - Document external ones (e.g., vendor staffing, client change management).
-   - Tag each as *short-term fix* or *systemic risk*.
+- **Engagement Line:** Are expectations and communication loops effective?
+- **Delivery Line:** Are teams collaborating fluidly, or bottlenecks emerging?
+- **Value Line:** Is delivered output translating into business outcomes?
 
-5. **Facilitate Review Session**
-   - Conduct a 90-minute joint workshop led by the Delivery Facilitator and Product Leader.
-   - Discuss each constraint and decide what should be improved, delegated, or postponed.
-   - Prioritize no more than three systemic improvement actions.
+#### 3. **Identify Maturity Gaps**
 
-6. **Publish Diagnostic Report**
-   - Summarize observations, ratings, and actions in a **Delivery Diagnostic Sheet**.
-   - Share with both organizations’ leadership (Account Lead + Executive Sponsor).
+- Apply the **3SF Maturity Diagnostic Grid** (simplified per relationship line).
+- Rate each on a 1–5 maturity scale (Reactive → Strategic).
+- Record differences between *planned* and *actual* maturity.
+
+#### 4. **Map Systemic Constraints**
+
+- Analyze internal dependencies (e.g., security approvals, environment setup).
+- Document external ones (e.g., vendor staffing, client change management).
+- Tag each as *short-term fix* or *systemic risk*.
+
+#### 5. **Facilitate Review Session**
+
+- Conduct a 90-minute joint workshop led by the Delivery Facilitator and Product Leader.
+- Discuss each constraint and decide what should be improved, delegated, or postponed.
+- Prioritize no more than three systemic improvement actions.
+
+#### 6. **Publish Diagnostic Report**
+
+- Summarize observations, ratings, and actions in a **Delivery Diagnostic Sheet**.
+- Share with both organizations’ leadership (Account Lead + Executive Sponsor).
 
 ### Inputs / Outputs
 

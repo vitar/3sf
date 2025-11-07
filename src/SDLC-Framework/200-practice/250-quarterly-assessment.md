@@ -35,35 +35,41 @@ This tool turns continuous improvement into a shared quarterly ritual rather tha
 
 ### Steps / Routines
 
-1. **Prepare Evidence and Signals**
-   - Collect performance metrics (velocity, incidents, releases, satisfaction).
-   - Summarize progress against previous Diagnostic and Improvement Backlog.
-   - Compile survey or pulse feedback from both teams.
+#### 1. **Prepare Evidence and Signals**
 
-2. **Evaluate Relationship Maturity**
-   - Apply the **3SF Maturity Grid** across all three relationship lines.
-   - Rate current state and discuss deltas since last quarter.
-   - Use narrative reasoning: “What changed, why, and what did we learn?”
+- Collect performance metrics (velocity, incidents, releases, satisfaction).
+- Summarize progress against previous Diagnostic and Improvement Backlog.
+- Compile survey or pulse feedback from both teams.
 
-3. **Assess Delivery Health**
-   - Review flow efficiency, predictability, and outcome correlation.
-   - Identify systemic blockers or cross-team dependencies.
-   - Validate that stable rules (SRL) are still effective.
+#### 2. **Evaluate Relationship Maturity**
 
-4. **Identify Next Maturity Levers**
-   - Select one Engagement lever (e.g., trust rituals),<br/>
-     one Delivery lever (e.g., joint planning),<br/>
-     and one Value lever (e.g., outcome-based metrics).
-   - Define targeted improvements for the next 3 months.
+- Apply the **3SF Maturity Grid** across all three relationship lines.
+- Rate current state and discuss deltas since last quarter.
+- Use narrative reasoning: “What changed, why, and what did we learn?”
 
-5. **Facilitate the Quarterly Review Session**
-   - Conduct a 2-hour structured conversation led jointly by the Delivery Facilitator and Product Leader.
-   - Include both Executive Sponsor and Account Lead for alignment on strategic direction.
-   - Conclude with a signed **Quarterly Alignment Record (QAR)** summarizing decisions.
+#### 3. **Assess Delivery Health**
 
-6. **Publish and Track**
-   - Update the **Maturity Dashboard** and **Improvement Backlog**.
-   - Plan follow-up in next retrospectives or governance meetings.
+- Review flow efficiency, predictability, and outcome correlation.
+- Identify systemic blockers or cross-team dependencies.
+- Validate that stable rules (SRL) are still effective.
+
+#### 4. **Identify Next Maturity Levers**
+
+- Select one Engagement lever (e.g., trust rituals),<br/>
+   one Delivery lever (e.g., joint planning),<br/>
+   and one Value lever (e.g., outcome-based metrics).
+- Define targeted improvements for the next 3 months.
+
+#### 5. **Facilitate the Quarterly Review Session**
+
+- Conduct a 2-hour structured conversation led jointly by the Delivery Facilitator and Product Leader.
+- Include both Executive Sponsor and Account Lead for alignment on strategic direction.
+- Conclude with a signed **Quarterly Alignment Record (QAR)** summarizing decisions.
+
+#### 6. **Publish and Track**
+
+- Update the **Maturity Dashboard** and **Improvement Backlog**.
+- Plan follow-up in next retrospectives or governance meetings.
 
 ### Inputs / Outputs
 

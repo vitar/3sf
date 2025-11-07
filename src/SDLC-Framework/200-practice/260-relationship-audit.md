@@ -35,32 +35,38 @@ This tool closes the 3SF feedback loop — from individual reflection to organiz
 
 ### Steps / Routines
 
-1. **Collect Inputs Across Projects**
-   - Gather the latest **Quarterly Assessments**, **Diagnostics**, and **Self-Diagnostics**.
-   - Extract recurring patterns in Engagement, Delivery, and Value relationship lines.
+#### 1. **Collect Inputs Across Projects**
 
-2. **Aggregate Maturity Data** 
-   - Plot each project’s maturity level on the **3SF Portfolio Maturity Map**.
-   - Highlight anomalies — e.g., strong delivery but weak engagement, or value lagging behind output.
+- Gather the latest **Quarterly Assessments**, **Diagnostics**, and **Self-Diagnostics**.
+- Extract recurring patterns in Engagement, Delivery, and Value relationship lines.
 
-3. **Analyze Systemic Causes**
-   - Group issues by origin: *structural*, *behavioral*, *contextual*.
-   - Determine which constraints are internal to the client, vendor, or shared.
-   - Identify missing or outdated Stable Rules (SRL) at portfolio level.
+#### 2. **Aggregate Maturity Data**
 
-4. **Facilitate the Portfolio Audit Session**
-   - Conduct a half-day workshop co-led by the **Account Lead** and **Governance Officer**.
-   - Include Executive Sponsor(s) for cross-project alignment and funding decisions.
-   - Discuss trends, systemic risks, and improvement priorities.
+- Plot each project’s maturity level on the **3SF Portfolio Maturity Map**.
+- Highlight anomalies — e.g., strong delivery but weak engagement, or value lagging behind output.
 
-5. **Define Portfolio Improvement Themes**
-   - Select 2–3 strategic maturity themes for the next quarter (e.g., “decision latency reduction,” “shared risk management,” “value metrics adoption”).
-   - Assign cross-project owners for each theme.
+#### 3. **Analyze Systemic Causes**
 
-6. **Publish the Relationship Audit Report**
-   - Summarize findings, visualizations, and improvement commitments.
-   - Store in a shared governance repository accessible to both organizations.
-   - Schedule next audit in 3–6 months.
+- Group issues by origin: *structural*, *behavioral*, *contextual*.
+- Determine which constraints are internal to the client, vendor, or shared.
+- Identify missing or outdated Stable Rules (SRL) at portfolio level.
+
+#### 4. **Facilitate the Portfolio Audit Session**
+
+- Conduct a half-day workshop co-led by the **Account Lead** and **Governance Officer**.
+- Include Executive Sponsor(s) for cross-project alignment and funding decisions.
+- Discuss trends, systemic risks, and improvement priorities.
+
+#### 5. **Define Portfolio Improvement Themes**
+
+- Select 2–3 strategic maturity themes for the next quarter (e.g., “decision latency reduction,” “shared risk management,” “value metrics adoption”).
+- Assign cross-project owners for each theme.
+
+#### 6. **Publish the Relationship Audit Report**
+
+- Summarize findings, visualizations, and improvement commitments.
+- Store in a shared governance repository accessible to both organizations.
+- Schedule next audit in 3–6 months.
 
 ### Inputs / Outputs
 

@@ -33,39 +33,45 @@ This tool transforms subjective design debates into transparent agreements, ensu
 
 ### Steps / Routines
 
-1. **Identify Decision Candidates**
-   - During discovery or design reviews, list major design decisions with potential long-term implications.
-   - Typical examples:
-     - Cloud-native vs. hybrid deployment,
-     - Data model structure (monolith vs. modular),
-     - Tooling and framework standardization,
-     - Security controls vs. developer autonomy.
+#### 1. **Identify Decision Candidates**
 
-2. **Define Trade-Off Criteria**
-   - For each decision, specify **drivers** (e.g., performance, cost, compliance) and **risks**.
-   - Align criteria with **Contextual Drivers Layer** (e.g., regulatory, commercial, architectural context).
+- During discovery or design reviews, list major design decisions with potential long-term implications.
+- Typical examples:
+      - Cloud-native vs. hybrid deployment,
+      - Data model structure (monolith vs. modular),
+      - Tooling and framework standardization,
+      - Security controls vs. developer autonomy.
 
-3. **Evaluate Options and Impact**
-   - Analyze impact of each option across five lenses:
-     - *Business Value*
-     - *Technical Complexity*
-     - *Security/Compliance*
-     - *Scalability & Maintainability*
-     - *Delivery Cost & Timeline*
-   - Use a 1–5 impact scoring and comment rationale.
+#### 2. **Define Trade-Off Criteria**
 
-4. **Negotiate and Record Decision**
-   - Summarize chosen option, rationale, and trade-off accepted.
-   - Define mitigation actions for deferred risks (e.g., backlog items, monitoring).
-   - Both Solution Architects co-sign the agreement.
+- For each decision, specify **drivers** (e.g., performance, cost, compliance) and **risks**.
+- Align criteria with **Contextual Drivers Layer** (e.g., regulatory, commercial, architectural context).
 
-5. **Publish the Contract**
-   - Include ATC in architecture repository or Delivery Charter.
-   - Communicate highlights to delivery and governance teams.
+#### 3. **Evaluate Options and Impact**
 
-6. **Reassess Periodically**
-   - Review key trade-offs during **Quarterly Assessment** or when a major change occurs.
-   - Log outcomes of reassessments and lessons learned.
+- Analyze impact of each option across five lenses:
+      - *Business Value*
+      - *Technical Complexity*
+      - *Security/Compliance*
+      - *Scalability & Maintainability*
+      - *Delivery Cost & Timeline*
+- Use a 1–5 impact scoring and comment rationale.
+
+#### 4. **Negotiate and Record Decision**
+
+- Summarize chosen option, rationale, and trade-off accepted.
+- Define mitigation actions for deferred risks (e.g., backlog items, monitoring).
+- Both Solution Architects co-sign the agreement.
+
+#### 5. **Publish the Contract**
+
+- Include ATC in architecture repository or Delivery Charter.
+- Communicate highlights to delivery and governance teams.
+
+#### 6. **Reassess Periodically**
+
+- Review key trade-offs during **Quarterly Assessment** or when a major change occurs.
+- Log outcomes of reassessments and lessons learned.
 
 ### Inputs / Outputs
 
