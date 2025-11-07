@@ -12,6 +12,9 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme)"
