@@ -42,6 +42,7 @@ plugins:
       enabled_if_env: ENABLE_PDF_EXPORT
       toc_level: 3
       ordered_chapter_level: 3
+      heading_shift_insert_auto_titles: false
 
 nav:
   - index.md
