@@ -36,51 +36,55 @@ plugins:
       ordered_chapter_level: 2
 
 nav:
-  - index.md
-  - 000-intro/010-3sf-navigator.md
-  - 000-intro/020-role-snapshot.md
-  - 100-theory/100-intro-purpose.md
-  - 100-theory/105-vision-principles-beliefs.md
-  - 100-theory/110-3in3-model.md
-  - 100-theory/115-3in3-model-maturity.md
-  - 100-theory/120-contextual-drivers-layer.md
-  - 100-theory/125-stable-rules-layer.md
-  - 100-theory/130-rule-audit-checklist.md
-  - 100-theory/135-contextual-rules-catalog.md
-  - 100-theory/140-relationship-and-system-maturity-integration.md
-  - 100-theory/145-sdlc-stages.md
-  - 100-theory/150-sdlc-stages-maturity.md
-  - 100-theory/155-sdlc-practices.md
-  - 100-theory/160-sdlc-practices-maturity.md
-  - 100-theory/165-sdlc-stage-dimensions.md
-  - 100-theory/170-sdlc-stage-discovery-dimensions.md
-  - 100-theory/175-sdlc-stage-shape-dimensions.md
-  - 100-theory/180-sdlc-stage-build-dimensions.md
-  - 100-theory/185-sdlc-stage-validate-dimensions.md
-  - 100-theory/190-sdlc-stage-release-dimensions.md
-  - 100-theory/195-sdlc-stage-run-evolve-dimensions.md
-  - 200-practice/200-practice-architecture.md
-  - 200-practice/205-engagement-context-canvas.md
-  - 200-practice/210-autonomy-control-charter.md
-  - 200-practice/215-maturity-dashboard.md
-  - 200-practice/220-outcome-accountability-map.md
-  - 200-practice/225-shared-definition-of-done.md
-  - 200-practice/230-flow-constraint-identification.md
-  - 200-practice/235-architectural-tradeoff-contract.md
-  - 200-practice/240-initial-delivery-design.md
-  - 200-practice/245-delivery-system-diagnostic.md
-  - 200-practice/250-quarterly-assessment.md
-  - 200-practice/255-self-diagnostic.md
-  - 200-practice/260-relationship-audit.md
-  - 200-practice/265-learning-before-blame-protocol.md
-  - 300-contracts/300-contracts-architecture.md
-  - 300-contracts/310-engagement-contract.md
-  - 300-contracts/320-maturity-growth-contract.md
-  - 300-contracts/330-governance-contract.md
-  - 300-contracts/340-relationship-evolution-contract.md
-  - 300-contracts/350-template-outcome-accountability.md
-  - 300-contracts/351-template-architectural-tradeoff.md
-  - 300-contracts/352-template-autonomy-control.md
+  - INTRODUCTION & QUICK START
+    - index.md
+    - 000-intro/010-3sf-navigator.md
+    - 000-intro/020-role-snapshot.md
+  - THEORY & GOVERNING RULES
+    - 100-theory/100-intro-purpose.md
+    - 100-theory/105-vision-principles-beliefs.md
+    - 100-theory/110-3in3-model.md
+    - 100-theory/115-3in3-model-maturity.md
+    - 100-theory/120-contextual-drivers-layer.md
+    - 100-theory/125-stable-rules-layer.md
+    - 100-theory/130-rule-audit-checklist.md
+    - 100-theory/135-contextual-rules-catalog.md
+    - 100-theory/140-relationship-and-system-maturity-integration.md
+    - 100-theory/145-sdlc-stages.md
+    - 100-theory/150-sdlc-stages-maturity.md
+    - 100-theory/155-sdlc-practices.md
+    - 100-theory/160-sdlc-practices-maturity.md
+    - 100-theory/165-sdlc-stage-dimensions.md
+    - 100-theory/170-sdlc-stage-discovery-dimensions.md
+    - 100-theory/175-sdlc-stage-shape-dimensions.md
+    - 100-theory/180-sdlc-stage-build-dimensions.md
+    - 100-theory/185-sdlc-stage-validate-dimensions.md
+    - 100-theory/190-sdlc-stage-release-dimensions.md
+    - 100-theory/195-sdlc-stage-run-evolve-dimensions.md
+  - PRACTICES & TOOLS
+    - 200-practice/200-practice-architecture.md
+    - 200-practice/205-engagement-context-canvas.md
+    - 200-practice/210-autonomy-control-charter.md
+    - 200-practice/215-maturity-dashboard.md
+    - 200-practice/220-outcome-accountability-map.md
+    - 200-practice/225-shared-definition-of-done.md
+    - 200-practice/230-flow-constraint-identification.md
+    - 200-practice/235-architectural-tradeoff-contract.md
+    - 200-practice/240-initial-delivery-design.md
+    - 200-practice/245-delivery-system-diagnostic.md
+    - 200-practice/250-quarterly-assessment.md
+    - 200-practice/255-self-diagnostic.md
+    - 200-practice/260-relationship-audit.md
+    - 200-practice/265-learning-before-blame-protocol.md
+  - GOVERNANCE & DIAGNOSTICS
+    - 300-contracts/300-contracts-architecture.md
+    - 300-contracts/310-engagement-contract.md
+    - 300-contracts/320-maturity-growth-contract.md
+    - 300-contracts/330-governance-contract.md
+    - 300-contracts/340-relationship-evolution-contract.md
+    - 300-contracts/350-template-outcome-accountability.md
+    - 300-contracts/351-template-architectural-tradeoff.md
+    - 300-contracts/352-template-autonomy-control.md
 
 markdown_extensions:
   - admonition
