@@ -33,6 +33,7 @@ Each source is categorized according to its **dominant contribution area** — s
 | Framework / Practice | Core Idea | Relevance to 3SF |
 | :--- | :--- | :--- |
 | **SDLC (Software Development Lifecycle)** | Structured phases guiding software development and delivery. | 3SF reframes SDLC through relational systems — linking Delivery to Engagement and Value. |
+| **SWEBOK (Software Engineering Body of Knowledge)** | Internationally recognized guide defining the scope and practices of software engineering. | Provides the foundational terminology and process structure underpinning 3SF’s integration of engineering discipline with relational and systemic layers. |
 | **DORA Metrics** | Quantitative delivery performance indicators (deployment frequency, MTTR, etc.). | Forms part of the *Delivery Maturity Index (DMI)* and *Systemic Risk Ratio (SRR)*. |
 | **DevOps & CI/CD** | Integration of development and operations for continuous delivery. | Supports flow and operational stability within Delivery relationship. |
 | **SAMM (Software Assurance Maturity Model)** | Framework for assessing and improving software security practices. | Inspires 3SF’s maturity measurement and capability growth principles. |
