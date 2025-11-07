@@ -35,32 +35,38 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 
 ### Steps / Routines
 
-1. **Define Core Outcomes**
-   - Identify 3–5 primary outcomes representing *business impact*, not *features delivered*.
-   - Example outcomes: *increase conversion by 5%*, *reduce support time by 30%*, *enable compliance with X standard*.
+#### 1. **Define Core Outcomes**
 
-2. **Map Outcome-to-Output Chain**
-   - For each outcome, list supporting epics or deliverables.
-   - Link each epic to outcome metric(s) and designate:
-     - **Accountable (Client)** – ensures outcome adoption.
-     - **Responsible (Vendor)** – ensures delivery of the enabling feature.
+- Identify 3–5 primary outcomes representing *business impact*, not *features delivered*.
+- Example outcomes: *increase conversion by 5%*, *reduce support time by 30%*, *enable compliance with X standard*.
 
-3. **Assign Verification Method**
-   - Define how each outcome will be measured (data source, time window, owner).
-   - Document agreed-upon baseline and target values.
+#### 2. **Map Outcome-to-Output Chain**
 
-4. **Validate Accountability Balance**
-   - Review across roles — ensure no outcome is owned by only one side.
-   - The Delivery Facilitator confirms workload balance and alignment.
+- For each outcome, list supporting epics or deliverables.
+- Link each epic to outcome metric(s) and designate:
+      - **Accountable (Client)** – ensures outcome adoption.
+      - **Responsible (Vendor)** – ensures delivery of the enabling feature.
 
-5. **Approve and Publish**
-   - Present the OAM in the **Initial Delivery System Design** workshop or early discovery.
-   - Both Executive Sponsor and Account Lead sign off.
-   - Store in the shared Delivery Charter repository.
+#### 3. **Assign Verification Method**
 
-6. **Revisit During Quarterly Assessment**
-   - Track outcome progress alongside delivery metrics.
-   - Adjust accountability mapping if team composition or ownership changes.
+- Define how each outcome will be measured (data source, time window, owner).
+- Document agreed-upon baseline and target values.
+
+#### 4. **Validate Accountability Balance**
+
+- Review across roles — ensure no outcome is owned by only one side.
+- The Delivery Facilitator confirms workload balance and alignment.
+
+#### 5. **Approve and Publish**
+
+- Present the OAM in the **Initial Delivery System Design** workshop or early discovery.
+- Both Executive Sponsor and Account Lead sign off.
+- Store in the shared Delivery Charter repository.
+
+#### 6. **Revisit During Quarterly Assessment**
+
+- Track outcome progress alongside delivery metrics.
+- Adjust accountability mapping if team composition or ownership changes.
 
 ### Inputs / Outputs
 

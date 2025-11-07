@@ -38,9 +38,9 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 
 - Gather scores and narratives from all **Diagnostics**, **Quarterly Assessments**, **Self-Diagnostics**, and **Audits**.
 - For each relationship line (Engagement, Delivery, Value), capture:
-   - Current maturity level (1–5 scale)
-   - Trend (improving, stable, declining)
-   - Confidence (high, medium, low)
+    - Current maturity level (1–5 scale)
+    - Trend (improving, stable, declining)
+    - Confidence (high, medium, low)
 
 #### 2. **Aggregate and Visualize**
 
@@ -58,9 +58,9 @@ This tool transforms qualitative insights from Diagnostics, Assessments, and Aud
 
 - Generate **Maturity Dashboard Summary** with key observations and recommendations.
 - Include:
-  - Top strengths to preserve,
-  - Systemic gaps to address,
-  - Maturity evolution graph by quarter.
+    - Top strengths to preserve,
+    - Systemic gaps to address,
+    - Maturity evolution graph by quarter.
 - Share dashboard in portfolio review or governance sessions.
 
 #### 5. **Integrate into Decision Loops**
