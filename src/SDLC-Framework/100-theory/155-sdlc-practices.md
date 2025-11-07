@@ -1,13 +1,13 @@
-## SDLC Practices
+# SDLC Practices
 
-### Overview
+## Overview
 
 The **SDLC Practices** represent six cross-cutting disciplines that sustain quality, predictability, and learning throughout all stages of delivery.<br/>
 Each practice complements the others — forming the behavioral and technical foundation of a reliable delivery system.
 
 These practices act as the *horizontal layer* of the 3SF — spanning all SDLC Stages (Discover → Evolve) to ensure alignment, quality, and continuous improvement.
 
-### The Six SDLC Practices
+## The Six SDLC Practices
 
 | **Practice** | **Definition** | **Core Focus** |
 |---------------|----------------|----------------|
@@ -18,7 +18,7 @@ These practices act as the *horizontal layer* of the 3SF — spanning all SDLC S
 | **Governance & Risk** | We manage complexity and protect value by embedding compliance, security, and accountability into every step. | Transparency, predictability, and responsibility. |
 | **Feedback & Learning** | We continuously improve by listening to signals from users, systems, and teams — turning insight into better outcomes. | Growth, reflection, and adaptability. |
 
-### Practices as the Delivery Backbone
+## Practices as the Delivery Backbone
 
 These practices work across all SDLC Stages — ensuring continuity from discovery to sustainment.<br/>
 They **stabilize delivery flow** by balancing speed, quality, and adaptability.
@@ -32,7 +32,7 @@ They **stabilize delivery flow** by balancing speed, quality, and adaptability.
 
 Together, they form the **delivery backbone** of 3SF — connecting intent (why), structure (how), and learning (what next).
 
-### Practices Across SDLC Stages
+## Practices Across SDLC Stages
 
 Each SDLC Practice manifests differently depending on the stage of delivery.<br/>
 The table below shows how every practice supports the system throughout its flow.
@@ -49,7 +49,7 @@ The table below shows how every practice supports the system throughout its flow
 This table visualizes how practices **connect horizontally** across the lifecycle, while SDLC Stages define the **vertical flow** of value.<br/>
 Mature systems maintain consistency of these practices even when the project emphasis shifts between stages.
 
-### Practice Interdependence
+## Practice Interdependence
 
 No single practice guarantees success; the system works when all are balanced:
 
@@ -64,7 +64,7 @@ No single practice guarantees success; the system works when all are balanced:
 
 A mature team develops *healthy tension* among practices — trading off intentionally instead of neglecting one dimension.
 
-### When Practices Compete
+## When Practices Compete
 
 In practice, organizations often over-optimize a single discipline — seeking efficiency, control, or speed at the expense of balance.<br/>
 Common patterns include:
@@ -76,7 +76,7 @@ Common patterns include:
 Such competition signals **systemic imbalance**, not bad intent.<br/>
 The corrective action is to revisit the shared outcomes and ensure every practice still serves the product’s purpose, not its own metrics.
 
-### Practices as a Foundation for Maturity
+## Practices as a Foundation for Maturity
 
 As projects evolve, each practice demonstrates maturity through visible behaviors:
 
@@ -91,7 +91,7 @@ As projects evolve, each practice demonstrates maturity through visible behavior
 
 These behaviors become inputs to the **RAC** and **CRC**, ensuring maturity assessments reflect *system reality* — not just process compliance.
 
-### Summary
+## Summary
 
 - SDLC Practices are the **operating disciplines** that make each stage reliable and adaptive.
 - The **Stages–Practices Matrix** shows how these disciplines interact through the lifecycle, ensuring flow and stability.

@@ -1,10 +1,8 @@
-# SECTION III: PRACTICE & TOOLS
-
-## 3SF Practice Architecture
+# 3SF Practice Architecture
 
 > *“Theory guides understanding. Practice enables transformation.”*
 
-### Purpose
+## Purpose
 
 The **3SF Practice Architecture** explains how to **apply the 3-in-3 SDLC Framework (3SF)** in real projects — for both **Client** and **Vendor** organizations.
 
@@ -16,14 +14,14 @@ While the **theory** defines *why* 3SF exists and *what* it represents, the **pr
 - Help **vendors** mature as delivery and advisory partners.
 - Create a **shared language** between both sides across the full SDLC lifecycle.
 
-### Objectives
+## Objectives
 
 - Provide a **map of 3SF usage** across delivery stages and relationship lines.
 - Distinguish **client-side** and **vendor-side** applications of each tool.
 - Define **modes of application** (Design, Diagnose, Assess, Reflect, Audit, Measure).
 - Act as a **navigator** for all practice tools and related training modules.
 
-### Structure of the Practice Part
+## Structure of the Practice Part
 
 Each practice is a standalone tool (one file per tool) using a unified template.<br/>
 Tools are grouped by **application mode** and mapped to **Client / Vendor** contexts.
@@ -37,7 +35,7 @@ Tools are grouped by **application mode** and mapped to **Client / Vendor** cont
 | **Audit & Aggregate** | Compare and improve across portfolio | **Engineering Director** / **Governance Officer** | [Relationship Audit and Portfolio Maturity Review](260-relationship-audit.md) |
 | **Measure** | Consolidate maturity metrics and visualize systemic health | **Governance Officer**, **Account Lead**, **Engineering Director** | [Maturity Dashboard](215-maturity-dashboard.md) |
 
-### Application Modes
+## Application Modes
 
 | Mode | Typical When | Used by (Client / Vendor) | 3SF Layers Focused | Outcomes |
 |------|---------------|---------------------------|--------------------|-----------|
@@ -48,7 +46,7 @@ Tools are grouped by **application mode** and mapped to **Client / Vendor** cont
 | **Audit** | Periodic / Portfolio | **Engineering Director** / **Governance Officer** | CDL + SRL + RAC | Portfolio-level maturity comparison |
 | **Measure** | Continuous / Portfolio Governance | **Governance Officer** / **Account Lead** / **Engineering Director** | SRL + RAC | Relationship and maturity data visualized for decision-making |
 
-### Dual-Perspective Application
+## Dual-Perspective Application
 
 Each 3SF tool distinguishes **Client View** and **Vendor View**.
 
@@ -63,7 +61,7 @@ Each practice file includes:
 > **Client-Side Application** and **Vendor-Side Application** — highlighting respective actions and insights.
 > For detailed role definitions, see [Role Responsibility Snapshot](../000-intro/020-role-snapshot.md).
 
-### Lifecycle Navigation
+## Lifecycle Navigation
 
 | **When** | **Mode** | **Tool** | **Client Role(s)** | **Vendor Role(s)** | **Outcome** |
 |-----------|-----------|----------|--------------------|--------------------|--------------|
@@ -81,7 +79,7 @@ Each practice file includes:
 > [**Maturity Dashboard**](215-maturity-dashboard.md), and<br/>
 > [**RAC / CRC**](../100-theory/130-rule-audit-checklist.md).
 
-### 3SF Layer Mapping
+## 3SF Layer Mapping
 
 | 3SF Layer | Purpose | Client-Side Focus | Vendor-Side Focus | Example Tool |
 |------------|----------|------------------|-------------------|---------------|
@@ -95,7 +93,7 @@ Each practice file includes:
 > **[RAC](../100-theory/130-rule-audit-checklist.md)** and **[CRC](../100-theory/135-contextual-rules-catalog.md)**.<br/>
 > Together, they enable transparent governance and maturity measurement across Client and Vendor systems.
 
-### Core Practice Tools – Alignment before Performance
+## Core Practice Tools – Alignment before Performance
 
 3SF prioritizes **alignment before performance**.<br/>
 To ensure that alignment is measurable, the tools below convert 3SF **Principles** into **inspectable artifacts**, enforcing joint ownership across the Client ↔ Vendor boundary.
@@ -103,7 +101,7 @@ To ensure that alignment is measurable, the tools below convert 3SF **Principles
 > The 3SF Practice set follows the systemic order:<br/>
 > **Context → Outcome → Trust → Quality → Flow → Accountability → Design → Diagnostics → Assessment → Reflection → Audit → Measurement → Learning.**
 
-#### Tools to Expand Core SDLC Practices
+### Tools to Expand Core SDLC Practices
 
 | Core SDLC Practice | Tool / Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
@@ -114,13 +112,13 @@ To ensure that alignment is measurable, the tools below convert 3SF **Principles
 | **Governance & Risk** | [**Autonomy & Control Boundary Charter**](210-autonomy-control-charter.md) (Design) | Defines decision rights and escalation paths per maturity stage (**Trust before Control**). |
 | **Feedback & Learning** | [**Learning Before Blame Protocol**](265-learning-before-blame-protocol.md) (Reflect) | Links issues to violated principles or Stable Rules. Promotes **Learning before Blame**. |
 
-#### Tool for the Contextual Drivers Layer (CDL)
+### Tool for the Contextual Drivers Layer (CDL)
 
 | Framework Layer | Tool / Artifact (Mode) | Purpose in 3SF System |
 | :--- | :--- | :--- |
 | **Contextual Drivers Layer** | [**Engagement Context Canvas**](205-engagement-context-canvas.md) (Design / Audit) | Used at the outset of **Discover** stage to define Contextual Drivers and corresponding **Stable Rule Adjustments**. |
 
-### Governance & Diagnostics layer – Contractual Artifacts
+## Governance & Diagnostics layer – Contractual Artifacts
 
 While *Core Practices* operationalize 3SF principles within teams, **Contractual Artifacts** define how those principles are enforced **across organizational boundaries**.<br/>
 They form the **interface layer** between Client and Vendor, translating *Trust before Control*, *Outcome before Output*, and *Shared Accountability* into measurable, co-signed commitments.
@@ -139,7 +137,7 @@ Each artifact is:
 
 Together, these artifacts make 3SF the **Meta-Framework of Co-Governance**, bridging strategic intent and operational practice between Client and Vendor.
 
-### Systemic View of 3SF Contractual Artifacts
+## Systemic View of 3SF Contractual Artifacts
 
 ```
 
@@ -180,7 +178,7 @@ Together, these artifacts make 3SF the **Meta-Framework of Co-Governance**, brid
 > They enforce alignment across the Client ↔ Vendor ↔ Product triangle by turning abstract principles into concrete agreements.<br/>
 > Without them, collaboration relies on interpretation; with them, collaboration becomes measurable.
 
-### Practice Template
+## Practice Template
 
 | Section | Description |
 |----------|-------------|
@@ -195,7 +193,7 @@ Together, these artifacts make 3SF the **Meta-Framework of Co-Governance**, brid
 | **Client-Side Application** | Specific guidance for client users |
 | **Vendor-Side Application** | Specific guidance for vendor users |
 
-### Using Practice Architecture in Training
+## Using Practice Architecture in Training
 
 This file serves as the **starting point** in all training paths:
 
@@ -207,7 +205,7 @@ This file serves as the **starting point** in all training paths:
 
 Training programs and certifications use these mappings to define **3SF Practitioner Paths** — separate for Client and Vendor, but sharing the same conceptual backbone.
 
-### Summary
+## Summary
 
 **3SF Practice Architecture** bridges the *3SF Theory* and the *Practical Toolset*, creating a shared map for both **Client** and **Vendor** teams to:
 

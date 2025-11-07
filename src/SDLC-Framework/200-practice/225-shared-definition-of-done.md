@@ -1,8 +1,8 @@
-## Shared Definition of Done (DoD) Matrix  
+# Shared Definition of Done (DoD) Matrix  
 
 > *“Done isn’t done until it delivers value, operates safely, and is understood by all.”*
 
-#### Purpose  
+### Purpose  
 
 The **Shared Definition of Done (DoD) Matrix** ensures that “done” means the same thing to everyone — Client, Vendor, and end users.<br/>
 It extends beyond completion of features to include operational readiness, usability, and value validation.
@@ -14,7 +14,7 @@ It creates a single measurable artifact defining:
 - Who is responsible and accountable for verifying each aspect of “done,”
 - How and when verification occurs in the SDLC flow.
 
-#### Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -23,7 +23,7 @@ It creates a single measurable artifact defining:
 | **3SF Layers** | Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Collaborative Confidence* → toward *Co-Creative Trust* |
 
-#### Actors / Roles
+### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -32,7 +32,7 @@ It creates a single measurable artifact defining:
 | **Governance Officer** | **Engineering Director** | Enforce regulatory, security, and operational standards. |
 | **Experience Designer** | **Requirements Analyst** | Validate user experience and alignment with requirements. |
 
-#### Steps / Routines
+### Steps / Routines
 
 1. **Define Quality Dimensions**
    - Identify 3 core dimensions of “done”:
@@ -57,13 +57,13 @@ It creates a single measurable artifact defining:
    - Validate the DoD Matrix quarterly or whenever a new context (team, technology, or product) is introduced.
    - Record updates as part of the **Stable Rules Layer (SRL)**.
 
-#### Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Quality standards, CI/CD data, release checklist, product KPIs | **Shared Definition of Done Matrix**, signed by Client and Vendor representatives |
 
-#### Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -72,7 +72,7 @@ It creates a single measurable artifact defining:
 | **Accountability Clarity** | 100% of features include DoD traceability in backlog. |
 | **Maturity Indicator** | Shared sign-off process applied across ≥ 2 cross-functional teams. |
 
-#### Common Pitfalls
+### Common Pitfalls
 
 - Treating DoD as a static document rather than a living agreement.
 - Focusing only on development quality while ignoring operational or value readiness.
@@ -80,7 +80,7 @@ It creates a single measurable artifact defining:
 - Vendor marking tasks as “done” without verification evidence.
 - Updating DoD inconsistently across projects or releases.
 
-#### Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -89,7 +89,7 @@ It creates a single measurable artifact defining:
 
 As maturity rises, “done” becomes a joint performance metric, not a delivery milestone.
 
-#### Client-Side Application
+### Client-Side Application
 
 **Objective:** Maintain control over business value realization and operational readiness.
 
@@ -100,7 +100,7 @@ As maturity rises, “done” becomes a joint performance metric, not a delivery
 3. Track post-release outcomes to verify “done” equals value delivered.
 4. Include DoD compliance in governance or audit checklists.
 
-#### Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Demonstrate engineering excellence and maturity through transparency.
 
@@ -111,7 +111,7 @@ As maturity rises, “done” becomes a joint performance metric, not a delivery
 3. Collaborate with client on readiness and outcome validation steps.
 4. Continuously refine automation and testing to meet DoD expectations.
 
-#### Summary
+### Summary
 
 The **Shared Definition of Done Matrix** transforms “completion” into a **joint commitment**.<br/>
 It replaces unilateral sign-offs with measurable, shared quality standards — ensuring that **trust is built through clarity, not control**.<br/>

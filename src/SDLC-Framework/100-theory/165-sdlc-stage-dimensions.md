@@ -1,6 +1,6 @@
-## SDLC Stage Dimentions
+# SDLC Stage Dimentions
 
-### Purpose
+## Purpose
 
 The **SDLC Stage Dimensions** define the configurable decision spaces within each stage of delivery.<br/>
 They help Project Leads, Product Managers, and Architects **diagnose, design, and adjust** how each SDLC Stage operates in context — aligning delivery mechanics with project realities.
@@ -8,7 +8,7 @@ They help Project Leads, Product Managers, and Architects **diagnose, design, an
 Each dimension represents a *set of variables* that influence how work flows through the system.<br/>
 By understanding and tuning these dimensions, teams can balance speed, quality, and adaptability while maintaining system integrity.
 
-### What Stage Dimensions Are
+## What Stage Dimensions Are
 
 A **Stage Dimension** is a lens for examining *how a stage is executed* — not *what activities occur* within it.<br/>
 Each dimension captures a set of interdependent conditions such as scope definition, estimation strategy, feedback loops, or risk handling.
@@ -20,7 +20,7 @@ Dimensions can be viewed as **levers**:
 
 The right balance depends on context, constraints, and maturity.
 
-### The Role of Dimensions in 3SF
+## The Role of Dimensions in 3SF
 
 Within the 3SF structure:
 
@@ -33,7 +33,7 @@ Within the 3SF structure:
 Dimensions translate abstract principles (like “governance clarity” or “learning loops”) into **practical, observable variables** that can be inspected or tuned.<br/>
 They also serve as the **bridge between Contextual Drivers (CDL)** and **Stable Rules (SRL)** — the place where external conditions meet internal system design.
 
-### Dimension Categories
+## Dimension Categories
 
 Each stage has its own unique decision areas, but all Stage Dimensions fall under **five universal categories** that describe different aspects of delivery configuration:
 
@@ -47,7 +47,7 @@ Each stage has its own unique decision areas, but all Stage Dimensions fall unde
 
 These categories apply to **every stage**, but the specific decisions and trade-offs within each depend on stage purpose and context.
 
-### Example: How Dimensions Interconnect
+## Example: How Dimensions Interconnect
 
 For instance, in the **Shape** stage:
 
@@ -60,7 +60,7 @@ For instance, in the **Shape** stage:
 When these dimensions align, Shape provides a stable foundation for Build.<br/>
 When they misalign, Build inherits ambiguity, rework, and unvalidated assumptions.
 
-### Why Dimensions Matter
+## Why Dimensions Matter
 
 **Without dimensions, delivery tuning becomes guesswork.**<br/>
 Projects often fail not because teams lack competence, but because their stages are configured incorrectly for the environment.
@@ -73,7 +73,7 @@ Common failure modes:
 
 Stage Dimensions bring **diagnostic clarity** — enabling teams to identify not only *what’s broken*, but *why* it behaves that way.
 
-### Relationship to Maturity
+## Relationship to Maturity
 
 Maturity across the SDLC is visible through the **health of Stage Dimensions**:
 
@@ -86,7 +86,7 @@ For example:
 - **Stable Rule R3 – “Decisions are transparent and reversible”** → affects Collaboration and Quality dimensions.
 - **Contextual Driver – “Fixed bid contract”** → constrains Planning & Flow, influencing estimation and governance.
 
-### Applying Stage Dimensions
+## Applying Stage Dimensions
 
 Use Stage Dimensions for:
 
@@ -96,14 +96,14 @@ Use Stage Dimensions for:
 
 Teams can document stage dimensions in simple templates or dashboards — linking them to risks, metrics, and improvement actions.
 
-### When Dimensions Become Bureaucracy
+## When Dimensions Become Bureaucracy
 
 Stage Dimensions are diagnostic lenses — not checklists to be filled or enforced.<br/>
 A common failure pattern is **over-engineering**: documenting every parameter without actually improving flow or clarity.<br/>
 When dimensions turn into reporting artifacts, they lose their adaptive power.<br/>
 The goal is not to manage the framework — it is to manage the system it describes.
 
-### Structure of Stage Dimension Files
+## Structure of Stage Dimension Files
 
 Each stage has a dedicated section detailing:
 
@@ -122,7 +122,7 @@ Each stage has a dedicated section detailing:
 
 Each file builds upon this overview, creating a **consistent pattern** that allows readers to trace the evolution of alignment, flow, and learning across the SDLC.
 
-### Summary
+## Summary
 
 - **SDLC Stage Dimensions** describe how each stage functions in context — the levers and trade-offs teams must balance.
 - They provide **diagnostic visibility** and **design flexibility**, connecting strategy, delivery, and governance.

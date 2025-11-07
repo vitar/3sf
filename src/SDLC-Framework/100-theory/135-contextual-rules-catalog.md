@@ -1,6 +1,6 @@
-## Contextual Rules Catalog (CRC)
+# Contextual Rules Catalog (CRC)
 
-### Purpose
+## Purpose
 
 The **Contextual Rules Catalog (CRC)** translates the universal **Stable Rules (SRL)** into **context-specific playbooks**, enabling adaptive delivery under real-world conditions.<br/>
 Where SRL defines *what must always remain true*, the CRC defines *how it can best be achieved* given the unique **Contextual Drivers (CDL)** of each project.
@@ -8,7 +8,7 @@ Where SRL defines *what must always remain true*, the CRC defines *how it can be
 CRC is therefore the **pragmatic layer** of 3SF — connecting principles to practice, helping leaders adjust their delivery approach without compromising coherence or trust.<br/>
 It is used when system rules need to flex within stable boundaries — for example, when working under fixed-bid contracts, co-delivery models, or continuous product operations.
 
-### CRC in the 3SF Structure
+## CRC in the 3SF Structure
 
 | **Layer** | **Purpose** |
 |------------|-------------|
@@ -19,7 +19,7 @@ It is used when system rules need to flex within stable boundaries — for examp
 
 CRC allows organizations to move beyond “one-size-fits-all” process design — by **anchoring adaptability in principle, not preference**.
 
-### CRC Design Philosophy
+## CRC Design Philosophy
 
 Every contextual rule is expressed as a **conditional mapping**:
 
@@ -29,7 +29,7 @@ Every contextual rule is expressed as a **conditional mapping**:
 These mappings ensure that project-level adaptations stay consistent with system integrity —<br/>
 **never violating SRL, only expressing it differently**.
 
-### CRC Categories (Delivery Context Archetypes)
+## CRC Categories (Delivery Context Archetypes)
 
 The CRC defines a small number of **delivery context archetypes** that represent typical real-world configurations of Client–Vendor collaboration.<br/>
 Each archetype modifies how the 12 Stable Rules are implemented across the SDLC stages.
@@ -44,9 +44,9 @@ Each archetype modifies how the 12 Stable Rules are implemented across the SDLC 
 
 Each archetype inherits all 12 Stable Rules — but expresses them differently depending on constraints and priorities.
 
-### CRC Example Mappings
+## CRC Example Mappings
 
-#### A1. Fixed-Bid / Contractual Delivery
+### A1. Fixed-Bid / Contractual Delivery
 
 | **Rule (SRL)** | **Implementation in Fixed-Bid Context** | **Reason / Effect** |
 |----------------|------------------------------------------|----------------------|
@@ -58,7 +58,7 @@ Each archetype inherits all 12 Stable Rules — but expresses them differently d
 
 **Outcome:** Predictability and accountability strengthened without over-bureaucratization.
 
-#### A2. Co-Delivery Partnership
+### A2. Co-Delivery Partnership
 
 | **Rule (SRL)** | **Implementation in Co-Delivery Context** | **Reason / Effect** |
 |----------------|--------------------------------------------|----------------------|
@@ -70,7 +70,7 @@ Each archetype inherits all 12 Stable Rules — but expresses them differently d
 
 **Outcome:** Collaboration operates as one delivery organism with shared visibility and accountability.
 
-#### A3. Continuous Product Evolution
+### A3. Continuous Product Evolution
 
 | **Rule (SRL)** | **Implementation in Continuous Product Context** | **Reason / Effect** |
 |----------------|--------------------------------------------------|----------------------|
@@ -82,7 +82,7 @@ Each archetype inherits all 12 Stable Rules — but expresses them differently d
 
 **Outcome:** Stable yet fast-moving system where learning drives value growth.
 
-#### A4. Rapid Discovery / Innovation Pilot
+### A4. Rapid Discovery / Innovation Pilot
 
 | **Rule (SRL)** | **Implementation in Innovation Context** | **Reason / Effect** |
 |----------------|-------------------------------------------|----------------------|
@@ -94,7 +94,7 @@ Each archetype inherits all 12 Stable Rules — but expresses them differently d
 
 **Outcome:** Maximized learning per time unit, reduced risk of building the wrong thing.
 
-#### A5. Managed Service / Sustainment
+### A5. Managed Service / Sustainment
 
 | **Rule (SRL)** | **Implementation in Managed Service Context** | **Reason / Effect** |
 |----------------|-----------------------------------------------|----------------------|
@@ -106,7 +106,7 @@ Each archetype inherits all 12 Stable Rules — but expresses them differently d
 
 **Outcome:** Predictable, transparent operations aligned with continuous system evolution.
 
-### CRC Mapping Template
+## CRC Mapping Template
 
 To create new contextual playbooks, use this mapping format:
 
@@ -119,7 +119,7 @@ To create new contextual playbooks, use this mapping format:
 
 This table can be extended for organization-specific contexts and stored in a shared CRC knowledge base (e.g., Confluence, GitHub Wiki, or internal portal).
 
-### CRC and Maturity
+## CRC and Maturity
 
 As maturity increases, projects move from **rule application** to **rule design**:
 
@@ -130,7 +130,7 @@ As maturity increases, projects move from **rule application** to **rule design*
 | **Level 3 – Adaptive** | Teams co-create custom mappings based on real feedback. |
 | **Level 4 – Evolutionary** | Organization continuously evolves CRC through lived experience and cross-project learning. |
 
-### CRC Governance
+## CRC Governance
 
 To keep the catalog effective:
 
@@ -139,14 +139,14 @@ To keep the catalog effective:
 - **Link** CRC rules to RAC findings — improvement actions should modify or extend contextual mappings.
 - **Integrate** CRC into onboarding and project kickoff processes.
 
-### Adapting Without Excusing
+## Adapting Without Excusing
 
 The purpose of contextual adaptation is **to preserve system integrity under constraint**, not to justify underperformance.<br/>
 A common misuse of CRC occurs when teams interpret flexibility as permission to ignore stable rules — turning context into an excuse rather than a design factor.<br/>
 Healthy adaptation always traces back to **which Stable Rule it protects** and **what learning it generates**.<br/>
 When a contextual rule cannot explain its stabilizing purpose, it signals adaptation drift — a warning that coherence is being traded for comfort.
 
-### CRC and Relationship Maturity
+## CRC and Relationship Maturity
 
 CRC operationalizes relationship maturity:
 
@@ -156,7 +156,7 @@ CRC operationalizes relationship maturity:
 
 Thus, CRC is not just documentation — it’s the **institutional memory of delivery intelligence**.
 
-### Summary
+## Summary
 
 - The **Contextual Rules Catalog (CRC)** translates stable system principles (SRL) into practical guidance for diverse delivery contexts (CDL).
 - It ensures flexibility without chaos — adapting practices to context while preserving systemic integrity.

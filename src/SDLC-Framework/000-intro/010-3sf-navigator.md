@@ -1,22 +1,22 @@
-## The 3SF Navigator – Context-Driven Tool Finder
+# The 3SF Navigator – Context-Driven Tool Finder
 
 > *“Start with your situation, not the method.”*
 
-### Purpose
+## Purpose
 
 The **3SF Navigator** helps you quickly find which 3SF Practice Tool fits your current situation.<br/>
 Instead of reading the full framework, this guide begins with **your context** — what you are trying to achieve — and directs you to the right artifact or diagnostic.
 
 It complements the **3SF Practice Architecture** by acting as a lightweight *user interface* for the 3SF Operating System.
 
-### How to Use
+## How to Use
 
 1. Identify **your current need or challenge** below.
 2. Find the **matching situation** in the table.
 3. Open the linked **3SF Tool** to apply immediately.
 4. Use the associated **3SF Principle** as your guiding mindset.
 
-### Find Your Situation
+## Find Your Situation
 
 | My Current Situation (Need) | SDLC Stage | Primary Tool | Target 3SF Principle |
 | :--- | :--- | :--- | :--- |
@@ -32,36 +32,36 @@ It complements the **3SF Practice Architecture** by acting as a lightweight *use
 | **“We need to evaluate partnership performance.”** | Run / Evolve | [**Quarterly Delivery & Relationship Assessment**](../200-practice/250-quarterly-assessment.md) | *Transparency Enables Adaptation* |
 | **“We want to learn from delivery issues without blaming.”** | Evolve / Reflect | [**Learning Before Blame Protocol**](../200-practice/265-learning-before-blame-protocol.md) | *Learning before Blame* |
 
-### Quick Reference by SDLC Stage
+## Quick Reference by SDLC Stage
 
-#### **Discover**
+### **Discover**
 
 - [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md) — define context and collaboration rules.
 - [Outcome-to-Accountability Map](../200-practice/220-outcome-accountability-map.md) — define measurable success.
 - [Initial Delivery System Design](../200-practice/240-initial-delivery-design.md) — establish delivery configuration.
 
-#### **Shape**
+### **Shape**
 
 - [Autonomy & Control Boundary Charter](../200-practice/210-autonomy-control-charter.md) — define decision-making rights.
 - [Architectural Trade-Off Contract](../200-practice/235-architectural-tradeoff-contract.md) — agree on non-functional trade-offs.
 
-#### **Build**
+### **Build**
 
 - [Shared Definition of Done Matrix](../200-practice/225-shared-definition-of-done.md) — ensure cross-functional quality.
 - [Flow Constraint Identification](../200-practice/230-flow-constraint-identification.md) — locate top systemic blockers.
 - [Delivery System Diagnostic](../200-practice/245-delivery-system-diagnostic.md) — analyze systemic friction.
 
-#### **Run**
+### **Run**
 
 - [Maturity Dashboard](../200-practice/215-maturity-dashboard.md) — visualize relationship health and delivery maturity.
 - [Quarterly Delivery & Relationship Assessment](../200-practice/250-quarterly-assessment.md) — monitor partnership progress.
 
-#### **Evolve**
+### **Evolve**
 
 - [Learning Before Blame Protocol](../200-practice/265-learning-before-blame-protocol.md) — conduct structured retrospectives.
 - [Relationship Audit](../200-practice/260-relationship-audit.md) — portfolio-level comparison and learning.
 
-### When in Doubt
+## When in Doubt
 
 Start with one of these entry points:
 
@@ -73,7 +73,7 @@ Start with one of these entry points:
 
 When clarity improves, connect these tools through the [3SF Practice Architecture](../200-practice/200-practice-architecture.md) for full lifecycle alignment.
 
-### Governance & Diagnostics
+## Governance & Diagnostics
 
 When oversight or measurement is the main concern, use the tools that connect delivery with systemic learning:
 
@@ -81,7 +81,7 @@ When oversight or measurement is the main concern, use the tools that connect de
 - [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) — monitors relationship health.
 - [**Rule Audit Checklist (RAC)**](../100-theory/130-rule-audit-checklist.md) and [**Contextual Rules Catalog (CRC)**](../100-theory/135-contextual-rules-catalog.md) — evaluate rule adherence and improvement priorities.
 
-### Summary
+## Summary
 
 > **3SF Navigator = Context → Principle → Practice**<br/>
 > It’s the entry point into the 3SF Operating System — guiding users to the right tool, at the right time, for the right reason.

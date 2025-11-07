@@ -1,6 +1,6 @@
-## Stable Rules Layer (SRL)
+# Stable Rules Layer (SRL)
 
-### Purpose
+## Purpose
 
 The **Stable Rules Layer (SRL)** defines the set of **universal principles and systemic constraints** that keep the SDLC delivery system coherent, regardless of context.<br/>
 While the **Contextual Drivers Layer (CDL)** explains *why* a project behaves a certain way, SRL defines *how it must behave* to remain stable, predictable, and trustworthy.
@@ -8,7 +8,7 @@ While the **Contextual Drivers Layer (CDL)** explains *why* a project behaves a 
 Stable Rules are **non-negotiable system properties** — guardrails that ensure value flow, quality, and learning even when conditions change.<br/>
 They act as the *delivery system’s immune system* — maintaining balance between autonomy, governance, and feedback.
 
-### SRL in the 3SF Structure
+## SRL in the 3SF Structure
 
 | **Layer** | **Purpose** |
 |------------|-------------|
@@ -22,7 +22,7 @@ Together, CDL and SRL form the **adaptive core** of the 3SF:
 - CDL provides *situational awareness* (context).
 - SRL ensures *systemic integrity* (principles).
 
-### Rule Design Philosophy
+## Rule Design Philosophy
 
 Every Stable Rule represents a **cause-and-effect relationship** critical to delivery stability.<br/>
 A violation of a rule may not cause immediate failure, but it will always degrade system coherence or trust over time.
@@ -35,7 +35,7 @@ Each rule follows the pattern:
 
 Rules can therefore be applied to **design, audit, or improve** delivery — providing both *governance clarity* and *diagnostic power*.
 
-### The Twelve Stable Rules of 3SF
+## The Twelve Stable Rules of 3SF
 
 | **Rule** | **Principle** | **Purpose / Effect** |
 |---------------|----------------|----------------------|
@@ -52,7 +52,7 @@ Rules can therefore be applied to **design, audit, or improve** delivery — pro
 | **R11 – Transparency Scales Trust** | The more visible the system, the faster it learns and the deeper the trust. | Drives partnership maturity and system self-correction. |
 | **R12 – Learning is the Only Sustainable Advantage** | Every failure or success must result in actionable learning and process evolution. | Institutionalizes adaptability and long-term growth. |
 
-### The Why Behind the Rules
+## The Why Behind the Rules
 
 Each Stable Rule exists to prevent a specific type of systemic friction.<br/>
 Understanding the “why” behind each rule helps leaders detect early warning signs and coach teams before dysfunction escalates.
@@ -72,7 +72,7 @@ Understanding the “why” behind each rule helps leaders detect early warning 
 | **R11 – Transparency Scales Trust** | Prevents mistrust and hidden dependencies. |
 | **R12 – Learning is the Only Sustainable Advantage** | Prevents stagnation and organizational amnesia. |
 
-### Rule Relationships and Hierarchy
+## Rule Relationships and Hierarchy
 
 The twelve rules form **three meta-groups**, reflecting how 3SF integrates *structure, flow, and learning*:
 
@@ -84,7 +84,7 @@ The twelve rules form **three meta-groups**, reflecting how 3SF integrates *stru
 
 This grouping enables easier auditing and rule mapping to maturity models and practices.
 
-### When Rules Collide
+## When Rules Collide
 
 In complex delivery environments, Stable Rules can appear to conflict — for example, **R6 (Flow Requires Limits)** may constrain **R8 (Change as a Continuous Signal)** when too many concurrent adaptations overload the system.<br/>
 Such collisions are not failures but **tensions to be balanced**.
@@ -95,7 +95,7 @@ When conflicts arise:
 - Reassess which rule serves system stability under current context.
 - Revisit decisions once conditions change — rule prioritization is dynamic, not static.
 
-### SRL → SDLC Mapping
+## SRL → SDLC Mapping
 
 | **Rule** | **Primary SDLC Stages Impacted** | **Key SDLC Practices Affected** |
 |-----------|----------------------------------|---------------------------------|
@@ -114,7 +114,7 @@ When conflicts arise:
 
 This mapping provides traceability from abstract system rules to operational levers — ensuring that every rule has observable effects in delivery behavior.
 
-### Violations and Signals
+## Violations and Signals
 
 Each rule violation manifests as a **systemic signal** — a pattern of dysfunction visible through metrics or team behavior.
 
@@ -129,7 +129,7 @@ Each rule violation manifests as a **systemic signal** — a pattern of dysfunct
 
 Recognizing such signals early allows intervention before performance or trust degrade.
 
-### Using the Stable Rules Layer
+## Using the Stable Rules Layer
 
 **As a design tool:**
 
@@ -146,7 +146,7 @@ Recognizing such signals early allows intervention before performance or trust d
 - Use rules to guide leadership conversations around responsibility, autonomy, and improvement focus.
 - When teams ask *“what should we fix first?”*, use SRL to identify foundational gaps.
 
-### SRL and Maturity
+## SRL and Maturity
 
 Stable Rules evolve from compliance to instinct:
 
@@ -159,7 +159,7 @@ Stable Rules evolve from compliance to instinct:
 
 The goal is not to enforce rules mechanically, but to embed them in system design and organizational culture so that *stability emerges naturally*.
 
-### Summary
+## Summary
 
 - The **Stable Rules Layer (SRL)** defines universal laws that preserve system coherence and delivery trust under any context.
 - The **12 Stable Rules** form the backbone of predictable, learning-oriented delivery.

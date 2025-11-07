@@ -1,8 +1,8 @@
-## Outcome-to-Accountability Map
+# Outcome-to-Accountability Map
 
 > *“Every output without a shared outcome erodes trust.”*
 
-#### Purpose
+### Purpose
 
 The **Outcome-to-Accountability Map (OAM)** enforces the 3SF principle **“Outcome before Output.”**
 It ensures that every deliverable is linked to a clearly defined **business outcome** that both Client and Vendor jointly own.
@@ -15,7 +15,7 @@ This tool converts intent into accountability by:
 
 OAM closes the gap between *client expectations* and *vendor execution*, establishing measurable value ownership before delivery starts.
 
-#### Applies To
+### Applies To
 
 | Dimension | Scope |
 |------------|-------|
@@ -24,7 +24,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 | **3SF Layers** | Contextual Drivers Layer (CDL) + Stable Rules Layer (SRL) |
 | **Maturity Target** | From *Transactional Trust* → toward *Collaborative Confidence* |
 
-#### Actors / Roles
+### Actors / Roles
 
 | Client Side | Vendor Side | Shared Purpose |
 |--------------|--------------|----------------|
@@ -33,7 +33,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 | **Requirements Analyst** | **Solution Architect** | Ensure traceability between outcome, requirement, and implementation. |
 | **Governance Officer** | **Delivery Facilitator** | Validate that outcome accountability is reflected in reporting and dashboards. |
 
-#### Steps / Routines
+### Steps / Routines
 
 1. **Define Core Outcomes**
    - Identify 3–5 primary outcomes representing *business impact*, not *features delivered*.
@@ -62,13 +62,13 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
    - Track outcome progress alongside delivery metrics.
    - Adjust accountability mapping if team composition or ownership changes.
 
-#### Inputs / Outputs
+### Inputs / Outputs
 
 | Inputs | Outputs |
 |---------|----------|
 | Business objectives, backlog epics, KPIs | **Outcome-to-Accountability Map**, baseline and target metrics, accountability matrix integrated into Delivery Charter |
 
-#### Metrics / Signals
+### Metrics / Signals
 
 | Category | Example Indicators |
 |-----------|--------------------|
@@ -77,7 +77,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 | **Value Adoption Rate** | ≥ 70% of delivered outcomes meet or exceed baseline targets within 3 months. |
 | **Engagement Maturity Signal** | Increased alignment between product metrics and delivery cadence. |
 
-#### Common Pitfalls
+### Common Pitfalls
 
 - Confusing *outputs* (features) with *outcomes* (impact).
 - Allowing one-sided ownership — e.g., only vendor responsible for outcomes.
@@ -85,7 +85,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 - Neglecting to update accountability when team composition or priorities change.
 - Omitting baselines — making success impossible to measure.
 
-#### Scaling Notes
+### Scaling Notes
 
 | Maturity Stage | Evolution Focus |
 |----------------|-----------------|
@@ -93,7 +93,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 | **Collaborative → Co-Creative** | Integrate outcome metrics into backlog prioritization. |
 | **Co-Creative → Strategic Partner** | Shift governance reviews from output completion to outcome realization. |
 
-#### Client-Side Application
+### Client-Side Application
 
 **Objective:** Maintain value ownership and prevent delegation of accountability to the vendor.
 
@@ -104,7 +104,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 3. Validate that vendor outputs map to business goals.
 4. Review outcome progress during Quarterly Assessments.
 
-#### Vendor-Side Application
+### Vendor-Side Application
 
 **Objective:** Align delivery execution to business value and demonstrate accountability maturity.
 
@@ -115,7 +115,7 @@ OAM closes the gap between *client expectations* and *vendor execution*, establi
 3. Report progress based on impact, not just delivery completion.
 4. Use OAM data to inform retrospective discussions and maturity assessments.
 
-#### Summary
+### Summary
 
 The **Outcome-to-Accountability Map** is the keystone artifact enforcing **Outcome before Output**.<br/>
 It transforms expectations into shared accountability — ensuring that every output contributes to measurable, co-owned business results.<br/>

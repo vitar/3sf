@@ -1,6 +1,6 @@
-## SDLC Stage Dimensions – Discover
+# SDLC Stage Dimensions – Discover
 
-### Purpose
+## Purpose
 
 The **Discover Stage** establishes the foundation for the entire delivery system.<br/>
 Its goal is to **understand the problem**, align stakeholders on goals, and explore possible solution directions before committing to execution.
@@ -10,7 +10,7 @@ It transforms assumptions into shared understanding — reducing uncertainty, bu
 
 When done well, Discover prevents most downstream delivery issues: unclear scope, missing validation, misaligned expectations, and low confidence in estimates.
 
-### Core Outcomes
+## Core Outcomes
 
 | **Outcome** | **Description** |
 |--------------|-----------------|
@@ -20,9 +20,9 @@ When done well, Discover prevents most downstream delivery issues: unclear scope
 | **Discovery Artifacts** | Early deliverables such as user journeys, high-level architecture options, and estimation boundaries. |
 | **Stakeholder Alignment** | Agreement on next steps, ownership, and engagement model for the Shape stage. |
 
-### Discovery Dimensions
+## Discovery Dimensions
 
-#### 1. Strategic Alignment
+### 1. Strategic Alignment
 
 Defines how well the problem and goals are understood and connected to business outcomes.
 
@@ -39,7 +39,7 @@ Defines how well the problem and goals are understood and connected to business 
 - Apply *Value Mapping* and *Wardley Mapping* to connect goals and capabilities.
 - Ensure goals are validated with both business and delivery stakeholders.
 
-#### 2. Planning & Flow
+### 2. Planning & Flow
 
 Defines how discovery activities are structured, timeboxed, and prioritized.
 
@@ -56,7 +56,7 @@ Defines how discovery activities are structured, timeboxed, and prioritized.
 - Visualize discovery backlog and outcomes (e.g., Notion, Miro, Jira).
 - Include estimation boundaries early — treat estimates as hypotheses.
 
-#### 3. Collaboration & Communication
+### 3. Collaboration & Communication
 
 Defines how teams, clients, and stakeholders interact to co-create understanding.
 
@@ -73,7 +73,7 @@ Defines how teams, clients, and stakeholders interact to co-create understanding
 - Use a shared *Decision Log* or *Discovery Journal*.
 - Align technical and product language — reduce translation gaps.
 
-#### 4. Quality & Risk Management
+### 4. Quality & Risk Management
 
 Defines how uncertainty and validation are handled during exploration.
 
@@ -90,7 +90,7 @@ Defines how uncertainty and validation are handled during exploration.
 - Introduce *Rapid Feasibility Tests* (technical spikes, data validation).
 - Use a fixed discovery budget with a prioritized scope to maintain focus.
 
-#### 5. Learning & Adaptation
+### 5. Learning & Adaptation
 
 Defines how feedback is captured and turned into better decisions.
 
@@ -107,7 +107,7 @@ Defines how feedback is captured and turned into better decisions.
 - Run a short *Discovery Retrospective* before Shape.
 - Ensure all findings are summarized in a *Discovery Report* template for reuse.
 
-### Common Failure Modes
+## Common Failure Modes
 
 | **Failure Mode** | **Root Cause** | **Correction** |
 |------------------|----------------|----------------|
@@ -118,7 +118,7 @@ Defines how feedback is captured and turned into better decisions.
 
 Over-extending discovery can be as harmful as skipping it — excessive exploration delays learning and erodes stakeholder confidence.
 
-### Measuring Discovery Health
+## Measuring Discovery Health
 
 Indicators of a healthy Discovery stage:
 
@@ -135,7 +135,7 @@ Quantitative indicators may include:
 - Time spent in Discovery vs. number of unresolved questions
 - Confidence score in estimate readiness (self-assessed 1–5 scale)
 
-### Discovery and Relationship Maturity
+## Discovery and Relationship Maturity
 
 Discovery is where **Transactional Trust** evolves into **Aligned Autonomy**.<br/>
 Transparency, open communication, and early co-ownership set the tone for the entire engagement.
@@ -146,7 +146,7 @@ High-maturity discovery:
 - Builds **trust through visibility**, not control.
 - Creates **momentum for partnership** before contractual delivery begins.
 
-### Summary
+## Summary
 
 - The **Discover Stage** is about learning, not committing — converting uncertainty into clarity.
 - Its five dimensions (Strategic Alignment, Planning & Flow, Collaboration, Quality & Risk, Learning & Adaptation) ensure balanced exploration.

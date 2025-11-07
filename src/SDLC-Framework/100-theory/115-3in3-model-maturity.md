@@ -1,6 +1,6 @@
-## 3-in-3 Model Maturity
+# 3-in-3 Model Maturity
 
-### Shared Responsibility & Relationship Maturity
+## Shared Responsibility & Relationship Maturity
 
 Client and Vendor maturity grow **together** through progressive collaboration and shared ownership of decisions.<br/>
 This maturity expresses how responsibility, trust, and autonomy evolve between both sides.
@@ -14,7 +14,7 @@ This maturity expresses how responsibility, trust, and autonomy evolve between b
 
 Progression along this curve is gradual and reversible — it must be *earned* through reliability, openness, and continuous feedback.
 
-### Assessing Relationship Maturity
+## Assessing Relationship Maturity
 
 In 3SF, relationship maturity is measured not by duration but by **quality of collaboration** across three relationship lines:
 
@@ -29,7 +29,7 @@ Each can be evaluated as:
 
 Tools such as the *3-in-3 Maturity Self-Assessment* help teams reflect on their current and target levels in each dimension.
 
-### Why Relationship Maturity Matters
+## Why Relationship Maturity Matters
 
 Traditional SDLC frameworks assume delivery success depends solely on process quality.<br/>
 In client–vendor environments, **relationship quality is equally structural.**
@@ -42,14 +42,14 @@ A technically correct system can still fail when:
 
 3SF closes this gap by embedding **dual accountability** and **shared responsibility** — ensuring that both client and vendor evolve together toward aligned autonomy and partnership.
 
-### When Maturity Stalls
+## When Maturity Stalls
 
 Relationship maturity can regress when reliability or transparency erode.<br/>
 Common signals include defensive communication, parallel decision-making, or focus on protecting scope instead of outcomes.<br/>
 Such reversals do not mean failure — they reveal where trust and accountability need reinforcement.<br/>
 3SF treats these moments as diagnostic opportunities to restore balance rather than assign blame.
 
-### Summary
+## Summary
 
 The **Relationship Maturity Model** represents *how the system grows* —<br/>
 a trajectory from **Transactional** to **Strategic Partnership**, embedded in how collaboration, trust, and shared ownership evolve over time.

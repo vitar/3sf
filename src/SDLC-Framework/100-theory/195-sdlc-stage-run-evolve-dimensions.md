@@ -1,6 +1,6 @@
-## SDLC Stage Dimensions – Run & Evolve
+# SDLC Stage Dimensions – Run & Evolve
 
-### Purpose
+## Purpose
 
 The **Run & Evolve Stage** closes the delivery loop by ensuring the system operates reliably in production and continues to improve over time.<br/>
 It combines two complementary mindsets: **Run** — maintaining stability, performance, and user satisfaction; and **Evolve** — learning from outcomes and feeding insights back into future discovery and shaping.
@@ -9,7 +9,7 @@ Where Build delivers features, **Run & Evolve delivers continuity and growth**.<
 It’s the stage where operations, feedback, and innovation merge into a sustainable improvement cycle.<br/>
 When mature, this stage transforms delivery into a **living system** — capable of adapting, learning, and evolving together with users and business needs.
 
-### Core Outcomes
+## Core Outcomes
 
 | **Outcome** | **Description** |
 |--------------|-----------------|
@@ -19,9 +19,9 @@ When mature, this stage transforms delivery into a **living system** — capable
 | **Value Realization Tracking** | Measurement of business outcomes achieved post-release. |
 | **Continuous Improvement** | Product and process evolve based on validated data and feedback. |
 
-### Run & Evolve Dimensions
+## Run & Evolve Dimensions
 
-#### 1. Strategic Alignment
+### 1. Strategic Alignment
 
 Ensures that operational decisions and improvement priorities remain tied to strategic goals and user value.
 
@@ -38,7 +38,7 @@ Ensures that operational decisions and improvement priorities remain tied to str
 - Use *Outcome Review Sessions* with Client and Vendor quarterly.
 - Define *Continuous Improvement Objectives (CIOs)* tied to roadmap updates.
 
-#### 2. Planning & Flow
+### 2. Planning & Flow
 
 Defines how operations and evolution work are balanced, prioritized, and executed without disrupting flow.
 
@@ -55,7 +55,7 @@ Defines how operations and evolution work are balanced, prioritized, and execute
 - Automate *Change Request* workflows integrated with CI/CD.
 - Maintain a *Continuous Improvement Board* linking issues to systemic actions.
 
-#### 3. Collaboration & Communication
+### 3. Collaboration & Communication
 
 Defines how support, development, and business teams communicate and learn from production realities.
 
@@ -72,7 +72,7 @@ Defines how support, development, and business teams communicate and learn from 
 - Implement *ChatOps* for transparency of operations and incidents.
 - Publish *Service Health Dashboards* with uptime, incidents, and satisfaction metrics.
 
-#### 4. Quality & Risk Management
+### 4. Quality & Risk Management
 
 Defines how reliability, security, and technical debt are managed over time to ensure resilience and sustainability.
 
@@ -90,7 +90,7 @@ Defines how reliability, security, and technical debt are managed over time to e
 - Track *Operational Risk Index* across environments.
 - Automate *Security & Compliance Audits* in pipelines.
 
-#### 5. Learning & Adaptation
+### 5. Learning & Adaptation
 
 Defines how operational data and user insights drive iterative improvement across product and process.
 
@@ -108,7 +108,7 @@ Defines how operational data and user insights drive iterative improvement acros
 - Include *Run & Evolve metrics* in quarterly business reviews.
 - Apply *Kaizen* principles for incremental improvement cycles.
 
-### Common Failure Modes
+## Common Failure Modes
 
 | **Failure Mode** | **Root Cause** | **Correction** |
 |------------------|----------------|----------------|
@@ -117,7 +117,7 @@ Defines how operational data and user insights drive iterative improvement acros
 | **“We never find time for evolution.”** | No improvement planning or prioritization. | Treat evolution work as roadmap items with time allocation. |
 | **“Incidents keep repeating.”** | No root cause learning or follow-up. | Introduce structured post-incident learning process. |
 
-### Measuring Run & Evolve Health
+## Measuring Run & Evolve Health
 
 | **Signal** | **Description** |
 |-------------|----------------|
@@ -134,7 +134,7 @@ Quantitative indicators may include:
 - Number of improvement stories delivered per quarter.
 - Customer satisfaction or NPS trend after releases.
 
-### Run & Evolve and Relationship Maturity
+## Run & Evolve and Relationship Maturity
 
 Run & Evolve strengthens **Strategic Partnership** by proving reliability, transparency, and shared learning over time.<br/>
 While early stages of SDLC build trust through delivery success, Run & Evolve **sustains** it through dependability and adaptability.
@@ -145,7 +145,7 @@ High-maturity operation means:
 - Improvement is a shared habit, not an exception.
 - Trust is renewed with every resolved incident and every measurable improvement.
 
-### Summary
+## Summary
 
 - The **Run & Evolve Stage** sustains value delivery beyond release — ensuring reliability and driving continuous improvement.  
 - Its five dimensions — Strategic Alignment, Planning & Flow, Collaboration, Quality & Risk, Learning & Adaptation — close the feedback loop of the SDLC.  

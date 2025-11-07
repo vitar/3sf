@@ -1,13 +1,13 @@
-## SDLC Stages
+# SDLC Stages
 
-### Overview
+## Overview
 
 The **3SF SDLC Stages** define the full flow of software product delivery as a **continuous system of understanding, creation, validation, and improvement**.<br/>
 They describe *how value moves through the system* — from the first discovery of a problem to the ongoing evolution of the solution.
 
 Each stage represents a distinct purpose but connects through feedback loops, ensuring learning never stops and every delivery cycle strengthens both product and partnership maturity.
 
-### The Seven SDLC Stages
+## The Seven SDLC Stages
 
 | **Stage** | **Purpose** | **Outcome** |
 |------------|-------------|-------------|
@@ -19,7 +19,7 @@ Each stage represents a distinct purpose but connects through feedback loops, en
 | **Run** | Monitor and support the live system, ensuring reliability, scalability, and fast issue resolution. | Reliable operations, user satisfaction, and data-driven visibility of system health. |
 | **Evolve** | Learn from outcomes and feedback to continuously improve product, process, and team effectiveness. | Actionable insights leading to better products, stronger relationships, and organizational learning. |
 
-### SDLC as a System of Flow and Learning
+## SDLC as a System of Flow and Learning
 
 The stages form an *adaptive flow* of intent, delivery, and feedback:
 
@@ -31,7 +31,7 @@ The stages form an *adaptive flow* of intent, delivery, and feedback:
 
 Each iteration through the loop increases **delivery maturity** and **relationship trust**, evolving both the system and the collaboration that sustains it.
 
-### Relationship-Aware SDLC
+## Relationship-Aware SDLC
 
 Each SDLC stage also represents a **relationship checkpoint** between Client and Vendor — defining how shared responsibility matures as delivery progresses.
 
@@ -47,7 +47,7 @@ Each SDLC stage also represents a **relationship checkpoint** between Client and
 
 Relationship maturity increases as both organizations learn to rely on one another for clarity, delivery, and learning — turning the SDLC into a **partnership growth mechanism**, not just a technical lifecycle.
 
-### Flow Characteristics Across the SDLC
+## Flow Characteristics Across the SDLC
 
 | **Characteristic** | **Early Phases (Discover–Shape)** | **Middle Phases (Build–Validate–Release)** | **Late Phases (Run–Evolve)** |
 |---------------------|----------------------------------|--------------------------------------------|------------------------------|
@@ -57,7 +57,7 @@ Relationship maturity increases as both organizations learn to rely on one anoth
 | **Leadership Mode** | Facilitative and consultative | Operational and technical | Strategic and reflective |
 | **Ownership Distribution** | Client-driven collaboration | Vendor-led autonomy | Shared strategic renewal |
 
-### Run vs Evolve: Stability vs Learning
+## Run vs Evolve: Stability vs Learning
 
 In many organizations, the **Run** phase is mistaken for the end of delivery — focused purely on uptime, cost control, and SLA adherence.<br/>
 While stability is vital, stopping there creates a **false plateau of success** where no new learning enters the system.
@@ -71,7 +71,7 @@ Its metrics differ from Run:
 When evolution is skipped, operational excellence turns brittle — systems stay available but stop improving.<br/>
 A mature delivery culture measures both: **Run for stability, Evolve for growth**.
 
-### Using the SDLC Stages
+## Using the SDLC Stages
 
 The SDLC Stages act as a **map, not a prescription**.<br/>
 Each project can emphasize different stages depending on context — for example:
@@ -84,7 +84,7 @@ Each project can emphasize different stages depending on context — for example
 
 ---
 
-### Summary
+## Summary
 
 - The SDLC Stages define **how value flows** through seven interconnected phases.
 - Each stage contributes both to **delivery outcomes** and **relationship maturity**.

@@ -1,6 +1,6 @@
-## SDLC Stages Maturity
+# SDLC Stages Maturity
 
-### Purpose
+## Purpose
 
 The **SDLC Stages Maturity** model describes how delivery systems evolve in capability, alignment, and learning across the seven SDLC stages.<br/>
 It reflects how a project grows from *controlled execution* to *adaptive partnership* — connecting delivery performance to relationship trust.
@@ -11,7 +11,7 @@ Each SDLC stage not only defines what to do but also how **maturely** it can be 
 - **Operationally**, by enabling flow and feedback.
 - **Relationally**, by building trust and shared responsibility.
 
-### Maturity Levels Across the SDLC
+## Maturity Levels Across the SDLC
 
 | **Level** | **Name** | **System Characteristics** | **Collaboration Behavior** |
 |------------|-----------|----------------------------|-----------------------------|
@@ -23,7 +23,7 @@ Each SDLC stage not only defines what to do but also how **maturely** it can be 
 Each stage can operate at a different maturity level — for example, *Build* may perform at Level 3 while *Evolve* remains at Level 2.<br/>
 The goal is not uniform maturity, but **balance** between flow, governance, and relationship depth.
 
-### SDLC Stage Maturity Map
+## SDLC Stage Maturity Map
 
 | **SDLC Stage** | **Stage Purpose** | **Minimum → Target Maturity** | **Client Role** | **Vendor / Team Role** | **Shared Focus** |
 |----------------|-------------------|--------------------------------|-----------------|------------------------|------------------|
@@ -38,7 +38,7 @@ The goal is not uniform maturity, but **balance** between flow, governance, and 
 Maturity across the SDLC reflects **how well flow, accountability, and learning are synchronized**.<br/>
 Gaps between stages reveal where governance or communication must adapt.
 
-### Structural, Operational, and Relational Dimensions
+## Structural, Operational, and Relational Dimensions
 
 | **Dimension** | **Definition** | **Observable Indicators** |
 |----------------|----------------|----------------------------|
@@ -50,7 +50,7 @@ The **Structural** dimension establishes order,<br/>
 the **Operational** dimension sustains flow,<br/>
 and the **Relational** dimension drives long-term value.
 
-### Assessing SDLC Stage Maturity
+## Assessing SDLC Stage Maturity
 
 Maturity can be assessed per stage or holistically through:
 
@@ -60,13 +60,13 @@ Maturity can be assessed per stage or holistically through:
 
 Each stage’s maturity score feeds into a *delivery health profile* that highlights which capabilities enable or block overall system flow.
 
-### When Maturity Plateaus
+## When Maturity Plateaus
 
 Some stages evolve faster than others — for example, Build may reach high autonomy while Shape or Run remains reactive.<br/>
 Such asymmetry often indicates systemic bottlenecks, not team incompetence.<br/>
 3SF views these plateaus as signals to inspect **interfaces between stages** — where ownership, feedback, or governance may still operate transactionally.
 
-### Summary
+## Summary
 
 - SDLC Stages Maturity connects **delivery quality** with **relationship growth**.
 - Each stage advances from controlled execution to adaptive partnership.

@@ -1,6 +1,6 @@
-## Rule Audit Checklist (RAC)
+# Rule Audit Checklist (RAC)
 
-### Purpose
+## Purpose
 
 The **Rule Audit Checklist (RAC)** provides a structured way to evaluate how well a project or delivery system adheres to the **Stable Rules Layer (SRL)**.<br/>
 It serves as a **diagnostic and learning instrument**, helping Project Leads, Product Managers, Architects, and Delivery Directors identify where the SDLC system is coherent — and where it may be drifting.
@@ -8,7 +8,7 @@ It serves as a **diagnostic and learning instrument**, helping Project Leads, Pr
 RAC turns the abstract SRL principles into **practical, observable checks** that can be applied across any delivery model, whether fixed-bid, time-and-material, or co-delivery.<br/>
 It can be used for **self-assessment**, **peer review**, or **formal audit**, depending on project maturity and organizational needs.
 
-### RAC in the 3SF Structure
+## RAC in the 3SF Structure
 
 | **Layer** | **Purpose** |
 |------------|-------------|
@@ -19,7 +19,7 @@ It can be used for **self-assessment**, **peer review**, or **formal audit**, de
 The RAC’s job is not compliance policing — it is **delivery sense-making**.<br/>
 It helps leaders interpret project behavior and choose improvement focus areas based on systemic signals.
 
-### Using the RAC
+## Using the RAC
 
 1. **Select a project or program** — ideally after one full delivery iteration (e.g., quarter or milestone).
 2. **Interview or survey** participants from both Client and Vendor sides (Product Manager, Project Lead, Tech Lead, QA, Architect, Stakeholder).
@@ -27,7 +27,7 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 4. **Discuss evidence and next actions** — RAC is most effective as a conversation, not a checklist.
 5. **Summarize results** in a visual radar or heatmap (rules vs. maturity) for transparency.
 
-#### Scoring Scale
+### Scoring Scale
 
 | **Score** | **Meaning** | **Interpretation** |
 |------------|-------------|--------------------|
@@ -36,7 +36,7 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 | **3 – Embedded** | Rule consistently applied and measured. | Predictable delivery, learning in motion. |
 | **4 – Adaptive** | Rule instinctively followed and improved. | Self-correcting system; maturity embedded. |
 
-### RAC Template
+## RAC Template
 
 | **Rule ID** | **Rule Name** | **Audit Question(s)** | **Observed Evidence / Notes** | **Score (1–4)** | **Next Action / Owner** |
 |--------------|---------------|------------------------|--------------------------------|-----------------|--------------------------|
@@ -55,31 +55,31 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 
 *(Recommended: keep this table as a shared document or dashboard updated quarterly.)*
 
-### Interpreting RAC Results
+## Interpreting RAC Results
 
-#### 1. Identify Systemic Weaknesses
+### 1. Identify Systemic Weaknesses
 
 - Low scores across several rules in the same meta-group (e.g., Flow or Learning) indicate systemic imbalance.
 - For example, strong **Alignment** but weak **Flow** may suggest bureaucracy or slow adaptation.
 
-#### 2. Analyze Cross-Role Perspectives
+### 2. Analyze Cross-Role Perspectives
 
 - Compare Client vs. Vendor perceptions — maturity gaps often reveal trust or communication issues.
 - Different scores for the same rule are **valuable**, not errors — they highlight where transparency or expectations differ.
 
-#### 3. Track Maturity Over Time
+### 3. Track Maturity Over Time
 
 - Conduct RAC every 3–6 months.
 - Visualize progress using radar charts grouped by Alignment / Flow / Learning rule families.
 - Celebrate upward trends; investigate stagnation or regression.
 
-#### 4. Link RAC to Improvement Planning
+### 4. Link RAC to Improvement Planning
 
 - Each low-scoring rule becomes an **improvement opportunity**.
 - Select 2–3 rules per cycle for focused improvement, linking them to measurable actions in the delivery plan.
 
 
-### RAC Example Summary Report
+## RAC Example Summary Report
 
 | **Meta-Group** | **Rules** | **Average Score** | **Interpretation** | **Suggested Focus** |
 |----------------|-----------|-------------------|--------------------|----------------------|
@@ -87,7 +87,7 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 | **Flow** | R5–R8 | 2.3 | Quality and risk processes under stress. | Strengthen automation and WIP control. |
 | **Learning** | R9–R12 | 1.8 | Feedback loops and improvement culture weak. | Prioritize retrospectives and shared metrics. |
 
-### RAC Application in Practice
+## RAC Application in Practice
 
 **Use the RAC to:**
 
@@ -97,7 +97,7 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 - Provide *input to the Contextual Rules Catalog (CRC)* for tailored playbooks.
 - Serve as *baseline measurement* before initiating major process or relationship changes.
 
-### RAC Facilitation Tips
+## RAC Facilitation Tips
 
 - Conduct as a **facilitated workshop**, not a survey — dialogue matters more than scores.
 - Keep each rule discussion time-boxed (~10–15 minutes).
@@ -105,7 +105,7 @@ It helps leaders interpret project behavior and choose improvement focus areas b
 - End with **3 actionable insights per meta-group** (Alignment, Flow, Learning).
 - Visualize results — transparency itself reinforces trust (R11).
 
-### RAC and Relationship Maturity
+## RAC and Relationship Maturity
 
 Rule adherence mirrors relationship maturity:
 
@@ -115,14 +115,14 @@ Rule adherence mirrors relationship maturity:
 
 Thus, the RAC not only measures system health — it measures **partnership evolution**.
 
-### Systemic Failure: The Maturity Mirage
+## Systemic Failure: The Maturity Mirage
 
 A common risk in mature organizations is the **illusion of progress** — performing RAC reviews, retrospectives, and rule discussions as rituals while the underlying mindset remains unchanged.<br/>
 This *maturity mirage* creates dashboards that look healthy but conceal disengagement, blame avoidance, or shallow trust.<br/>
 True maturity is evidenced by visible change in behavior and decision quality, not by consistent high scores.<br/>
 When results stay static despite visible activity, it signals **measurement without learning** — the system has optimized for appearance, not evolution.
 
-### Summary
+## Summary
 
 - The **Rule Audit Checklist (RAC)** operationalizes the 12 Stable Rules into measurable behaviors.
 - It enables reflective, evidence-based dialogue about delivery health and maturity.

@@ -1,6 +1,6 @@
-## SDLC Stage Dimensions – Shape
+# SDLC Stage Dimensions – Shape
 
-### Purpose
+## Purpose
 
 The **Shape Stage** defines *how the vision becomes feasible* — transforming ideas and validated insights from Discovery into a **delivery-ready plan**.<br/>
 It establishes **scope, architecture vision, delivery approach, and feasibility**, aligning all parties on what will be built, how, and under which constraints.
@@ -9,7 +9,7 @@ Shape is where **strategy meets execution**.<br/>
 It converts the “why” and “what” discovered earlier into “how” — preparing teams, stakeholders, and systems for sustainable delivery flow.<br/>
 When done well, Shape minimizes delivery risk, sets realistic expectations, and becomes the contract of shared understanding between Client and Vendor.
 
-### Core Outcomes
+## Core Outcomes
 
 | **Outcome** | **Description** |
 |--------------|-----------------|
@@ -19,9 +19,9 @@ When done well, Shape minimizes delivery risk, sets realistic expectations, and 
 | **Feasibility & Estimation** | Validated assumptions, complexity estimates, and resource forecasts. |
 | **Delivery Model & Governance** | Clear engagement model, communication cadence, and decision-making process. |
 
-### Shape Dimensions
+## Shape Dimensions
 
-#### 1. Strategic Alignment
+### 1. Strategic Alignment
 
 Defines how well Shape connects the validated Discovery findings to actionable scope and measurable outcomes.
 
@@ -38,7 +38,7 @@ Defines how well Shape connects the validated Discovery findings to actionable s
 - Apply *Outcome-based Roadmapping* — link objectives to measurable impacts.
 - Create a *single-page delivery vision* reviewed jointly with all key stakeholders.
 
-#### 2. Planning & Flow
+### 2. Planning & Flow
 
 Defines how scope, estimation, and delivery model are structured to balance feasibility with adaptability.
 
@@ -55,7 +55,7 @@ Defines how scope, estimation, and delivery model are structured to balance feas
 - Use *Scenario Planning* for budget and timeline alignment.
 - Align delivery model choice with Contextual Drivers (commercial, organizational, technical).
 
-#### 3. Collaboration & Communication
+### 3. Collaboration & Communication
 
 Defines how decisions are co-created and communicated between client and vendor roles.
 
@@ -72,7 +72,7 @@ Defines how decisions are co-created and communicated between client and vendor 
 - Maintain a *Shape Log* capturing decisions, rationales, and risks.
 - Use *Collaboration Maps* to visualize stakeholder engagement and information flow.
 
-#### 4. Quality & Risk Management
+### 4. Quality & Risk Management
 
 Defines how feasibility, architecture, and delivery risks are identified and controlled before Build starts.
 
@@ -89,7 +89,7 @@ Defines how feasibility, architecture, and delivery risks are identified and con
 - Create *Feasibility Register* — track technical risk, cost, and decisions.
 - Align readiness checklist with Build expectations (DoR, environments, design assets).
 
-#### 5. Learning & Adaptation
+### 5. Learning & Adaptation
 
 Defines how discovery insights, decisions, and risks evolve into an adaptive delivery mindset.
 
@@ -106,7 +106,7 @@ Defines how discovery insights, decisions, and risks evolve into an adaptive del
 - Maintain a *Decision Register* — track what changed, why, and impact.
 - Use *Knowledge Handover Packages* (vision, architecture, roadmap) for Build readiness.
 
-### Common Failure Modes
+## Common Failure Modes
 
 | **Failure Mode** | **Root Cause** | **Correction** |
 |------------------|----------------|----------------|
@@ -117,7 +117,7 @@ Defines how discovery insights, decisions, and risks evolve into an adaptive del
 
 The illusion of precision — detailed plans built on unvalidated inputs — is a recurring trap. Shape aims for confidence, not certainty.
 
-### Measuring Shape Health
+## Measuring Shape Health
 
 | **Signal** | **Description** |
 |-------------|----------------|
@@ -132,7 +132,7 @@ Quantitative indicators:
 - Estimation confidence range (± deviation vs. actual).
 - Stakeholder alignment score (via feedback survey).
 
-### Shape and Relationship Maturity
+## Shape and Relationship Maturity
 
 The Shape stage moves the relationship from **Aligned Autonomy** toward **Shared Ownership**.<br/>
 Here, trust grows through *joint decision-making* and *transparent trade-offs*.
@@ -143,7 +143,7 @@ High-maturity shaping:
 - Replaces handovers with collaboration.
 - Aligns product ambition with delivery feasibility.
 
-### Summary
+## Summary
 
 - The **Shape Stage** translates understanding into a feasible, outcome-driven delivery plan.
 - Its five dimensions — Strategic Alignment, Planning & Flow, Collaboration, Quality & Risk, Learning & Adaptation — ensure scope, architecture, and delivery model coherence.

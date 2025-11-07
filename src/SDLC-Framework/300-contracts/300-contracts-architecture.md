@@ -1,10 +1,8 @@
-# SECTION IV: GOVERNANCE & DIAGNOSTICS
-
-## 3SF Governance Contracts Architecture
+# 3SF Contracts Architecture
 
 > *“Principles define the intent. Contracts define the commitment.”*
 
-### Purpose
+## Purpose
 
 The **3SF Contracts Architecture** defines how the **3-in-3 SDLC Framework (3SF)** principles and practices are **institutionalized through agreements** that govern collaboration between **Client** and **Vendor** organizations.
 
@@ -15,14 +13,14 @@ While **Theory** defines *why* the system exists and **Practice** defines *how* 
 
 3SF Contracts turn **alignment and maturity** into **co-signed, inspectable commitments** — making the framework operationally enforceable across organizational boundaries.
 
-### Objectives
+## Objectives
 
 - Provide a **map of 3SF contractual instruments** that formalize shared accountability and autonomy.
 - Clarify the **relationship between Principles, Practices, and Contracts**.
 - Define **how maturity evolves** through progressive contractual agreements.
 - Serve as a **reference** for integrating 3SF governance into Statements of Work (SoW), Delivery Charters, or Partnership Agreements.
 
-### Structure of the Contracts Part
+## Structure of the Contracts Part
 
 Each contract represents a **governance artifact** derived from a 3SF Principle or Practice.<br/>
 Contracts are grouped by **system purpose** and **relationship maturity stage**.
@@ -37,7 +35,7 @@ Contracts are grouped by **system purpose** and **relationship maturity stage**.
 
 Each contract type may attach to a **Delivery Charter**, **SoW**, or **Portfolio Governance Framework**, depending on organizational maturity.
 
-### Relationship to Theory and Practice
+## Relationship to Theory and Practice
 
 The **Contracts layer** is the boundary between intent and behavior — it ensures the same maturity language is applied in **legal**, **governance**, and **delivery** conversations.
 
@@ -64,7 +62,7 @@ Together they ensure that governance and learning remain synchronized across Cli
 > Contracts define boundaries (Agreements, Rights, Commitments).<br/>
 > Practices define behavior (Tools, Routines, Artifacts).
 
-### Progressive Contractual Maturity
+## Progressive Contractual Maturity
 
 3SF contracts evolve as **trust and autonomy** increase between organizations.<br/>
 Each maturity stage changes what must be *approved*, *co-signed*, or *self-governed.*
@@ -76,7 +74,7 @@ Each maturity stage changes what must be *approved*, *co-signed*, or *self-gover
 | **Co-Creative** | Distributed Accountability | Vendor self-governs backlog and release within outcome targets. | [Maturity Growth Contract](320-maturity-growth-contract.md), [Autonomy & Control Boundary Charter](352-template-autonomy-control.md) |
 | **Strategic Partnership** | Joint Steering | Both sides co-manage portfolio roadmap and investment strategy. | [Relationship Evolution Contract](340-relationship-evolution-contract.md) |
 
-### Mapping Principles to Contract Types
+## Mapping Principles to Contract Types
 
 | 3SF Principle | Primary Contract | Related Practice Artifacts | Purpose |
 |---|---|---|---|
@@ -86,7 +84,7 @@ Each maturity stage changes what must be *approved*, *co-signed*, or *self-gover
 | **Flow before Speed** | [Governance Contract](330-governance-contract.md) | DevOps & Delivery | Ensures system flow is prioritized over short-term performance. |
 | **Learning before Blame** | [Maturity Growth Contract](320-maturity-growth-contract.md) | Feedback & Learning | Turns retrospectives into learning commitments instead of fault audits. |
 
-### Integration with Practice Layer
+## Integration with Practice Layer
 
 Contracts serve as **boundary artifacts** that reference or embed 3SF Practice tools.
 
@@ -99,7 +97,7 @@ Contracts serve as **boundary artifacts** that reference or embed 3SF Practice t
 
 This ensures 3SF artifacts are **living governance components**, not separate documents.
 
-### Using Contracts in Delivery and Training
+## Using Contracts in Delivery and Training
 
 The Contracts section is essential for:
 
@@ -110,7 +108,7 @@ The Contracts section is essential for:
 
 In training and onboarding, this file acts as the **starting point** for introducing governance through maturity.
 
-### Summary
+## Summary
 
 The **3SF Contracts Architecture** defines the **governance backbone** of the 3SF Operating System:
 

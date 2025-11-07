@@ -1,10 +1,8 @@
-# SECTION I: INTRODUCTION & QUICK START
-
-## 3SF Quick Start – From Context to Practice
+# 3SF Quick Start – From Context to Practice
 
 > *“3SF is not another delivery method — it’s the operating system that connects them all.”*
 
-### What Is 3SF
+## What Is 3SF
 
 The **3-in-3 SDLC Framework (3SF)** is a **relationship-aware delivery system** that unites **Client**, **Vendor**, and **Product / Service** into one coherent ecosystem.
 
@@ -35,7 +33,7 @@ Each side of this triangle represents a **relationship line**:
 
 When all three sides evolve together, delivery becomes aligned, predictable, and continuously learning.
 
-### 3SF User Onboarding Checklist
+## 3SF User Onboarding Checklist
 
 > *Start here before using any tools or methods.*
 
@@ -50,7 +48,7 @@ When all three sides evolve together, delivery becomes aligned, predictable, and
 Once these steps are done, the 3SF Operating System is **initialized**.<br/>
 You can then safely apply any methodology — Agile, Lean, or hybrid — within a coherent relational context.
 
-### Why 3SF Exists
+## Why 3SF Exists
 
 3SF emerged from real-world experience across hundreds of projects where success or failure was rarely technical.<br/>
 It almost always came down to **misaligned expectations, responsibilities, and maturity** between Client and Vendor teams.
@@ -62,7 +60,7 @@ It almost always came down to **misaligned expectations, responsibilities, and m
 - Replacing blame with **systemic learning**.
 - Turning transactional projects into **strategic partnerships**.
 
-### How to Navigate 3SF
+## How to Navigate 3SF
 
 The framework is structured like an **operating system**:
 
@@ -75,17 +73,17 @@ The framework is structured like an **operating system**:
 Each section builds on the previous one — but you don’t need to read it linearly.<br/>
 If you know your **role** or **current challenge**, you can jump directly to the relevant guide below.
 
-### Where to Start
+## Where to Start
 
-#### [The 3SF Navigator – Tool Finder](000-intro/010-3sf-navigator.md)
+### [The 3SF Navigator – Tool Finder](000-intro/010-3sf-navigator.md)
 
 Find the right 3SF Practice Tool for your current situation — from defining engagement rules to diagnosing delivery friction.
 
-#### [Role Responsibility Snapshot – Dual-Sided Accountability](000-intro/020-role-snapshot.md)
+### [Role Responsibility Snapshot – Dual-Sided Accountability](000-intro/020-role-snapshot.md)
 
 See how Client and Vendor roles align, what each is accountable for, and which 3SF artifacts they co-own.
 
-### When You’re Ready
+## When You’re Ready
 
 Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)**<br/>
 to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.

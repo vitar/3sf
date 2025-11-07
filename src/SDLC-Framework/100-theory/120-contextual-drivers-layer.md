@@ -1,6 +1,6 @@
-## Contextual Drivers Layer (CDL)
+# Contextual Drivers Layer (CDL)
 
-### Purpose
+## Purpose
 
 The **Contextual Drivers Layer (CDL)** defines the external and internal forces that shape how the SDLC system should operate in a given environment.<br/>
 It recognizes that **no project exists in a vacuum** — every delivery model is influenced by commercial agreements, organizational structures, product maturity, technical landscape, and relationship context.
@@ -9,7 +9,7 @@ By identifying these drivers early, teams can **adapt the SDLC configuration con
 
 CDL is therefore the **adaptive intelligence layer** of the 3SF framework: it provides the situational awareness necessary to design, diagnose, and evolve any project context.
 
-### CDL in the 3SF Structure
+## CDL in the 3SF Structure
 
 | **Layer** | **Purpose** |
 |------------|-------------|
@@ -23,7 +23,7 @@ CDL is therefore the **adaptive intelligence layer** of the 3SF framework: it pr
 
 CDL thus acts as the **input layer** for delivery system configuration and as the **diagnostic layer** for understanding delivery friction.
 
-### CDL Categories
+## CDL Categories
 
 The CDL organizes all contextual drivers into **six categories**, each representing a domain of influence.<br/>
 These drivers can be viewed as *boundary conditions* or *design constraints* that determine how maturity, practices, and decisions should be applied.
@@ -40,7 +40,7 @@ These drivers can be viewed as *boundary conditions* or *design constraints* tha
 Each project operates within a unique combination of these drivers.<br/>
 Understanding them early allows the SDLC configuration (stages, practices, and rules) to adapt for stability and effectiveness.
 
-### CDL as a Diagnostic Lens
+## CDL as a Diagnostic Lens
 
 Contextual Drivers can be analyzed from two perspectives:
 
@@ -51,7 +51,7 @@ Contextual Drivers can be analyzed from two perspectives:
 
 By mapping drivers to affected SDLC Stages and Practices, teams can uncover **root causes** of delivery dysfunction rather than symptoms.
 
-### CDL → SDLC Connection Map
+## CDL → SDLC Connection Map
 
 | **CDL Category** | **Primary SDLC Stages Impacted** | **Key Practices Affected** | **Typical Constraints or Levers** |
 |------------------|----------------------------------|-----------------------------|-----------------------------------|
@@ -64,7 +64,7 @@ By mapping drivers to affected SDLC Stages and Practices, teams can uncover **ro
 
 This mapping becomes the foundation for contextual rule generation (CRC) and rule validation (RAC).
 
-### CDL Assessment
+## CDL Assessment
 
 A **Contextual Driver Assessment** can be done during Discovery or periodically during long-running projects.<br/>
 Its purpose is to identify **which drivers are stable, volatile, or misaligned**.
@@ -79,25 +79,25 @@ Example checklist (simplified):
 
 Drivers with high impact should trigger configuration adjustments (via SRL or CRC).
 
-### CDL in Practice
+## CDL in Practice
 
-#### 1. During Discovery:
+### 1. During Discovery:
 
 - Identify contextual drivers and classify by category.
 - Highlight those that constrain design or delivery models.
 - Inform Shape decisions (architecture, governance, estimation).
 
-#### 2. During Delivery:
+### 2. During Delivery:
 
 - Monitor changes in contextual drivers (e.g., contract renewal, new stakeholders, tool migrations).
 - Adjust Stage Dimensions and Practices to maintain coherence.
 
-#### 3. During Retrospectives or Audits:
+### 3. During Retrospectives or Audits:
 
 - Review contextual shifts to explain performance or relationship changes.
 - Update RAC and CRC mappings to reflect new constraints or opportunities.
 
-### CDL and Relationship Maturity
+## CDL and Relationship Maturity
 
 Contextual Drivers determine how much maturity a project can realistically achieve.<br/>
 For example:
@@ -108,7 +108,7 @@ For example:
 Mature organizations don’t fight constraints; they **design within them**.<br/>
 The CDL enables this by making constraints explicit and manageable.
 
-### Principles Failure: Contextual Contradictions
+## Principles Failure: Contextual Contradictions
 
 At times, contextual forces directly conflict with system principles — for example, a *regulatory environment* that enforces heavy control contradicts the principle of *Trust before Control*, or a *fixed-bid contract* that prioritizes scope over learning undermines *Outcome before Output*.<br/>
 3SF treats these contradictions not as violations but as **trade-off boundaries**: situations where local compliance may temporarily override ideal behavior.
@@ -117,7 +117,7 @@ When contradictions persist unacknowledged, they lead to silent erosion of trust
 The resolution is transparency: make constraints visible, discuss which principles are constrained, and consciously rebalance the system once conditions change.<br/>
 Context cannot always be changed — but how consciously we adapt within it defines maturity.
 
-### Summary
+## Summary
 
 - The **Contextual Drivers Layer (CDL)** captures the forces that shape delivery — commercial, organizational, product, technical, relationship, and environmental.
 - It acts as the **input lens** for tuning the SDLC system and explaining why projects behave as they do.

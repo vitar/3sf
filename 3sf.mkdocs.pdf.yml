@@ -40,8 +40,8 @@ plugins:
       toc_title:  !ENV [PDF_TOC_TITLE, ""]
       # Only build PDF when enabled in CI
       enabled_if_env: ENABLE_PDF_EXPORT
-      toc_level: 3
-      ordered_chapter_level: 3
+      toc_level: 2
+      ordered_chapter_level: 2
 
 nav:
   - index.md
