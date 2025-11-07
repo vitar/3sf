@@ -30,16 +30,8 @@ theme:
 
 plugins:
   - to-pdf:
-      custom_template_path: templates
-      author: !ENV [PDF_AUTHOR_DATE, "Viktor Jevdokimov"]
-      # Per-locale PDF path via env; prevents overwrites across locales
-      output_path: !ENV [PDF_OUTPUT_PATH, "pdf/3sf.pdf"]
-      # Translate the PDF cover subtitle via env (set in CI matrix)
-      cover_title:  !ENV [PDF_COVER_TITLE, ""]
-      cover_subtitle: !ENV [PDF_COVER_SUBTITLE, ""]
-      toc_title:  !ENV [PDF_TOC_TITLE, ""]
-      # Only build PDF when enabled in CI
-      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: "pdf/3sf.pdf"
+      cover_subtitle: "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration."
       toc_level: 2
       ordered_chapter_level: 2
 
