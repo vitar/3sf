@@ -78,7 +78,7 @@ jobs:
       - name: Build 3SF PDF
         run: |
           set -e
-          mkdir -p dist/pdfs
+          mkdir -p dist/site/pdf
 
           build_pdf () {
             title="$1"; subtitle="$2"; toctitle="$3"
@@ -92,7 +92,7 @@ jobs:
 
             mkdocs build --strict -f 3sf.mkdocs.pdf.yml --site-dir "dist/_tmp_"
 
-            cp "dist/_tmp_/${PDF_OUTPUT_PATH}" "dist/pdfs/3sf.pdf"
+            cp "dist/_tmp_/${PDF_OUTPUT_PATH}" "dist/site/pdf/3sf.pdf"
           }
 
           build_pdf "3-in-3 SDLC Framework (3SF)" "A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration." "Table of contents"
