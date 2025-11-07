@@ -1,0 +1,1920 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration.">
+      
+      
+        <meta name="author" content="Viktor Jevdokimov, Vilnius, Lithuania">
+      
+      
+      
+        <link rel="prev" href="../190-sdlc-stage-release-dimensions/">
+      
+      
+        <link rel="next" href="../../200-practice/200-practice-architecture/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>SDLC Stage Dimensions – Run & Evolve - 3-in-3 SDLC Framework (3SF)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sdlc-stage-dimensions-run-evolve" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-header__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3-in-3 SDLC Framework (3SF)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SDLC Stage Dimensions – Run &amp; Evolve
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-nav__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    3-in-3 SDLC Framework (3SF)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3SF Quick Start – From Context to Practice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/010-3sf-navigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The 3SF Navigator – Context-Driven Tool Finder
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/020-role-snapshot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Role Responsibility Snapshot – Dual-Sided Accountability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100-intro-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3-in-3 SDLC Framework (3SF)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../105-vision-principles-beliefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision, Principles &amp; Beliefs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../110-3in3-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3-in-3 Model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../115-3in3-model-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3-in-3 Model Maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../120-contextual-drivers-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contextual Drivers Layer (CDL)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../125-stable-rules-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stable Rules Layer (SRL)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130-rule-audit-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule Audit Checklist (RAC)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../135-contextual-rules-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contextual Rules Catalog (CRC)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../140-relationship-and-system-maturity-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relationship and System Maturity Integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../145-sdlc-stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../150-sdlc-stages-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stages Maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../155-sdlc-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../160-sdlc-practices-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Practices Maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../165-sdlc-stage-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimentions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../170-sdlc-stage-discovery-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Discover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../175-sdlc-stage-shape-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Shape
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../180-sdlc-stage-build-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Build
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../185-sdlc-stage-validate-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Validate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../190-sdlc-stage-release-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Release
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Run &amp; Evolve
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    SDLC Stage Dimensions – Run &amp; Evolve
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-evolve-dimensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run &amp; Evolve Dimensions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Run &amp; Evolve Dimensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-strategic-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Strategic Alignment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-planning-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Planning &amp; Flow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-collaboration-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Collaboration &amp; Communication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-quality-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Quality &amp; Risk Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-learning-adaptation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Learning &amp; Adaptation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-failure-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Failure Modes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-run-evolve-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measuring Run &amp; Evolve Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-evolve-and-relationship-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run &amp; Evolve and Relationship Maturity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/200-practice-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3SF Practice Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/205-engagement-context-canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engagement Context Canvas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/210-autonomy-control-charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Autonomy &amp; Control Boundary Charter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/215-maturity-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maturity Dashboard and Metrics Consolidation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/220-outcome-accountability-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outcome-to-Accountability Map
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/225-shared-definition-of-done/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Shared Definition of Done (DoD) Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/230-flow-constraint-identification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Flow Constraint Identification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/235-architectural-tradeoff-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architectural Trade-Off Contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/240-initial-delivery-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initial Delivery System Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/245-delivery-system-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Delivery System Diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/250-quarterly-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quarterly Delivery and Relationship Assessment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/255-self-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Self-Diagnostic and Reflection Tool
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/260-relationship-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relationship Audit and Portfolio Maturity Review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/265-learning-before-blame-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Learning Before Blame Protocol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/300-contracts-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3SF Contracts Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/310-engagement-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engagement Contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/320-maturity-growth-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maturity Growth Contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/330-governance-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Governance Contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/340-relationship-evolution-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relationship Evolution Contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/350-template-outcome-accountability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template – Outcome-to-Accountability Agreement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/351-template-architectural-tradeoff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template – Architectural Trade-Off Agreement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/352-template-autonomy-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template – Autonomy &amp; Control Boundary Agreement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-evolve-dimensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run &amp; Evolve Dimensions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Run &amp; Evolve Dimensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-strategic-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Strategic Alignment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-planning-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Planning &amp; Flow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-collaboration-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Collaboration &amp; Communication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-quality-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Quality &amp; Risk Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-learning-adaptation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Learning &amp; Adaptation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-failure-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Failure Modes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-run-evolve-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measuring Run &amp; Evolve Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-evolve-and-relationship-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run &amp; Evolve and Relationship Maturity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="sdlc-stage-dimensions-run-evolve">SDLC Stage Dimensions – Run &amp; Evolve<a class="headerlink" href="#sdlc-stage-dimensions-run-evolve" title="Permanent link">&para;</a></h1>
+<h2 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h2>
+<p>The <strong>Run &amp; Evolve Stage</strong> closes the delivery loop by ensuring the system operates reliably in production and continues to improve over time.<br/>
+It combines two complementary mindsets: <strong>Run</strong> — maintaining stability, performance, and user satisfaction; and <strong>Evolve</strong> — learning from outcomes and feeding insights back into future discovery and shaping.</p>
+<p>Where Build delivers features, <strong>Run &amp; Evolve delivers continuity and growth</strong>.<br/>
+It’s the stage where operations, feedback, and innovation merge into a sustainable improvement cycle.<br/>
+When mature, this stage transforms delivery into a <strong>living system</strong> — capable of adapting, learning, and evolving together with users and business needs.</p>
+<h2 id="core-outcomes">Core Outcomes<a class="headerlink" href="#core-outcomes" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Outcome</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Operational Stability</strong></td>
+<td>Systems perform reliably under expected loads with minimal incidents.</td>
+</tr>
+<tr>
+<td><strong>Continuous Monitoring &amp; Feedback</strong></td>
+<td>Real-time insights collected from usage, performance, and user satisfaction.</td>
+</tr>
+<tr>
+<td><strong>Incident Response &amp; Learning</strong></td>
+<td>Clear processes for issue detection, triage, and recovery with lessons captured.</td>
+</tr>
+<tr>
+<td><strong>Value Realization Tracking</strong></td>
+<td>Measurement of business outcomes achieved post-release.</td>
+</tr>
+<tr>
+<td><strong>Continuous Improvement</strong></td>
+<td>Product and process evolve based on validated data and feedback.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="run-evolve-dimensions">Run &amp; Evolve Dimensions<a class="headerlink" href="#run-evolve-dimensions" title="Permanent link">&para;</a></h2>
+<h3 id="1-strategic-alignment">1. Strategic Alignment<a class="headerlink" href="#1-strategic-alignment" title="Permanent link">&para;</a></h3>
+<p>Ensures that operational decisions and improvement priorities remain tied to strategic goals and user value.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Low Maturity (Reactive)</strong></th>
+<th><strong>High Maturity (Proactive)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Operational Goals</strong></td>
+<td>Focused only on uptime and SLA.</td>
+<td>Balance between stability, performance, and outcome value.</td>
+</tr>
+<tr>
+<td><strong>Feedback Integration</strong></td>
+<td>Post-release feedback ignored or delayed.</td>
+<td>Feedback regularly reviewed and prioritized into roadmap.</td>
+</tr>
+<tr>
+<td><strong>Improvement Ownership</strong></td>
+<td>No clear accountability for evolution.</td>
+<td>Client and Vendor share ownership of continuous improvement.</td>
+</tr>
+<tr>
+<td><strong>Business Impact Visibility</strong></td>
+<td>Success not measured post-release.</td>
+<td>Measurable KPIs tracked and reported in governance cadence.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Improvement Strategies</strong></p>
+<ul>
+<li>Link <em>Run metrics</em> (uptime, error rate) to <em>business KPIs</em> (conversion, satisfaction).</li>
+<li>Use <em>Outcome Review Sessions</em> with Client and Vendor quarterly.</li>
+<li>Define <em>Continuous Improvement Objectives (CIOs)</em> tied to roadmap updates.</li>
+</ul>
+<h3 id="2-planning-flow">2. Planning &amp; Flow<a class="headerlink" href="#2-planning-flow" title="Permanent link">&para;</a></h3>
+<p>Defines how operations and evolution work are balanced, prioritized, and executed without disrupting flow.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Low Maturity</strong></th>
+<th><strong>High Maturity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Workload Balance</strong></td>
+<td>Operations dominate; no time for improvements.</td>
+<td>Planned capacity split between Run (stability) and Evolve (improvement).</td>
+</tr>
+<tr>
+<td><strong>Incident Management</strong></td>
+<td>Reactive firefighting.</td>
+<td>Proactive prevention through trend monitoring and capacity planning.</td>
+</tr>
+<tr>
+<td><strong>Change Planning</strong></td>
+<td>Uncoordinated or emergency patches.</td>
+<td>Continuous release cycles with clear change windows.</td>
+</tr>
+<tr>
+<td><strong>Improvement Flow</strong></td>
+<td>Ideas logged but never executed.</td>
+<td>Continuous improvement backlog integrated into delivery system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Improvement Strategies</strong></p>
+<ul>
+<li>Apply <em>SRE-inspired capacity planning</em> (e.g., 70/20/10 rule: 70% operations, 20% improvements, 10% innovation).</li>
+<li>Automate <em>Change Request</em> workflows integrated with CI/CD.</li>
+<li>Maintain a <em>Continuous Improvement Board</em> linking issues to systemic actions.</li>
+</ul>
+<h3 id="3-collaboration-communication">3. Collaboration &amp; Communication<a class="headerlink" href="#3-collaboration-communication" title="Permanent link">&para;</a></h3>
+<p>Defines how support, development, and business teams communicate and learn from production realities.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Low Maturity</strong></th>
+<th><strong>High Maturity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ops-Dev Relationship</strong></td>
+<td>“Throw over the wall” mentality.</td>
+<td>Shared accountability for uptime, quality, and performance.</td>
+</tr>
+<tr>
+<td><strong>User Communication</strong></td>
+<td>Reactive support tickets only.</td>
+<td>Active feedback collection and user engagement loops.</td>
+</tr>
+<tr>
+<td><strong>Transparency</strong></td>
+<td>Incidents handled in isolation.</td>
+<td>Public incident reporting, shared dashboards, and post-mortems.</td>
+</tr>
+<tr>
+<td><strong>Stakeholder Visibility</strong></td>
+<td>Only technical teams see system health.</td>
+<td>Business and product stakeholders informed via clear metrics.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Improvement Strategies</strong></p>
+<ul>
+<li>Create <em>Joint Operations Reviews</em> including engineering and client representatives.</li>
+<li>Implement <em>ChatOps</em> for transparency of operations and incidents.</li>
+<li>Publish <em>Service Health Dashboards</em> with uptime, incidents, and satisfaction metrics.</li>
+</ul>
+<h3 id="4-quality-risk-management">4. Quality &amp; Risk Management<a class="headerlink" href="#4-quality-risk-management" title="Permanent link">&para;</a></h3>
+<p>Defines how reliability, security, and technical debt are managed over time to ensure resilience and sustainability.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Low Maturity</strong></th>
+<th><strong>High Maturity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monitoring &amp; Alerting</strong></td>
+<td>Reactive, basic logs only.</td>
+<td>Proactive, automated observability with alert thresholds.</td>
+</tr>
+<tr>
+<td><strong>Security &amp; Compliance</strong></td>
+<td>Checked only after incidents.</td>
+<td>Continuous scanning and compliance integrated into pipelines.</td>
+</tr>
+<tr>
+<td><strong>Technical Debt</strong></td>
+<td>Ignored until it causes issues.</td>
+<td>Managed systematically via backlog and roadmap.</td>
+</tr>
+<tr>
+<td><strong>Resilience Testing</strong></td>
+<td>None or infrequent.</td>
+<td>Regular chaos or load testing validating fault tolerance.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Improvement Strategies</strong></p>
+<ul>
+<li>Implement <em>Observability Stack</em> (metrics, tracing, logs).</li>
+<li>Schedule <em>Resilience Tests</em> quarterly using chaos engineering tools.</li>
+<li>Track <em>Operational Risk Index</em> across environments.</li>
+<li>Automate <em>Security &amp; Compliance Audits</em> in pipelines.</li>
+</ul>
+<h3 id="5-learning-adaptation">5. Learning &amp; Adaptation<a class="headerlink" href="#5-learning-adaptation" title="Permanent link">&para;</a></h3>
+<p>Defines how operational data and user insights drive iterative improvement across product and process.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Low Maturity</strong></th>
+<th><strong>High Maturity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Post-Incident Learning</strong></td>
+<td>Focus on blame or immediate fixes.</td>
+<td>Root cause analysis and systemic improvements logged.</td>
+</tr>
+<tr>
+<td><strong>Continuous Improvement Culture</strong></td>
+<td>Improvements optional or reactive.</td>
+<td>Teams actively suggest and experiment with new ideas.</td>
+</tr>
+<tr>
+<td><strong>Data Utilization</strong></td>
+<td>Metrics collected but not analyzed.</td>
+<td>Metrics reviewed in governance and retrospectives.</td>
+</tr>
+<tr>
+<td><strong>Knowledge Continuity</strong></td>
+<td>Lessons forgotten between releases.</td>
+<td>Knowledge bases maintained, reused in discovery and shaping.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Improvement Strategies</strong></p>
+<ul>
+<li>Conduct <em>Blameless Post-Mortems</em> for all incidents.</li>
+<li>Maintain a <em>Learning Backlog</em> shared across teams.</li>
+<li>Include <em>Run &amp; Evolve metrics</em> in quarterly business reviews.</li>
+<li>Apply <em>Kaizen</em> principles for incremental improvement cycles.</li>
+</ul>
+<h2 id="common-failure-modes">Common Failure Modes<a class="headerlink" href="#common-failure-modes" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Failure Mode</strong></th>
+<th><strong>Root Cause</strong></th>
+<th><strong>Correction</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>“We’re always firefighting.”</strong></td>
+<td>Lack of preventive monitoring and improvement time.</td>
+<td>Dedicate capacity to continuous improvement and automation.</td>
+</tr>
+<tr>
+<td><strong>“Users report problems before we notice them.”</strong></td>
+<td>Missing observability or alerting.</td>
+<td>Implement real-time monitoring and alerting.</td>
+</tr>
+<tr>
+<td><strong>“We never find time for evolution.”</strong></td>
+<td>No improvement planning or prioritization.</td>
+<td>Treat evolution work as roadmap items with time allocation.</td>
+</tr>
+<tr>
+<td><strong>“Incidents keep repeating.”</strong></td>
+<td>No root cause learning or follow-up.</td>
+<td>Introduce structured post-incident learning process.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="measuring-run-evolve-health">Measuring Run &amp; Evolve Health<a class="headerlink" href="#measuring-run-evolve-health" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Signal</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Uptime and performance metrics stable over time.</strong></td>
+<td>Operational discipline and reliability proven.</td>
+</tr>
+<tr>
+<td><strong>Reduced incident recurrence.</strong></td>
+<td>Effective root cause learning and system improvement.</td>
+</tr>
+<tr>
+<td><strong>Regular improvement items delivered each cycle.</strong></td>
+<td>Evolution embedded in delivery flow.</td>
+</tr>
+<tr>
+<td><strong>Business KPIs tracked post-release.</strong></td>
+<td>Outcomes continuously validated.</td>
+</tr>
+</tbody>
+</table>
+<p>Quantitative indicators may include:</p>
+<ul>
+<li>Mean Time Between Failures (MTBF).</li>
+<li>Mean Time to Detect (MTTD) and Mean Time to Recover (MTTR).</li>
+<li>% of automated monitoring coverage.</li>
+<li>Number of improvement stories delivered per quarter.</li>
+<li>Customer satisfaction or NPS trend after releases.</li>
+</ul>
+<h2 id="run-evolve-and-relationship-maturity">Run &amp; Evolve and Relationship Maturity<a class="headerlink" href="#run-evolve-and-relationship-maturity" title="Permanent link">&para;</a></h2>
+<p>Run &amp; Evolve strengthens <strong>Strategic Partnership</strong> by proving reliability, transparency, and shared learning over time.<br/>
+While early stages of SDLC build trust through delivery success, Run &amp; Evolve <strong>sustains</strong> it through dependability and adaptability.</p>
+<p>High-maturity operation means:</p>
+<ul>
+<li>Issues are managed collaboratively, not defensively.</li>
+<li>Improvement is a shared habit, not an exception.</li>
+<li>Trust is renewed with every resolved incident and every measurable improvement.</li>
+</ul>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The <strong>Run &amp; Evolve Stage</strong> sustains value delivery beyond release — ensuring reliability and driving continuous improvement.  </li>
+<li>Its five dimensions — Strategic Alignment, Planning &amp; Flow, Collaboration, Quality &amp; Risk, Learning &amp; Adaptation — close the feedback loop of the SDLC.  </li>
+<li>Mature operations turn incident data into insight, insight into innovation, and innovation into renewed value.  </li>
+<li>When Run &amp; Evolve thrive, delivery transforms from project management into an adaptive system of partnership and progress.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../190-sdlc-stage-release-dimensions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: SDLC Stage Dimensions – Release">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                SDLC Stage Dimensions – Release
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../200-practice/200-practice-architecture/" class="md-footer__link md-footer__link--next" aria-label="Next: 3SF Practice Architecture">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                3SF Practice Architecture
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 3in3.dev
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
