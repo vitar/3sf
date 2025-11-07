@@ -1,0 +1,2003 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration.">
+      
+      
+        <meta name="author" content="Viktor Jevdokimov, Vilnius, Lithuania">
+      
+      
+      
+        <link rel="prev" href="../120-contextual-drivers-layer/">
+      
+      
+        <link rel="next" href="../130-rule-audit-checklist/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>125 stable rules layer - 3-in-3 SDLC Framework (3SF)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stable-rules-layer-srl" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-header__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3-in-3 SDLC Framework (3SF)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              125 stable rules layer
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-nav__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    3-in-3 SDLC Framework (3SF)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION I: INTRODUCTION &amp; QUICK START
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/010-3sf-navigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    010 3sf navigator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/020-role-snapshot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    020 role snapshot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100-intro-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION II: THEORY &amp; GOVERNING RULES
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../105-vision-principles-beliefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    105 vision principles beliefs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../110-3in3-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    110 3in3 model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../115-3in3-model-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    115 3in3 model maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../120-contextual-drivers-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    120 contextual drivers layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    125 stable rules layer
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    125 stable rules layer
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stable-rules-layer-srl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stable Rules Layer (SRL)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stable Rules Layer (SRL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-in-the-3sf-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL in the 3SF Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rule-design-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rule Design Philosophy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-twelve-stable-rules-of-3sf" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Twelve Stable Rules of 3SF
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-why-behind-the-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Why Behind the Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rule-relationships-and-hierarchy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rule Relationships and Hierarchy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-rules-collide" class="md-nav__link">
+    <span class="md-ellipsis">
+      When Rules Collide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-sdlc-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL → SDLC Mapping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#violations-and-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Violations and Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-stable-rules-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the Stable Rules Layer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-and-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL and Maturity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130-rule-audit-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    130 rule audit checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../135-contextual-rules-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    135 contextual rules catalog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../140-relationship-and-system-maturity-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    140 relationship and system maturity integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../145-sdlc-stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    145 sdlc stages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../150-sdlc-stages-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    150 sdlc stages maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../155-sdlc-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    155 sdlc practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../160-sdlc-practices-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    160 sdlc practices maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../165-sdlc-stage-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    165 sdlc stage dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../170-sdlc-stage-discovery-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    170 sdlc stage discovery dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../175-sdlc-stage-shape-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    175 sdlc stage shape dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../180-sdlc-stage-build-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    180 sdlc stage build dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../185-sdlc-stage-validate-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    185 sdlc stage validate dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../190-sdlc-stage-release-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    190 sdlc stage release dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../195-sdlc-stage-run-evolve-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    195 sdlc stage run evolve dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/200-practice-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION III: PRACTICE &amp; TOOLS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/205-engagement-context-canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    205 engagement context canvas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/210-autonomy-control-charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    210 autonomy control charter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/215-maturity-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    215 maturity dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/220-outcome-accountability-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    220 outcome accountability map
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/225-shared-definition-of-done/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    225 shared definition of done
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/230-flow-constraint-identification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    230 flow constraint identification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/235-architectural-tradeoff-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    235 architectural tradeoff contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/240-initial-delivery-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    240 initial delivery design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/245-delivery-system-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    245 delivery system diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/250-quarterly-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    250 quarterly assessment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/255-self-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    255 self diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/260-relationship-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    260 relationship audit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/265-learning-before-blame-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    265 learning before blame protocol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/300-contracts-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION IV: GOVERNANCE &amp; DIAGNOSTICS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/310-engagement-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    310 engagement contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/320-maturity-growth-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    320 maturity growth contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/330-governance-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    330 governance contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/340-relationship-evolution-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    340 relationship evolution contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/350-template-outcome-accountability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    350 template outcome accountability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/351-template-architectural-tradeoff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    351 template architectural tradeoff
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/352-template-autonomy-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    352 template autonomy control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stable-rules-layer-srl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stable Rules Layer (SRL)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stable Rules Layer (SRL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-in-the-3sf-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL in the 3SF Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rule-design-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rule Design Philosophy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-twelve-stable-rules-of-3sf" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Twelve Stable Rules of 3SF
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-why-behind-the-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Why Behind the Rules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rule-relationships-and-hierarchy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rule Relationships and Hierarchy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-rules-collide" class="md-nav__link">
+    <span class="md-ellipsis">
+      When Rules Collide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-sdlc-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL → SDLC Mapping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#violations-and-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Violations and Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-stable-rules-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the Stable Rules Layer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srl-and-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRL and Maturity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>125 stable rules layer</h1>
+
+<h2 id="stable-rules-layer-srl">Stable Rules Layer (SRL)<a class="headerlink" href="#stable-rules-layer-srl" title="Permanent link">&para;</a></h2>
+<h3 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h3>
+<p>The <strong>Stable Rules Layer (SRL)</strong> defines the set of <strong>universal principles and systemic constraints</strong> that keep the SDLC delivery system coherent, regardless of context.<br/>
+While the <strong>Contextual Drivers Layer (CDL)</strong> explains <em>why</em> a project behaves a certain way, SRL defines <em>how it must behave</em> to remain stable, predictable, and trustworthy.</p>
+<p>Stable Rules are <strong>non-negotiable system properties</strong> — guardrails that ensure value flow, quality, and learning even when conditions change.<br/>
+They act as the <em>delivery system’s immune system</em> — maintaining balance between autonomy, governance, and feedback.</p>
+<h3 id="srl-in-the-3sf-structure">SRL in the 3SF Structure<a class="headerlink" href="#srl-in-the-3sf-structure" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Layer</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CDL</strong></td>
+<td>Identifies external and internal forces shaping the SDLC configuration.</td>
+</tr>
+<tr>
+<td><strong>SRL</strong></td>
+<td>Defines the universal laws that maintain system balance under those forces.</td>
+</tr>
+<tr>
+<td><strong>RAC</strong></td>
+<td>Audits adherence to SRL rules in specific projects.</td>
+</tr>
+<tr>
+<td><strong>CRC</strong></td>
+<td>Translates SRL rules into actionable configurations under contextual conditions.</td>
+</tr>
+</tbody>
+</table>
+<p>Together, CDL and SRL form the <strong>adaptive core</strong> of the 3SF:</p>
+<ul>
+<li>CDL provides <em>situational awareness</em> (context).</li>
+<li>SRL ensures <em>systemic integrity</em> (principles).</li>
+</ul>
+<h3 id="rule-design-philosophy">Rule Design Philosophy<a class="headerlink" href="#rule-design-philosophy" title="Permanent link">&para;</a></h3>
+<p>Every Stable Rule represents a <strong>cause-and-effect relationship</strong> critical to delivery stability.<br/>
+A violation of a rule may not cause immediate failure, but it will always degrade system coherence or trust over time.</p>
+<p>Each rule follows the pattern:</p>
+<blockquote>
+<p><strong>If</strong> the system condition changes (due to context, scale, or relationship),<br/>
+<strong>then</strong> this principle must remain true,<br/>
+<strong>otherwise</strong> the delivery system will lose alignment, predictability, or learning capability.</p>
+</blockquote>
+<p>Rules can therefore be applied to <strong>design, audit, or improve</strong> delivery — providing both <em>governance clarity</em> and <em>diagnostic power</em>.</p>
+<h3 id="the-twelve-stable-rules-of-3sf">The Twelve Stable Rules of 3SF<a class="headerlink" href="#the-twelve-stable-rules-of-3sf" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Rule</strong></th>
+<th><strong>Principle</strong></th>
+<th><strong>Purpose / Effect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>R1 – Clarity before Commitment</strong></td>
+<td>Work must not start until purpose, outcomes, and assumptions are understood and validated.</td>
+<td>Prevents waste and misalignment; anchors flow in value, not motion.</td>
+</tr>
+<tr>
+<td><strong>R2 – One System of Truth</strong></td>
+<td>Information about scope, status, and risks must be transparent and shared between Client and Vendor.</td>
+<td>Avoids dual realities; enables trust and decision coherence.</td>
+</tr>
+<tr>
+<td><strong>R3 – Decisions are Transparent and Reversible</strong></td>
+<td>All key decisions must be visible, logged, and reversible based on new evidence.</td>
+<td>Reduces risk of bias, promotes learning, and supports adaptive governance.</td>
+</tr>
+<tr>
+<td><strong>R4 – Progress is Measured by Outcomes, not Output</strong></td>
+<td>Delivery performance must be assessed through validated results, not activity volume.</td>
+<td>Keeps teams focused on value rather than busyness.</td>
+</tr>
+<tr>
+<td><strong>R5 – Quality is Built In, not Inspected In</strong></td>
+<td>Testing, validation, and feedback loops must be integrated from the start.</td>
+<td>Ensures reliability, prevents late surprises, and enables continuous delivery.</td>
+</tr>
+<tr>
+<td><strong>R6 – Flow Requires Limits</strong></td>
+<td>Work in Progress (WIP), context switching, and dependencies must be actively managed.</td>
+<td>Stabilizes throughput, reduces friction, and improves predictability.</td>
+</tr>
+<tr>
+<td><strong>R7 – Risk Shared is Risk Reduced</strong></td>
+<td>Risks and uncertainties must be visible, jointly assessed, and owned across Client and Vendor.</td>
+<td>Promotes psychological safety, fairness, and faster mitigation.</td>
+</tr>
+<tr>
+<td><strong>R8 – Change is a Continuous Signal, not an Exception</strong></td>
+<td>Change should trigger adaptation, not escalation.</td>
+<td>Builds resilience and prevents process rigidity.</td>
+</tr>
+<tr>
+<td><strong>R9 – Feedback Completes the Flow</strong></td>
+<td>Each stage must include measurable feedback to inform the next cycle.</td>
+<td>Ensures continuous learning and value reinforcement.</td>
+</tr>
+<tr>
+<td><strong>R10 – Governance Enables, not Controls</strong></td>
+<td>Governance should clarify ownership and empower action, not slow it down.</td>
+<td>Balances autonomy and alignment; accelerates decision velocity.</td>
+</tr>
+<tr>
+<td><strong>R11 – Transparency Scales Trust</strong></td>
+<td>The more visible the system, the faster it learns and the deeper the trust.</td>
+<td>Drives partnership maturity and system self-correction.</td>
+</tr>
+<tr>
+<td><strong>R12 – Learning is the Only Sustainable Advantage</strong></td>
+<td>Every failure or success must result in actionable learning and process evolution.</td>
+<td>Institutionalizes adaptability and long-term growth.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-why-behind-the-rules">The Why Behind the Rules<a class="headerlink" href="#the-why-behind-the-rules" title="Permanent link">&para;</a></h3>
+<p>Each Stable Rule exists to prevent a specific type of systemic friction.<br/>
+Understanding the “why” behind each rule helps leaders detect early warning signs and coach teams before dysfunction escalates.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Rule</strong></th>
+<th><strong>Designed to Prevent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>R1 – Clarity before Commitment</strong></td>
+<td>Prevents strategic drift and scope confusion.</td>
+</tr>
+<tr>
+<td><strong>R2 – One System of Truth</strong></td>
+<td>Prevents information asymmetry and parallel realities.</td>
+</tr>
+<tr>
+<td><strong>R3 – Decisions are Transparent and Reversible</strong></td>
+<td>Prevents bias and irreversible errors under uncertainty.</td>
+</tr>
+<tr>
+<td><strong>R4 – Progress is Measured by Outcomes, not Output</strong></td>
+<td>Prevents false productivity and local optimization.</td>
+</tr>
+<tr>
+<td><strong>R5 – Quality is Built In, not Inspected In</strong></td>
+<td>Prevents late discovery of defects and technical debt accumulation.</td>
+</tr>
+<tr>
+<td><strong>R6 – Flow Requires Limits</strong></td>
+<td>Prevents overcommitment, multitasking, and delivery chaos.</td>
+</tr>
+<tr>
+<td><strong>R7 – Risk Shared is Risk Reduced</strong></td>
+<td>Prevents blame culture and hidden escalation loops.</td>
+</tr>
+<tr>
+<td><strong>R8 – Change is a Continuous Signal, not an Exception</strong></td>
+<td>Prevents resistance to adaptation and process rigidity.</td>
+</tr>
+<tr>
+<td><strong>R9 – Feedback Completes the Flow</strong></td>
+<td>Prevents learning delays and repetitive mistakes.</td>
+</tr>
+<tr>
+<td><strong>R10 – Governance Enables, not Controls</strong></td>
+<td>Prevents bureaucracy and decision paralysis.</td>
+</tr>
+<tr>
+<td><strong>R11 – Transparency Scales Trust</strong></td>
+<td>Prevents mistrust and hidden dependencies.</td>
+</tr>
+<tr>
+<td><strong>R12 – Learning is the Only Sustainable Advantage</strong></td>
+<td>Prevents stagnation and organizational amnesia.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rule-relationships-and-hierarchy">Rule Relationships and Hierarchy<a class="headerlink" href="#rule-relationships-and-hierarchy" title="Permanent link">&para;</a></h3>
+<p>The twelve rules form <strong>three meta-groups</strong>, reflecting how 3SF integrates <em>structure, flow, and learning</em>:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Meta-Group</strong></th>
+<th><strong>Included Rules</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Alignment Rules</strong></td>
+<td>R1, R2, R3, R4</td>
+<td>Keep system purpose clear and decisions coherent.</td>
+</tr>
+<tr>
+<td><strong>Flow Rules</strong></td>
+<td>R5, R6, R7, R8</td>
+<td>Maintain stable, adaptive value flow under changing conditions.</td>
+</tr>
+<tr>
+<td><strong>Learning Rules</strong></td>
+<td>R9, R10, R11, R12</td>
+<td>Ensure system feedback, trust, and improvement scale sustainably.</td>
+</tr>
+</tbody>
+</table>
+<p>This grouping enables easier auditing and rule mapping to maturity models and practices.</p>
+<h3 id="when-rules-collide">When Rules Collide<a class="headerlink" href="#when-rules-collide" title="Permanent link">&para;</a></h3>
+<p>In complex delivery environments, Stable Rules can appear to conflict — for example, <strong>R6 (Flow Requires Limits)</strong> may constrain <strong>R8 (Change as a Continuous Signal)</strong> when too many concurrent adaptations overload the system.<br/>
+Such collisions are not failures but <strong>tensions to be balanced</strong>.</p>
+<p>When conflicts arise:</p>
+<ul>
+<li>Return to <strong>Alignment Rules (R1–R4)</strong> — they define purpose and coherence.</li>
+<li>Reassess which rule serves system stability under current context.</li>
+<li>Revisit decisions once conditions change — rule prioritization is dynamic, not static.</li>
+</ul>
+<h3 id="srl-sdlc-mapping">SRL → SDLC Mapping<a class="headerlink" href="#srl-sdlc-mapping" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Rule</strong></th>
+<th><strong>Primary SDLC Stages Impacted</strong></th>
+<th><strong>Key SDLC Practices Affected</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1 Clarity before Commitment</td>
+<td>Discover, Shape</td>
+<td>Product Thinking, Governance &amp; Risk</td>
+</tr>
+<tr>
+<td>R2 One System of Truth</td>
+<td>Shape, Build, Validate</td>
+<td>Collaboration, DevOps &amp; Delivery</td>
+</tr>
+<tr>
+<td>R3 Decisions are Transparent and Reversible</td>
+<td>Shape, Build</td>
+<td>Governance &amp; Risk, Feedback &amp; Learning</td>
+</tr>
+<tr>
+<td>R4 Progress is Measured by Outcomes, not Output</td>
+<td>Build, Validate, Evolve</td>
+<td>Product Thinking, Feedback &amp; Learning</td>
+</tr>
+<tr>
+<td>R5 Quality is Built In, not Inspected In</td>
+<td>Build, Validate</td>
+<td>Engineering &amp; Quality, DevOps &amp; Delivery</td>
+</tr>
+<tr>
+<td>R6 Flow Requires Limits</td>
+<td>Build, Validate, Release</td>
+<td>DevOps &amp; Delivery, Governance &amp; Risk</td>
+</tr>
+<tr>
+<td>R7 Risk Shared is Risk Reduced</td>
+<td>Discover, Shape, Release</td>
+<td>Governance &amp; Risk, Collaboration</td>
+</tr>
+<tr>
+<td>R8 Change is a Continuous Signal, not an Exception</td>
+<td>Build, Evolve</td>
+<td>Feedback &amp; Learning, DevOps &amp; Delivery</td>
+</tr>
+<tr>
+<td>R9 Feedback Completes the Flow</td>
+<td>Validate, Evolve</td>
+<td>Feedback &amp; Learning</td>
+</tr>
+<tr>
+<td>R10 Governance Enables, not Controls</td>
+<td>Shape, Release, Run</td>
+<td>Governance &amp; Risk, Collaboration</td>
+</tr>
+<tr>
+<td>R11 Transparency Scales Trust</td>
+<td>All stages</td>
+<td>All practices</td>
+</tr>
+<tr>
+<td>R12 Learning is the Only Sustainable Advantage</td>
+<td>Run, Evolve</td>
+<td>Feedback &amp; Learning, Governance &amp; Risk</td>
+</tr>
+</tbody>
+</table>
+<p>This mapping provides traceability from abstract system rules to operational levers — ensuring that every rule has observable effects in delivery behavior.</p>
+<h3 id="violations-and-signals">Violations and Signals<a class="headerlink" href="#violations-and-signals" title="Permanent link">&para;</a></h3>
+<p>Each rule violation manifests as a <strong>systemic signal</strong> — a pattern of dysfunction visible through metrics or team behavior.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Rule Violation</strong></th>
+<th><strong>Typical Signals</strong></th>
+<th><strong>Possible Root Cause</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1</td>
+<td>Teams start work without validated goals.</td>
+<td>Missing or ineffective Discovery.</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Client and Vendor track different statuses.</td>
+<td>Poor transparency, separate tooling.</td>
+</tr>
+<tr>
+<td>R5</td>
+<td>QA overloaded near release.</td>
+<td>Lack of automation and shift-left testing.</td>
+</tr>
+<tr>
+<td>R6</td>
+<td>Developers multitasking across projects.</td>
+<td>No WIP limits, poor prioritization.</td>
+</tr>
+<tr>
+<td>R9</td>
+<td>Feedback delayed or ignored.</td>
+<td>Weak retrospectives, missing monitoring.</td>
+</tr>
+<tr>
+<td>R11</td>
+<td>Mistrust between Client and Vendor.</td>
+<td>Hidden data, lack of open dashboards.</td>
+</tr>
+</tbody>
+</table>
+<p>Recognizing such signals early allows intervention before performance or trust degrade.</p>
+<h3 id="using-the-stable-rules-layer">Using the Stable Rules Layer<a class="headerlink" href="#using-the-stable-rules-layer" title="Permanent link">&para;</a></h3>
+<p><strong>As a design tool:</strong></p>
+<ul>
+<li>Apply SRL when configuring delivery systems to ensure systemic balance regardless of project context.</li>
+<li>Use rules as <em>design constraints</em> when defining governance, practices, or automation.</li>
+</ul>
+<p><strong>As an audit tool:</strong></p>
+<ul>
+<li>Use SRL rules as checkpoints in the <strong>Rule Audit Checklist (RAC)</strong>.</li>
+<li>Each RAC question should trace back to one or more SRL rules.</li>
+</ul>
+<p><strong>As a coaching tool:</strong></p>
+<ul>
+<li>Use rules to guide leadership conversations around responsibility, autonomy, and improvement focus.</li>
+<li>When teams ask <em>“what should we fix first?”</em>, use SRL to identify foundational gaps.</li>
+</ul>
+<h3 id="srl-and-maturity">SRL and Maturity<a class="headerlink" href="#srl-and-maturity" title="Permanent link">&para;</a></h3>
+<p>Stable Rules evolve from compliance to instinct:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Maturity Level</strong></th>
+<th><strong>Rule Behavior</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reactive (Level 1)</strong></td>
+<td>Rules followed inconsistently; dependent on individuals.</td>
+</tr>
+<tr>
+<td><strong>Structured (Level 2)</strong></td>
+<td>Rules known and referenced but not yet internalized.</td>
+</tr>
+<tr>
+<td><strong>Integrated (Level 3)</strong></td>
+<td>Rules embedded in processes and automation.</td>
+</tr>
+<tr>
+<td><strong>Adaptive (Level 4)</strong></td>
+<td>Rules lived instinctively; used for self-correction and innovation.</td>
+</tr>
+</tbody>
+</table>
+<p>The goal is not to enforce rules mechanically, but to embed them in system design and organizational culture so that <em>stability emerges naturally</em>.</p>
+<h3 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The <strong>Stable Rules Layer (SRL)</strong> defines universal laws that preserve system coherence and delivery trust under any context.</li>
+<li>The <strong>12 Stable Rules</strong> form the backbone of predictable, learning-oriented delivery.</li>
+<li>SRL ensures that flexibility never compromises integrity — enabling adaptation without chaos.</li>
+<li>When applied consistently, SRL transforms best practices into <strong>governing principles of maturity</strong>, ensuring every project remains stable, transparent, and continuously improving.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../120-contextual-drivers-layer/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 120 contextual drivers layer">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                120 contextual drivers layer
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../130-rule-audit-checklist/" class="md-footer__link md-footer__link--next" aria-label="Next: 130 rule audit checklist">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                130 rule audit checklist
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 3in3.dev
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.footer", "content.code.copy", "content.title.off"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

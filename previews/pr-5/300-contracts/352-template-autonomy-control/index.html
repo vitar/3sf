@@ -1,0 +1,1924 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration.">
+      
+      
+        <meta name="author" content="Viktor Jevdokimov, Vilnius, Lithuania">
+      
+      
+      
+        <link rel="prev" href="../351-template-architectural-tradeoff/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>352 template autonomy control - 3-in-3 SDLC Framework (3SF)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#template-autonomy-control-boundary-agreement" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-header__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3-in-3 SDLC Framework (3SF)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              352 template autonomy control
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-nav__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    3-in-3 SDLC Framework (3SF)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION I: INTRODUCTION &amp; QUICK START
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/010-3sf-navigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    010 3sf navigator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/020-role-snapshot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    020 role snapshot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/100-intro-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION II: THEORY &amp; GOVERNING RULES
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/105-vision-principles-beliefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    105 vision principles beliefs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/110-3in3-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    110 3in3 model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/115-3in3-model-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    115 3in3 model maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/120-contextual-drivers-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    120 contextual drivers layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/125-stable-rules-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    125 stable rules layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/130-rule-audit-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    130 rule audit checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/135-contextual-rules-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    135 contextual rules catalog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/140-relationship-and-system-maturity-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    140 relationship and system maturity integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/145-sdlc-stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    145 sdlc stages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/150-sdlc-stages-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    150 sdlc stages maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/155-sdlc-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    155 sdlc practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/160-sdlc-practices-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    160 sdlc practices maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/165-sdlc-stage-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    165 sdlc stage dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/170-sdlc-stage-discovery-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    170 sdlc stage discovery dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/175-sdlc-stage-shape-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    175 sdlc stage shape dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/180-sdlc-stage-build-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    180 sdlc stage build dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/185-sdlc-stage-validate-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    185 sdlc stage validate dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/190-sdlc-stage-release-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    190 sdlc stage release dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/195-sdlc-stage-run-evolve-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    195 sdlc stage run evolve dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/200-practice-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION III: PRACTICE &amp; TOOLS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/205-engagement-context-canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    205 engagement context canvas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/210-autonomy-control-charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    210 autonomy control charter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/215-maturity-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    215 maturity dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/220-outcome-accountability-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    220 outcome accountability map
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/225-shared-definition-of-done/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    225 shared definition of done
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/230-flow-constraint-identification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    230 flow constraint identification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/235-architectural-tradeoff-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    235 architectural tradeoff contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/240-initial-delivery-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    240 initial delivery design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/245-delivery-system-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    245 delivery system diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/250-quarterly-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    250 quarterly assessment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/255-self-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    255 self diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/260-relationship-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    260 relationship audit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/265-learning-before-blame-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    265 learning before blame protocol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../300-contracts-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION IV: GOVERNANCE &amp; DIAGNOSTICS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../310-engagement-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    310 engagement contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../320-maturity-growth-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    320 maturity growth contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../330-governance-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    330 governance contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../340-relationship-evolution-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    340 relationship evolution contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../350-template-outcome-accountability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    350 template outcome accountability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../351-template-architectural-tradeoff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    351 template architectural tradeoff
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    352 template autonomy control
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    352 template autonomy control
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-autonomy-control-boundary-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template – Autonomy &amp; Control Boundary Agreement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Template – Autonomy &amp; Control Boundary Agreement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scope-and-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope and Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-parties-and-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contract Parties and Roles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agreement-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agreement Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agreement-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agreement Clauses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-1-adaptive-autonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 1 – Adaptive Autonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-2-escalation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 2 – Escalation Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-3-transparency-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 3 – Transparency Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-4-exceptions-and-breaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 4 – Exceptions and Breaches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-5-evolution-of-autonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 5 – Evolution of Autonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs / Outputs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics / Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Pitfalls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contract Lifecycle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vendor-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vendor-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-autonomy-control-boundary-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template – Autonomy &amp; Control Boundary Agreement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Template – Autonomy &amp; Control Boundary Agreement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scope-and-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope and Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-parties-and-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contract Parties and Roles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agreement-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agreement Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agreement-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agreement Clauses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-1-adaptive-autonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 1 – Adaptive Autonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-2-escalation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 2 – Escalation Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-3-transparency-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 3 – Transparency Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-4-exceptions-and-breaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 4 – Exceptions and Breaches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clause-5-evolution-of-autonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clause 5 – Evolution of Autonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs / Outputs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics / Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Pitfalls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contract Lifecycle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vendor-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vendor-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>352 template autonomy control</h1>
+
+<h2 id="template-autonomy-control-boundary-agreement">Template – Autonomy &amp; Control Boundary Agreement<a class="headerlink" href="#template-autonomy-control-boundary-agreement" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><em>“The measure of trust is the freedom you grant — and the transparency you maintain.”</em></p>
+</blockquote>
+<h4 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h4>
+<p>The <strong>Autonomy &amp; Control Boundary Agreement (ACBA)</strong> defines <strong>decision-making rights, control mechanisms, and escalation paths</strong> between Client and Vendor organizations.<br/>
+It formalizes the 3SF principle <strong>“Trust before Control”</strong> by turning abstract trust levels into explicit, measurable governance rules.</p>
+<p>This agreement serves as a <strong>governance annex</strong> to the Engagement or Governance Contract.<br/>
+It evolves alongside relationship maturity — reducing control as trust grows and autonomy proves reliable.</p>
+<h4 id="scope-and-application">Scope and Application<a class="headerlink" href="#scope-and-application" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SDLC Stages</strong></td>
+<td>Design → Delivery → Governance</td>
+</tr>
+<tr>
+<td><strong>3SF Relationship Lines</strong></td>
+<td>Engagement ↔ Delivery</td>
+</tr>
+<tr>
+<td><strong>3SF Layers</strong></td>
+<td>Stable Rules Layer (SRL) + Rule Audit Checklist (RAC)</td>
+</tr>
+<tr>
+<td><strong>Maturity Target</strong></td>
+<td>From <em>Transactional Trust</em> → toward <em>Strategic Partnership</em></td>
+</tr>
+</tbody>
+</table>
+<h4 id="contract-parties-and-roles">Contract Parties and Roles<a class="headerlink" href="#contract-parties-and-roles" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Representative</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Client Executive Sponsor</strong></td>
+<td>[Name, Title]</td>
+<td>Approves decision boundaries and control model.</td>
+</tr>
+<tr>
+<td><strong>Client Governance Officer</strong></td>
+<td>[Name, Title]</td>
+<td>Oversees control compliance and escalation management.</td>
+</tr>
+<tr>
+<td><strong>Vendor Account Lead</strong></td>
+<td>[Name, Title]</td>
+<td>Ensures vendor decisions respect agreed boundaries.</td>
+</tr>
+<tr>
+<td><strong>Vendor Delivery Facilitator</strong></td>
+<td>[Name, Title]</td>
+<td>Implements governance cadence and reports control metrics.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="agreement-structure">Agreement Structure<a class="headerlink" href="#agreement-structure" title="Permanent link">&para;</a></h4>
+<p>Each ACBA contains a <strong>Decision Autonomy Matrix</strong>, describing who decides, who is informed, and under what conditions autonomy applies.</p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Transactional Stage</th>
+<th>Collaborative Stage</th>
+<th>Co-Creative Stage</th>
+<th>Strategic Stage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scope &amp; Requirements</strong></td>
+<td>Vendor executes approved backlog; Client approves all scope changes &gt;1 day effort.</td>
+<td>Vendor may adjust priorities within sprint; Client approves &gt;5-day changes.</td>
+<td>Vendor self-governs iteration scope within agreed outcomes.</td>
+<td>Joint planning; Client informed of changes only if they affect outcomes.</td>
+</tr>
+<tr>
+<td><strong>Architecture Decisions</strong></td>
+<td>Client SA approves all design choices.</td>
+<td>Co-sign on critical trade-offs; Vendor proposes alternatives.</td>
+<td>Vendor proposes; Client validates risk tolerance.</td>
+<td>Joint strategic architecture planning.</td>
+</tr>
+<tr>
+<td><strong>Delivery &amp; Planning</strong></td>
+<td>Client PM sets schedule; Vendor reports progress.</td>
+<td>Shared sprint planning and progress tracking.</td>
+<td>Vendor plans iterations; Client reviews milestones.</td>
+<td>Portfolio-level roadmap alignment only.</td>
+</tr>
+<tr>
+<td><strong>Quality &amp; Acceptance</strong></td>
+<td>Client QA defines and verifies all acceptance criteria.</td>
+<td>Shared DoD matrix applied.</td>
+<td>Vendor owns verification; Client performs outcome validation.</td>
+<td>Continuous improvement metrics shared via dashboards.</td>
+</tr>
+<tr>
+<td><strong>Incident &amp; Change Management</strong></td>
+<td>Client approves all changes.</td>
+<td>Vendor executes urgent fixes within SLA; reports within 24h.</td>
+<td>Vendor self-resolves; Client informed.</td>
+<td>Shared accountability for root-cause learning.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="agreement-clauses">Agreement Clauses<a class="headerlink" href="#agreement-clauses" title="Permanent link">&para;</a></h4>
+<h4 id="clause-1-adaptive-autonomy">Clause 1 – Adaptive Autonomy<a class="headerlink" href="#clause-1-adaptive-autonomy" title="Permanent link">&para;</a></h4>
+<p>Decision boundaries must reflect current relationship maturity and may evolve as trust metrics improve.<br/>
+Changes require review and co-signature during <strong>Quarterly Maturity Assessments</strong>.</p>
+<h4 id="clause-2-escalation-framework">Clause 2 – Escalation Framework<a class="headerlink" href="#clause-2-escalation-framework" title="Permanent link">&para;</a></h4>
+<p>All escalation paths must follow the governance model defined in the <strong>Governance Contract</strong>.<br/>
+Escalations are evaluated not by severity alone, but by <strong>trust impact</strong> and <strong>systemic learning potential</strong>.</p>
+<h4 id="clause-3-transparency-requirements">Clause 3 – Transparency Requirements<a class="headerlink" href="#clause-3-transparency-requirements" title="Permanent link">&para;</a></h4>
+<p>All autonomous decisions must be <strong>visible</strong> through shared governance dashboards and logs.<br/>
+Transparency replaces pre-approval as the control mechanism at higher maturity levels.</p>
+<h4 id="clause-4-exceptions-and-breaches">Clause 4 – Exceptions and Breaches<a class="headerlink" href="#clause-4-exceptions-and-breaches" title="Permanent link">&para;</a></h4>
+<p>Violations of agreed autonomy boundaries trigger a <strong>temporary rollback</strong> to a lower maturity stage, followed by corrective learning using the <strong>Learning Before Blame Protocol</strong>.</p>
+<h4 id="clause-5-evolution-of-autonomy">Clause 5 – Evolution of Autonomy<a class="headerlink" href="#clause-5-evolution-of-autonomy" title="Permanent link">&para;</a></h4>
+<p>Each quarter, maturity is reassessed through the <strong>Maturity Growth Contract</strong>.<br/>
+Improvement in trust and governance indicators increases vendor decision latitude.</p>
+<h4 id="inputs-outputs">Inputs / Outputs<a class="headerlink" href="#inputs-outputs" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Inputs</th>
+<th>Outputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Governance model, maturity dashboard data, prior autonomy agreements</td>
+<td><strong>Autonomy &amp; Control Boundary Agreement</strong>, updated decision matrix, quarterly governance log</td>
+</tr>
+</tbody>
+</table>
+<h4 id="metrics-signals">Metrics / Signals<a class="headerlink" href="#metrics-signals" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Example Indicators</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Decision Latency</strong></td>
+<td>Average approval cycle reduced by ≥30% after two quarters.</td>
+</tr>
+<tr>
+<td><strong>Autonomy Compliance</strong></td>
+<td>≤5% of vendor actions exceed current decision authority.</td>
+</tr>
+<tr>
+<td><strong>Transparency Signal</strong></td>
+<td>All autonomous actions logged within agreed timeframe.</td>
+</tr>
+<tr>
+<td><strong>Trust Maturity</strong></td>
+<td>Both sides report ≥4/5 confidence in governance transparency.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Fixing autonomy boundaries permanently instead of adapting with maturity.</li>
+<li>Granting autonomy without visibility or reporting.</li>
+<li>Using exceptions as grounds for punishment instead of learning.</li>
+<li>Allowing only one side (client or vendor) to adjust control terms.</li>
+<li>Failing to review boundaries regularly as the relationship evolves.</li>
+</ul>
+<h4 id="contract-lifecycle">Contract Lifecycle<a class="headerlink" href="#contract-lifecycle" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Action</th>
+<th>Responsible Roles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Creation</strong></td>
+<td>Draft and sign during engagement setup.</td>
+<td>Executive Sponsor / Account Lead</td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Integrate into Governance Contract cadence.</td>
+<td>Governance Officer / Delivery Facilitator</td>
+</tr>
+<tr>
+<td><strong>Review</strong></td>
+<td>Assess quarterly during Maturity Growth reviews.</td>
+<td>Executive Sponsor / Governance Officer</td>
+</tr>
+<tr>
+<td><strong>Renewal</strong></td>
+<td>Update autonomy levels based on trust and performance metrics.</td>
+<td>Account Lead / Delivery Facilitator</td>
+</tr>
+</tbody>
+</table>
+<h4 id="client-side-application">Client-Side Application<a class="headerlink" href="#client-side-application" title="Permanent link">&para;</a></h4>
+<p><strong>Objective:</strong> Enable controlled delegation while maintaining governance transparency.</p>
+<p><strong>Client actions</strong></p>
+<ol>
+<li>Approve autonomy levels aligned with current trust maturity.</li>
+<li>Track governance signals and transparency indicators.</li>
+<li>Adjust boundaries only through joint reviews, not unilaterally.</li>
+<li>Reward trust improvement through reduced approvals.</li>
+</ol>
+<h4 id="vendor-side-application">Vendor-Side Application<a class="headerlink" href="#vendor-side-application" title="Permanent link">&para;</a></h4>
+<p><strong>Objective:</strong> Earn and sustain autonomy through consistent transparency and reliability.</p>
+<p><strong>Vendor actions</strong></p>
+<ol>
+<li>Operate strictly within agreed boundaries and report all autonomous actions.</li>
+<li>Propose autonomy expansion based on maturity metrics.</li>
+<li>Maintain traceability between autonomy decisions and outcomes.</li>
+<li>Use autonomy responsibly to improve delivery flow, not bypass control.</li>
+</ol>
+<h4 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h4>
+<p>The <strong>Autonomy &amp; Control Boundary Agreement</strong> is the cornerstone of <strong>governance evolution</strong> in 3SF.<br/>
+It replaces static control hierarchies with measurable, adaptive trust — ensuring that autonomy is <strong>earned, visible, and scalable</strong>.</p>
+<p>By signing this agreement, both Client and Vendor commit to <strong>Trust before Control</strong> — creating a transparent foundation for sustainable, self-governing delivery partnerships.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../351-template-architectural-tradeoff/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 351 template architectural tradeoff">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                351 template architectural tradeoff
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 3in3.dev
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.footer", "content.code.copy", "content.title.off"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

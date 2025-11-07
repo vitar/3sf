@@ -1,0 +1,1819 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration.">
+      
+      
+        <meta name="author" content="Viktor Jevdokimov, Vilnius, Lithuania">
+      
+      
+      
+        <link rel="prev" href="../245-delivery-system-diagnostic/">
+      
+      
+        <link rel="next" href="../255-self-diagnostic/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>250 quarterly assessment - 3-in-3 SDLC Framework (3SF)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quarterly-delivery-and-relationship-assessment" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-header__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3-in-3 SDLC Framework (3SF)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              250 quarterly assessment
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-nav__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    3-in-3 SDLC Framework (3SF)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION I: INTRODUCTION &amp; QUICK START
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/010-3sf-navigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    010 3sf navigator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../000-intro/020-role-snapshot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    020 role snapshot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/100-intro-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION II: THEORY &amp; GOVERNING RULES
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/105-vision-principles-beliefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    105 vision principles beliefs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/110-3in3-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    110 3in3 model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/115-3in3-model-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    115 3in3 model maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/120-contextual-drivers-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    120 contextual drivers layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/125-stable-rules-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    125 stable rules layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/130-rule-audit-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    130 rule audit checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/135-contextual-rules-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    135 contextual rules catalog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/140-relationship-and-system-maturity-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    140 relationship and system maturity integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/145-sdlc-stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    145 sdlc stages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/150-sdlc-stages-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    150 sdlc stages maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/155-sdlc-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    155 sdlc practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/160-sdlc-practices-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    160 sdlc practices maturity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/165-sdlc-stage-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    165 sdlc stage dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/170-sdlc-stage-discovery-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    170 sdlc stage discovery dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/175-sdlc-stage-shape-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    175 sdlc stage shape dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/180-sdlc-stage-build-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    180 sdlc stage build dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/185-sdlc-stage-validate-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    185 sdlc stage validate dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/190-sdlc-stage-release-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    190 sdlc stage release dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/195-sdlc-stage-run-evolve-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    195 sdlc stage run evolve dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../200-practice-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION III: PRACTICE &amp; TOOLS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../205-engagement-context-canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    205 engagement context canvas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../210-autonomy-control-charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    210 autonomy control charter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../215-maturity-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    215 maturity dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../220-outcome-accountability-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    220 outcome accountability map
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../225-shared-definition-of-done/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    225 shared definition of done
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../230-flow-constraint-identification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    230 flow constraint identification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../235-architectural-tradeoff-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    235 architectural tradeoff contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../240-initial-delivery-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    240 initial delivery design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../245-delivery-system-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    245 delivery system diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    250 quarterly assessment
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    250 quarterly assessment
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quarterly-delivery-and-relationship-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quarterly Delivery and Relationship Assessment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quarterly Delivery and Relationship Assessment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applies-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applies To
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actors-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actors / Roles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-routines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps / Routines
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs / Outputs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics / Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Pitfalls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scaling-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scaling Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vendor-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vendor-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../255-self-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    255 self diagnostic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../260-relationship-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    260 relationship audit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../265-learning-before-blame-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    265 learning before blame protocol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/300-contracts-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SECTION IV: GOVERNANCE &amp; DIAGNOSTICS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/310-engagement-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    310 engagement contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/320-maturity-growth-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    320 maturity growth contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/330-governance-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    330 governance contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/340-relationship-evolution-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    340 relationship evolution contract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/350-template-outcome-accountability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    350 template outcome accountability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/351-template-architectural-tradeoff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    351 template architectural tradeoff
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/352-template-autonomy-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    352 template autonomy control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quarterly-delivery-and-relationship-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quarterly Delivery and Relationship Assessment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quarterly Delivery and Relationship Assessment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applies-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applies To
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actors-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actors / Roles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-routines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps / Routines
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs / Outputs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics / Signals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Pitfalls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scaling-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scaling Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vendor-side-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vendor-Side Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>250 quarterly assessment</h1>
+
+<h2 id="quarterly-delivery-and-relationship-assessment">Quarterly Delivery and Relationship Assessment<a class="headerlink" href="#quarterly-delivery-and-relationship-assessment" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><em>“Partnership maturity grows through reflection, not reports.”</em></p>
+</blockquote>
+<h4 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h4>
+<p>The <strong>Quarterly Delivery and Relationship Assessment</strong> provides a structured checkpoint to evaluate the <strong>health, maturity, and trajectory</strong> of the ongoing client–vendor engagement.</p>
+<p>It measures both <strong>delivery performance</strong> and <strong>relationship maturity</strong> to:</p>
+<ul>
+<li>Identify what has evolved since the last Diagnostic or Assessment,</li>
+<li>Re-align expectations and metrics between Client and Vendor,</li>
+<li>Strengthen systemic trust and prevent silent degradation of engagement quality.</li>
+</ul>
+<p>This tool turns continuous improvement into a shared quarterly ritual rather than a reactive exercise.</p>
+<h4 id="applies-to">Applies To<a class="headerlink" href="#applies-to" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SDLC Stages</strong></td>
+<td>Ongoing Delivery → MVP / v1 → Post-v1 Evolution</td>
+</tr>
+<tr>
+<td><strong>3SF Relationship Lines</strong></td>
+<td>Engagement ↔ Delivery ↔ Value</td>
+</tr>
+<tr>
+<td><strong>3SF Layers</strong></td>
+<td>Stable Rules Layer (SRL) + Rule Audit Checklist (RAC)</td>
+</tr>
+<tr>
+<td><strong>Maturity Target</strong></td>
+<td>From <em>Co-Creative Trust</em> → toward <em>Strategic Partnership</em></td>
+</tr>
+</tbody>
+</table>
+<h4 id="actors-roles">Actors / Roles<a class="headerlink" href="#actors-roles" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Client Side</th>
+<th>Vendor Side</th>
+<th>Shared Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Executive Sponsor</strong></td>
+<td><strong>Account Lead</strong></td>
+<td>Ensure business and partnership alignment across portfolio.</td>
+</tr>
+<tr>
+<td><strong>Product Leader</strong></td>
+<td><strong>Delivery Facilitator</strong></td>
+<td>Review delivery flow, backlog health, and outcome alignment.</td>
+</tr>
+<tr>
+<td><strong>Solution Architect</strong></td>
+<td><strong>Solution Architect</strong></td>
+<td>Evaluate technical evolution and design integrity.</td>
+</tr>
+<tr>
+<td><strong>Governance Officer</strong></td>
+<td><strong>Engineering Director</strong></td>
+<td>Verify compliance, continuity, and risk management.</td>
+</tr>
+<tr>
+<td><strong>Requirements Analyst</strong>, <strong>Experience Designer</strong></td>
+<td><strong>Technical Integrator</strong>, <strong>Practice Lead</strong></td>
+<td>Review quality, usability, and system coherence.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="steps-routines">Steps / Routines<a class="headerlink" href="#steps-routines" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Prepare Evidence and Signals</strong></li>
+<li>Collect performance metrics (velocity, incidents, releases, satisfaction).</li>
+<li>Summarize progress against previous Diagnostic and Improvement Backlog.</li>
+<li>
+<p>Compile survey or pulse feedback from both teams.</p>
+</li>
+<li>
+<p><strong>Evaluate Relationship Maturity</strong></p>
+</li>
+<li>Apply the <strong>3SF Maturity Grid</strong> across all three relationship lines.</li>
+<li>Rate current state and discuss deltas since last quarter.</li>
+<li>
+<p>Use narrative reasoning: “What changed, why, and what did we learn?”</p>
+</li>
+<li>
+<p><strong>Assess Delivery Health</strong></p>
+</li>
+<li>Review flow efficiency, predictability, and outcome correlation.</li>
+<li>Identify systemic blockers or cross-team dependencies.</li>
+<li>
+<p>Validate that stable rules (SRL) are still effective.</p>
+</li>
+<li>
+<p><strong>Identify Next Maturity Levers</strong></p>
+</li>
+<li>Select one Engagement lever (e.g., trust rituals),<br/>
+     one Delivery lever (e.g., joint planning),<br/>
+     and one Value lever (e.g., outcome-based metrics).</li>
+<li>
+<p>Define targeted improvements for the next 3 months.</p>
+</li>
+<li>
+<p><strong>Facilitate the Quarterly Review Session</strong></p>
+</li>
+<li>Conduct a 2-hour structured conversation led jointly by the Delivery Facilitator and Product Leader.</li>
+<li>Include both Executive Sponsor and Account Lead for alignment on strategic direction.</li>
+<li>
+<p>Conclude with a signed <strong>Quarterly Alignment Record (QAR)</strong> summarizing decisions.</p>
+</li>
+<li>
+<p><strong>Publish and Track</strong></p>
+</li>
+<li>Update the <strong>Maturity Dashboard</strong> and <strong>Improvement Backlog</strong>.</li>
+<li>Plan follow-up in next retrospectives or governance meetings.</li>
+</ol>
+<h4 id="inputs-outputs">Inputs / Outputs<a class="headerlink" href="#inputs-outputs" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Inputs</th>
+<th>Outputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Previous Diagnostic or Assessment reports, metrics dashboards, Improvement Backlog</td>
+<td><strong>Quarterly Alignment Record (QAR)</strong>, updated <strong>Maturity Dashboard</strong>, new <strong>Improvement Plan</strong></td>
+</tr>
+</tbody>
+</table>
+<h4 id="metrics-signals">Metrics / Signals<a class="headerlink" href="#metrics-signals" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Example Indicators</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Maturity Delta</strong></td>
+<td>+1 level on at least one relationship line per two quarters.</td>
+</tr>
+<tr>
+<td><strong>Engagement Quality</strong></td>
+<td>≥ 80% survey score on trust, clarity, and communication.</td>
+</tr>
+<tr>
+<td><strong>Delivery Health</strong></td>
+<td>&lt;15% churn in backlog due to unclear priorities.</td>
+</tr>
+<tr>
+<td><strong>Value Realization</strong></td>
+<td>≥ 70% of delivered items linked to measurable outcomes.</td>
+</tr>
+<tr>
+<td><strong>System Stability</strong></td>
+<td>No recurring systemic issues across two consecutive quarters.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Treating the assessment as a KPI review instead of a <strong>relationship reflection</strong>.</li>
+<li>Focusing only on delivery metrics and ignoring value signals.</li>
+<li>Lack of senior involvement (Sponsor / Account Lead).</li>
+<li>Overcomplicating the scoring instead of discussing narratives.</li>
+<li>Not translating insights into actionable next steps.</li>
+</ul>
+<h4 id="scaling-notes">Scaling Notes<a class="headerlink" href="#scaling-notes" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Maturity Stage</th>
+<th>Evolution Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Co-Creative → Strategic Partner</strong></td>
+<td>Establish shared portfolio governance and joint success metrics.</td>
+</tr>
+<tr>
+<td><strong>Strategic Partner → Integrated Partner</strong></td>
+<td>Formalize 3SF assessments as part of enterprise governance cadence.</td>
+</tr>
+</tbody>
+</table>
+<p>At higher maturity, assessments evolve into <strong>joint portfolio reviews</strong> connecting multiple projects under one relationship umbrella.</p>
+<h4 id="client-side-application">Client-Side Application<a class="headerlink" href="#client-side-application" title="Permanent link">&para;</a></h4>
+<p><strong>Objective:</strong> Maintain visibility into how the vendor partnership contributes to both product outcomes and organizational learning.</p>
+<p><strong>Client actions</strong></p>
+<ol>
+<li>Gather stakeholder feedback (Product, IT, Compliance).</li>
+<li>Validate vendor delivery outcomes against business KPIs.</li>
+<li>Participate in rating and narrative discussion openly.</li>
+<li>Identify internal policy or dependency changes required to sustain maturity growth.</li>
+<li>Endorse the next-quarter improvement levers and allocate needed support.</li>
+</ol>
+<h4 id="vendor-side-application">Vendor-Side Application<a class="headerlink" href="#vendor-side-application" title="Permanent link">&para;</a></h4>
+<p><strong>Objective:</strong> Demonstrate delivery maturity, anticipate systemic risks, and nurture trust through transparency.</p>
+<p><strong>Vendor actions</strong></p>
+<ol>
+<li>Prepare delivery and relationship metrics with context and narrative.</li>
+<li>Facilitate the assessment workshop jointly with the client.</li>
+<li>Summarize improvement recommendations in QAR format.</li>
+<li>Highlight proactive actions taken since last quarter.</li>
+<li>Support governance follow-up and accountability tracking.</li>
+</ol>
+<h4 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h4>
+<p>The <strong>Quarterly Delivery and Relationship Assessment</strong> transforms performance review into <strong>relationship evolution</strong>.<br/>
+It anchors the 3SF maturity journey in real, measurable progress — ensuring that trust, value, and flow advance together.</p>
+<p>This tool closes the feedback loop between <strong>system observation</strong> and <strong>system evolution</strong>, forming the foundation for strategic partnership readiness.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../245-delivery-system-diagnostic/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 245 delivery system diagnostic">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                245 delivery system diagnostic
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../255-self-diagnostic/" class="md-footer__link md-footer__link--next" aria-label="Next: 255 self diagnostic">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                255 self diagnostic
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 3in3.dev
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.footer", "content.code.copy", "content.title.off"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
