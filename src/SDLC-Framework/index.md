@@ -33,6 +33,18 @@ Each side of this triangle represents a **relationship line**:
 
 When all three sides evolve together, delivery becomes aligned, predictable, and continuously learning.
 
+## 3SF Compact Core – The 3×3 System
+
+**3SF** is built around a *shareable core* called **The Systemic Contract** — the operating logic that turns **Trust** and **Context** into measurable results.
+
+| Layer | Focus | Purpose |
+| :--- | :--- | :--- |
+| **The System (3 Pillars)** | *Client – Vendor – Product* | Defines **what** the framework unites. |
+| **The Mindset (3 Principles)** | *Context – Trust – Outcome* | Defines **why** the framework works. |
+| **The Action (3 Contracts)** | *Grounding – Boundary – Value* | Defines **how** the framework delivers results. |
+
+→ These nine elements form the *Systemic Contract* that governs every 3SF engagement — from vision to measurable value.
+
 ## 3SF User Onboarding Checklist
 
 > *Start here before using any tools or methods.*

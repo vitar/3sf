@@ -6,6 +6,10 @@
 
 The **3SF Practice Architecture** explains how to **apply the 3-in-3 SDLC Framework (3SF)** in real projects — for both **Client** and **Vendor** organizations.
 
+All practices in this section **operationalize the Three Contracts** defined in the [**3SF Compact Core – The 3×3 System**](../100-theory/100-intro-purpose.md):<br/>
+**Grounding**, **Trust**, and **Value**.</br>
+These contracts translate the framework’s principles — *Context before Method*, *Trust before Control*, and *Outcome before Output* — into tangible, co-signed artifacts that govern every engagement.
+
 While the **theory** defines *why* 3SF exists and *what* it represents, the **practice** defines *how* to use it — *when*, *by whom*, and *for what purpose*.
 
 3SF practices are designed to:

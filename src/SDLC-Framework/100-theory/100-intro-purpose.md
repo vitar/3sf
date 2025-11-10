@@ -68,6 +68,68 @@ The **3-in-3 SDLC Framework (3SF)** is organized into **interconnected systemic 
 
 It emerged as a **unifying model** — connecting strategic, operational, and adaptive layers into one ecosystem of delivery understanding.
 
+## 3SF Compact Core – The 3×3 System
+
+> *“The Systemic Contract — turning Trust and Context into measurable results.”*
+
+To make 3SF memorable and transferable across both executive and practitioner levels, its logic can be summarized as a **3×3 System** — three layers that define **what**, **why**, and **how** the framework governs delivery relationships.
+
+```
+          The System (Pillars)
+          /         |         \
+      Client     Vendor     Product
+          \         |         /
+        The Mindset (Principles)
+       [Context] [Trust] [Outcome]
+             ↓      ↓      ↓
+          The Action (Contracts)
+          [ECC] [Boundary] [OAM]
+```
+
+### The System (3 Pillars)
+
+Defines **what** the framework unites — the foundational structure of every engagement.
+
+| Pillar | Focus | Represents |
+| :--- | :--- | :--- |
+| **Client** | Value | The owner of the outcome and the budget. |
+| **Vendor** | Delivery | The owner of the flow and system maturity. |
+| **Product / Service** | Solution | The owner of the scope and architecture. |
+
+### The Mindset (3 Principles)
+
+Defines **why** the framework works — the governing beliefs that make relationships effective.
+
+| Principle | Core Belief | HWSF Rationale |
+| :--- | :--- | :--- |
+| **Context before Method** | Stop guessing; start grounding. | Enforces Alignment on *Why* (Purpose × Shared Understanding). |
+| **Trust before Control** | Trust must be earned, measured, and delegated. | Enforces Empowerment (Trust × Autonomy). |
+| **Outcome before Output** | Focus on results, not tasks. | Enforces Responsibility (Interdependence × Commitment). |
+
+### The Action (3 Contracts)
+
+Defines **how** the framework delivers results — the mandatory co-signed artifacts of a healthy engagement.
+
+| Contract | Purpose | 3SF Tool |
+| :--- | :--- | :--- |
+| **The Grounding Contract** | Defines the reality of the system before any commitment. | Engagement Context Canvas (ECC) |
+| **The Trust Contract** | Defines the boundaries of decision authority and delegation. | Autonomy & Control Boundary Agreement |
+| **The Value Contract** | Defines measurable business results that justify the work. | Outcome-to-Accountability Map (OAM) |
+
+These nine elements — **three pillars, three principles, three contracts** — form the *Systemic Contract* that governs all 3SF engagements.
+
+### The Quick-Start Mantra (for Practitioners)
+
+For those applying 3SF in real projects, the same logic simplifies into three sequential steps — **Ground → Align → Govern**.
+
+| Step | Core Question | 3SF Tool | VMOSA Analogy |
+| :--- | :--- | :--- | :--- |
+| **1. Ground** | What is the reality we face? | ECC | Vision & Objectives (“What” and “Why”) |
+| **2. Align** | Who is responsible for which outcome? | OAM | Strategy & Action Plans (“How much by when, and by whom”) |
+| **3. Govern** | How will we manage control and risk? | Boundary Agreement | Structure (“Rules of the game”) |
+
+> Together, these steps operationalize the 3×3 System — ensuring that every engagement begins with shared context, aligned accountability, and measurable value.
+
 ## Resilience by Design
 
 3SF recognizes that delivery systems often fail not from poor execution but from **systemic resistance** — competing incentives, unclear accountability, or organizational inertia.
