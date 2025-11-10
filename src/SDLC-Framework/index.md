@@ -37,6 +37,18 @@ When all three sides evolve together, delivery becomes aligned, predictable, and
 
 **3SF** is built around a *shareable core* called **The Systemic Contract** — the operating logic that turns **Trust** and **Context** into measurable results.
 
+```
+          The System (Pillars)
+          /         |         \
+      Client     Vendor     Product
+          \         |         /
+        The Mindset (Principles)
+       [Context] [Trust] [Outcome]
+             ↓      ↓      ↓
+          The Action (Contracts)
+          [ECC] [Boundary] [OAM]
+```
+
 | Layer | Focus | Purpose |
 | :--- | :--- | :--- |
 | **The System (3 Pillars)** | *Client – Vendor – Product* | Defines **what** the framework unites. |
