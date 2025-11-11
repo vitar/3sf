@@ -1,0 +1,2610 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A relationship-aware software delivery framework that unites client, vendor, and product/service into one coherent system of collaboration.">
+      
+      
+        <meta name="author" content="Viktor Jevdokimov, Vilnius, Lithuania">
+      
+      
+      
+        <link rel="prev" href="../010-3sf-navigator/">
+      
+      
+        <link rel="next" href="../../100-theory/100-intro-purpose/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Role Responsibility Snapshot – Dual-Sided Accountability - 3-in-3 SDLC Framework (3SF)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  <script>
+    // Move the button into the actual header container on every page
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.getElementById('pdf-download');
+      var target = document.querySelector('.md-header .md-header__inner');
+      if (btn && target && !target.contains(btn)) target.appendChild(btn);
+    });
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#role-responsibility-snapshot-dual-sided-accountability" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+  
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-header__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3-in-3 SDLC Framework (3SF)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Role Responsibility Snapshot – Dual-Sided Accountability
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+
+  <a id="pdf-download"
+     class="md-header__button md-icon"
+     href="../../pdf/3sf.pdf"
+     title="Download PDF"
+     aria-label="Download PDF">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-9.5 8.5c0 .8-.7 1.5-1.5 1.5H7v2H5.5V9H8c.8 0 1.5.7 1.5 1.5zm5 2c0 .8-.7 1.5-1.5 1.5h-2.5V9H13c.8 0 1.5.7 1.5 1.5zm4-3H17v1h1.5V13H17v2h-1.5V9h3zm-6.5 0h1v3h-1zm-5 0h1v1H7z"/></svg>
+  </a>
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="3-in-3 SDLC Framework (3SF)" class="md-nav__button md-logo" aria-label="3-in-3 SDLC Framework (3SF)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    3-in-3 SDLC Framework (3SF)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    INTRODUCTION & QUICK START
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    INTRODUCTION & QUICK START
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3SF Quick Start – From Context to Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../010-3sf-navigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 3SF Navigator – Context-Driven Tool Finder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Role Responsibility Snapshot – Dual-Sided Accountability
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Role Responsibility Snapshot – Dual-Sided Accountability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#co-dependent-sdlc-system-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Co-Dependent SDLC System Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-role-interactions-and-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Role Interactions and Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-only-governance-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Client-Only Governance Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vendor-only-governance-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vendor-Only Governance Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-alignment-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle Alignment Map
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    THEORY & GOVERNING RULES
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    THEORY & GOVERNING RULES
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/100-intro-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3-in-3 SDLC Framework (3SF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/105-vision-principles-beliefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision, Principles &amp; Beliefs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/110-3in3-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3-in-3 Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/115-3in3-model-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3-in-3 Model Maturity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/120-contextual-drivers-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contextual Drivers Layer (CDL)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/125-stable-rules-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stable Rules Layer (SRL)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/130-rule-audit-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rule Audit Checklist (RAC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/135-contextual-rules-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contextual Rules Catalog (CRC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/140-relationship-and-system-maturity-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relationship and System Maturity Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/145-sdlc-stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/150-sdlc-stages-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stages Maturity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/155-sdlc-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/160-sdlc-practices-maturity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Practices Maturity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/165-sdlc-stage-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimentions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/170-sdlc-stage-discovery-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Discover
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/175-sdlc-stage-shape-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Shape
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/180-sdlc-stage-build-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Build
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/185-sdlc-stage-validate-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Validate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/190-sdlc-stage-release-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Release
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../100-theory/195-sdlc-stage-run-evolve-dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC Stage Dimensions – Run &amp; Evolve
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PRACTICES & TOOLS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PRACTICES & TOOLS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/200-practice-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3SF Practice Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/205-engagement-context-canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engagement Context Canvas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/210-autonomy-control-charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autonomy &amp; Control Boundary Charter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/215-maturity-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maturity Dashboard and Metrics Consolidation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/220-outcome-accountability-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outcome-to-Accountability Map
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/225-shared-definition-of-done/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared Definition of Done (DoD) Matrix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/230-flow-constraint-identification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flow Constraint Identification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/235-architectural-tradeoff-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectural Trade-Off Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/240-initial-delivery-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Initial Delivery System Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/245-delivery-system-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Delivery System Diagnostic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/250-quarterly-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quarterly Delivery and Relationship Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/255-self-diagnostic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Self-Diagnostic and Reflection Tool
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/260-relationship-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relationship Audit and Portfolio Maturity Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../200-practice/265-learning-before-blame-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Before Blame Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GOVERNANCE & DIAGNOSTICS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GOVERNANCE & DIAGNOSTICS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/300-contracts-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3SF Contracts Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/310-engagement-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engagement Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/320-maturity-growth-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maturity Growth Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/330-governance-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governance Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/340-relationship-evolution-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relationship Evolution Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/350-template-outcome-accountability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template – Outcome-to-Accountability Agreement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/351-template-architectural-tradeoff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template – Architectural Trade-Off Agreement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../300-contracts/352-template-autonomy-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template – Autonomy &amp; Control Boundary Agreement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REFERENCE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    REFERENCE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../500-reference/510-acronyms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acronyms Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../500-reference/520-glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../500-reference/530-sources-and-frameworks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sources and Frameworks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../500-reference/560-version-and-licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version and Licensing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../author/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the Author
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#co-dependent-sdlc-system-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Co-Dependent SDLC System Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-role-interactions-and-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Role Interactions and Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-only-governance-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Client-Only Governance Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vendor-only-governance-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vendor-Only Governance Roles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-alignment-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle Alignment Map
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="role-responsibility-snapshot-dual-sided-accountability">Role Responsibility Snapshot – Dual-Sided Accountability<a class="headerlink" href="#role-responsibility-snapshot-dual-sided-accountability" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><em>“Every 3SF role exists in pairs — one defines the value, the other delivers it.”</em></p>
+</blockquote>
+<h2 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h2>
+<p>The <strong>Role Responsibility Snapshot</strong> helps both <strong>Client</strong> and <strong>Vendor</strong> teams understand their joint accountabilities within the 3SF system.<br/>
+It serves as a <strong>single reference point for all functional roles</strong> and a <strong>bridge between the 3SF Principles and Practice Tools</strong>, showing what each role contributes and owns at every stage of delivery.</p>
+<p>Use this guide when forming teams, preparing for workshops, or validating who brings what into a 3SF tool.</p>
+<h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Find your <strong>role</strong> (Client or Vendor side).</li>
+<li>Review your <strong>primary accountability</strong> — your “WHY.”</li>
+<li>See which <strong>artifact</strong> you provide input to and which one you are expected to <strong>own or co-sign</strong>.</li>
+<li>Use these as checkpoints when applying the <a href="../../200-practice/205-engagement-context-canvas/">Engagement Context Canvas</a>, <a href="../../200-practice/220-outcome-accountability-map/">Outcome Map</a>, or <a href="../../200-practice/210-autonomy-control-charter/">Boundary Charter</a>.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Applicability Across Organizational Boundaries</p>
+<p>The 3SF role system defines Client and Vendor as <em>systemic positions</em>, not organizational entities.</p>
+<ul>
+<li>In <strong>multi-organization engagements</strong>, they represent separate companies or partners.</li>
+<li>In <strong>single-organization environments</strong>, they represent internal accountability systems — for example, Business (Client) and Engineering (Vendor).</li>
+</ul>
+<p>This framing allows the same dual-accountability model to apply to both external and internal relationships.</p>
+</div>
+<h2 id="co-dependent-sdlc-system-roles">Co-Dependent SDLC System Roles<a class="headerlink" href="#co-dependent-sdlc-system-roles" title="Permanent link">&para;</a></h2>
+<p><em>(Applicable to both multi-organization and single-organization environments)</em></p>
+<p>These are the <strong>core joint execution functions</strong> that drive the SDLC and manage the relationships between <strong>Client ↔ Vendor ↔ Product</strong>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Functional Core</th>
+<th style="text-align: left;">Primary Accountability (The WHY)</th>
+<th style="text-align: left;">Typical Titles (Multi-Org)</th>
+<th style="text-align: left;">Typical Titles (Single-Org)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Product Leader</strong></td>
+<td style="text-align: left;">Owns <em>What</em> (Value) and <em>How</em> (Solution Strategy).</td>
+<td style="text-align: left;">Client Product Owner / Vendor Product Manager</td>
+<td style="text-align: left;">Business Product Owner / Technical Product Manager</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Delivery Facilitator</strong></td>
+<td style="text-align: left;">Owns <em>Flow</em>, removes impediments, and manages <em>systemic friction</em>.</td>
+<td style="text-align: left;">Client Project Manager / Vendor Delivery Lead</td>
+<td style="text-align: left;">Agile Coach or Program Manager (Biz side) / Engineering Manager or Scrum Master (Eng side)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Solution Architect</strong></td>
+<td style="text-align: left;">Owns <em>Coherence</em>, structural integrity, and architectural <em>trade-offs</em>.</td>
+<td style="text-align: left;">Client Solution Architect / Vendor Solution Architect</td>
+<td style="text-align: left;">Enterprise Architect (Biz side, sets constraints) / Principal Engineer or Solution Architect (Eng side, designs solution)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Technical Integrator</strong></td>
+<td style="text-align: left;">Owns <em>Technical Execution</em>, operational readiness, and integration <em>quality</em>.</td>
+<td style="text-align: left;">Client Technical Integrator / Vendor Technical Integrator</td>
+<td style="text-align: left;">Platform Lead or IT Operations Manager (Biz side, owns the platform) / Tech Lead or DevOps Lead (Eng side, owns the pipeline)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Requirements Analyst</strong></td>
+<td style="text-align: left;">Owns <em>Clarity</em>, domain expertise, and the <em>translation</em> of business needs.</td>
+<td style="text-align: left;">Client Requirements Analyst / Vendor Requirements Analyst</td>
+<td style="text-align: left;">Business Analyst / System Analyst or Technical BA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Experience Designer</strong></td>
+<td style="text-align: left;">Owns <em>Usability</em>, user needs, and <em>experience-driven value translation</em>.</td>
+<td style="text-align: left;">Client Experience Lead / Vendor Experience Lead</td>
+<td style="text-align: left;">UX Researcher or Service Designer (Biz side, discovers need) / Product Designer or UI/UX Designer (Eng side, designs solution)</td>
+</tr>
+</tbody>
+</table>
+<p><em>In single-organization setups, the “Client” and “Vendor” perspectives map to internal Business and Engineering systems respectively — maintaining the same dual-accountability logic used in 3SF.</em></p>
+<p>These roles are <strong>systemic mirrors</strong> — each has a counterpart across the Client/Vendor line to ensure joint accountability.</p>
+<h2 id="core-role-interactions-and-artifacts">Core Role Interactions and Artifacts<a class="headerlink" href="#core-role-interactions-and-artifacts" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Functional Role</th>
+<th style="text-align: left;">Primary Accountability</th>
+<th style="text-align: left;">Key Tool Input (What I Bring)</th>
+<th style="text-align: left;">Key Tool Output (What I Own)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Client Product Owner</strong></td>
+<td style="text-align: left;">Define and prioritize business outcomes and user value.</td>
+<td style="text-align: left;">Context and business needs → <a href="../../200-practice/205-engagement-context-canvas/"><strong>Engagement Context Canvas</strong></a></td>
+<td style="text-align: left;"><a href="../../200-practice/220-outcome-accountability-map/"><strong>Outcome-to-Accountability Map</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Product Manager</strong></td>
+<td style="text-align: left;">Translate outcomes into coherent solution strategy and backlog.</td>
+<td style="text-align: left;"><a href="../../200-practice/220-outcome-accountability-map/"><strong>Outcome-to-Accountability Map</strong></a></td>
+<td style="text-align: left;">Validated product backlog and release plan</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Client Project Manager</strong></td>
+<td style="text-align: left;">Manage flow, dependencies, and approvals on the client side.</td>
+<td style="text-align: left;">Client-side constraints → <a href="../../200-practice/205-engagement-context-canvas/"><strong>Engagement Context Canvas</strong></a></td>
+<td style="text-align: left;"><a href="../../200-practice/230-flow-constraint-identification/"><strong>Flow Constraint Identification</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Delivery Lead</strong></td>
+<td style="text-align: left;">Manage delivery flow, maturity, and systemic friction.</td>
+<td style="text-align: left;"><a href="../../200-practice/205-engagement-context-canvas/"><strong>Engagement Context Canvas (ECC)</strong></a>, <a href="../../200-practice/210-autonomy-control-charter/"><strong>Boundary Charter</strong></a></td>
+<td style="text-align: left;"><a href="../../200-practice/245-delivery-system-diagnostic/"><strong>Delivery System Diagnostic</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Client Solution Architect</strong></td>
+<td style="text-align: left;">Ensure architectural coherence and risk awareness.</td>
+<td style="text-align: left;">Technical constraints and policies</td>
+<td style="text-align: left;"><a href="../../200-practice/235-architectural-tradeoff-contract/"><strong>Architectural Trade-Off Contract</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Solution Architect</strong></td>
+<td style="text-align: left;">Design system trade-offs balancing cost, risk, and feasibility.</td>
+<td style="text-align: left;"><a href="../../200-practice/220-outcome-accountability-map/"><strong>Outcome Map</strong></a></td>
+<td style="text-align: left;"><a href="../../200-practice/235-architectural-tradeoff-contract/"><strong>Architectural Trade-Off Contract</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Client Technical Integrator</strong></td>
+<td style="text-align: left;">Validate operational readiness and integration quality.</td>
+<td style="text-align: left;">Environment setup details, deployment dependencies</td>
+<td style="text-align: left;"><a href="../../200-practice/225-shared-definition-of-done/"><strong>Shared Definition of Done (DoD) Matrix</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Technical Integrator</strong></td>
+<td style="text-align: left;">Execute integration and ensure system operates end-to-end.</td>
+<td style="text-align: left;"><a href="../../200-practice/225-shared-definition-of-done/"><strong>DoD Matrix</strong></a></td>
+<td style="text-align: left;">Verified delivery pipeline readiness</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Client Requirements Analyst</strong></td>
+<td style="text-align: left;">Clarify business intent and domain logic.</td>
+<td style="text-align: left;">Business inputs for ECC and OAM</td>
+<td style="text-align: left;">Refined acceptance criteria for <a href="../../200-practice/225-shared-definition-of-done/"><strong>Shared Definition of Done</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Requirements Analyst</strong></td>
+<td style="text-align: left;">Translate business context into development-ready scope.</td>
+<td style="text-align: left;"><a href="../../200-practice/205-engagement-context-canvas/"><strong>ECC</strong></a></td>
+<td style="text-align: left;">Finalized scope specification for backlog execution</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Experience Designer (Client/Vendor)</strong></td>
+<td style="text-align: left;">Ensure product usability and experience alignment.</td>
+<td style="text-align: left;">User research insights</td>
+<td style="text-align: left;">Prototype or design specification linked to <a href="../../200-practice/220-outcome-accountability-map/"><strong>Outcome Map</strong></a></td>
+</tr>
+</tbody>
+</table>
+<p><em>In single-organization environments, these pairs represent internal cross-functional roles — typically between Business, Product, and Engineering groups.</em></p>
+<h2 id="client-only-governance-roles">Client-Only Governance Roles<a class="headerlink" href="#client-only-governance-roles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Functional Core</th>
+<th style="text-align: left;">Primary Accountability</th>
+<th style="text-align: left;">Key Engagement</th>
+<th style="text-align: left;">Equivalent (Single-Org)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Executive Sponsor</strong></td>
+<td style="text-align: left;">Own strategic intent, funding, and highest-level trust decisions.</td>
+<td style="text-align: left;">Approves <a href="../../200-practice/210-autonomy-control-charter/"><strong>Autonomy &amp; Control Boundary Charter</strong></a></td>
+<td style="text-align: left;">Head of Product / C-Level (CPO/CTO) / VP of Business Unit</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vendor Manager</strong></td>
+<td style="text-align: left;">Manage commercial relationship, contracts, and maturity evaluation.</td>
+<td style="text-align: left;">Uses <a href="../../200-practice/215-maturity-dashboard/"><strong>Maturity Dashboard</strong></a></td>
+<td style="text-align: left;">Head of Portfolio Management (PMO) / BizOps Lead / Finance Business Partner</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Governance Officer</strong></td>
+<td style="text-align: left;">Ensure regulatory, security, and compliance adherence.</td>
+<td style="text-align: left;">Reviews <a href="../../200-practice/235-architectural-tradeoff-contract/"><strong>Architectural Trade-Off Contract</strong></a> and <a href="../../200-practice/225-shared-definition-of-done/"><strong>DoD Matrix</strong></a></td>
+<td style="text-align: left;">Head of Compliance / Data Privacy Officer / Security Architect</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vendor-only-governance-roles">Vendor-Only Governance Roles<a class="headerlink" href="#vendor-only-governance-roles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Functional Core</th>
+<th style="text-align: left;">Primary Accountability</th>
+<th style="text-align: left;">Key Engagement</th>
+<th style="text-align: left;">Equivalent (Single-Org)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Account Lead</strong></td>
+<td style="text-align: left;">Own overall commercial health and relationship maturity.</td>
+<td style="text-align: left;">Consolidates <a href="../../200-practice/215-maturity-dashboard/"><strong>Maturity Dashboard</strong></a> and <a href="../../200-practice/250-quarterly-assessment/"><strong>Quarterly Assessment</strong></a></td>
+<td style="text-align: left;">Director of Engineering / Group Engineering Manager</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Engineering Director</strong></td>
+<td style="text-align: left;">Manage delivery capacity and systemic maturity across teams.</td>
+<td style="text-align: left;">Oversees <a href="../../200-practice/245-delivery-system-diagnostic/"><strong>Delivery System Diagnostic</strong></a></td>
+<td style="text-align: left;">Head of Engineering / Tech Department Director</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Practice Lead</strong></td>
+<td style="text-align: left;">Uphold standards and continuous improvement across disciplines.</td>
+<td style="text-align: left;">Reviews outputs of <a href="../../200-practice/235-architectural-tradeoff-contract/"><strong>Architectural Trade-Off Contract</strong></a> and <a href="../../200-practice/225-shared-definition-of-done/"><strong>DoD Matrix</strong></a></td>
+<td style="text-align: left;">Chapter Lead / Staff Engineer</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Engineering Specialist</strong></td>
+<td style="text-align: left;">Execute technical implementation and quality verification.</td>
+<td style="text-align: left;">Contributes to <a href="../../200-practice/225-shared-definition-of-done/"><strong>DoD Matrix</strong></a></td>
+<td style="text-align: left;">Developer, Software Engineer, SRE, QA Engineer, DevOps, DevSecOps</td>
+</tr>
+</tbody>
+</table>
+<h2 id="principle-alignment-map">Principle Alignment Map<a class="headerlink" href="#principle-alignment-map" title="Permanent link">&para;</a></h2>
+<p>Each pairing of Client ↔ Vendor roles supports a <strong>core 3SF Principle</strong>, defining how accountability manifests across collaboration lines.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">3SF Principle</th>
+<th style="text-align: left;">Typical Role Pair</th>
+<th style="text-align: left;">Supporting Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Context before Method</strong></td>
+<td style="text-align: left;">Client Product Owner ↔ Vendor Delivery Lead</td>
+<td style="text-align: left;"><a href="../../200-practice/205-engagement-context-canvas/">Engagement Context Canvas</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Trust before Control</strong></td>
+<td style="text-align: left;">Executive Sponsor ↔ Vendor Account Lead</td>
+<td style="text-align: left;"><a href="../../200-practice/210-autonomy-control-charter/">Autonomy &amp; Control Boundary Charter</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Outcome before Output</strong></td>
+<td style="text-align: left;">Client Product Owner ↔ Vendor Product Manager</td>
+<td style="text-align: left;"><a href="../../200-practice/220-outcome-accountability-map/">Outcome-to-Accountability Map</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Learning before Blame</strong></td>
+<td style="text-align: left;">Client Project Manager ↔ Vendor Delivery Lead</td>
+<td style="text-align: left;"><a href="../../200-practice/265-learning-before-blame-protocol/">Learning Before Blame Protocol</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Shared Accountability</strong></td>
+<td style="text-align: left;">Client &amp; Vendor Solution Architects</td>
+<td style="text-align: left;"><a href="../../200-practice/235-architectural-tradeoff-contract/">Architectural Trade-Off Contract</a></td>
+</tr>
+</tbody>
+</table>
+<p>These alignments make <strong>joint accountability visible and inspectable</strong> — every tool has an owner pair, and every decision has a shared signature.</p>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Dual-Sided Accountability = Joint Clarity × Shared Learning</strong></p>
+</blockquote>
+<p>The <strong>Role Responsibility Snapshot</strong> and <strong>Functional Role Model</strong> together form the <em>people layer</em> of 3SF.<br/>
+They define <em>who</em> owns <em>what</em> — making all 3SF tools actionable through clear accountability pairs.</p>
+<p>Each 3SF artifact has:</p>
+<ul>
+<li>A <strong>Client counterpart</strong>,</li>
+<li>A <strong>Vendor counterpart</strong>, and</li>
+<li>A <strong>Shared purpose</strong>.</li>
+</ul>
+<p>Together, they transform organizational boundaries into a <strong>system of cooperation, not control</strong>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../010-3sf-navigator/" class="md-footer__link md-footer__link--prev" aria-label="Previous: The 3SF Navigator – Context-Driven Tool Finder">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                The 3SF Navigator – Context-Driven Tool Finder
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../100-theory/100-intro-purpose/" class="md-footer__link md-footer__link--next" aria-label="Next: 3-in-3 SDLC Framework (3SF)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                3-in-3 SDLC Framework (3SF)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 3in3.dev
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.footer", "navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
