@@ -28,17 +28,26 @@ The 3SF was designed to:
 Every delivery system operates within a **triangle of relationships**:
 
 ```
-          Product | Service
-                 / ^
-                /   \
-         Value /     \ Delivery
-              /       \
-             /         \
-            /           \
-           v             \
-      Client <----------> Vendor (Team)
-              Engagement
+                     Product | Service
+                            / ^
+                           /   \
+                    Value /     \ Delivery
+                         /       \
+                        /         \
+                       /           \
+                      v             \
+      Client (Business) <----------> Vendor (Engineering)
+                         Engagement
 ```
+
+!!! note "Scope of the Client–Vendor Relationship"
+
+    The 3SF model defines “Client” and “Vendor” as systemic roles, not organizational labels.
+
+    - In multi-organization engagements, they represent separate entities.
+    - In single-organization environments, they correspond to internal systems of accountability — for example, Business (Client) and Engineering (Vendor).
+
+    This universality allows 3SF to govern any relationship where value is created through delivery.
 
 Each side of this triangle represents a **relationship line**:
 
