@@ -16,18 +16,31 @@ Use this guide when forming teams, preparing for workshops, or validating who br
 3. See which **artifact** you provide input to and which one you are expected to **own or co-sign**.
 4. Use these as checkpoints when applying the [Engagement Context Canvas](../200-practice/205-engagement-context-canvas.md), [Outcome Map](../200-practice/220-outcome-accountability-map.md), or [Boundary Charter](../200-practice/210-autonomy-control-charter.md).
 
+!!! note "Applicability Across Organizational Boundaries"
+
+    The 3SF role system defines Client and Vendor as *systemic positions*, not organizational entities.
+
+    - In **multi-organization engagements**, they represent separate companies or partners.
+    - In **single-organization environments**, they represent internal accountability systems — for example, Business (Client) and Engineering (Vendor).
+
+    This framing allows the same dual-accountability model to apply to both external and internal relationships.
+
 ## Co-Dependent SDLC System Roles
+
+*(Applicable to both multi-organization and single-organization environments)*
 
 These are the **core joint execution functions** that drive the SDLC and manage the relationships between **Client ↔ Vendor ↔ Product**.
 
-| Functional Core | Primary Accountability (The WHY) | Typical Title Examples |
-| :--- | :--- | :--- |
-| **Product Leader** | Owns *What* (Value) and *How* (Solution Strategy). | Client Product Owner / Vendor Product Manager |
-| **Delivery Facilitator** | Owns *Flow*, removes impediments, and manages *systemic friction*. | Client Project Manager / Vendor Delivery Lead |
-| **Solution Architect** | Owns *Coherence*, structural integrity, and architectural *trade-offs*. | Client Solution Architect / Vendor Solution Architect |
-| **Technical Integrator** | Owns *Technical Execution*, operational readiness, and integration *quality*. | Client Technical Integrator / Vendor Technical Integrator |
-| **Requirements Analyst** | Owns *Clarity*, domain expertise, and the *translation* of business needs. | Client Requirements Analyst / Vendor Requirements Analyst |
-| **Experience Designer** | Owns *Usability*, user needs, and experience-driven value translation. | Client Experience Lead / Vendor Experience Lead |
+| Functional Core | Primary Accountability (The WHY) | Typical Titles (Multi-Org) | Typical Titles (Single-Org) |
+| :--- | :--- | :--- | :--- |
+| **Product Leader** | Owns *What* (Value) and *How* (Solution Strategy). | Client Product Owner / Vendor Product Manager | Business Product Owner / Technical Product Manager |
+| **Delivery Facilitator** | Owns *Flow*, removes impediments, and manages *systemic friction*. | Client Project Manager / Vendor Delivery Lead | Agile Coach or Program Manager (Biz side) / Engineering Manager or Scrum Master (Eng side) |
+| **Solution Architect** | Owns *Coherence*, structural integrity, and architectural *trade-offs*. | Client Solution Architect / Vendor Solution Architect | Enterprise Architect (Biz side, sets constraints) / Principal Engineer or Solution Architect (Eng side, designs solution) |
+| **Technical Integrator** | Owns *Technical Execution*, operational readiness, and integration *quality*. | Client Technical Integrator / Vendor Technical Integrator | Platform Lead or IT Operations Manager (Biz side, owns the platform) / Tech Lead or DevOps Lead (Eng side, owns the pipeline) |
+| **Requirements Analyst** | Owns *Clarity*, domain expertise, and the *translation* of business needs. | Client Requirements Analyst / Vendor Requirements Analyst | Business Analyst / System Analyst or Technical BA |
+| **Experience Designer** | Owns *Usability*, user needs, and *experience-driven value translation*. | Client Experience Lead / Vendor Experience Lead | UX Researcher or Service Designer (Biz side, discovers need) / Product Designer or UI/UX Designer (Eng side, designs solution) |
+
+*In single-organization setups, the “Client” and “Vendor” perspectives map to internal Business and Engineering systems respectively — maintaining the same dual-accountability logic used in 3SF.*
 
 These roles are **systemic mirrors** — each has a counterpart across the Client/Vendor line to ensure joint accountability.
 
@@ -47,22 +60,24 @@ These roles are **systemic mirrors** — each has a counterpart across the Clien
 | **Vendor Requirements Analyst** | Translate business context into development-ready scope. | [**ECC**](../200-practice/205-engagement-context-canvas.md) | Finalized scope specification for backlog execution |
 | **Experience Designer (Client/Vendor)** | Ensure product usability and experience alignment. | User research insights | Prototype or design specification linked to [**Outcome Map**](../200-practice/220-outcome-accountability-map.md) |
 
+*In single-organization environments, these pairs represent internal cross-functional roles — typically between Business, Product, and Engineering groups.*
+
 ## Client-Only Governance Roles
 
-| Functional Core | Primary Accountability | Key Engagement |
-| :--- | :--- | :--- |
-| **Executive Sponsor** | Own strategic intent, funding, and highest-level trust decisions. | Approves [**Autonomy & Control Boundary Charter**](../200-practice/210-autonomy-control-charter.md) |
-| **Vendor Manager** | Manage commercial relationship, contracts, and maturity evaluation. | Uses [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) |
-| **Governance Officer** | Ensure regulatory, security, and compliance adherence. | Reviews [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
+| Functional Core | Primary Accountability | Key Engagement | Equivalent (Single-Org) |
+| :--- | :--- | :--- | :--- |
+| **Executive Sponsor** | Own strategic intent, funding, and highest-level trust decisions. | Approves [**Autonomy & Control Boundary Charter**](../200-practice/210-autonomy-control-charter.md) | Head of Product / C-Level (CPO/CTO) / VP of Business Unit |
+| **Vendor Manager** | Manage commercial relationship, contracts, and maturity evaluation. | Uses [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) | Head of Portfolio Management (PMO) / BizOps Lead / Finance Business Partner |
+| **Governance Officer** | Ensure regulatory, security, and compliance adherence. | Reviews [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) | Head of Compliance / Data Privacy Officer / Security Architect |
 
 ## Vendor-Only Governance Roles
 
-| Functional Core | Primary Accountability | Key Engagement |
-| :--- | :--- | :--- |
-| **Account Lead** | Own overall commercial health and relationship maturity. | Consolidates [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) and [**Quarterly Assessment**](../200-practice/250-quarterly-assessment.md) |
-| **Engineering Director** | Manage delivery capacity and systemic maturity across teams. | Oversees [**Delivery System Diagnostic**](../200-practice/245-delivery-system-diagnostic.md) |
-| **Practice Lead** | Uphold standards and continuous improvement across disciplines. | Reviews outputs of [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
-| **Engineering Specialist** | Execute technical implementation and quality verification. | Contributes to [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) |
+| Functional Core | Primary Accountability | Key Engagement | Equivalent (Single-Org) |
+| :--- | :--- | :--- | :--- |
+| **Account Lead** | Own overall commercial health and relationship maturity. | Consolidates [**Maturity Dashboard**](../200-practice/215-maturity-dashboard.md) and [**Quarterly Assessment**](../200-practice/250-quarterly-assessment.md) | Director of Engineering / Group Engineering Manager |
+| **Engineering Director** | Manage delivery capacity and systemic maturity across teams. | Oversees [**Delivery System Diagnostic**](../200-practice/245-delivery-system-diagnostic.md) | Head of Engineering / Tech Department Director |
+| **Practice Lead** | Uphold standards and continuous improvement across disciplines. | Reviews outputs of [**Architectural Trade-Off Contract**](../200-practice/235-architectural-tradeoff-contract.md) and [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) | Chapter Lead / Staff Engineer |
+| **Engineering Specialist** | Execute technical implementation and quality verification. | Contributes to [**DoD Matrix**](../200-practice/225-shared-definition-of-done.md) | Developer, Software Engineer, SRE, QA Engineer, DevOps, DevSecOps |
 
 ## Principle Alignment Map
 
