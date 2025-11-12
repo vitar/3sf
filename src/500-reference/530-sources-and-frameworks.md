@@ -5,6 +5,12 @@ This section lists the **external sources, frameworks, and practices** that infl
 
 Each source is categorized according to its **dominant contribution area** — strategic, systemic, operational, or relational — illustrating how 3SF integrates diverse schools of thought into one coherent delivery framework.
 
+## Theoretical Foundation
+
+| System / Framework | Core Idea | Relevance to 3SF |
+| :--- | :--- | :--- |
+| **Human Cooperation System (HCS)** | Defines the systemic “physics” of cooperation — the 25 stable functions required for trust, clarity, and shared purpose to sustain collective work. | Serves as the **theoretical foundation of 3SF**, providing the underlying model that 3SF operationalizes through contracts, practices, and governance artifacts. |
+
 ## Strategic Alignment and Visioning
 
 | Framework / Practice | Core Idea | Relevance to 3SF |
@@ -84,5 +90,5 @@ Each source is categorized according to its **dominant contribution area** — s
 It treats each external source as a **function** within a broader delivery ecosystem, ensuring that strategic intent, organizational design, and delivery execution remain coherent and measurable.
 
 > **In essence:**<br/>
-> 3SF = (Systems Thinking + SDLC) × (Relational Maturity + Delivery Flow)<br/>
-> enriched by lessons from Lean, Agile, and Organizational Design sciences.
+> The **Human Cooperation System (HCS)** provides the theoretical basis for this synthesis — describing *how cooperation works*, while 3SF demonstrates *how to build it into practice*.<br/>
+> 3SF = (Systems Thinking + SDLC) × (Relational Maturity + Delivery Flow) enriched by lessons from Lean, Agile, and Organizational Design sciences.

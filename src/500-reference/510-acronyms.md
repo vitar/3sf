@@ -17,6 +17,7 @@
 | EMI | Engagement Maturity Index | Metric showing the average engagement-line maturity across active projects. |
 | FCI | Flow Constraint Identification | Joint diagnostic tool to reveal systemic delivery constraints limiting throughput. |
 | GC | Governance Contract | Agreement defining decision structures, escalation paths, and governance cadence. |
+| HCS | Human Cooperation System | Theoretical foundation of 3SF — defines the systemic “physics” of cooperation (conditions, needs, and functions) that enable sustainable collaboration. |
 | IaC | Infrastructure as Code | Automation practice for provisioning environments through code to stabilize validation. |
 | LBP | Learning Before Blame Protocol | Protocol that turns incidents into systemic learning instead of fault-finding. |
 | MGC | Maturity Growth Contract | Contract that sets the roadmap and cadence for evolving relationship maturity. |

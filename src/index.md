@@ -8,6 +8,9 @@ The **3-in-3 SDLC Framework (3SF)** is a **relationship-aware delivery system** 
 
 Where most frameworks describe *how teams deliver*, 3SF explains **how organizations align** — showing how engagement, delivery, and value form an integrated system of trust and flow.
 
+3SF is built on the theoretical foundation of the **Human Cooperation System (HCS)** — a diagnostic system that defines the 25 stable functions required for sustainable cooperation.<br/>
+While HCS explains *how* cooperation works at a systemic level, 3SF applies these principles to software delivery ecosystems, transforming theory into actionable governance and measurable value.
+
 At its core lies a simple triangle:
 
 ```
@@ -120,5 +123,7 @@ See how Client and Vendor roles align, what each is accountable for, and which 3
 
 Continue to the **[3SF Theory – Purpose and Layers](100-theory/100-intro-purpose.md)** to understand how the system works underneath — the **Contextual Drivers**, **Stable Rules**, and **Maturity Integration** that make 3SF resilient by design.<br/>
 For definitions, citations, and framework origins, explore the [**3SF Reference Section**](500-reference/530-sources-and-frameworks.md) — your dictionary and knowledge base for all 3SF artifacts.
+
+**Note:** 3SF operationalizes the principles of the **Human Cooperation System (HCS)** — see the HCS reference for the underlying theory of cooperative stability.
 
 > *3SF begins with people, not process. Start with your context — then pick the right principle and tool to match it.*

@@ -17,6 +17,12 @@ The 3SF was designed to:
 - **Enable contextual decision-making** — showing how commercial, organizational, and technical drivers shape the right delivery approach.
 - **Build partnership maturity** over time, turning transactional engagements into strategic collaborations.
 
+### Theoretical Foundation
+
+3SF is grounded in the **Human Cooperation System (HCS)** — the theoretical model that defines the systemic “physics” of cooperation.<br/>
+Where HCS explains *how* stability, trust, and feedback sustain collective work, 3SF applies these principles to the *mechanics* of software delivery systems.<br/>
+In other words, **HCS provides the laws; 3SF builds the machines that use them.**
+
 3SF serves simultaneously as:
 
 1. **A delivery-system design framework** — guiding how to configure projects before execution.
@@ -109,7 +115,7 @@ Defines **what** the framework unites — the foundational structure of every en
 
 Defines **why** the framework works — the governing beliefs that make relationships effective.
 
-| Principle | Core Belief | HWSF Rationale |
+| Principle | Core Belief | HCS Rationale |
 | :--- | :--- | :--- |
 | **Context before Method** | Stop guessing; start grounding. | Enforces Alignment on *Why* (Purpose × Shared Understanding). |
 | **Trust before Control** | Trust must be earned, measured, and delegated. | Enforces Empowerment (Trust × Autonomy). |

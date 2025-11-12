@@ -2,6 +2,9 @@
 
 > *“Theory guides understanding. Practice enables transformation.”*
 
+3SF practices are built upon the systemic foundation defined by the **Human Cooperation System (HCS)** — the theoretical model that explains how cooperation functions across all forms of work.<br/>
+While HCS describes *why* cooperation succeeds or fails, 3SF translates these dynamics into **practical governance tools and engagement rituals** that sustain alignment, trust, and measurable delivery value.
+
 ## Purpose
 
 The **3SF Practice Architecture** explains how to **apply the 3-in-3 SDLC Framework (3SF)** in real projects — for both **Client** and **Vendor** organizations.
