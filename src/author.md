@@ -1,10 +1,10 @@
 # About the Author
 
-### Viktor Jevdokimov, Vilnius, Lithuiania — Creator of 3in3.dev and the 3SF Framework
+### Viktor Jevdokimov, Vilnius, Lithuania — Creator of 3in3.dev, HCS, and 3SF
 
 [**Viktor Jevdokimov**](https://www.linkedin.com/in/viktor-jevdokimov/) is a software engineering leader, systems thinker, and framework designer with over 30 years of experience in software product delivery, modernization, and team alignment.
 
-He is the creator of the **3-in-3 SDLC Framework (3SF)** and founder of the **3in3.dev** initiative — an independent platform dedicated to advancing collaboration and alignment between **Client**, **Vendor**, and **Product** organizations.
+He is the creator of the **Human Cooperation System (HCS)** and the **3-in-3 SDLC Framework (3SF)**, and founder of the **3in3.dev** initiative — an independent platform dedicated to advancing collaboration and alignment between **Client**, **Vendor**, and **Product** ecosystems.
 
 ### Professional Background
 
@@ -21,15 +21,15 @@ He approaches both sound and systems with the same mindset: striving for **clari
 ### About 3in3.dev
 
 [**3in3.dev**](https://3in3.dev) is an independent research and publishing initiative founded by Viktor Jevdokimov.<br/>
-It consolidates his experience and experimentation into open frameworks that help organizations improve how they **engage, deliver, and measure value** across client–vendor ecosystems.
+It consolidates his experience and experimentation into open frameworks that help organizations improve how they **engage, deliver, and measure value** across collaborative ecosystems.
 
 3in3.dev publishes:
 
-- The **3-in-3 SDLC Framework (3SF)**
-- The **3-in-3 Maturity Model**
+- The **Human Cooperation System (HCS)** — theoretical foundation for cooperative system design.
+- The **3-in-3 SDLC Framework (3SF)** — practical application of HCS principles in software delivery.
 - Supporting tools, templates, and learning materials under an open license.
 
-> “3SF is not another method — it’s the operating system that connects them all.”<br/>
+> “These systems aren’t about control — they’re about clarity, trust, and the shared intent that makes collaboration work.”<br/>
 > — Viktor J., Creator of 3in3.dev
 
 ---

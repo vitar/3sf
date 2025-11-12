@@ -12,7 +12,7 @@ It ensures transparency, traceability, and consistency across all derivative wor
 | **Status** | Stable — foundational version established for public reference and future training materials. |
 | **Release Date** | November 2025 |
 | **Maintained by** | [3in3.dev](https://3in3.dev) |
-| **Repository** | [GitHub – vitar/3in3.dev](https://github.com/vitar/3in3.dev) |
+| **Repository** | [GitHub – vitar/3in3.dev](https://github.com/vitar/3sf) |
 
 ### Version Summary
 
@@ -47,7 +47,7 @@ Under the following terms:
 
 To attribute this work, please use the following reference:
 
-> *3-in-3 SDLC Framework (3SF) by 3in3.dev — licensed under CC BY 4.0 via GitHub repository [vitar/3in3.dev](https://github.com/vitar/3in3.dev).*
+> *3-in-3 SDLC Framework (3SF) by 3in3.dev — licensed under CC BY 4.0 via GitHub repository [vitar/3sf](https://github.com/vitar/3sf).*
 
 ## Versioning Policy
 
