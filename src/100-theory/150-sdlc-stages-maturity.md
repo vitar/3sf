@@ -14,7 +14,7 @@ Each SDLC stage not only defines what to do but also how **maturely** it can be 
 ## Maturity Levels Across the SDLC
 
 | **Level** | **System Characteristics** | **Collaboration Behavior** |
-|------------|-----------|----------------------------|-----------------------------|
+|-----------|----------------------------|----------------------------|
 | **1. Controlled Execution** | Reactive and rule-bound. Processes exist but are applied rigidly; success depends on individuals. | Client controls; vendor executes. Communication transactional and status-based. |
 | **2. Coordinated Flow** | Processes repeatable and partly adaptive. Feedback loops appear, but learning not yet systematic. | Client and vendor coordinate. Transparency increases, autonomy conditional. |
 | **3. Empowered Delivery** | Delivery system self-regulating; quality and risk controlled by teams. | Teams own execution; governance focuses on outcomes. Collaboration proactive. |
