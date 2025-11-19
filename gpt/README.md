@@ -31,7 +31,7 @@ Use short entries such as:
 * Diagnose a project or delivery issue
 * Set up a new client–vendor engagement
 * Review and improve our delivery and relationship maturity
-* Learn the 3-in-3 SDLC Framework from scratch
+* Help me understand the basics of the 3SF
 
 ### **Knowledge**
 
