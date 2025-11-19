@@ -17,7 +17,7 @@ This directory contains files required to configure **3SF GPT** in the ChatGPT G
 ### **Description**
 
 ```
-TODO
+Describe your project or client–vendor setup, and 3SF GPT will help you design the engagement, diagnose delivery issues, evolve relationship maturity, or learn how the 3-in-3 SDLC Framework works.
 ```
 
 ### **Instructions**
@@ -28,7 +28,10 @@ Paste the full content of `bootstrap_instructions.md`.
 
 Use short entries such as:
 
-* TODO: Add entries
+* Diagnose a project or delivery issue
+* Set up a new client–vendor engagement
+* Review and improve our delivery and relationship maturity
+* Learn the 3-in-3 SDLC Framework from scratch
 
 ### **Knowledge**
 
