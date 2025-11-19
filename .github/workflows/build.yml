@@ -77,7 +77,7 @@ jobs:
       - name: Build GPT knowledge bundle
         env:
           CONFIG_FILE: gpt/gpt_knowledge_sources.txt
-          OUTPUT_FILE: dist/site/gpt/gpt_knowledge.txt
+          OUTPUT_FILE: dist/site/gpt/3sf_gpt_knowledge.txt
         run: |
           python build_gpt_bundle.py
 
